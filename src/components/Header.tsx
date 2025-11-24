@@ -11,6 +11,11 @@ import {
   StickyNote,
   X,
 } from 'lucide-react'
+import { PHONE } from '@/utils/constants'
+import Text from './ui/text'
+import { Button } from './ui/button'
+import Image from './ui/image'
+import BestPosLogo from './BestPosLogo'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,25 +23,50 @@ export default function Header() {
     Record<string, boolean>
   >({})
 
+  // console.log('is mobile:;', isMobile)
   return (
     <>
-      <header className="p-4 flex items-center bg-gray-800 text-white shadow-lg">
-        <button
-          onClick={() => setIsOpen(true)}
+      <header className="p-4 flex items-center bg-white text-white shadow-lg">
+        <Button
+          variant={'outline'}
           className="p-2 hover:bg-gray-700 rounded-lg transition-colors"
-          aria-label="Open menu"
         >
-          <Menu size={24} />
-        </button>
-        <h1 className="ml-4 text-xl font-semibold">
-          <Link to="/">
-            <img
-              src="/tanstack-word-logo-white.svg"
-              alt="TanStack Logo"
-              className="h-10"
+          <Menu size={24} className=" text-red-500" />
+        </Button>
+
+        <BestPosLogo />
+        {/* <Link to="/">
+          {isMobile ? (
+            <Image
+              alt="BestPOS Logo Small"
+              width={34}
+              height={30}
+              src={LogoSmallIcon}
+              className="h-full"
             />
-          </Link>
-        </h1>
+          ) : (
+            <Image
+              width={180}
+              height={40}
+              src={LogoFullIcon}
+              alt="desktop-pos-logo"
+            />
+          )}
+        </Link> */}
+
+        <Link
+          to={`tel:${PHONE}`}
+          className="flex items-center p-2 gap-2 flex-row md:p-3 md:gap-3 border-2 border-orange-500 rounded-lg"
+        >
+          <Image
+            width={24}
+            height={24}
+            src={'/color-icons/phone.svg'}
+            alt="phone"
+          />
+
+          <Text className="text-center">{PHONE}</Text>
+        </Link>
       </header>
 
       <aside

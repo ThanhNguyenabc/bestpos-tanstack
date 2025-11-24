@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# *
 User-agent: *
-Disallow:
+Allow: /
+
+# Host
+Host: https://www.bestpos.com
+
+# Sitemaps
+Sitemap: https://www.bestpos.com/sitemap.xml
