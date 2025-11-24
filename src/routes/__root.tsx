@@ -19,7 +19,6 @@ export const Route = createRootRoute({
       },
     ],
     links: [
-      { rel: 'icon', href: '/favicon.svg' },
       {
         rel: 'preconnect',
         href: appCss,
@@ -31,6 +30,7 @@ export const Route = createRootRoute({
         href: 'https://fonts.gstatic.com',
         crossOrigin: 'anonymous',
       },
+      { rel: 'icon', href: '/favicon.svg' },
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap&subset=latin',
