@@ -7,7 +7,7 @@ const BestPosLogo = () => {
   const { isMobile } = useDevice()
 
   return (
-    <Link to="/">
+    <Link to="/" className=" min-w-[34px]">
       {isMobile ? (
         <Image
           alt="BestPOS Logo Small"

@@ -16,6 +16,7 @@ import Text from './ui/text'
 import { Button } from './ui/button'
 import Image from './ui/image'
 import BestPosLogo from './BestPosLogo'
+import Flex from './ui/flex'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -35,24 +36,8 @@ export default function Header() {
         </Button>
 
         <BestPosLogo />
-        {/* <Link to="/">
-          {isMobile ? (
-            <Image
-              alt="BestPOS Logo Small"
-              width={34}
-              height={30}
-              src={LogoSmallIcon}
-              className="h-full"
-            />
-          ) : (
-            <Image
-              width={180}
-              height={40}
-              src={LogoFullIcon}
-              alt="desktop-pos-logo"
-            />
-          )}
-        </Link> */}
+
+        <Flex className=" flex-1" />
 
         <Link
           to={`tel:${PHONE}`}
