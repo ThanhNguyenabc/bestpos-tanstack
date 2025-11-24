@@ -20,6 +20,11 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: 'icon', href: '/favicon.svg' },
+      {
+        rel: 'preconnect',
+        href: appCss,
+        crossOrigin: 'anonymous',
+      },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       {
         rel: 'preconnect',
