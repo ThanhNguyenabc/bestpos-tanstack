@@ -1,0 +1,19 @@
+{
+    "longDesc": "Potencie su negocio minorista con Lightspeed Retail POS, flexible y fácil de usar, una solución basada en la nube diseñada para minoristas de todos los tamaños. Benefíciese de una amplia gama de servicios que incluyen seguimiento de clientes, manejo de inventario e informes de ventas. Venda tanto en línea como fuera de línea con facilidad, gracias a la funcionalidad de comercio electrónico integrada.",
+    "features": [
+        {
+            "description": "El manejo de inventario lo ayuda a realizar un seguimiento de su stock asegurándose de que nunca se quede sin productos"
+        },
+        {
+            "description": "Con Lightspeed Retail, puede vender sus productos en persona, en línea o a través de plataformas móviles"
+        },
+        {
+            "description": "Ofrece soporte las 24 horas del día, los 7 días de la semana, por lo que independientemente de la hora a la que ocurra un problema, Lightspeed está ahí para ayudar"
+        },
+        {
+            "description": "Fácil de usar: no se necesita un entrenamiento intenso para que pueda comenzar a usarlo de inmediato"
+        }
+    ],
+    "monthly_pricing": 90,
+    "onetime_pricing": 2500
+}

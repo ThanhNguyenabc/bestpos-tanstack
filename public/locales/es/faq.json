@@ -1,0 +1,169 @@
+{
+    "heading": "Preguntas frecuentes",
+    "sub_title": "¿Tienes preguntas? Estamos listos para ayudarle a encontrar la respuesta.",
+    "general_faq": "Preguntas frecuentes generales?",
+    "payment_processing_faq": "Preguntas frecuentes sobre procesamiento de pagos?",
+    "sale_systems_faq": "Preguntas frecuentes sobre el sistema de punto de venta?",
+    "discount_faq": "Preguntas frecuentes sobre descuentos por pronto pago y cero tarifas de procesamiento?",
+    "sign_bonus_faq": "¿Preguntas frecuentes sobre el bono por firmar en efectivo?",
+    "general_faqs": [
+        {
+            "header": "¿Cuánto tiempo lleva el proceso de aprobación?",
+            "content": "El proceso de aprobación podría variar dependiendo de que se reciba y confirme toda la información. Una vez que se haya confirmado y revisado toda la información, el proceso de aprobación podría demorar hasta 3 días hábiles"
+        },
+        {
+            "header": "¿Necesito una cuenta corriente comercial para obtener una cuenta mercantil?",
+            "content": "Sí, se requiere una cuenta corriente comercial para obtener una cuenta mercantil."
+        },
+        {
+            "header": "¿Qué es una cuenta mercantil?",
+            "content": "Una cuenta mercantil es un tipo de cuenta bancaria que permite a las empresas aceptar pagos con tarjeta de crédito y débito. Las cuentas comerciales generalmente vienen con una tarifa mensual y un porcentaje de cada transacción que se procesa."
+        },
+        {
+            "header": "¿Cómo puedo proteger mi negocio del fraude?",
+            "content": "Hay varias cosas que puede hacer para proteger su empresa del fraude, entre ellas:",
+            "list": [
+                "Utilice un procesador de pagos de buena reputación.",
+                "Utilice un sistema de procesamiento de pagos seguro.",
+                "Supervise sus transacciones en busca de actividades sospechosas.",
+                "Informe cualquier actividad sospechosa a su procesador de pagos de inmediato."
+            ]
+        },
+        {
+            "header": "¿Cómo empiezo con el procesamiento de pagos y los sistemas de punto de venta?",
+            "content": "El primer paso es elegir un procesador de pagos y un sistema de punto de venta. Una vez que haya elegido un procesador de pagos y un sistema de punto de venta, deberá configurar una cuenta con el procesador de pagos e instalar el sistema de punto de venta. Una vez que su cuenta esté configurada y el sistema de punto de venta esté instalado, estará listo para comenzar a aceptar pagos."
+        }
+    ],
+    "payment_faqs": [
+        {
+            "header": "¿Qué es un procesador de pagos?",
+            "content": "Un procesador de pagos es una empresa que facilita la transferencia de dinero entre un comprador y un vendedor. Los procesadores de pagos trabajan con cuentas comerciales para procesar pagos con tarjeta de crédito y débito."
+        },
+        {
+            "header": "¿Cómo elijo el procesador de pagos adecuado para mi negocio?",
+            "content": "Hay una serie de factores a considerar al elegir un procesador de pagos, que incluyen:",
+            "list": [
+                "Los tipos de tarjetas que quieres aceptar",
+                "Los honorarios cobrados",
+                "El nivel de servicio al cliente.",
+                "Las características de seguridad"
+            ]
+        },
+        {
+            "header": "¿Cuáles son los diferentes tipos de tarifas de procesamiento de pagos?",
+            "content": "Existen varios tipos diferentes de tarifas de procesamiento de pagos, que incluyen:",
+            "list": [
+                "Tarifas de transacción: Son tarifas que se cobran por cada transacción que se procesa.",
+                "Cuotas mensuales: Son tarifas que se cobran por tener una cuenta de comerciante.",
+                "Tarifas de instalación: son tarifas que se cobran cuando abre una cuenta de comerciante.",
+                "Tarifas de intercambio: Son tarifas que cobran las asociaciones de tarjetas (Visa, Mastercard, etc.)",
+                "Tarifas de evaluación: Son tarifas que cobran las marcas de tarjetas (American Express, Discover, etc.)"
+            ]
+        },
+        {
+            "header": "¿Cómo funciona el procesamiento de pagos?",
+            "content": "El procesamiento de pagos funciona transmitiendo de forma segura la información de pago del cliente al procesador de pagos, quien luego envía la información al banco o compañía de la tarjeta de crédito del cliente para su verificación. Si se aprueba la transacción, los fondos son transferido a la cuenta del comerciante."
+        },
+        {
+            "header": "¿Qué tipos de métodos de pago se aceptan?",
+            "content": "La mayoría de los procesadores de pagos aceptan una variedad de métodos de pago, incluidas tarjetas de crédito, tarjetas de débito, billeteras electrónicas y transferencias bancarias. Algunos procesadores también pueden aceptar métodos de pago alternativos, como criptomonedas."
+        },
+        {
+            "header": "¿Qué tarifas están asociadas con el procesamiento de pagos?",
+            "content": "Las tarifas de procesamiento de pagos generalmente incluyen un porcentaje del monto de la transacción, así como una tarifa fija por transacción. Otras tarifas pueden incluir tarifas de devolución de cargo, tarifas mensuales y tarifas de instalación."
+        },
+        {
+            "header": "¿Cuánto tiempo se lleva para procesar un pago?",
+            "content": "El tiempo que lleva procesar un pago puede variar según el método de pago y el procesador utilizado. Las transacciones con tarjeta de crédito suelen tardar unos segundos en procesarse, mientras que las transferencias bancarias pueden tardar varios días hábiles."
+        },
+        {
+            "header": "¿Cómo funcionan las devoluciones de cargo?",
+            "content": "Las devoluciones de cargo ocurren cuando un cliente disputa una transacción y los fondos se devuelven a su cuenta. Es posible que se le solicite al comerciante que proporcione evidencia de que la transacción fue válida para poder disputar la contracargo."
+        },
+        {
+            "header": "¿Qué medidas de seguridad existen para proteger las transacciones?",
+            "content": "Los procesadores de pagos utilizan una variedad de medidas de seguridad para proteger las transacciones, incluido el cifrado, sistemas de detección de fraude y autenticación de dos factores."
+        },
+        {
+            "header": "¿Es posible integrar el procesamiento de pagos con el software existente?",
+            "content": "Sí, la mayoría de los procesadores de pagos ofrecen API e integraciones que permiten a las empresas integrar fácilmente el procesamiento de pagos con su software existente."
+        },
+        {
+            "header": "¿Cómo funcionan los reembolsos y cancelaciones?",
+            "content": "Los reembolsos y cancelaciones se pueden procesar a través del procesador de pagos y, por lo general, los fondos se devuelven a la cuenta del cliente dentro de unos pocos días hábiles."
+        },
+        {
+            "header": "¿Qué soporte está disponible para problemas de procesamiento de pagos?",
+            "content": "La mayoría de los procesadores de pagos ofrecen atención al cliente por teléfono, correo electrónico o chat en vivo para ayudar con cualquier problema o pregunta sobre el procesamiento de pagos."
+        }
+    ],
+    "sale_items_faqs": [
+        {
+            "header": "¿Cuáles son los beneficios de utilizar un sistema de punto de venta?",
+            "content": "Existen varios beneficios al utilizar un sistema de punto de venta, que incluyen:",
+            "list": [
+                "Mayor eficiencia: los sistemas de punto de venta pueden ayudar a aumentar la eficiencia al automatizar muchas de las tareas involucradas en el procesamiento de pagos.",
+                "Servicio al cliente mejorado: los sistemas de punto de venta pueden ayudar a mejorar el servicio al cliente al proporcionar un proceso de pago más ágil y eficiente.",
+                "Aumento de las ventas: los sistemas de punto de venta pueden ayudar a aumentar las ventas al brindar a las empresas la capacidad de realizar un seguimiento del inventario, manejar promociones y ofrecer programas de fidelización.",
+                "Seguridad de datos mejorada: los sistemas de punto de venta pueden ayudar a mejorar la seguridad de los datos al brindar a las empresas la capacidad de cifrar los datos y protegerlos del acceso no autorizado."
+            ]
+        },
+        {
+            "header": "¿Cuáles son los diferentes tipos de sistemas de punto de venta?",
+            "content": "Existen varios tipos diferentes de sistemas de punto de venta, que incluyen:",
+            "list": [
+                "Sistemas de punto de venta tradicionales: Son el tipo de sistema de punto de venta más común. Por lo general, son dispositivos independientes que están conectados a una caja registradora.",
+                "Sistemas de punto de venta basados ​​en la nube: Estos sistemas están alojados en la nube y se puede acceder a ellos desde cualquier dispositivo con conexión a Internet.",
+                "Sistemas de punto de venta móvil: Estos sistemas están diseñados para ser utilizados en dispositivos móviles, como teléfonos inteligentes y tabletas."
+            ]
+        },
+        {
+            "header": "¿Cómo elijo el sistema de punto de venta adecuado para mi negocio?",
+            "content": "Hay una serie de factores a considerar al elegir un sistema depunto de venta, que incluyen:",
+            "list": [
+                "El tamaño de su negocio: El tamaño de su negocio determinará el tipo y tamaño del sistema de punto de venta que necesita.",
+                "Los tipos de pagos que desea aceptar: algunos sistemas de puntos de venta solo aceptan tarjetas de crédito, mientras que otros también aceptan tarjetas de débito, tarjetas de regalo y otras formas de pago.",
+                "Las funciones que necesitas: Algunos sistemas de punto de venta tienen más funciones que otros. Asegúrese de elegir un sistema que tenga las funciones que necesita.",
+                "Su presupuesto: Los sistemas de punto de venta pueden variar en precio desde unos pocos cientos de dólares hasta varios miles de dólares. Elija un sistema que se ajuste a su presupuesto."
+            ]
+        },
+        {
+            "header": "¿Cuánto cuesta un sistema de punto de venta?",
+            "content": "El costo de un sistema de punto de venta puede variar según el tipo de sistema, las características que ofrece y el tamaño de su negocio. En términos generales, los precios de los sistemas de punto de venta oscilan entre unos pocos cientos de dólares y varios miles de dólares."
+        },
+        {
+            "header": "¿Qué es un sistema de punto de venta?",
+            "content": "Un sistema de punto de venta (POS) es una solución de software y/o hardware que se utiliza para procesar transacciones de ventas, administrar inventario, rastrear datos de clientes y generar informes."
+        },
+        {
+            "header": "¿Cómo funciona un sistema de punto de venta?",
+            "content": "Un sistema de punto de venta suele incluir una caja registradora, un escáner de códigos de barras, un terminal de tarjetas de crédito y un software que se utiliza para manjear transacciones, inventario y datos de los clientes. Permite a las empresas procesar las ventas de forma rápida y eficiente."
+        },
+        {
+            "header": "¿Puedo integrar un sistema de punto de venta con mi software existente?",
+            "content": "La mayoría de los sistemas de punto de venta ofrecen integraciones con otro software, como software de contabilidad, software de manejo de relaciones con el cliente (CRM) y plataformas de comercio electrónico."
+        },
+        {
+            "header": "¿Qué hardware se requiere para utilizar un sistema de punto de venta?",
+            "content": "El hardware necesario para un sistema de punto de venta puede variar, pero normalmente incluye una caja registradora, un escáner de código de barras, un terminal de tarjetas de crédito y una impresora."
+        },
+        {
+            "header": "¿Es posible utilizar un sistema de punto de venta offline?",
+            "content": "Algunos sistemas de puntos de venta pueden ofrecer el modo fuera de línea, lo que permite a las empresas continuar procesando transacciones incluso si no hay conexión a Internet."
+        }
+    ],
+    "bonus_faqs": [
+        {
+            "header": "¿Qué tan pronto recibiré mi bono de firma en efectivo?",
+            "content": "Recibirá su bono de firma en efectivo entre 3 y 5 días hábiles después de que ambas partes hayan finalizado y firmado el contrato."
+        },
+        {
+            "header": "¿Por qué ofrecen un bono por firmar en efectivo?",
+            "content": "Nuestro objetivo es compartir pan con nuestros clientes. No necesitamos todo para estar satisfechos, por lo que nos complace ofrecer apoyo adicional a nuestros clientes a través de un bono de firma en efectivo, que se otorgará después de que se hayan acordado y firmado todos los términos."
+        },
+        {
+            "header": "¿Cómo calificar para un bono por firmar en efectivo?",
+            "content": "Requerimos 3 meses de procesamiento de declaraciones para revisarlas. Dado que su empresa alcanza un cierto umbral en el volumen total de procesamiento, podremos ofrecerle un bono de firma en efectivo además del monto garantizado."
+        }
+    ]
+}

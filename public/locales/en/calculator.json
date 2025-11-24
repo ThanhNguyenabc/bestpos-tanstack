@@ -1,0 +1,25 @@
+{
+    "large_title": "<span className='text-blue-500'>BestPOS</span> Financial Calculators",
+    "cashDiscount": {
+        "title": "Cash Discount Calculator",
+        "heading": "Your Cash Signing Bonus",
+        "desc": "Receive a cash signing bonus once you sign with Bestpos. Ask our team to learn more and if your business qualifies for a cash signing bonus",
+        "input_average": "Input your average monthly credit card sales.",
+        "input_bonus": "Your Cash Signing Bonus",
+        "btn_request": "Request a quote",
+        "signing_bonus_title": "Cash Signing Bonus Calculator",
+        "signing_bonus_desc": "At Bestpos, we go the extra mile by offering a generous cash signing bonus depending on your businesses’ yearly credit card sales.\nNo strings attached, no interests, contracts, or hidden fees involved. Swipe to input your businesses’ yearly credit card sales and see how much you could potentially earn!"
+    },
+    "credit_processing": {
+        "title": "CC processing calculator",
+        "heading": "How much can you save in credit card processing fees?",
+        "desc": "Avoid unexpected charges with BestPOS. Our transparent fee policy ensures you know exactly what to expect. Explore our Cash Discount program to wave goodbye to credit card processing fees.",
+        "ask_1": "Average monthly transaction amount",
+        "ask_2": "What percentage of your transactions are card payments?",
+        "monthly_credit": "Monthly Credit card sales",
+        "credit_fee": "Credit Card Fees",
+        "amount": "Amount you save annually",
+        "small_desc": "*The values displayed are estimations only based on the data you provide and do not constitute an offer or guarantee of any kind. The estimated amount you keep does not include taxes or other deductions.",
+        "btn_apply": "Apply Now"
+    }
+}

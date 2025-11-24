@@ -1,0 +1,47 @@
+{
+    "desc": "<span className='text-blue-500'>Our customized Loyalty & Rewards Program by Elecpayments</span>  can help you draw in new customers while also encouraging your current clientele.",
+    "banner": [
+        "Incentivize customers with special offers",
+        "Reward customer loyalty with exclusive benefits",
+        "Utilize analytics to monitor purchasing patterns",
+        "Build strong, lasting customer relationships"
+    ],
+    "features": [
+        {
+            "title": "Engaging with Customers",
+            "description": "Ensure a personalized customer experience by offering exclusive perks that are easy to set up.",
+            "details": [
+                "Tailor your program to meet your business requirements and create an array of incentives to appeal to a wider customer base",      
+                "Customers receive notifications when they earn a reward, and they can redeem it during checkout"
+
+            ]
+        },
+        {
+            "title": "Simplify your Sales Process",
+            "description": "Enhance your rewards program into a powerful sales tool with practical and ready-to-use solutions.",
+            "details": [
+                "Keep track of customer analytics and usage using a simple and intuitive dashboard",
+                "Accelerate transactions by utilizing touchless payment alternatives to minimize wait times"
+
+            ]
+        },
+        {
+            "title": "Personalize Your Programs",
+            "description": "Easily customize your program with a range of customer engagement options and flexible levels that perfectly match your brand, business model, and customer preferences, ensuring a seamless and powerful impact.",
+            "details": [
+                "Develop in-store marketing collateral and promotional signage",
+                "Opt for either a punch card system or a points system"
+               
+            ]
+        },
+        {
+            "title": "Drive Sales",
+            "description": "Attract and retain new customers with irresistible promotional programs designed to ignite interest and drive up your profits.",
+            "details": [
+                "Send out digital offers, in-store coupons, and real-time promotions directly from your point of sale system",
+                "Some promotions are pre-installed and ready to use"
+            ]
+        }
+    ],
+    "footer_heading": "Ready to implement a Customer Loyalty & Rewards for your business?"
+}

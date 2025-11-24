@@ -1,0 +1,238 @@
+{
+    "items": [
+        {
+            "id": "revel",
+            "desc": "Sistema personalizado POS, para restaurantes minoristas, todo servicio & servicio rápido",
+            "pros": [
+                "Personaliza el sistema de la nube",
+                "Increíble soporte local en el sitio",
+                "Gran manejo de back office",
+                "Modo 'sin conexión' sin problemas"
+            ],
+            "cons": [
+                "No funciona con Android",
+                "Fallas potenciales con internet débil",
+                "Sin modificadores para la función de modificar",
+                "Caro para comerciantes de bajo volumen"
+            ],
+            "onetime_purchase": 75,
+            "monthly_purchase": 1500
+        },
+        {
+            "id": "toast",
+            "desc": "Toast es un software fácil de usar con una estación elegante y hardware portatil",
+            "longDesc": "",
+            "pros": [
+                "Costo inicial económico para el hardware",
+                "Fácil de usar Back- office",
+                "Tarifas bajas para procesamiento de pagos con tarjeta al principio",
+                "Tiene función de modificador a modificador."
+            ],
+            "cons": [
+                "Soporte técnico deficiente",
+                "Sin soporte o capacitación en el sitio",
+                "Procesamiento de tarjeta patentado que conduce a tasas altas después de un corto período de tiempo",
+                "Aumentos mensuales en el precio del servicio"
+            ]
+        },
+        {
+            "id": "union",
+            "desc": "Un sistema de punto de venta de vanguardia que pone el poder de ordenar en manos de los clientes, diseñado para bares y restaurantes de alto volumen",
+            "pros": [
+                "Pedidos dirigidos por el huésped",
+                "Eficiencia operacional",
+                "Fácil de aprender",
+                "Fácil de aprender y usar",
+                "Ayuda y soporte real"
+            ],
+            "cons": [
+                "Funciones limitadas para mesa y servicio rápido.",
+                "Fallo con red débil"
+            ]
+        },
+        {
+            "id": "brink",
+            "desc": "Sistema de puntos de venta personalizables para restaurantes completos y de servicio rápido",
+            "pros": [
+                "Hardware y software estables",
+                "Excelente soporte técnico en el sitio",
+                "Diseño y características personalizables",
+                "Características de modificador a modificador"
+            ],
+            "cons": [
+                "Hardware costoso si no utiliza su procesamiento de tarjetas de crédito",
+                "Requiere una fuerte conexión a Internet",
+                "Necesita una mejor integración con KDS"
+            ]
+        },
+        {
+            "id": "cloverflex",
+            "desc": "Versatil. terminal todo en uno pra negocios minoristas y tiendas de servicio rápido",
+            "pros": [
+                "Facil de usar back-office",
+                "Múltiples aplicaciones y complementos",
+                "Hardware elegante",
+                "Precios mensuales accesibles"
+            ],
+            "cons": [
+                "Quejas de atención al cliente",
+                "Software Propietario",
+                "Las funciones añadidas aumentan el precio"
+            ]
+        },
+        {
+            "id": "rpower",
+            "desc": "RPower es adecuado para todo tipo de negocios, lo que garantiza una flexibilidad, confiabilidad y velocidad inigualables para su negocio",
+            "pros": [
+                "Pagos sin contacto",
+                "Amplia gama de integraciones",
+                "Pagos EMV totalmente integrados",
+                "Pedidos en línea"
+            ],
+            "cons": [
+                "Integraciones de precios de terceros",
+                "Hardware anticuado"
+            ]
+        },
+        {
+            "id": "touchbistro",
+            "desc": "Un sistema POS todo en uno que simplifica las operaciones del restaurante.",
+            "pros": [
+                "Sistema fácil de usar",
+                "Precios Accesibles",
+                "Amplia gama de complementos",
+                "Atención al cliente 24/7"
+            ],
+            "cons": [
+                "No puede hacer transacciones fuera de línea",
+                "Puede tomar algún tiempo para programar una instalación"
+            ]
+        },
+        {
+            "id": "exatouch",
+            "desc": "Rápido,confiable y accesible un sistema POS para cualquier tamaño de negocio",
+            "pros": [
+                "Bueno para tiendas minoristas y licores.",
+                "Representante local",
+                "Registro fácil de usar",
+                "Soporte telefónico 24/7"
+            ],
+            "cons": [
+                "Tiene características limitadas para restaurantes y servicio rápido.",
+                "Pagos con tarjeta propia",
+                "Aspecto Aburrido"
+            ]
+        },
+        {
+            "id": "simphony",
+            "desc": "Sistema POS de Oracle creado para la gestión de restaurantes y servicios rápidos",
+            "pros": [
+                "Ideal para restaurantes completos y de servicio rápido.",
+                "Muy personalizable",
+                "Punto de venta basado en la nube",
+                "Gama de opciones internas"
+            ],
+            "cons": [
+                "Tiene características limitadas para restaurantes y servicio rápido.",
+                "Pagos con tarjeta propia",
+                "Aspecto Aburrido"
+            ]
+        },
+        {
+            "id": "aldelo",
+            "desc": "El sistema POS basado en la nube es el mejor para pequeñas empresas o restaurantes",
+            "pros": [
+                "Sistema fácil de usar",
+                "Funciones de entrega fáciles de usar",
+                "Soporte en el sitio",
+                "Menús personalizables y personalizados"
+            ],
+            "cons": [
+                "Pobre soporte técnico",
+                "Cuotas mensuales caras",
+                "Falta de actualizaciones para los sistemas de versión de Windows",
+                "Costo adicional al servicio en línea y de entrega"
+            ]
+        },
+        {
+            "id": "lightspeed",
+            "desc": "Sistema POS basado en la nube que es excelente para minoristas de todos los tamaños",
+            "pros": [
+                "Tiene un período de prueba gratuito de 14 días.",
+                "Plataforma fácil de usar",
+                "Hecho a la medida para restaurantes",
+                "Varias series de software"
+            ],
+            "cons": [
+                "Software muy caro (tarifas mensuales)",
+                "Reportes de fallas",
+                "Mal servicio al cliente",
+                "Sin modo 'fuera de línea'"
+            ]
+        },
+        {
+            "id": "clover",
+            "desc": "Software fácil de usar, ideal para minoristas y cualquier tipo de restaurante",
+            "pros": [
+                "Proporciona amplias funciones",
+                "Facil de usar back-office",
+                "Múltiples aplicaciones y complementos",
+                "Hardware elegante"
+            ],
+            "cons": [
+                "No preparado para servicio completo de descanso y pizzerías",
+                "Reportes de fallas",
+                "Software Propietario",
+                "Las funciones agregadas (aplicaciones) aumentan las tarifas mensuales"
+            ]
+        },
+        {
+            "id": "ovvi",
+            "desc": "POS utilizado por restaurantes, supermercados, tiendas de conveniencia y licoreria",
+            "pros": [
+                "Interfaz fácil de usar",
+                "Compatible con entrega de terceros",
+                "Base en la nube para back office",
+                "Buen soporte técnico, 24/7"
+            ],
+            "cons": [
+                "Hardware Desordenado",
+                "No perfecto para el negocio de los restaurantes",
+                "No compatible con iOS",
+                "No tiene la característica de modificadores de modificadores"
+            ]
+        },
+        {
+            "id": "aloha",
+            "desc": "El sistema POS basado en la nube es el mejor para pequeñas empresas o restaurantes",
+            "pros": [
+                "Hardware y software estables",
+                "Ideal para restaurantes y bares.",
+                "Ideal para grandes empresas.",
+                "Menú personalizable"
+            ],
+            "cons": [
+                "Hardware muy costoso y tarifas mensuales",
+                "No hay un sistema interno para el servicio de pedidos en línea",
+                "Mal servicio al cliente",
+                "Personalizable requiere mucho tiempo y escostoso"
+            ]
+        },
+        {
+            "id": "upserve",
+            "desc": "Excelente POS que le brinda una plataforma completa de administración de restaurantes",
+            "pros": [
+                "Ideal para pequeños restaurantes.",
+                "Hardware elegante",
+                "Montón de complementos e integraciones",
+                "La interfaz está diseñada para restaurante"
+            ],
+            "cons": [
+                "Pobre para el comercio minorista",
+                "Pobre soporte técnico",
+                "Hardware caro",
+                "Reportes de fallas"
+            ]
+        }
+    ]
+}

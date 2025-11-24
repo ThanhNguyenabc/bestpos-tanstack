@@ -1,0 +1,19 @@
+{
+    "longDesc": "Clove Flex es popular por tener todo en uno para muchos restaurantes y propietarios pequeños. Este Pos solutions viene con todo lo que necesitas, incluyendo POS software, hardware y el procesador de pago. La compañía ofrece plug- and- play hardware POS 'stations' facil de usar. Su plataforma de hardware viene con una pantalla táctil durable y ofrece muchas opciones dependiendo el tipo de negocio. Clove station brinda al usuario la habilidad de adicionar una variedad de aplicaciones externas. Los usuarios pueden rápidamente crear menús, personalizar el interfaz, ver reportes, manejar empleados y más. Oobten todo lo que necesites con Clover Station. ",
+    "features": [
+        {
+            "description": "Permite la entrega sin contacto: pedidos y pagos en línea"
+        },
+        {
+            "description": "Los datos de informes y las ventas son fácilmente accesibles desde una ubicación remota; no es necesario estar físicamente en el restaurante para ver las ventas o los datos"
+        },
+        {
+            "description": "Brinda a los clientes la opción de crear y dividir cuentas con opciones de pago fáciles"
+        },
+        {
+            "description": "Plataforma de navegación y menús completos fáciles de crear"
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 1295
+}

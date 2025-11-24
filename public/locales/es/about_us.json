@@ -1,0 +1,28 @@
+{
+    "heading": "<span className='text-orange-500'>Desde la consulta hasta la instalación</span>, somos su ventanilla única para todos los servicios comerciales.",
+    "desc": "Consultamos y montamos su negocio con las mejores soluciones de POS y procesamiento de pagos.",
+    "earn_with": "Gana hasta $100K con un bono de firma en efectivo",
+    "experience": "Más de 30 años de experiencia en el campo.",
+    "happy_clients": "Orgullosos de tener más de 500 clientes satisfechos",
+    "pos_systems": "Elija entre nuestra amplia gama de más de 20 sistemas POS",
+    "a_bit_about_us": {
+        "title": "Un poco sobre nosotros",
+        "desc": "BestPOS es su ventanilla única para soluciones integrales de procesamiento de tarjetas de crédito y puntos de venta. Nuestra fortaleza única radica en nuestras asociaciones con proveedores de procesamiento de CC y POS de primer nivel, que nos permite ofrecer paquetes hechos a medida con una flexibilidad inigualable.\n\nNo somos del tipo 'configúrelo y olvídese': estamos aquí para brindar soporte las 24 horas, los 7 días de la semana, garantizando una experiencia fluida de proceso de instalación y solucion de cualquier problema que encuentre en el camino.\n\nCon más de dos décadas de experiencia en la industria, hemos capeado las tormentas y celebrado el éxito junto a innumerables propietarios de negocios. Cuente con nosotros para estar a su lado en cada paso. ¿Listo para simplificar sus soluciones de pago? Comience con una consulta gratuita hoy."
+    },
+    "sale_systems": {
+        "title": "Soluciones de punto de venta",
+        "desc": "Ofrecemos consulta de expertos y una revisión integral de los detalles específicos de su negocio para identificar el Los sistemas POS más adecuados que se alinean perfectamente con sus requisitos operativos. Nuestro extenso Red incluye asociaciones con más de 20 sistemas POS líderes en la industria, lo que nos brinda la versatilidad de presentarle opciones. Además, ofrecemos soluciones POS desde un bajo costo de $0. Aprende más acerca de los socios con los que trabajamos."
+    },
+    "payment_solutions": {
+        "title": "Soluciones de procesamiento de pagos",
+        "desc": "Ofrecemos soluciones de procesamiento de pagos personalizadas para todos tipos de negocios. Las soluciones actuales pueden ser complejas y consuma sus ganancias con tarifas costosas: con nosotros, puede reducir sus tarifas a $0 y dejar que nosotros lo hagamos manejando toda la configuración. Facilítele a usted y a sus clientes la aceptación de pagos con tarjetas de credito. Haga el cambio hoy para disfrutar de un procesamiento de pagos sencillo y asequible. Pregunta por nuestro programa de descuento en efectivo."
+    },
+    "24/7_support": {
+        "title": "Instalación perfecta y soporte 24 horas al día, 7 días a la semana",
+        "desc": "Te respaldamos, 24 horas al día, 7 días a la semana. Cuando te registras con nosotros, nos encargamos de toda la logística, incluido arremangarnos si necesario. Además, estamos a su disposición para cualquier desafío que pueda surgir. Entendemos la frustración que un POS o terminal de pago defectuoso puede aportar a tu negocio y bienestar. Pero no te preocupes, estamos aquí para cuídarlo desde el primer día. Agregue BestPOS a su equipo para manejar sin problemas sus necesidades de servicio comercial."
+    },
+    "signing_bonus": {
+        "title": "Bono por firma en efectivo",
+        "desc": "Como pueden ver nuestros servicios ya vienen con fantásticos incentivos y ahorros, los beneficios no terminan ahí. En BestPOS, hacemos un esfuerzo adicional al ofrecer un generoso bono de firma en efectivo de hasta $ 100,000. Sin condiciones, sin intereses, contratos, ni tarifas ocultas involucradas. Es nuestra manera de expresar gratitud por darle la bienvenida a nuestro familia BestPOS. Da el primer paso y empieza ahora a descubrir todo lo que te espera. Empiece ahora a aprender más."
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "desc": "Cuando opere su restaurante en la mesa, necesitará un sistema de punto de venta que permita soluciones gastronómicas integradas para brindarle a usted y a sus clientes una experiencia sencilla.",
+    "tags": [
+        "Restaurantes con servicio de mesa",
+        "Cafeterías",
+        "Bares",
+        "Cafeterías y más"
+    ],
+    "features": [
+        "Pedidos en línea",
+        "Agrupación de propinas",
+        "Soporte local en sitio",
+        "Fácil de usar"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Sistema de nube personalizable",
+                "items": [
+                    {
+                        "title": "Almacenamiento de datos en línea",
+                        "description": "En lugar de almacenarse en una computadora o servidor local, los sistemas de punto de venta procesan y almacenan los datos en línea, haciéndolos accesibles desde cualquier lugar con conexión a Internet."
+                    },
+                    {
+                        "title": "Procesamiento rápido",
+                        "description": "Permita transacciones más rápidas con una gama más amplia de opciones de pago con un sistema que se ha mejorado para mayor velocidad y precisión."
+                    },
+                    {
+                        "title": "Mantenga su negocio en funcionamiento",
+                        "description": "En caso de falla o mal funcionamiento, puede recuperar fácilmente sus datos gracias a un sistema de respaldo seguro y saber que toda su información comercial importante está protegida en todo momento."
+                    }
+                ]
+            },
+            {
+                "heading": "Saludo a los Visitantes",
+                "items": [
+                    {
+                        "title": "Manejo de reservas y listas de espera",
+                        "description": "Permita que los clientes hagan reservas en línea que se almacenarán directamente en su POS y maneje las listas de espera cuando lleguen."
+                    },
+                    {
+                        "title": "Organizar la disposición de los asientos",
+                        "description": "Salude a los visitantes y asegúrese de que estén sentados de manera rápida y eficiente utilizando las funciones dinámicas de plano de planta y mapeo de mesas en las aplicaciones proporcionadas."
+                    },
+                    {
+                        "title": "Monitoree eficientemente el estado de la tabla",
+                        "description": "Con acceso a información como horarios de asientos, números de cursos y estado de pago, nuestros sistemas POS le brindan actualizaciones en tiempo real para mejorar la experiencia gastronómica de sus invitados."
+                    }
+                ]
+            },
+            {
+                "heading": "Pedidos al lado de la mesa",
+                "items": [
+                    {
+                        "title": "Acelerar el procesamiento de pedidos",
+                        "description": "Realice pedidos rápidamente y agregue detalles específicos, asigne pedidos a cursos específicos y envíelos inmediatamente a la cocina."
+                    },
+                    {
+                        "title": "Personalizando pedidos con facilidad",
+                        "description": "¿Quieres agregar guarniciones o condimentos? Puede personalizar los pedidos desde cualquier lugar del restaurante, manteniéndolos organizados y sincronizados con la cocina."
+                    },
+                    {
+                        "title": "Conexion Facil de la Cocina",
+                        "description": "Muestre los pedidos en un expositor de pedidos de cocina o imprímalos en una impresora de cocina para mantener todo organizado y rápidamente accesible para su personal administrativo"
+                    }
+                ]
+            },
+            {
+                "heading": "Pedidos en línea",
+                "items": [
+                    {
+                        "title": "Acepte pedidos en línea con facilidad",
+                        "description": "Acepte pedidos directamente desde su sitio web o utilice el servicio de pedidos en línea para crear una página web personalizada a través de la aplicación si aún no tiene un sitio web."
+                    },
+                    {
+                        "title": "Sube rápidamente tu menú",
+                        "description": "Simply provide your menu when signing up, and we will add it to your online ordering platform at no cost."
+                    },
+                    {
+                        "title": "Maneje eficientemente el procesamiento de pedidos",
+                        "description": "Envíe pedidos directamente a su cocina o POS y administre los pedidos para recoger fácilmente usando su dispositivo."
+                    }
+                ]
+            },
+            {
+                "heading": "Pedidos a domicilio, en la acera y por teléfono",
+                "items": [
+                    {
+                        "title": "Integre con aplicaciones externas de pedidos y entregas",
+                        "description": "Conecte fácilmente su dispositivo Clover a servicios de entrega populares como Uber Eats, DoorDash, Grubhub y Chowly a través de App Market."
+                    },
+                    {
+                        "title": "Entrega y recogida más convenientes",
+                        "description": "Ideales para pedidos de entrega o recogida en la acera, nuestros sistemas POS ofrecen mayor movilidad y flexibilidad con soporte para métodos de pago con chip, deslizamiento y sin contacto."
+                    },
+                    {
+                        "title": "Maneje pedidos telefónicos sin esfuerzo",
+                        "description": "Puede procesar pagos o emitir reembolsos por teléfono o correo electrónico sin necesidad de utilizar un dispositivo independiente."
+                    }
+                ]
+            },
+            {
+                "heading": "Fidelización de clientes y promociones",
+                "items": [
+                    {
+                        "title": "Fidelice a sus clientes y promueva su establecimiento",
+                        "description": "Nuestros sistemas POS brindan funciones para administrar anuncios y beneficios interesantes, lo que hace que los programas de fidelización de restaurantes sean más simples que nunca. Utilice aplicaciones como Promos para generar entusiasmo a través de mensajes de texto, correo electrónico y promociones en redes sociales."
+                    },
+                    {
+                        "title": "Aumente las ventas con tarjetas de regalo",
+                        "description": "Las tarjetas de regalo ayudan a aumentar las ventas y la fidelidad de los clientes con una variedad de opciones y funciones. Cree y solicite tarjetas físicas o digitales personalizadas o prediseñadas, emita crédito en la tienda directamente desde su sistema POS, permita a los clientes comprar y canjear tarjetas desde sus teléfonos inteligentes y mucho más."
+                    },
+                    {
+                        "title": "Comunicarse y recopilar comentarios",
+                        "description": "Habilita la comunicación privada con tus invitados a través de tu POS. Recopile comentarios, responda quejas y resuelva problemas antes de que se hagan públicos en sitios de terceros como Yelp, lo que le permitirá aumentar su base de clientes y sus ingresos."
+                    }
+                ]
+            }
+        ]
+    }
+}

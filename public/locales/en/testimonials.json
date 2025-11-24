@@ -1,0 +1,48 @@
+{
+    "comments": [
+        {
+            "id": "t-1",
+            "rating": 5,
+            "title": "Upgraded to a new Micros",
+            "img": "/images/Testimonials-di-vinos.webp",
+            "quote": "“Thank you for paying for our Micros system, my local rep is great, he is always there for us. Answering our calls”",
+            "author": {
+                "name": "Joe",
+                "title": "Owner of Di Vinos (Howard Beach, NY)"
+            }
+        },
+        {
+            "id": "t-2",
+            "rating": 5,
+            "title": "Switched to Aloha",
+            "img": "/images/Testimonial-twin-peak.jpg",
+            "quote": "Switching to Aloha has completely transformed our restaurant operations. The system is fast and super easy to use. It’s been such a game changer",
+            "author": {
+                "name": "",
+                "title": "Owner of Twin Peaks"
+            }
+        },
+        {
+            "id": "t-3",
+            "rating": 5,
+            "title": "Switched from Restaurant Manager to Revel Deal",
+            "img": "/images/Testimonials-juanas.jpeg",
+            "quote": "These guys were here for 2 weeks straight helping my large staff learning the new Revel system. System is as good as the service. Thank you to Jose and Yull",
+            "author": {
+                "name": "Juana",
+                "title": "Owner of Juanas Latin Sports Bar & Grill (MiraMar, FL)"
+            }
+        },
+        {
+            "id": "t-4",
+            "rating": 5,
+            "title": "Switched from Aldelo to Revel",
+            "img": "/images/Testimonials-wicked-monk.png",
+            "quote": "These guys helped pay for my new Revel system as well as hiring a great team to help me with the new transition. Saving tons of money on cash discount",
+            "author": {
+                "name": "Jimmy",
+                "title": "Owner of Wicked Monk (Bayridge, NY)"
+            }
+        }
+    ]
+}

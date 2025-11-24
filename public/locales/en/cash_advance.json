@@ -1,0 +1,49 @@
+{
+    "desc": "<span className='text-blue-500'>Empower your business with the essential funds and flexibility</span> to scale operations or navigate challenging times with your staff.",
+    "banner": [
+        "Receive approvals within 24-48 hours",
+        "Enjoy a hassle-free application process with minimal documentation",
+        "Benefit from low rates starting at 1.15%",
+        "Convenient renewal options to keep funds readily available"
+
+    ],
+    "features": [
+        {
+            "title": "Faster Funds",
+            "description": "Say goodbye to long wait times with our easy application process and quick approvals in as little as 24-48 hours.",
+            "details": [
+                "Specialized teams ensure fast approval of applications",
+                "Enjoy a straightforward and convenient online application process"
+            ]
+        },
+        {
+            "title": "Minimal Risk, Maximum Savings",
+            "description": "Gain access to cash at incredibly low industry rates without the need for collateral. We provide affordable financial support, giving you peace of mind.",
+            "details": [
+                "Benefit from rates as low as 1.15%",
+                "Secure cash without requiring a personal guarantee or collateral"
+            ]
+        },
+        {
+            "title": "Faster Credit Approval",
+            "description": "Cash advances are designed to provide funding, even if you have imperfect credit, ensuring you can access the financial support you need for your business.",
+            "details": [
+                "Enjoy a streamlined application process with a shorter waiting period",
+                "Approval decisions are based on your expected sales, rather than your credit score"
+
+            ]
+        },
+        {
+            "title": "Leveling Up Your Business",
+            "description": "We are fully dedicated to empowering you with the financial support required to fulfill your short-term aspirations and long-term business ambitions.",
+            "details": [
+                "Incredible cash advances supporting businesses of all sizes",
+                "Assisting both small and large businesses everywhere"
+
+            ]
+        }
+    ],
+    "all_business_desc": "Eliminate manual bookkeeping for good with QuickBooks Plugin. Find the one that’s right for your business.",
+    "all_business_heading": "Cash Advance for every business.",
+    "footer_heading": "Ready to implement a Cash Discount Program for your business?"
+}

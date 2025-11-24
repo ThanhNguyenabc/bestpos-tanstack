@@ -1,0 +1,86 @@
+{
+    "desc": "In a tableside restaurant setting, it's crucial to have a point-of-sale system that includes built-in dining solutions, ensuring an effortless experience for you and your patrons.",
+    "tags": [
+        "Bars",
+        "Night Clubs",
+        "+ More"
+    ],
+    "features": [
+        "User Friendly",
+        "Local on-site support",
+        "Back office management",
+        "Efficient fast bar menu"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Customizable Cloud System",
+                "items": [
+                    {
+                        "title": "Online Data Storage",
+                        "description": "Unlike traditional systems that store data on a local computer or server, point-of-sale systems process and store information online, allowing you to access it from anywhere with an internet connection."
+                    },
+                    {
+                        "title": "Fast Processing",
+                        "description": "Facilitate faster transactions by offering a wider selection of payment methods with a system optimized for greater speed and precision."
+                    },
+                    {
+                        "title": "Keep Your Business Running",
+                        "description": "In case of a crash or malfunction, you can quickly recover your data thanks to a secure backup system, ensuring that all your critical business information is safeguarded at all times."
+                    }
+                ]
+            },
+            {
+                "heading": "Liquor Inventory Management",
+                "items": [
+                    {
+                        "title": "No Shortages",
+                        "description": "Keep a close eye on your inventory and receive alerts when supplies are running low, allowing you to prevent disappointing customers due to shortages."
+                    },
+                    {
+                        "title": "Focus on Customer Interaction",
+                        "description": "Designed to help you reduce the time spent in front of the computer, allowing you to focus more on engaging with your customers."
+                    },
+                    {
+                        "title": "Waste Nothing",
+                        "description": "Guarantee that the bar is consistently equipped with necessary ingredients and that no supplies are wasted."
+                    }
+                ]
+            },
+            {
+                "heading": "Seamless Coordination",
+                "items": [
+                    {
+                        "title": "Guest-Led Ordering",
+                        "description": "Implement a mobile app that lets customers view menus, place drink orders, and process payments without any delays."
+                    },
+                    {
+                        "title": "Keep it Going",
+                        "description": "A bar POS system that pre-authorizes credit and debit cards streamlines operations and improves the overall guest experience."
+                    },
+                    {
+                        "title": "No restrictions, no requirements, no complications.",
+                        "description": "Let your guests divide the bill according to their preferences—whether by guest, item, or any custom amount they choose."
+                    }
+                ]
+            },
+            {
+                "heading": "Bar & Club Management Tools",
+                "items": [
+                    {
+                        "title": "Tab Management",
+                        "description": "It’s essential for the POS system to manage tabs effectively, allowing customers to open and close them as needed and easily transfer tabs between servers or bartenders."
+                    },
+                    {
+                        "title": "Drink Pricing and Menu Management",
+                        "description": "A bar or club POS system must accommodate a diverse array of drink pricing and menu selections, including specials, discounts, and seasonal offerings."
+                    },
+                    {
+                        "title": "Tip Management",
+                        "description": "Customers should be able to easily add tips to their bills using the POS system, with options to choose between a percentage or a specific dollar amount."
+                    }
+                ]
+            }
+        ]
+    }
+}

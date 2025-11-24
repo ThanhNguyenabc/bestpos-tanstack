@@ -1,0 +1,46 @@
+{
+    "desc": "Proporciona a su empresa la financiación y la flexibilidad necesarias para ampliar sus operaciones o superar tiempos difíciles con su personal.",
+    "banner": [
+        "Aprobaciones rápidas en 24-48 horas",
+        "Proceso de solicitud simplificado con mínimo papeleo",
+        "Tasas bajas a partir del 1.15%",
+        "Opciones de renovación para un acceso continuo a los fondos"
+    ],
+    "features": [
+        {
+            "title": "Fondos más rápidos",
+            "description": "El proceso de solicitud sencillo y las aprobaciones rápidas en tan solo 24 a 48 horas significan que puede decir adiós a los largos tiempos de espera.",
+            "details": [
+                "Equipos dedicados para una rápida aprobación de solicitudes",
+                "Proceso de solicitud en línea simple y conveniente"
+            ]
+        },
+        {
+            "title": "Riesgo mínimo, ahorro máximo",
+            "description": "Proporciona acceso a efectivo a tasas bajas de la industria sin necesidad de garantía, ofreciendo apoyo financiero asequible con mayor tranquilidad.",
+            "details": [
+                "Disfrute de tasas desde tan solo 1.15%",
+                "Acceda a efectivo sin necesidad de proporcionar garantía personal o aval"
+            ]
+        },
+        {
+            "title": "Aprobación de crédito más rápida",
+            "description": "Los adelantos en efectivo están diseñados para brindar financiamiento incluso si tiene un crédito imperfecto, de modo que aún pueda acceder al apoyo financiero que necesita para su negocio.",
+            "details": [
+                "Benefíciese de un proceso de solicitud más rápido y un período de espera más corto",
+                "Las decisiones de aprobación se basan en sus ventas proyectadas, no en su puntaje crediticio."
+            ]
+        },
+        {
+            "title": "Subir de nivel su negocio",
+            "description": "Estamos dedicados a brindarle los fondos que necesita para lograr sus objetivos a corto plazo y metas comerciales a largo plazo.",
+            "details": [
+                "Increíbles adelantos en efectivo",
+                "Ayudando a pequeñas y grandes empresas en todo el mundo"
+            ]
+        }
+    ],
+    "all_business_desc": "Elimine la contabilidad manual para siempre con el complemento QuickBooks. Encuentre el que sea adecuado para su negocio.",
+    "all_business_heading": "Adelanto en efectivo para cada negocio.",
+    "footer_heading": "¿Listo para implementar un programa de descuento por pronto pago para su ?"
+}

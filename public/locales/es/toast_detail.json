@@ -1,0 +1,19 @@
+{
+    "longDesc": "Toast POS, el sistema POS exclusivo de la industria hotelera, ofrece herramientas para aumentar la productividad y administrar todos los aspectos de su negocio. Su software elegante y fácil de usar se combina con el hardware de Android de primer nivel para una experiencia perfecta. Toast POS incluye características esenciales como pedidos en línea, entrega y comida para llevar, y su hardware de pantalla táctil hace que tomar pedidos sea rápido y fácil. Toast POS está diseñado para resistir los desafíos de la industria de restaurantes.",
+    "features": [
+        {
+            "description": "Proceso de pedido simple que facilita que el personal tome pedidos y complete transacciones"
+        },
+        {
+            "description": "Amplia plataforma de creación de menús, precios especiales personalizados y una amplia gama de integraciones"
+        },
+        {
+            "description": "Tiene un sistema de reporte de datos que le permite entender su negocio"
+        },
+        {
+            "description": "Sistema de pedidos fácil que ayuda al personal a recibir pedidos y procesar transacciones más rápido"
+        }
+    ],
+    "monthly_pricing": 65,
+    "onetime_pricing": 1800
+}

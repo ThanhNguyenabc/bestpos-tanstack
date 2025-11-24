@@ -1,0 +1,19 @@
+{
+    "longDesc": "Power your retail business with the flexible and user-friendly Lightspeed Retail POS, a cloud-based solution made for retailers of all sizes. Benefit from a wide range of services including customer tracking, inventory management, and sales reporting. Sell both online and offline with ease, thanks to the integrated eCommerce functionality.",
+    "features": [
+        {
+            "description": "Inventory management helps you keep track of your stock making sure you are never low on products"
+        },
+        {
+            "description": "With Lightspeed Retail, you can sell your goods in-person, online, or through mobile platforms"
+        },
+        {
+            "description": "Offers 24/7 support so regardless of what time an issue may occurr, Lightspeed is there to help'"
+        },
+        {
+            "description": "User-friendly - no intense training needed so you can start using it immediately"
+        }
+    ],
+    "monthly_pricing": 90,
+    "onetime_pricing": 2500
+}

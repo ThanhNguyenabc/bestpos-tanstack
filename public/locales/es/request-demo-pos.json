@@ -1,0 +1,6 @@
+{
+    "desc": "Te conectaremos con el proveedor de POS para agendar una demostración y obtener la mejor oferta posible. Pasa por BestPOS para asegurarte el mejor trato.<span className='font-semibold text-blue-500'>¡Hasta un 100% de descuento!</span>",
+    "bottom_description": "*Al proporcionar tu número de teléfono y hacer clic en 'ENVIAR', aceptas recibir mensajes SMS de BestPOS.com. La frecuencia puede variar. Pueden aplicarse tarifas por mensajes y datos. Responde con STOP para darte de baja o con HELP para más información. Consulta nuestros términos y política de privacidad.",
+    "choose_pos_title": "¿Qué sistema POS te interesa?",
+    "choose_pos_desc": "Puedes elegir más de uno, así que ¿en qué sistema(s) POS estás interesado? (selecciona uno o varios)."
+}

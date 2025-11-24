@@ -1,0 +1,99 @@
+{
+    "tag": "Servicios de Soporte para POS",
+    "heading": "Reparación, Mantenimiento y Repuestos",
+    "btn_support": "Contactar Soporte",
+    "desc": "BestPOS ofrece servicios rápidos de reparación y mantenimiento de sistemas POS, con soporte tanto en sitio como remoto para minimizar el tiempo de inactividad y maximizar la eficiencia.",
+    "benefit_title": "Beneficios para los Clientes de BestPOS",
+    "benefits": [
+        "Eficiencia Optimizada y Satisfacción del Cliente",
+        "Asistencia para Usuarios Finales y Personal",
+        "Gestores de Proyecto y de Cuenta Técnica Asignados",
+        "Soporte Completo para Dispositivos y Sistemas de Back-End",
+        "Herramientas de Reportes Detallados y Paneles de Gestión"
+    ],
+    "service_part_title": "Repuestos para Sistemas POS",
+    "get_system_back": "Recupera el Funcionamiento de tu Sistema",
+    "system_back_desc": "En BestPOS, ofrecemos acceso rápido a las piezas esenciales de tu sistema POS, desde cajones de dinero hasta hardware y accesorios. Ya sea que necesites reemplazar una pieza dañada o agregar nuevos componentes para completar tu sistema, estamos aquí para ayudarte.",
+    "services": [
+        {
+            "title": "Soporte para Usuarios y Personal del POS ante Problemas Relacionados con el Sistema, incluyendo",
+            "items": [
+                "Asistencia con el Software del POS (soluciones estándar y personalizadas)",
+                "Soporte para el Hardware del POS (impresoras, monitores, lectores de tarjetas)",
+                "Soporte de Conectividad (internet, líneas telefónicas y dispositivos en tienda)",
+                "Escalamiento a Proveedores Externos de Software y Equipos"
+            ]
+        },
+        {
+            "title": "Nuestros Servicios Incluyen",
+            "items": [
+                "Acceso a técnicos dedicados y compartidos",
+                "Soporte en toda Norteamérica y a nivel mundial",
+                "Línea telefónica directa para soporte urgente",
+                "Portal de autoservicio para necesidades específicas por ubicación",
+                "Visibilidad completa de todos los tickets abiertos y su progreso",
+                "Herramientas avanzadas de reportes y paneles de gestión"
+            ]
+        },
+        {
+            "title": "Asistencia en la Gestión de Dispositivos y Sistemas",
+            "items": [
+                "Acceso remoto a dispositivos para diagnóstico y resolución de problemas",
+                "Aplicación de parches de seguridad y actualizaciones en estaciones POS",
+                "Gestión de activos e informes de inventario de equipos",
+                "Soluciones de almacenamiento para equipos",
+                "Configuración y envío de dispositivos",
+                "Acceso a la base de conocimientos para documentación de procesos y mejores prácticas"
+            ]
+        },
+        {
+            "title": "Administración de Cuentas",
+            "items": [
+                "Gestores de proyecto dedicados para implementaciones y actualizaciones",
+                "Gestores técnicos de cuenta asignados para cada cliente",
+                "Informes y reuniones periódicas (semanales a mensuales)",
+                "Consultoría experta sobre mejores prácticas",
+                "Sesiones de revisión comercial trimestrales y anuales"
+            ]
+        },
+        {
+            "title": "Servicios de Valor Añadido",
+            "items": [
+                "Configuración e instalación de tiendas/restaurantes",
+                "Servicios de cierre o desactivación de ubicaciones existentes",
+                "Gestión y monitoreo de dispositivos de red y servidores",
+                "Escalamiento y soporte con proveedores de telecomunicaciones",
+                "Proyectos de TI en sitio, adaptados a tus necesidades"
+            ]
+        }
+    ],
+    "our_service": "Nuestros Repuestos de Servicio",
+    "service_parts": [
+        {
+            "id": "printer",
+            "title": "Impresora de Recibos"
+        },
+        {
+            "id": "barcode",
+            "title": "Escáner de Códigos de Barras"
+        },
+        {
+            "id": "cash",
+            "title": "Cajón de Dinero"
+        },
+        {
+            "id": "customer",
+            "title": "Pantalla para Clientes"
+        },
+        {
+            "id": "card",
+            "title": "Lector de Tarjetas"
+        },
+        {
+            "id": "terminal",
+            "title": "Terminal POS"
+        }
+    ],
+    "service_title": "¿No ves lo que necesitas?",
+    "service_sub_title": " Contamos con muchas otras piezas, así que no dudes en contactarnos si necesitas reemplazos de cualquier otro componente."
+}

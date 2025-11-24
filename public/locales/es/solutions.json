@@ -1,0 +1,207 @@
+{
+    "processing_solutions": "Explore más soluciones de procesamiento",
+    "faq": {
+        "items": [
+            {
+                "header": "¿Qué es un procesador de pagos?",
+                "content": "Un procesador de pagos es una empresa que facilita la transferencia de dinero entre un comprador y un vendedor. Los procesadores de pagos trabajan con cuentas comerciales para procesar pagos con tarjeta de crédito y débito."
+            },
+            {
+                "header": "¿Cómo elijo el procesador de pagos adecuado para mi negocio?",
+                "content": "Hay una serie de factores a considerar al elegir un procesador de pagos, que incluyen:",
+                "list": [
+                    "Los tipos de tarjetas que quieres aceptar",
+                    "Los honorarios cobrados",
+                    "El nivel de servicio al cliente.",
+                    "Las características de seguridad"
+                ]
+            },
+            {
+                "header": "¿Cuáles son los diferentes tipos de tarifas de procesamiento de pagos?",
+                "content": "Existen varios tipos diferentes de tarifas de procesamiento de pagos, que incluyen:",
+                "list": [
+                    "Tarifas de transacción: Son tarifas que se cobran por cada transacción que se procesa.",
+                    "Cuotas mensuales: Son tarifas que se cobran por tener una cuenta de comerciante.",
+                    "Tarifas de instalación: son tarifas que se cobran cuando abre una cuenta de comerciante.",
+                    "Tarifas de intercambio: Son tarifas que cobran las asociaciones de tarjetas (Visa, Mastercard, etc.)",
+                    "Tarifas de evaluación: Son tarifas que cobran las marcas de tarjetas (American Express, Discover, etc.)"
+                ]
+            },
+            {
+                "header": "¿Cómo funciona el procesamiento de pagos?",
+                "content": "El procesamiento de pagos funciona transmitiendo de forma segura la información de pago del cliente al procesador de pagos, quien luego envía la información al banco o compañía de la tarjeta de crédito del cliente para su verificación. Si se aprueba la transacción, los fondos son transferido a la cuenta del comerciante."
+            },
+            {
+                "header": "¿Qué tipos de métodos de pago se aceptan?",
+                "content": "La mayoría de los procesadores de pagos aceptan una variedad de métodos de pago, incluidas tarjetas de crédito, tarjetas de débito, billeteras electrónicas y transferencias bancarias. Algunos procesadores también pueden aceptar métodos de pago alternativos, como criptomonedas."
+            }
+        ]
+    },
+    "credit": {
+        "heading": "Terminal de tarjeta de crédito",
+        "title": "Realizar pagos en persona nunca ha sido tan sencillo",
+        "benefits": [
+            "Opera a una velocidad increíble",
+            "Pagos sin contacto",
+            "Acepta tarjetas con chip y banda magnética"
+        ],
+        "transactions": {
+            "heading": "Nunca ha sido más sencillo realizar transacciones",
+            "items": [
+                {
+                    "title": "PAX A920 Smart Terminal",
+                    "description": "El PAX A920, es un terminal portátil inteligente que engloba todas las funciones de un completo sistema de punto de  venta. Actualmente opera en la plataforma de pagos Pay anywhere y tiene las siguientes capacidades:",
+                    "details": [
+                        "Proporciona alternativas de conectividad WiFi e inalámbrica 4G",
+                        "Incluye una pantalla táctil de alta definición de 5 y una batería Li-on recargable de gran capacidad",
+                        "Está equipado con una impresora de recibos incorporada, cámaras duales y un escáner de códigos de barras y códigos QR",
+                        "Acepta una variedad de métodos de pago, incluidos Apple Pay, tarjetas con chip EMV, pagos sin contacto y tarjetas Magstripe."
+                    ]
+                },
+                {
+                    "title": "Clover Flex",
+                    "textLink": "Ver detalles",
+                    "description": "En la palma de su mano, este dispositivo multifuncional tiene funciones integradas para aceptar pagos, administrar operaciones comerciales y monitorear datos de ventas.",
+                    "details": [
+                        "Tome pedidos fácilmente y comience a aceptar tarjetas con una configuración mínima y sin capacitación",
+                        "Equipado con una pantalla táctil de 6 pulgadas, una impresora incorporada, una cámara y un escáner de código de barras, este dispositivo admite pedidos en la mesa, manejo de inventario y procesamiento de pagos.",
+                        "Dispositivo portátil súper personalizable que proporciona la misma funcionalidad y potencia que sus dispositivos más grandes",
+                        "Tenga siempre accesible la información de su empresa gracias al sistema basado en la nube en el que opera"
+                    ]
+                }
+            ]
+        },
+        "capabilities": {
+            "heading": "Capacidades de procesamiento",
+            "subHeading": "Nuestras soluciones de procesamiento permiten a los clientes pagar utilizando sus métodos de pago preferidos, manteniendo la línea en movimiento y permitiendo que su negocio funcione sin problemas.",
+            "items": [
+                "Lectores EMV y chips",
+                "Posibilidad de deslizar, tocar o sumergir pagos",
+                "Compatibilidad con Apple y Google Pay"
+            ]
+        },
+        "works_section": {
+            "heading": "Cómo funciona un Terminal de Tarjetas de Crédito para tu negocio:",
+            "items": [
+                {
+                    "title": "Flexibilidad",
+                    "description": "Al admitir Apple Pay y Google Pay, puede atender las opciones de pago sin contacto de sus clientes y, al mismo tiempo, garantizar un pago rápido."
+                },
+                {
+                    "title": "Compatibilidad con lectores de chips EMV",
+                    "description": "Proporcione una solución más segura para procesar tarjetas de débito y crédito sin necesidad de equipos adicionales ni preocupaciones."
+                },
+                {
+                    "title": "Modelos Wifi e Inalámbricos disponibles",
+                    "description": "Procese pagos de forma segura desde cualquier lugar siempre que tenga conexión"
+                }
+            ]
+        }
+    },
+    "mobile": {
+        "heading": "Lector de tarjetas móvil",
+        "title": "Realizar pagos en persona nunca ha sido tan sencillo",
+        "benefits": [
+            "Compatible con cualquier dispositivo móvil",
+            "Enviar recibos por mensaje de texto o correo electrónico",
+            "Lector de tarjetas Bluetooth con aplicación"
+        ],
+        "smart_features": {
+            "heading": "Funciones más inteligentes para una forma de pago más rápida",
+            "items": [
+                {
+                    "title": "ProCharge Mobile",
+                    "description": "La flexibilidad es esencial para administrar un negocio. ProCharge® brinda esta flexibilidad con un lector Bluetooth y una aplicación móvil fácil de usar que puede manejar todas las transacciones de pago, ya sea que se esté moviendo por su tienda, realizando negocios en el campo o trabajando en la oficina administrativa.",
+                    "details": [
+                        "Easy setup with flexible features",
+                        "Reducir las tarifas de procesamiento"
+                    ]
+                },
+                {
+                    "title": "Clover Go Mobile App",
+                    "textLink": "Ver detalles",
+                    "description": "Lleve su negocio directamente a sus clientes utilizando la aplicación Go y el lector de tarjetas de crédito portátil, que se puede usar en lugares como mercados de agricultores locales o el lugar de trabajo de su cliente. Estas herramientas son fáciles de usar y le brindan la funcionalidad de un sistema POS completo siempre que tenga acceso a Wi-Fi o conexión celular.",
+                    "details": [
+                        "Aceptar pagos en persona",
+                        "Fácil de usar, mínimo esfuerzo",
+                        "Funciona con iOS y Android"
+                    ]
+                }
+            ]
+        },
+        "solutions": {
+            "heading": "Cómo funciona un lector de tarjetas móvil para su negocio",
+            "items": [
+                {
+                    "title": "Se empareja con cualquier dispositivo",
+                    "description": "Whether you’re processing payments storefront or completely mobile, the MobilePay app turns your smartphone or tablet into a POS, allowing you to accept card transactions or record cash-based sales."
+                },
+                {
+                    "title": "Cobrar pagos sin problemas",
+                    "description": "With end-to-end wireless transaction technology, MobilePay exceeds industry-standard security and encryption requirements to offer a more secure payment platform."
+                },
+                {
+                    "title": "Opciones asequibles",
+                    "description": "Supporting 10 active devices per account, MobilePay gives you the option to add sub-users and additional portable card readers so you can take more payments on the go and expand your POS capabilities for less."
+                }
+            ]
+        }
+    },
+    "online_processing": {
+        "heading": "Procesamiento en línea",
+        "title": "Optimice sus pagos en línea",
+        "benefits": [
+            "Procesar tarjetas de crédito a través de su computadora",
+            "Enviar facturas y procesar cheques",
+            "Se integra fácilmente en su sitio web"
+        ],
+        "solutions": {
+            "heading": "Convierta su computadora en una máquina de tarjetas de crédito y transforme su sitio web en una tienda en línea en segundos",
+            "items": [
+                {
+                    "title": "Capacidades de procesamiento",
+                    "description": "Para atender a los consumidores que compran en cualquier momento, es fundamental contar con un servicio de procesamiento de pagos en línea confiable.BestPOS proporciona este servicio, permitiéndole aceptar tarjetas de crédito y débito en línea a través de Authorize.Net sin parar.",
+                    "details": [
+                        "Capacidades de facturación recurrente",
+                        "Procesamiento instantáneo de tarjetas de crédito",
+                        "Interfaz comercial fácil de usar"
+                    ]
+                },
+                {
+                    "title": "Integración",
+                    "description": "BestPOS, a través de sus servicios de procesamiento en línea utilizando Authorize.Net, permite a sus clientes comprar a su conveniencia, permitiéndole expandir su negocio con cada compra.",
+                    "details": [
+                        "Más de 100 soluciones de carrito de compras",
+                        "Proceso de pago sin complicaciones",
+                        "Mejorar la identidad de la marca durante todo el proceso de pago"
+                    ]
+                },
+                {
+                    "title": "Cómo funciona el procesamiento en línea para su negocio",
+                    "details": [
+                        "Múltiples integraciones de carro de compras",
+                        "Una interfaz comercial incorporada",
+                        "Terminal en línea"
+                    ]
+                }
+            ]
+        },
+        "business": {
+            "heading": "Cómo funciona el procesamiento en línea para su negocio",
+            "items": [
+                {
+                    "title": "Múltiples integraciones de carro de compras",
+                    "description": ""
+                },
+                {
+                    "title": "Una interfaz comercial incorporada",
+                    "description": ""
+                },
+                {
+                    "title": "Terminal en línea",
+                    "description": ""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "longDesc": "Transforme su restaurante con NCR Aloha, una plataforma de tecnología basada en la nube que lo ayuda a aumentar los ingresos, mejorar la administración y mejorar la satisfacción del cliente. Obtenga todas las herramientas esenciales, incluidos los sistemas POS móviles y fijos, alimentación sin contacto, análisis, pedidos en línea e interfaces de entrega de terceros, en un paquete conveniente. Ampliamente utilizado y capacitado, NCR Aloha es la elección de cientos de restaurantes en todo el mundo.",
+    "features": [
+        {
+            "description": "Sistema basado en la nube que tiene un modo fuera de línea para garantizar que no se pierdan transacciones"
+        },
+        {
+            "description": "Menús fáciles de crear rápidamente y personalizar pedidos"
+        },
+        {
+            "description": "Una amplia gama de integraciones y complementos"
+        },
+        {
+            "description": "El POS móvil le permite no solo tener pedidos en la mesa, sino también un servicio rápido"
+        }
+    ],
+    "monthly_pricing": 65,
+    "onetime_pricing": 6500
+}

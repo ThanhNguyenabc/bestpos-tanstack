@@ -1,0 +1,24 @@
+{
+    "payment_desc": "Nuestras soluciones de procesamiento permiten a los clientes pagar utilizando su preferencia en métodos de pago, manteniendo la línea en movimiento y permitiendo que su negocio funcione sin problemas.",
+    "payment_credit_card": {
+        "title": "Terminal de tarjeta de crédito",
+        "desc": "Realizar pagos en persona nunca ha sido tan sencillo. Con terminales de tarjetas de crédito de BestPOS operan su negocio a velocidades increíbles, podrá recibir pagos sin contacto y aceptar tarjetas con chip y banda magnética.\nNuestras soluciones de procesamiento permiten a los clientes pagar utilizando su preferencia en métodos de pago, manteniendo la línea en movimiento y permitiendo que su negocio funcione sin problemas.",
+        "payment_flexible": "Flexibilidad de pago",
+        "chip_reader": "Compatibilidad con lectores de chips EMV",
+        "wireless_models": "Modelos Wifi e Inalámbricos disponibles"
+    },
+    "payment_mobile_card": {
+        "title": "Lector de tarjetas móvil",
+        "desc": "Acepte pagos desde cualquier lugar en cualquier momento y permita la compatibilidad con cualquier dispositivo móvil. Convierte tu smartphone o tablet en un POS, permitiéndole aceptar transacciones con tarjeta o registrar ventas en efectivo. Toma más pagos en camino y amplíe sus capacidades de POS por menos costo.",
+        "pair_device": "Se empareja con cualquier dispositivo",
+        "collect_payments": "Cobra pagos con facilidad",
+        "affordable": "Opciones asequibles"
+    },
+    "payment_online_processing": {
+        "title" : "Procesamiento en línea",
+        "desc": "Para atender a los consumidores que compran en cualquier momento, es crucial tener un servicio confiable de procesamiento de pagos en línea. BestPOS proporciona este servicio, que le permite aceptar tarjetas de crédito y débito en línea a través de Authorize.Net sin parar.",
+        "shopping_cart": "Compatibilidad con carrito de compras",
+        "mechant_interface": "Una interfaz comercial incorporada",
+        "online_terminal": "Terminal en línea"
+    }
+}

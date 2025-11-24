@@ -1,0 +1,48 @@
+{
+    "comments": [
+        {
+            "id": "t-1",
+            "rating": 5,
+            "title": "Actualización a un nuevo Micros",
+            "img": "/images/Testimonials-di-vinos.webp",
+            "quote": "“Gracias por pagar por nuestro sistema Micros. Mi representante local es excelente, siempre está disponible para nosotros y responde nuestras llamadas.”",
+            "author": {
+                "name": "Joe",
+                "title": "Propietario de Di Vinos (Howard Beach, NY)"
+            }
+        },
+        {
+            "id": "t-2",
+            "rating": 5,
+            "title": "Cambio a Aloha",
+            "img": "/images/Testimonial-twin-peak.jpg",
+            "quote": "Cambiar a Aloha ha transformado por completo las operaciones de nuestro restaurante. El sistema es rápido y muy fácil de usar. Ha sido un cambio total para nosotros.",
+            "author": {
+                "name": "",
+                "title": "Propietario de Twin Peaks"
+            }
+        },
+        {
+            "id": "t-3",
+            "rating": 5,
+            "title": "Cambio de Restaurant Manager a Revel",
+            "img": "/images/Testimonials-juanas.jpeg",
+            "quote": "Estuvieron aquí durante dos semanas seguidas ayudando a mi numeroso equipo a aprender el nuevo sistema Revel. El sistema es tan bueno como el servicio. Gracias a José y Yull.",
+            "author": {
+                "name": "Juana",
+                "title": "Propietaria de Juana’s Latin Sports Bar & Grill (MiraMar, FL)"
+            }
+        },
+        {
+            "id": "t-4",
+            "rating": 5,
+            "title": "Cambio de Aldelo a Revel",
+            "img": "/images/Testimonials-wicked-monk.png",
+            "quote": "Ellos me ayudaron a pagar por mi nuevo sistema Revel y también contrataron a un excelente equipo para asistirme en la transición. Estoy ahorrando muchísimo dinero gracias al programa de descuento por pago en efectivo.",
+            "author": {
+                "name": "Jimmy",
+                "title": "Propietario de Wicked Monk (Bayridge, NY)"
+            }
+        }
+    ]
+}

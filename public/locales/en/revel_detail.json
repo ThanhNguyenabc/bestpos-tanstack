@@ -1,0 +1,19 @@
+{
+    "longDesc": "Revel Systems offers a dynamic set of features for your business, including gift cards, loyalty programs, bill splitting, accessible menu creation, discounts, and more. View and manage reports and inventory from anywhere, making multi-location management a breeze. Run the software exclusively on iPads for ultimate mobility and flexibility. Upgrade your business operations with Revel Systems",
+    "features": [
+        {
+            "description": "Create menus that are simple to navigate for you and your staff, with a spreadsheet upload function and a variety of other useful building tools"
+        },
+        {
+            "description": "Manage your restaurant from remote locations using our software - manage multiple restaurants or sites"
+        },
+        {
+            "description": "View detailed reporting data and information - an easy way to stay on top of your business's performance so there is no need for you to physically go to your restaurant"
+        },
+        {
+            "description": "Convenient system for staff and customers to split bills, manage tabs, create discounts, offer promotions, and more"
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 1500
+}

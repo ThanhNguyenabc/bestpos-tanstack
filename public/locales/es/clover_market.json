@@ -1,0 +1,190 @@
+{
+    "heading": "Aplicaciones para potenciar tu negocio",
+    "desc": "App Market de Clover ofrece más de 200 aplicaciones sólidas para facilitar la programación de empleados, el manejo de inventario, los programas de fidelización y las promociones, entre otros aspectos comerciales. Integre estas aplicaciones con su sistema Clover POS para acceder a numerosas herramientas con facilidad y eficiencia.",
+    "loyalty_heading": "Fidelización y Promoción de Clientes",
+    "banner": [
+        "Se integra con todos los sistemas POS de Clover",
+        "Más de 200 aplicaciones disponibles a tu conveniencia",
+        "Instale aplicaciones sin esfuerzo directamente en su sistema POS",
+        "Acceda fácilmente a herramientas comerciales desde cualquier ubicación"
+    ],
+    "customers": [
+        {
+            "title": "Promociones",
+            "description": "Construya ventas y relaciones con los clientes con funciones de listas de correo automatizadas, programas de cupones, seguimiento de canjes y mucho más."
+        },
+        {
+            "title": "Recompensas",
+            "description": "Desarrolle un programa de fidelización personalizado en minutos con funciones integradas que le permitan administrar anuncios, realizar un seguimiento del uso, ofrecer ventajas interesantes y más."
+        },
+        {
+            "title": "Tarjetas de regalo",
+            "description": "Cree y solicite tarjetas plásticas o digitales personalizadas o prediseñadas, venda tarjetas a clientes, consulte saldos y emita crédito en la tienda."
+        }
+    ],
+    "type_of_app_title": "Tipos de aplicaciones:",
+    "type_of_apps": [
+        {
+            "heading": "Fidelización y Promoción de Clientes",
+            "items": [
+                {
+                    "id": "promos",
+                    "title": "Promociones",
+                    "desc": "Utilice listas de correo automatizadas, programas de cupones, seguimiento de canjes y otras funciones para fomentar las relaciones con los clientes e impulsar las ventas."
+                },
+                {
+                    "id": "rewards",
+                    "title": "Recompensas",
+                    "desc": "Cree un programa de fidelización personalizado en minutos utilizando las funciones integradas que le permiten administrar anuncios, monitorear el uso, brindar atractivas recompensas y realizar otras tareas relacionadas."
+                },
+                {
+                    "id": "gifts",
+                    "title": "Tarjetas de regalo",
+                    "desc": "Diseñe y solicite fácilmente tarjetas plásticas o digitales personalizadas o prefabricadas, véndalas a los clientes, consulte saldos y distribuya crédito de la tienda con facilidad."
+                }
+            ]
+        },
+        {
+            "heading": "Manejo de empleados",
+            "items": [
+                {
+                    "id": "shifts",
+                    "title": "Turnos",
+                    "desc": "Permita que sus empleados registren su entrada y salida, declaren propinas en efectivo y realicen otras funciones, todo mientras organiza los horarios de los empleados y genera informes completos."
+                },
+                {
+                    "id": "time",
+                    "title": "Reloj de tiempo",
+                    "desc": "Supervise sin esfuerzo las horas de trabajo de los empleados, cree horarios, establezca recordatorios de turnos, anuncie ofertas de trabajo y realice otras tareas relacionadas."
+                },
+                {
+                    "id": "adp_time",
+                    "title": "Hora del ADP",
+                    "desc": "Mejore la precisión de su sistema de nómina utilizando herramientas que le permitan monitorear las tarjetas de tiempo de los empleados, los horarios, el tiempo libre solicitado y otra información relacionada."
+                }
+            ]
+        },
+        {
+            "heading": "Nómina de sueldos",
+            "items": [
+                {
+                    "id": "gusto",
+                    "title": "Entusiasmo",
+                    "desc": "Realice un seguimiento eficiente de las horas de trabajo de los empleados y calcule automáticamente los impuestos, agilizando el proceso de nómina y permitiendo pagos rápidos y sin complicaciones para todos los niveles de empleados."
+                },
+                {
+                    "id": "run_power",
+                    "title": "EJECUTAR Desarrollado por ADP",
+                    "desc": "Acceda a un amplio espectro de funciones de nómina, como seguimiento del tiempo de los empleados, gestión de impuestos, importación de datos y otras funciones relacionadas, para facilitar un procesamiento de nómina fluido y eficiente."
+                },
+                {
+                    "id": "schedule",
+                    "title": "Cronograma",
+                    "desc": "Cree y administre de manera eficiente los horarios de los empleados, supervise las horas de trabajo, emita recordatorios de turnos, anuncie automáticamente las ofertas de trabajo y realice otras tareas relacionadas."
+                }
+            ]
+        },
+        {
+            "heading": "Análisis y manejo interno",
+            "items": [
+                {
+                    "id": "insights",
+                    "title": "Perspectivas de la calle principal",
+                    "desc": "Obtenga información valiosa sobre su industria y tome decisiones comerciales informadas utilizando información y pronósticos procesables, incluido el análisis de datos comparativos con sus competidores."
+                },
+                {
+                    "id": "quickbooks",
+                    "title": "Quickbooks de Commerce Sync",
+                    "desc": "Transfiera sin problemas datos analíticos y de ventas diarios a QuickBooks Online, QuickBooks Desktop o Xero, reduciendo efectivamente la necesidad de un contable"
+                },
+                {
+                    "id": "sale_tax",
+                    "title": "Impuesto sobre las ventas automatizado de Davo",
+                    "desc": "Optimice el proceso de ventas de su empresa utilizando herramientas que le permiten asignar automáticamente el impuesto sobre las ventas diario, presentar y pagar en línea en su totalidad y archivar documentos cruciales para referencia futura."
+                }
+            ]
+        },
+        {
+            "heading": "Manejo y participación del cliente",
+            "items": [
+                {
+                    "id": "feedback",
+                    "title": "Comentario",
+                    "desc": "Solicite comentarios a los clientes automáticamente, vincule notas a pedidos específicos, supervise meticulosamente las críticas negativas y ofrezca cupones para mejorar la satisfacción del cliente."
+                },
+                {
+                    "id": "business",
+                    "title": "Yelp para propietarios de empresas",
+                    "desc": "Acceda a análisis críticos, interactúe con los clientes, responda consultas, administre fotografías comerciales, supervise clientes potenciales y realice una serie de otras funciones esenciales."
+                },
+                {
+                    "id": "contact",
+                    "title": "Enlace abierto para contacto constante",
+                    "desc": "Maximice la eficacia de su marketing por correo electrónico utilizando herramientas que conecten las compras en la tienda con campañas de correo electrónico, fomentando la fidelidad de los clientes y la repetición de negocios."
+                }
+            ]
+        },
+        {
+            "heading": "Administración del restaurante",
+            "items": [
+                {
+                    "id": "dining",
+                    "title": "Comedor Clover",
+                    "desc": "Personalice los planos de planta, realice un seguimiento del recuento de invitados, autorice previamente los pagos, facilite una comunicación fluida entre el frente y el detrás de la casa y realice una variedad de otras funciones con facilidad."
+                },
+                {
+                    "id": "order",
+                    "title": "Ordenar Para Llevar",
+                    "desc": "Integre pedidos de entrega de terceros sin problemas en su sistema Clover, garantizando un procesamiento rápido de los detalles del pedido y transferencias de datos sin esfuerzo entre su POS y la impresora de la cocina."
+                },
+                {
+                    "id": "kitchen",
+                    "title": "Exhibición de cocina",
+                    "desc": "Ingrese pedidos en sus aplicaciones de Registro, Mesas o Comedor y transmítalos a la pantalla de su cocina en cuestión de segundos, minimizando errores y mejorando la precisión de los pedidos."
+                }
+            ]
+        },
+        {
+            "heading": "El manejo del inventario",
+            "items": [
+                {
+                    "id": "shopventory",
+                    "title": "Inventario de tiendas",
+                    "desc": "Administre sin esfuerzo las ventas, las compras y las relaciones con los proveedores mientras genera informes sobre rentabilidad, categorías de productos y otras métricas esenciales."
+                },
+                {
+                    "id": "simple_order",
+                    "title": "Orden sencilla",
+                    "desc": "Optimice las operaciones internas del restaurante monitoreando el inventario de platos y optimizando el reabastecimiento de existencias en tiempo real para mejorar la eficiencia y la productividad."
+                },
+                {
+                    "id": "stockIt",
+                    "title": "StockIt",
+                    "desc": "Simplifique el proceso de pedidos de proveedores, listas de inventario e informes de ventas, haciéndolos más eficientes y sencillos que nunca."
+                }
+            ]
+        },
+        {
+            "heading": "Citas",
+            "items": [
+                {
+                    "id": "appointments",
+                    "title": "Citas profesionales",
+                    "desc": "Integre sin esfuerzo los horarios de los empleados, los horarios comerciales y la duración del servicio para enviar recordatorios de citas, monitorear el historial de citas, facilitar los registros y realizar otras funciones automáticamente."
+                },
+                {
+                    "id": "salon",
+                    "title": "Programador de salón",
+                    "desc": "Envíe automáticamente recordatorios de pago a los clientes, supervise la programación de los clientes, administre las comisiones de los empleados por servicio, genere informes detallados y realice otras funciones con facilidad."
+                },
+                {
+                    "id": "connector",
+                    "title": "Mini conector Booker-Clover",
+                    "desc": "Administre las operaciones de su salón desde cualquier lugar con herramientas que le permiten realizar un seguimiento de los horarios del personal, incorporar la reserva de citas en su sitio web, supervisar los perfiles de los clientes y más."
+                }
+            ]
+        }
+    ],
+    "all_business_heading": "Clover App Market para todo tipo de negocio.",
+    "footer_heading": "¿Listo para implementar un Clover App Market para su negocio?"
+}

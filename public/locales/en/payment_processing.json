@@ -1,0 +1,24 @@
+{
+    "payment_desc": "With our processing solutions, customers can utilize their preferred payment methods, helping to keep lines flowing and ensuring the seamless operation of your business.",
+    "payment_credit_card": {
+        "title": "Credit Card Terminal",
+        "desc": "Making in-person payments has never been easier. With Bestpos's credit card terminals, you can run your business at incredible speeds, effortlessly accepting contactless payments, chip cards, and magstripe transactions.\n\nOur processing solutions empower customers to use their preferred payment methods, ensuring lines keep moving and your business operates smoothly.",
+        "payment_flexible": "Payment flexbility",
+        "chip_reader": "EMV chip reader compatibility",
+        "wireless_models": "Wifi and Wireless models available"
+    },
+    "payment_mobile_card": {
+        "title": "Credit Card Terminal",
+        "desc": "Process payments from anywhere at any time, with compatibility for all mobile devices. Convert your smartphone or tablet into a point-of-sale system that allows you to accept card payments and track cash transactions. Expand your payment capabilities on the move and enhance your POS options without breaking the bank.",
+        "pair_device": "Pairs with any device",
+        "collect_payments": "Collect payments with ease",
+        "affordable": "Affordable choices"
+    },
+    "payment_online_processing": {
+        "title": "Online Processing",
+        "desc": "To accommodate consumers who shop anytime, having a reliable online payment processing service is essential. Bestpos offers this service, enabling you to accept credit and debit card payments online through Authorize.Net around the clock.",
+        "shopping_cart": "Shopping cart compatibility",
+        "mechant_interface": "A built-in merchant interface",
+        "online_terminal": "Online terminal"
+    }
+}

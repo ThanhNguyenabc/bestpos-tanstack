@@ -1,0 +1,19 @@
+{
+    "longDesc": "Clover Flex is a top choice for restaurants and small business owners, providing a comprehensive all-in-one POS solution with software, hardware, and payment processing included. The company offers plug-and-play hardware stations for ease of use. Choose from a range of durable touch screen options to suit your business needs. Enhance your system with a variety of external apps, allowing you to create menus, customize the interface, view reports, manage employees, and more. Get everything you need with Clover Station.",
+    "features": [
+        {
+            "description": "Allows for contactless delivery - online ordering and payments online"
+        },
+        {
+            "description": "Reporting data and sales are easily accessible from remote location - no need to physically be in the restaurant to view sales/data"
+        },
+        {
+            "description": "Provides customers the option to build and split tabs with easy payment options"
+        },
+        {
+            "description": "Easy to build comprehensive menus and navigate platform"
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 1295
+}

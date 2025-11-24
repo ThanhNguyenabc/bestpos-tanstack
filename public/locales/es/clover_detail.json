@@ -1,0 +1,19 @@
+{
+    "longDesc": "Con Clover Duo, puede decir adiós a la molestia de múltiples dispositivos y sistemas. Esta completa solución POS ofrece todo lo que necesita en un paquete fácil de usar, lo que le permite ahorrar tiempo y dinero. Ya sea que esté creando menús, rastreando ventas administrando empleados, Clover Station lo tiene cubierto con sus funciones avanzadas y su interfaz intuitiva. ¡Comienza hoy y lleva tu negocio al siguiente nivel!",
+    "features": [
+        {
+            "description": "Permite la entrega sin contacto: pedidos y pagos en línea"
+        },
+        {
+            "description": "Los datos de informes y las ventas son fácilmente accesibles desde una ubicación remota; no es necesario estar físicamente en el restaurante para ver las ventas o los datos."
+        },
+        {
+            "description": "Brinda a los clientes la opción de crear y dividir cuentas con opciones de pago fáciles"
+        },
+        {
+            "description": "Plataforma de navegación y menús completos fáciles de crear"
+        }
+    ],
+    "monthly_pricing": 40,
+    "onetime_pricing": 995
+}

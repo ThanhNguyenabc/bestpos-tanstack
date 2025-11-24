@@ -1,0 +1,50 @@
+{
+    "desc": "Authorize.Net le brinda la flexibilidad de recibir pagos de forma rápida y sencilla, con funciones que automatizan el proceso y un panel completo que le permite buscar, ordenar y filtrar.",
+    "banner": [
+        "Diseñado para satisfacer las necesidades de su negocio",
+        "Panel de control fácil de usar para un facil manejo",
+        "Recordatorios automáticos por correo electrónico para garantizar pagos puntuales",
+        "Sin cargos por configuración o iniciación"
+    ],
+    "features": [
+        {
+            "title": "Personaliza tu facturación",
+            "description": "Con la facturación a través de su cuenta Authorize.Net, puede crear facturas personalizadas que fortalezcan su marca y le permitan personalizar su mensaje para cada pago.",
+            "details": [
+                "Añade tu logo tipo y elige tus colores y fuentes preferidos",
+                "Incluye notas personales a tus clientes para darles un toque más personalizado."
+            ]
+        },
+        {
+            "title": "Mejore la comodidad del cliente",
+            "description": "La tecnología compatible con dispositivos móviles de Authorize.Net proporciona una forma rápida y segura para que sus clientes reciban y paguen facturas utilizando cualquier dispositivo móvil, lo que garantiza que sus clientes apreciarán la conveniencia y volverán por más",
+            "details": [
+                "Opción de pago cómoda y compatible con dispositivos móviles",
+                "Forma segura de pagar desde cualquier dispositivo móvil"
+            ]
+        },
+        {
+            "title": "Tu negocio, a tu manera",
+            "description": "Authorize.Net ofrece flexibilidad para organizar su facturación según las necesidades de su negocio. Con un panel fácil de usar y funciones automatizadas, puede personalizar su experiencia de facturación.",
+            "details": [
+                "Ordenar y filtrar",
+                "Recordatorios automáticos por correo electrónico"
+            ],
+            "subDetails": [
+                "Use su panel para filtrar facturas por su estado: enviadas,pagadas, canceladas o redactadas.",
+                "Configure recordatorios automáticos por correo electrónico para facturas impagas o vencidas."
+            ]
+        },
+        {
+            "title": "Proteja su negocio",
+            "description": "Authorize.Net garantiza la seguridad de sus pagos con recibos automatizados, protección contra fraude y soporte las 24 horas, los 7 días de la semana para brindarle tranquilidad.",
+            "details": [
+                "Seleccione un plan que se adapte a los requisitos de su negocio",
+                "Reciba asistencia confiable las 24 horas."
+            ]
+        }
+    ],
+    "all_business_desc": "Cobre pagos con confianza con una solución de facturación más rápida y simplificada.Encontrar uno que sea adecuado para su negocio.",
+    "all_business_heading": "Facturación para cada negocio.",
+    "footer_heading": "¿Listo para implementar la Facturación en tu negocio?"
+}

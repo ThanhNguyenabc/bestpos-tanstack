@@ -1,0 +1,85 @@
+{
+    "desc": "For pizzeria operations, it's essential to have a point-of-sale system that thrives in a busy setting, allows for swift and seamless transactions, and easily accommodates changes and custom requests for orders.",
+    "tags": [
+        "Pizzerias",
+        "+ More"
+    ],
+    "features": [
+        "Manage Inventory",
+        "Great back office management",
+        "User Friendly",
+        "Local on-site support"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Customizable cloud system",
+                "items": [
+                    {
+                        "title": "Online Data Storage",
+                        "description": "Unlike traditional systems that store data on a local computer or server, point-of-sale systems process and store information online, allowing you to access it from anywhere with an internet connection."
+                    },
+                    {
+                        "title": "Fast Processing",
+                        "description": "Facilitate faster transactions by offering a wider selection of payment methods with a system optimized for greater speed and precision."
+                    },
+                    {
+                        "title": "Keep Your Business Running",
+                        "description": "In case of a crash or malfunction, you can quickly recover your data thanks to a secure backup system, ensuring that all your critical business information is safeguarded at all times."
+                    }
+                ]
+            },
+            {
+                "heading": "Menu Management",
+                "items": [
+                    {
+                        "title": "Easy Menu Build",
+                        "description": "Quickly create menus, send orders to the kitchen, and make necessary ticket modifications to ensure that customers receive exactly what they ordered. Plus, easily set up tabs and split orders using the platform."
+                    },
+                    {
+                        "title": "Modifiers Made Simple",
+                        "description": "Servers can easily accommodate special requests by utilizing customized modifiers"
+                    },
+                    {
+                        "title": "Effortlessly Handle Takeout Orders",
+                        "description": "Separating takeout and delivery orders from dine-in orders helps simplify operations and minimize any potential confusion."
+                    }
+                ]
+            },
+            {
+                "heading": "Inventory Management",
+                "items": [
+                    {
+                        "title": "No Shortages",
+                        "description": "Regularly monitor your inventory to prevent disappointing customers with food or product shortages."
+                    },
+                    {
+                        "title": "Focus on Customer Interaction",
+                        "description": "Designed to help you reduce the time spent on the computer and increase the time you can engage with your customers."
+                    },
+                    {
+                        "title": "Waste Nothing",
+                        "description": "Make sure the restaurant is always stocked with essential ingredients and that nothing goes to waste."
+                    }
+                ]
+            },
+            {
+                "heading": "Online Ordering",
+                "items": [
+                    {
+                        "title": "Accept Online Orders with Ease",
+                        "description": "You can accept orders directly from your website, or if you don't have one, use our online ordering service to create a personalized webpage through the app."
+                    },
+                    {
+                        "title": "Quickly Upload Your Menu",
+                        "description": "Just submit your menu when you sign up, and we’ll add it to your online ordering platform at no additional charge."
+                    },
+                    {
+                        "title": "Efficiently Handle Order Processing",
+                        "description": "Easily dispatch orders to your kitchen or POS and handle pickup orders seamlessly through your device."
+                    }
+                ]
+            }
+        ]
+    }
+}

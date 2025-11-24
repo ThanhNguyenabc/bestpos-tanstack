@@ -1,0 +1,46 @@
+{
+    "desc": "El uso de Quickbooks facilita la contabilidad para que pueda concentrarse en las partes importantes de el manejo de su negocio.",
+    "banner": [
+        "Transferencias a programas QuickBooks sin intervención manual",
+        "Manejar métodos de pago y manejo de ventas.",
+        "Registre impuestos usando tasas únicas, combinadas o múltiples",
+        "El panel se puede personalizar para satisfacer sus necesidades"
+    ],
+    "features": [
+        {
+            "title": "Mueve tus datos de ventas sin esfuerzo",
+            "description": "Evite perder tiempo ingresando datos manualmente con transferencias nocturnas que consolidan su información de ventas en los programas que ya utiliza.",
+            "details": [
+                "Migre datos de ventas a QuickBooks Online, QuickBooks para escritorio o Xero",
+                "Vincular y transferir datos a múltiples destinos"
+            ]
+        },
+        {
+            "title": "Monitorear la información de pago",
+            "description": "Administre eficientemente el seguimiento de sus pagos con el sistema simplificado de CommerceSync.",
+            "details": [
+                "Realice un seguimiento de los métodos de pago y las obligaciones fiscales utilizando tasas únicas, combinadas o múltiples",
+                "Realice un seguimiento de los métodos de pago y las obligaciones fiscales utilizando tasas únicas, combinadas o múltiples"
+            ]
+        },
+        {
+            "title": "Personaliza tu soporte",
+            "description": "Obtenga asistencia rápida y conveniente con el panel personalizable de CommerceSync.",
+            "details": [
+                "Concilie automáticamente las liquidaciones de crédito con el acceso al soporte 'fuera de horario'",
+                "Sin límite ni tarifas adicionales por la cantidad de ventas diarias, mensuales o anuales sincronizadas."
+            ]
+        },
+        {
+            "title": "Mayor funcionalidad con características adicionales",
+            "description": "Elimina las molestias de el manejo empresarial con sus capacidades totalmente automatizadas",
+            "details": [
+                "Utilice la función Detalles del cliente para monitorear las ventas de cada cliente individual.",
+                "Las facturas se actualizan automáticamente con descuentos, propinas, reembolsos y otros ajustes para mejorar la eficiencia."
+            ]
+        }
+    ],
+    "all_business_desc": "Elimine la contabilidad manual para siempre con el complemento QuickBooks. Encuentre el que sea adecuado para su negocio.",
+    "all_business_heading": "Complemento Quickbooks para todas las empresas.",
+    "footer_heading": "Ready to implement a Customer Loyalty & Rewards for your business?"
+}

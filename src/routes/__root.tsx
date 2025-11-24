@@ -1,8 +1,9 @@
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
-import Header from '../components/Header'
+import Header from '../components/header/Header'
 import appCss from '../styles.css?url'
+import '@/locales/index'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -48,26 +49,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
-        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap&subset=latin"
-          rel="stylesheet"
-          media="print"
-          onLoad="this.media='all'"
-        />
-
-        <noscript>
-          <link rel="stylesheet" href={appCss} />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap&subset=latin"
-          />
-        </noscript> */}
       </head>
       <body>
         <Header />

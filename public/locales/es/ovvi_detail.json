@@ -1,0 +1,19 @@
+{
+    "longDesc": "Optimice las operaciones de su restaurante con el sistema POS todo en uno de Ovvi. Recopile pedidos, realice un seguimiento del inventario y acceda a la información clave que necesita para tomar decisiones comerciales inteligentes que impacten positivamente en sus resultados.",
+    "features": [
+        {
+            "description": "Diseño de mesa totalmente personalizable para facilitar la navegación de su plano de planta"
+        },
+        {
+            "description": "Manejo de cheques/pagos fraccionados por artículo, mesa, cliente"
+        },
+        {
+            "description": "Tiene una capacidad de múltiples tiendas que le permite conectar todas sus ubicaciones sin problemas"
+        },
+        {
+            "description": "El back office basado en la nube facilita la visualización y manejo de informes desde cualquier lugar"
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 995
+}

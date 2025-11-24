@@ -1,0 +1,99 @@
+{
+    "tag": "POS Support Services",
+    "heading": "Repair, Maintenance and Parts Services",
+    "btn_support": "Contact support",
+    "desc": "BestPOS provides fast POS repair and maintenance with on-site and remote support to minimize downtime and maximize efficiency.",
+    "benefit_title": "BestPOS Customer Benefits",
+    "benefits": [
+        "Optimized Efficiency and Customer Satisfaction",
+        "End-user and Staff Assistance",
+        "Assigned Project and Technical Account Managers",
+        "Full Device and Back-End System Support",
+        "In-Depth Reporting Tools and Management Dashboards"
+    ],
+    "service_part_title": "POS Service Parts",
+    "get_system_back": "Get Your System Back in Action",
+    "system_back_desc": "At BestPOS, we provide quick access to essential POS system parts, from cash drawers to hardware and accessories. Whether you're replacing a broken part or adding new components to complete your system, we have you covered.",
+    "services": [
+        {
+            "title": "POS User/Staff Support for System-Related Issues, covering",
+            "items": [
+                "Assistance with POS Software (Standard and Custom Solutions)",
+                "Support for POS Hardware (Printers, Monitors, Card Readers)",
+                "Connectivity Support (Internet, Phone Lines, and In-Store Devices)",
+                "Escalation to Third-Party Software and Equipment Providers"
+            ]
+        },
+        {
+            "title": "Service Offerings include",
+            "items": [
+                "Access to Both Dedicated and Shared Technicians",
+                "Support Across North America and Worldwide",
+                "Direct Phone Line for Urgent Support",
+                "Self-Service Portal for Location-Specific Needs",
+                "Full Visibility of All Open Tickets and Their Progress",
+                "Advanced Reporting Tools and Management Dashboards"
+            ]
+        },
+        {
+            "title": "Device and System Management Assistance",
+            "items": [
+                "Remote Device Access for Issue Diagnosis and Resolution",
+                "POS Station Security Patching and Updates",
+                "Asset Management and Equipment Inventory Reporting",
+                "Equipment Storage Solutions",
+                "Device Setup and Shipment",
+                "Access to Knowledgebase for Process Documentation and Best Practices"
+            ]
+        },
+        {
+            "title": "Account Administration",
+            "items": [
+                "Dedicated Project Managers for Implementations and Upgrades",
+                "Assigned Technical Account Managers for Every Client",
+                "Regular Reporting and Meetings (Weekly to Monthly)",
+                "Expert Consulting on Best Practices",
+                "Quarterly and Annual Business Review Sessions"
+            ]
+        },
+        {
+            "title": "Value-Added Services",
+            "items": [
+                "Store/Restaurant Setup and Configuration",
+                "Closing/Decommissioning Services for Existing Locations",
+                "Network and Server Device Management and Monitoring",
+                "Telecom Provider Escalation and Support",
+                "IT Projects on-Site, Tailored to Your Needs"
+            ]
+        }
+    ],
+    "our_service": "Our Service Parts",
+    "service_parts": [
+        {
+            "id": "printer",
+            "title": "Receipt Printer"
+        },
+        {
+            "id": "barcode",
+            "title": "Barcode Scanner"
+        },
+        {
+            "id": "cash",
+            "title": "Cash Drawer"
+        },
+        {
+            "id": "customer",
+            "title": "Customer Display"
+        },
+        {
+            "id": "card",
+            "title": "Card Reader"
+        },
+        {
+            "id": "terminal",
+            "title": "POS Terminal"
+        }
+    ],
+    "service_title": "Don’t see what you need?",
+    "service_sub_title": "We carry a bunch of other parts so don’t hesitate to contact us about any other parts you require replacements for."
+}

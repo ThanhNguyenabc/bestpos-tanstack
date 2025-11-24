@@ -1,0 +1,63 @@
+{
+    "heading": "Get pricing for POS and CC processing packages",
+    "description": "To ensure we provide the most effective payment processing, point of sale solutions & cash signing bonus for your business, we require some initial information from you.",
+    "finish": {
+        "desc": "We have all the information we need to prepare an offer for you. Our team will be in touch within 24 hours.",
+        "any_question": "If you have any urgent questions or concerns, please don't hesitate to reach out to us."
+    },
+    "select_business_type": "Select your business type",
+    "pricing_form_desc": "We need a bit of information to get you started. To ensure we provide accurate payment processing & point of sale solutions plus an estimated cash signing bonus for your business, please fill out the following info.",
+    "all_done": "All done!",
+    "type_of_business": "What type of business?",
+    "looking_for": "What are you <br className='only-sp' /> looking for?",
+    "card_payment_fee": "Are you currently passing your card payments fees to the customer? (cash discount program)",
+    "cash_signing_bonus": "Cash signing bonus",
+    "follow_up_contact": "We need your contact to follow up",
+    "steps": {
+        "first": {
+            "tab": "Type of business",
+            "label": "What type of business?"
+        },
+        "second": {
+            "tab": "What are you looking for?",
+            "label": "What are you looking for?"
+        },
+        "third": {
+            "tab": "Contact Information",
+            "label": "We need your contact <br className='hide-pc' /> to follow up"
+        },
+        "fourth": {
+            "tab": "Additional info",
+            "label": "Final set of questions"
+        }
+    },
+    "zero_fee": "Zero Processing Fees",
+    "all_of_above": "All of the above",
+    "set_of_questions": "Final set of questions",
+    "confirm_heading": "Great! We&#39;ve received <br className='only-sp' /> your initial information.",
+    "confirm_desc": "To speed up the process and receive a direct quote, you can either complete the next part (only 6 questions) or schedule a call with us at your convenience.",
+    "next_processing": "Continue to Proceed Quotation",
+    "question_for_stations": "How many stations are you looking for?",
+    "processing_volume": "What is your monthly credit card processing volume?",
+    "cash_discount": "Are you currently on cash discount?",
+    "cash_discount_desc": "Also known as Zero processing, or passing off the fees to the customer. A cash discount is when you post credit card prices and offer a discount on that price for customers who pay with cash.",
+    "cash_discount_questions": [
+        "Yes, I'm on it",
+        "No, but I'm willing to go on it",
+        "Not sure what that is",
+        "Not interested"
+    ],
+    "franchise_heading": "Are you a franchise/franchisee?",
+    "franchise_questions": [
+        "Yes, I'm a franchise",
+        "Yes, I'm a franchisee",
+        "Neither"
+    ],
+    "location_question": "How many locations do you have?",
+    "sale_system_question": "What point-of-sale system are you currently using?",
+    "station_question": "How many stations do you currently have?",
+    "on_cash_discount": "Yes, I'm on it",
+    "franchise": "Yes, I'm a franchise",
+    "name_of_pos": "Name of POS system",
+    "point_of_sale_systems": "Point Of Sale Systems"
+}

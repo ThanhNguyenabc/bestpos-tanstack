@@ -1,0 +1,56 @@
+{
+    "desc": "Impulsando Restaurantes con Pedidos y Pagos Digitales",
+    "banner": [
+        "Aumenta tus ingresos y el valor promedio de los pedidos",
+        "Reduce los costos de personal y optimiza las operaciones",
+        "Mejora la experiencia del cliente",
+        "Obtén información valiosa sobre tus clientes"
+    ],
+    "features": [
+        {
+            "title": "Aborda la Escasez de Personal y Optimiza las Operaciones",
+            "description": "",
+            "details": [
+                "Atiende a más clientes con un equipo reducido",
+                "Actualizaciones del Menú en Tiempo Real",
+                "Pago Más Rápido y Sin Complicaciones"
+            ],
+            "subDetails": [
+                "Minimiza los tiempos de espera y elimina las largas filas gracias a un modelo de servicio flexible. Tanto los clientes como los meseros pueden abrir y modificar cuentas, enviando pedidos directamente a cocina para una preparación más rápida.",
+                "La integración perfecta con el sistema POS permite realizar cambios instantáneos en el menú. Elimina artículos no disponibles o prueba nuevos precios sin necesidad de reimprimir menús, ahorrando tiempo y dinero.",
+                "Agiliza el proceso de pago para clientes y personal. Con la integración de Apple Pay, los clientes pueden completar sus transacciones en tan solo 10 segundos, haciendo que el checkout sea más fluido que nunca."
+            ]
+        },
+        {
+            "title": "Aumenta Ingresos y Ticket Promedio Mientras Minimiza Pérdida",
+            "description": "",
+            "details": [
+                "Incrementa los Ingresos",
+                "Aumenta el Ticket Promedio",
+                "Reduce Errores y Pérdidas"
+            ],
+            "subDetails": [
+                "Los restaurantes que utilizan BestPOS Mobile Order & Pay suelen experimentar un aumento del 10 % en los ingresos³, gracias a un proceso de pedido más eficiente y atractivo.",
+                "Los pedidos realizados a través de BestPOS Mobile Order & Pay™ tienden a ser un 9 % más altos que los pedidos tradicionales en el local⁴. Con descripciones intuitivas, filtros y opciones de personalización del menú, los clientes tienden a hacer upselling de forma natural.",
+                "Al permitir que los clientes hagan sus pedidos directamente desde sus dispositivos, los restaurantes pueden reducir significativamente los errores costosos, las cortesías innecesarias y las transacciones anuladas."
+            ]
+        },
+        {
+            "title": "Aprovecha los Datos de tus Clientes para Impulsar la Repetición de Visitas",
+            "description": "",
+            "details": [
+                "Mejora tus Esfuerzos de Marketing",
+                "Haz Crecer tu Programa de Lealtad",
+                "Maximiza la Rentabilidad de tu Menú"
+            ],
+            "subDetails": [
+                "Obtén valiosos insights de cada transacción y utilízalos para crear campañas de marketing dirigidas. Con estrategias efectivas de email marketing, los restaurantes pueden generar hasta $2,800 adicionales por campaña⁵.",
+                "Fomenta visitas recurrentes invitando a los clientes, de forma fluida durante el proceso de pago, a unirse a tu programa de lealtad, lo que aumenta los registros y el compromiso a largo plazo.",
+                "Toma decisiones basadas en datos con el centro de rendimiento de BestPOS. Recibe informes semanales sobre los productos más vendidos, los favoritos de los clientes y los platos con bajo rendimiento para optimizar tu menú y aumentar la rentabilidad."
+            ]
+        }
+    ],
+    "all_business_desc": "Elimina la contabilidad manual para siempre con el Plugin de QuickBooks.Encuentra la solución ideal para tu negocio y automatiza tus finanzas de forma sencilla y eficiente.",
+    "all_business_heading": "Plugin de QuickBooks para Todo Tipo de Negocios",
+    "footer_heading": "¿Listo para implementar laPedidos y Pagos Móviles en tu negocio?"
+}

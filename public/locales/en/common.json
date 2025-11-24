@@ -1,0 +1,297 @@
+{
+    "trustscore": "TrustScore",
+    "trustpilot": "Trustpilot",
+    "get_started": "Get Started",
+    "get_pricing": "Get Pricing",
+    "get_pricing_today": "Get a Free Quote",
+    "get_start_today": "Get Started today!",
+    "partner_with_us": "Partner with us",
+    "Zero Processing Fees": "Zero Processing Fees",
+    "support": "Support",
+    "last_updated": "Last updated:",
+    "contact_us": "Contact Us",
+    "call_us": "or Call us",
+    "privacy_policy": "Privacy Policy",
+    "term_of_service": "Terms of Service",
+    "frequently_questions": "Frequently asked questions",
+    "view_detail": "View Detail",
+    "and": "and",
+    "pros": "Pros",
+    "cons": "Cons",
+    "read_more": "Read more",
+    "footer": {
+        "heading": "Discover the perfect point of sale system for your business today!",
+        "subTitle": "Plus a cash signing bonus. Find out how much!",
+        "subTitle2": "Cash Signing\nBonus Estimate",
+        "subtitle3": "Estimated Yearly\nCredit Card Sales",
+        "working_day": [
+            "Monday - Friday, 5am - 7pm PT",
+            "Saturday - Sunday, 6am - 5pm PT"
+        ],
+        "policy": "Bestpos is a POS consultant service that provides financial assistance and advice to businesses. We strive to provide accurate and up-to-date information to our clients, but we do not guarantee the accuracy, completeness, or timeliness of the information provided. This website is owned and operated by ELECPAYMENTS INC. Reproduction of this website, in whole or in part, is strictly prohibited.\n\nBy using our service, you agree to be bound by these",
+        "any_question": "If you have any questions or concerns, please contact us at info@bestpos.com.",
+        "copy_right": "@ Copyright 2023 Bestpos. All Rights Reserved."
+    },
+    "solution": "Solution",
+    "pos_equipments": "POS Equipments",
+    "business_type": "Business Type",
+    "products": "Products",
+    "company": "Company",
+    "home": "Home",
+    "unique": {
+        "heading": "Enjoy these benefits",
+        "desc": "At Bestpos, we're committed to helping you save on Point of Sale costs and increase your profits through reduced payment processing fees. That's why we offer professional and personalized consulting on the ideal point of sale system, payment processing, merchant services, and more",
+        "items": [
+            "24/7 U.S. - based, in-house technical support",
+            "Cash Discount Program",
+            "Compliant Dual Pricing Receipt",
+            "Free Point-of-Sale Placement Program",
+            "Free EMV (Chip Readers) Integration",
+            "No cancellation fee",
+            "Quick, seamless setup & implementation",
+            "Next day funding",
+            "Simplified batch processing"
+        ]
+    },
+    "work_with_thebest": "Work with the best",
+    "point_of_sale": {
+        "heading": "<span className='text-orange-500'>Point-of-sale</span> for all business categories"
+    },
+    "point_of_sale_features": {
+        "heading": "Point-of-Sale Features"
+    },
+    "find_right_solution": "Discover the ideal processing solutions for your business",
+    "hear_from_client": "Hear From Our Satisfied Clients",
+    "solutions": {
+        "credit-card": {
+            "title": "Credit Card Terminal",
+            "secondTitle": "Capital & Funding",
+            "desc": "In-person payments have never been easier",
+            "path": "credit-card"
+        },
+        "mobile-card": {
+            "title": "Mobile Card Reader",
+            "desc": "Accept payments anywhere",
+            "path": "mobile-card"
+        },
+        "online-processing": {
+            "title": "Online Processing",
+            "desc": "Streamline your online payments ",
+            "path": "online-processing"
+        },
+        "support": {
+            "title": "Support Service",
+            "desc": "Repair, Maintenance and Parts Services",
+            "path": "support-services"
+        }
+    },
+    "payment_processing": "Payment Processing",
+    "general": "General",
+    "signing_bonus": "Signing Bonus",
+    "cash_discount": "Cash Discount",
+    "sale_system": "Sale System",
+    "business_categories": {
+        "full_service": "Full Service",
+        "retail": "Retail Stores",
+        "quick_service": "Quick Service",
+        "small_business": "Smalll Business",
+        "bar_clubs": "Bars & Night",
+        "pizzerias": "Pizzerias"
+    },
+    "product_types": {
+        "market": {
+            "title": "Clover App Market",
+            "description": "Choose from over 200 powerful apps designed to help you run your business."
+        },
+        "cash_discount": {
+            "title": "Cash Discount Program",
+            "description": "Encourage brand loyalty with upfront payments for future purchases."
+        },
+        "quick_book": {
+            "title": "Quickbooks Plugin"
+        },
+        "gift": {
+            "title": "Gift Card Program",
+            "description": "Encourage brand loyalty with upfront payments for future purchases."
+        },
+        "check_service": {
+            "title": "Check Services",
+            "description": "Convert checks into electronic payments and speed up your cash flow."
+        },
+        "cash_advance": {
+            "title": "Cash advance"
+        },
+        "loyalty": {
+            "title": "Customer Loyalty & Rewards",
+            "description": "Choose from over 200 powerful apps designed to help you run your business."
+        },
+        "online_analytics": {
+            "title": "Online Analytics"
+        },
+        "invoicing": {
+            "title": "Invoicing"
+        },
+        "mobile_order": {
+            "title": "Mobile Order & Pay",
+            "description": "BestPOS Mobile Order & Pay integrates seamlessly with your POS system, enabling your restaurant to embrace digital transformation and enhance service quality."
+        },
+        "cloud_beds": {
+            "title": "PMS-Cloudbeds",
+            "description": "Cloudbeds + POS integration built to streamline every aspect of hotel operations"
+        }
+    },
+    "learn_more": "Learn more",
+    "side_hustle": {
+        "partner_ship": "Partnership",
+        "heading": "The Ultimate Side Hustle",
+        "desc": "Partner with Bestpos today and start your side hustle journey!",
+        "desc2": "This is the perfect opportunity to earn extra monthly income & bonuses on your free time."
+    },
+    "explore_all": "See All POS Options",
+    "explore_pos": "Explore POS equipments",
+    "join_extrbread": "Join Bestpos Today",
+    "how_it_works": "HOW IT WORKS",
+    "explore_other_types": "Explore other business types",
+    "feature_favored": "POS Features favored by businesses like yours",
+    "top_recommend": "Top recommended",
+    "pos_systems": "POS Systems",
+    "pos_system_for": "POS systems for",
+    "must_have": "Must-Haves",
+    "state_regulation": "State Regulations",
+    "point_of_sale_systems": "All POS Systems",
+    "about_us": "About Us",
+    "partner": "Partner",
+    "get_your_hand": "Get your hands on on a Free [name] POS \n System today!",
+    "Bestpos_offer": "Bestpos’s Offer",
+    "pos_cost": "Save Big on POS Costs",
+    "pricing_desc": "Start using [name] for your business today, with pricing options starting at",
+    "get_full_price_from": "Get full the price from",
+    "monthly_price": "Service Monthly Plan",
+    "onetime_price": "One Time Purchase",
+    "key_features": "Key Features",
+    "per_station": "Per Station",
+    "monthly_pricing_desc": "Per Month (avg. 3 stations or more)",
+    "pricing": "Pricing",
+    "or": "Or",
+    "suggested_business": "Suggested Types of Business",
+    "your_name": "Your name",
+    "business_name": "Business name",
+    "phone_number": "Phone number",
+    "email": "Email",
+    "phone": "Phone",
+    "website": "Website",
+    "continue": "Continue",
+    "please_specify": "Please specify",
+    "error_invalid_area_code": "Invalid us area code",
+    "hear_about_us": "How did you hear about us?",
+    "yes": "Yes",
+    "no": "No",
+    "sources": [
+        "BestPOS",
+        "Referral",
+        "Other"
+    ],
+    "schedule_call": "Schedule a Call",
+    "learn_more_infor": "If you would like to learn more, feel free to contact us at",
+    "price": "price",
+    "submit": "Submit",
+    "example": "example",
+    "required_message": "This field is required!",
+    "station": "station",
+    "stations": "stations",
+    "learn_more_business": "Learn more about how we can help your business.",
+    "message": "Message",
+    "contact": {
+        "leave_us_message": "Leave us a message",
+        "send_message": "Send message",
+        "contact_message": "If you have any questions, please do not hesitate to contact us.",
+        "share_thought": "What's on your mind? Share your thoughts",
+        "call_us": "Call us now",
+        "email_us": "Email to us",
+        "email_any_questions": "Please email any questions, comments or <br /> suggestions to us",
+        "got_questions": "Got questions? <br /> We’re ready to help you find the answer.",
+        "find_answer": "Find the answers using our Self-service",
+        "FAQs": "FAQs",
+        "generalFAQ": "General FAQ"
+    },
+    "referal_program": {
+        "heading": "Referral program",
+        "desc": "We're excited to get you started on securing a monthly residual income. To begin this process, please fill out as much information as you can below. This data is crucial for us to precisely evaluate your potential earnings per referral.  An account manager from our team will review and assess the information provided then follow up with you on next steps. All information provided is kept confidential.  Refer to our Privacy Policies",
+        "referrer_info": "Referrer’s Information",
+        "referal_information": "Referral information",
+        "business": "Business",
+        "add_business": "Add business",
+        "any_additional_business": "Have more businesses you want to refer? You can continue to add more before submitting.",
+        "note_hint": "You can add the business Google profile link or website here as well."
+    },
+    "popular": "Popular",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "notes": "Additional Notes:",
+    "city": "City",
+    "address": "Address",
+    "state": "State",
+    "contact_detail": "Contact Details",
+    "funding_form": {
+        "heading": "Same-Day Funding",
+        "sub_heading": "Tired of Waiting for Deposits? Get Same-Day Funding with Bestpos!",
+        "bannerItems": [
+            "Fast Application",
+            "Quick Approval",
+            "Instant Funding"
+        ],
+        "quickItems": [
+            {
+                "title": "Fast Application",
+                "desc": "No hassle here: Fill out our quick 5-minute form."
+            },
+            {
+                "title": "Quick Approval",
+                "desc": "Get approved quickly and easily with our streamlined application process - no paperwork required."
+            },
+            {
+                "title": "Instant Funding",
+                "desc": "Access your funds fast: Get funded within 24 hours after approval."
+            }
+        ],
+        "form_title": "Get Started with Same Day \nFunding",
+        "credit_title": "Monthly Credit Card Volume",
+        "credits": [
+            "New or Not Sure",
+            "0 - $10,000",
+            "$10,000 - $50,000",
+            "$50,000 -  $115,000",
+            "$115,000+"
+        ],
+        "business_types": "Type of Business",
+        "select_business": "Select type of business"
+    },
+    "request_a_demo": "Request a Demo",
+    "type_of_business": "Type of business",
+    "thank_you_form_title": "Thanks for filling out the form!",
+    "thank_you_form_desc": "We will review your information and get back to you in 1-2 business days.",
+    "thank_you_form_message": "If you would like to learn more, feel free to contact us at",
+    "i_dont_know": "I don’t know",
+    "term_condition": "Terms and Conditions",
+    "all_done": "All Done!",
+    "thanks_you": {
+        "desc": "We have all the information we need to prepare an offer for you. Our team will be in touch within 24 hours.",
+        "any_question": "If you have any urgent questions or concerns, please don't hesitate to reach out to us."
+    },
+    "most_recommended": "MOST RECOMMENDED",
+    "how_we_rate": "How We Rate",
+    "advertiser": "Advertiser Disclosure",
+    "credit_calculator": "Credit Card Processing Calculator",
+    "cash_bonus_calculator": "Cash Signing Bonus Calculator",
+    "request_demo_form": {
+        "select_an_pos": "Select an POS",
+        "choose_pos_title": "Which POS system are you interested in?",
+        "choose_pos_desc": "You can choose more than one\nso Which POS system(s) are you interested in? (select 1 or several)",
+        "desc": " We&apos;ll connect you with the POS provider to setup a demo and get the best deal possible. Go through BestPOS to get the best deal possible.<span className='font-semibold text-blue-500'>Up to 100% off!</span>",
+        "bottom_description": "*By providing the phone number and clicking 'SUBMIT' you agree to receive SMS from BestPOS.com. Frequency may vary. Message & data rates may apply. Reply STOP to opt out or HELP for more information. View our terms and privacy policy <a>our terms and privacy policy.</a>"
+    },
+    "request_demo_title": "Request Demo POS",
+    "faq": "FAQ",
+    "header_alert_message": "Find the right POS System for your business type with our POS Comparison Tool",
+    "btn_compare": "Compare POS Systems"
+}

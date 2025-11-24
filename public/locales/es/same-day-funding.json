@@ -1,0 +1,30 @@
+{
+    "heading": "Financiamiento el Mismo Día",
+    "desc": "¿Cansado de esperar los depósitos? ¡Obtén financiamiento el mismo día con BestPOS!",
+    "features": [
+        {
+            "title": "Solicitud rápida",
+            "desc": "Sin complicaciones: completa nuestro formulario en solo 5 minutos."
+        },
+        {
+            "title": "Aprobación rápida",
+            "desc": "Obtén la aprobación de forma rápida y sencilla con nuestro proceso optimizado, sin necesidad de papeleo."
+        },
+        {
+            "title": "Financiamiento instantáneo",
+            "desc": "Accede a tus fondos rápidamente: recibe el dinero en menos de 24 horas después de la aprobación."
+        }
+    ],
+    "reliable_title": "Tecnología Confiable",
+    "reliable_tech": [
+        "Nuestro equipo se destaca en garantizar que obtengas el sistema POS ideal adaptado a tu industria o nicho de negocio. Cygma utiliza la tecnología y seguridad más avanzada para asegurar que tus datos estén protegidos.",
+        "Con Exatouch, Micros, Aloha, Authorize.net, NMI, ePN, USAEPay, Dejavoo Serie P, Dejavoo QD, PAX, Ingenico, FreedomPay, etc.\n\nCygma es compatible. Podemos trabajar con casi cualquier solución disponible y proporcionar equipos de primera calidad para transacciones sin interrupciones."
+    ],
+    "funding_title": "Financiamiento el mismo día\nVs. Financiamiento estándar",
+    "switch_to_funding": "Cámbiate al financiamiento el mismo día hoy",
+    "deposit_title": "Esperar los depósitos puede ser un gran desafío para los negocios, pero no con <span className='text-orange-500'>BestPOS</span>",
+    "deposit_desc": "Con Cygma, nuestra plataforma completa de autorización y compensación, tu negocio puede acceder a los fondos de las transacciones de procesamiento de pagos el mismo día en que se procesan. Conocido simplemente como financiamiento el mismo día, esta opción elimina la demora típica de esperar a que se liquiden los fondos, proporcionando acceso inmediato a tus fondos cuando más los necesitas.\n\nEmpodera tu negocio con mayor agilidad financiera y capacidad de respuesta con nuestras soluciones de financiamiento rápido. Perfecto para bares, restaurantes y cualquier otro tipo de negocio. Di adiós a los retrasos en las transacciones y a las comisiones por procesamiento, y comienza hoy con BestPOS.",
+    "quich_and_easy": "Rápido y sencillo",
+    "how_work_title": "¿Cómo funciona?",
+    "how_work_desc": "Recibe depósitos más rápidos, con fondos disponibles en tan solo 8 horas. Simplemente procesa tu lote antes de la hora límite de las 6:00 a.m. EST desde tu punto de venta o terminal. Si cumples con este plazo, tu depósito se acreditará en tu cuenta bancaria antes de las 5:00 p.m. EST del mismo día.\n\nPuedes elegir cualquier cuenta bancaria para recibir el depósito, y el financiamiento el mismo día está disponible incluso los fines de semana. Además, los viernes, el financiamiento el mismo día ofrece una ventaja frente al financiamiento al día siguiente. Liquida tu lote antes del límite del viernes para recibir tu depósito ese mismo día."
+}

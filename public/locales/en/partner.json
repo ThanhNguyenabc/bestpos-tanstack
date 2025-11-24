@@ -1,0 +1,137 @@
+{
+    "referral": "REFERRAL",
+    "tag": "Referal Program",
+    "heading": "Referral Program",
+    "sub_heading": "The perfect opportunity to earn extra monthly income & bonuses in your free time.",
+    "iso-agent": "ISO AGENT",
+    "in-house": "IN-HOUSE",
+    "items": [
+        {
+            "key": "basePay",
+            "text": "Base Pay"
+        },
+        {
+            "key": "bonus",
+            "text": "Upfront Bonuses"
+        },
+        {
+            "key": "income",
+            "text": "Residual Income"
+        },
+        {
+            "key": "appointment",
+            "text": "Preset Appointments"
+        }
+    ],
+    "form_heading": "Earn Extra Cash with Bestpos",
+    "from_sub_heading": "Turn your downtime into extra cash with Bestpos! No need for big commitments - refer businesses and watch the bonuses and monthly residual income roll in. Sign up with us today.",
+    "form_title": "Start Earning Monthly Residual Income Today",
+    "form_desc": "Fill out the form and we will reach out to you in 24-48 hours",
+    "referal_program": "How our Referral Program works",
+    "referal_program_desc": "The referral program is the perfect opportunity to secure extra income during your off-hours. It's straightforward: refer your favorite bars or restaurants, and for each successful referral, you'll receive a consistent monthly income. And if you're seeking stability, we have part-time or full-time positions available.",
+    "referal_items": [
+        {
+            "title": "Referring a Business",
+            "desc": "Tell us all about your referral(s) and with your introduction, we'll explain our services and what we can offer their business"
+        },
+        {
+            "title": "Signing Them Up",
+            "desc": "Allow the account manager to successfully sign up and close the deal on your referral"
+        },
+        {
+            "title": "Earning Residuals",
+            "desc": "As the client continues to happily use Bestpos's services, you continue to earn monthly residuals"
+        },
+        {
+            "title": "Expand Your Network",
+            "desc": "Use your successful referrals to grow your network and continue to keep referring businesses"
+        }
+    ],
+    "referal_program_desc1": "You're in control of your earning potential. Refer as many businesses as you can, and there's no limit to what you can earn. The more referrals you send our way, the more you can earn - it's that simple!",
+    "feature_heading": "What’s in it for you?",
+    "feature_items": [
+        {
+            "title": "Lucrative Signing Bonus",
+            "desc": "Receive a signing bonus of up to $10,000+ for merchants who decide to switch over and use Bestpos's services"
+        },
+        {
+            "title": "Experienced Staff",
+            "desc": "Work alongside and receive guidance from an amazing crew that possesses an in-depth knowledge of the ins and outs of the industry"
+        },
+        {
+            "title": "Virtual Office",
+            "desc": "With our virtual office, you'll be able to track and see your signed referrals, daily & monthly reporting, and your bonus and residual payouts"
+        },
+        {
+            "title": "Monthly Residual Income",
+            "desc": "As your client continues to benefit from Bestpos's services, you continue to earn a monthly residual income"
+        },
+        {
+            "title": "Competitive Products/Service",
+            "desc": "We offer a wide range of cutting-edge products and services that put our agents at a great advantage in the industry"
+        },
+        {
+            "title": "Networking Possibilities",
+            "desc": "By referring business, you have the opportunity to expand your network and establish new connections in the process"
+        }
+    ],
+    "pick_Bestpos_heading": "Why should businesses pick Bestpos?",
+    "pick_Bestpos_desc": "From consultation to installation, Bestpos is the one stop shop for all things merchant services for a business! Our unique strength lies in our partnerships with top-tier point-of-sale systems and credit card processing providers. We can offer a business zero processing fees, save their money on POS systems, and even offer large cash signing bonuses. Along with this, we offer 24/7 support - whenever you need us, we’re there.",
+    "picking_reason_items": [
+        {
+            "title": "With over two decades of industry experience, count on us to stand by you clients every step of the way!",
+            "text_link": "Learn more about what we can offer for yor referral",
+            "link": "Bestpos-booklet.pdf"
+        }
+    ],
+    "earning_title": "Earn Extra Cash with Bestpos",
+    "earning_desc": "Turn your downtime into extra cash with Bestpos! No need for big commitments - refer businesses and watch the bonuses and monthly residual income roll in. Sign up with us today.",
+    "start_business_title": "Start Referring Business today",
+    "start_business_desc": "Have some businesses in mind that you want to refer to Bestpos? Click here to get started and tell us all about it.",
+    "partner_program_heading": "Or join the team and earn even more",
+    "partner_program_desc": "Interested in doing more or working a full-time position at Bestpos?\nLearn more about our other programs, in-house and the ISO agent program.",
+    "partner_program_items": [
+        {
+            "title": "In-House Agent Program",
+            "desc": "This program is an exclusive opportunity to delve deep into our service offerings. By enrolling you’ll become an integral team member. Enjoy numerous benefits, such as access to dedicated office facilities, administrative support, and a variety of enticing perks. "
+        },
+        {
+            "title": "ISO Agent Program",
+            "desc": "Join Bestpos as an independent sales office agent and embrace the freedom of being your own boss. Empower merchants with expert advice on ideal point-of-sale systems, build long-term relationships, and expand your portfolio alongside us."
+        }
+    ],
+    "partner_faq": [
+        {
+            "header": "What kind of business would make for a good referral?",
+            "content": "Bestpos is designed to be compatible with all types of businesses such as full and quick service restaurants, retail, small businesses, bars & nightclubs, pizzerias and any other business you can think of."
+        },
+        {
+            "header": "What is the process to become a referral agent?",
+            "content": "Prospective referral agents can apply to become a partner by signing up on the form via bottom of the page. We will review your application and respond back to you within one to two weeks."
+        },
+        {
+            "header": "What happens after I apply to become a referral partner?",
+            "content": "We will proceed to set up a meeting/phone call to get to know your business better. We’ll share more information on how our services can benefit your referred business and explain the process more in detail. Once everything is all understood, an account manager will be in contact with the referred business."
+        },
+        {
+            "header": "How long does it take to become a referral agent?",
+            "content": "The time it takes to become a referral agent varies with each application. The process can be as fast as one to two weeks with standard agreement terms."
+        },
+        {
+            "header": "How much can I earn?",
+            "content": "With each successful referral, you can earn between $100 to $2,000.  It varies depending on a number of factors such as, businesses total volume, locations, how long they’ve been operating, total terminals, etc. There is no limit as to how many referrals you can send us. The more referrals you send our way, the more you can earn!"
+        },
+        {
+            "header": "How do I submit a referral?",
+            "content": "Fill out this quick form here. Once submitted, you will receive an email confirmation that your submission has been received. Please allow 3-5 business days for our team to review your referral and we will get back to you."
+        },
+        {
+            "header": "How will I know my referral is successful?",
+            "content": "Once your referral is submitted, we will send email notifications throughout each phase of the referral process to share the status of your referral(s)."
+        }
+    ],
+    "current_profession": "Your current profession",
+    "select_date_form" : "Select your date to attend",
+    "select_time_form" : "Select your time",
+    "txt_desc" : "Join one of our seminars to learn more about the program. Please select a day and time"
+}

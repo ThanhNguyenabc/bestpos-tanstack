@@ -1,0 +1,19 @@
+{
+    "longDesc": "Eleve su bar o restaurante con el sistema POS personalizable de Aldelo. Con miles de instalaciones para su aplicación 'Aldelo for Restaurants' original, Aldelo ha construido una sólida reputación en el competitivo mercado de aplicaciones. Actualice a Aldelo Express basado en la nube para una eficiencia aún mayor.",
+    "features": [
+        {
+            "description": "Sistema basado en la nube que ayuda a almacenar datos en caso de problemas de hardware"
+        },
+        {
+            "description": "Acceda fácilmente a datos de ventas y otra información desde ubicaciones remotas"
+        },
+        {
+            "description": "Integre una variedad de modificadores para personalizar los pedidos"
+        },
+        {
+            "description": "Cree menús personalizados para usted y su personal"
+        }
+    ],
+    "monthly_pricing": 20,
+    "onetime_pricing": 2500
+}

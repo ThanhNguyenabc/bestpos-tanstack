@@ -1,0 +1,42 @@
+{
+    "desc": "Transform paper checks into secure electronic payments right at the point of sale, enhancing security and accelerating processing times",
+    "heading": "",
+    "banner": [
+        "Reduce the risk of fraud and limit potential losses",
+        "Lower processing costs significantly",
+        "Checks are approved instantly",
+        "Access funds more rapidly"
+
+    ],
+    "features": [
+        {
+            "title": "Faster Funds",
+            "description": "Utilizing a fast, cost-effective, and secure check processing system eliminates the wait and removes the need for extra trips to the bank.",
+            "details": [
+                "Take a snapshot of a check for quick acceptance",
+                "Access funds from approved checks in just two business days"
+
+            ]
+        },
+        {
+            "title": "Mitigate Risk",
+            "description": "Rely on Elecpayments for secure and reliable transactions.",
+            "details": [
+                "Decrease chargebacks and fraud-related losses",
+                "Get immediate alerts for check declines"
+            ]
+        },
+        {
+            "title": "Never Miss A Sale",
+            "description": "Provide your customers with diverse payment options and ensure you never miss a sale.",
+            "details": [
+                "Enhance customer satisfaction by allowing payments with any method",
+                "Improve cash flow with quick processing and funding"
+
+            ]
+        }
+    ],
+    "all_business_heading": "Check Services for every business",
+    "all_business_desc": "Maintain happy customers and your cash flow with faster, simpler, and more secure check services. Find the one that’s right for your business.",
+    "footer_heading": "Ready to implement a Check Services for your business?"
+}

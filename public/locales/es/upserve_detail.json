@@ -1,0 +1,19 @@
+{
+    "longDesc": "Upserve POS es la solución para agilizar las operaciones de su restaurante. La aplicación de pantalla táctil, disponible en iOS y Android, ofrece una creación sencilla de menús, una amplia gama de integraciones, funciones perfectas y potentes herramientas de manejo de restaurantes. Elija entre opciones de hardware premium para disfrutar de la mejor experiencia. Upserve POS tiene todo lo que necesita para revolucionar su restaurante.",
+    "features": [
+        {
+            "description": "Creador y personalizador de menú simple; incluso puede comunicarse con los empleados de Upserve para obtener asistencia gratuita en la configuración de su menú e interfaz de usuario"
+        },
+        {
+            "description": "Puede acceder a los datos de los informes a través de una aplicación (Upserve Live) para verificar los datos de sus informes desde cualquier lugar, lo que facilita aún más la administración de su negocio."
+        },
+        {
+            "description": "El centro de control de manejo de su plataforma de punto de venta, Upserve HQ, le permite personalizar, ajustar y organizar fácilmente varios elementos de menú y administración"
+        },
+        {
+            "description": "Puedes enviar pedidos o recibos a cualquiera de las impresoras de tu local gracias a la impresión personalizable"
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 2500
+}

@@ -1,0 +1,121 @@
+{
+    "desc": "Our extensive range of POS systems enables your counter service restaurant to function efficiently and in an organized manner. These devices are designed to fit any space while providing quick and user-friendly functionality.",
+    "tags": [
+        "Casual Dining",
+        "Coffee Shops",
+        "Bakeries",
+        "+ More"
+    ],
+    "features": [
+        "Fast checkout",
+        "Online Ordering",
+        "Local on-site support",
+        "User friendly"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Customer Payments",
+                "items": [
+                    {
+                        "title": "Additional Screens for Increased Freedom",
+                        "description": "Featuring both merchant and customer-facing screens, you can handle transactions seamlessly while allowing customers to pay using their preferred methods."
+                    },
+                    {
+                        "title": "Efficient and Contactless Payments",
+                        "description": "The portable design enables customers to swiftly process over-the-counter payments or effortlessly make contactless transactions."
+                    },
+                    {
+                        "title": "Flexible Payment Processing",
+                        "description": "Our POS systems enable you to swiftly process payments both in line and anywhere in the store, providing customers with the convenience of contactless payment methods, including swiping, dipping, or tapping."
+                    }
+                ]
+            },
+            {
+                "heading": "Tableside Ordering",
+                "items": [
+                    {
+                        "title": "Faster Orders",
+                        "description": "Quickly send orders while incorporating in-depth modifiers through Order Notes, categorizing them into specific courses, and delivering them to the kitchen with the push of a button."
+                    },
+                    {
+                        "title": "Easily Personalize Orders",
+                        "description": "Make modifications to any order from anywhere in the restaurant, including adding sides or condiments, all while keeping everything organized and synchronized with the kitchen."
+                    },
+                    {
+                        "title": "Smooth Kitchen Connection",
+                        "description": "Orders can be shown on a kitchen display screen or printed via a kitchen printer, facilitating seamless and rapid submission to your back-of-house staff for a streamlined operation."
+                    }
+                ]
+            },
+            {
+                "heading": "Online Ordering",
+                "items": [
+                    {
+                        "title": "Accept Online Orders with Ease",
+                        "description": "You can accept orders directly from your website, or if you don't have one, use our online ordering service to create a personalized webpage through the app."
+                    },
+                    {
+                        "title": "Quickly Upload Your Menu",
+                        "description": "Just submit your menu when you sign up, and we’ll add it to your online ordering platform at no additional charge."
+                    },
+                    {
+                        "title": "Efficiently Handle Order Processing",
+                        "description": "Easily dispatch orders to your kitchen or POS and handle pickup orders seamlessly through your device."
+                    }
+                ]
+            },
+            {
+                "heading": "Delivery, Curbside, and Phone Orders Made Easy",
+                "items": [
+                    {
+                        "title": "Orders & Delivery Using Third-Party Apps",
+                        "description": "Our extensive selection of POS systems makes it simple to manage delivery orders using popular third-party services like Uber Eats, DoorDash, Grubhub, and more through the App Market."
+                    },
+                    {
+                        "title": "Make Curbside Pickups & Delivery a Breeze",
+                        "description": "Enhance the convenience of curbside pickups and deliveries with options for chip, swipe, and contactless payments."
+                    },
+                    {
+                        "title": "Accept Phone Orders with Ease",
+                        "description": "Process payments or issue refunds via phone or email without requiring a separate device."
+                    }
+                ]
+            },
+            {
+                "heading": "Making Payments",
+                "items": [
+                    {
+                        "title": "Accept Payments Anywhere",
+                        "description": "Offer a variety of payment options, including credit, debit, mobile payments, gift cards, checks, and contactless methods like Apple Pay and Google Pay, allowing you to accept payments at the table, at the counter, or while on the go."
+                    },
+                    {
+                        "title": "Easy Bill Splitting",
+                        "description": "Easily split the bill based on your customer's preferences—by guest, by item, or any custom amount—making the payment process simpler and more efficient."
+                    },
+                    {
+                        "title": "Continue Business Operations Even Without WiFi",
+                        "description": "Some POS systems come with built-in WiFi, ensuring your restaurant operates seamlessly even during internet outages."
+                    }
+                ]
+            },
+            {
+                "heading": "Customer Loyalty Programs",
+                "items": [
+                    {
+                        "title": "Offer Rewards & Send Promotions",
+                        "description": "Connect with your customers via text, email, or receipts to share special deals, promotions, and sales."
+                    },
+                    {
+                        "title": "Gain Customer Insights",
+                        "description": "Utilize our range of POS systems to collect instant feedback from your customers, helping you to continually enhance your business."
+                    },
+                    {
+                        "title": "Increase Sales with Gift Cards",
+                        "description": "Boost your profits and strengthen your brand by providing custom or pre-designed physical and digital gift cards that can be easily redeemed through smartphones."
+                    }
+                ]
+            }
+        ]
+    }
+}

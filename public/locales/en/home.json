@@ -1,0 +1,74 @@
+{
+    "saving_money": "Best POS Prices",
+    "siging_bonus": "Same Day Funding",
+    "processing_fee": "0% Processing Fees",
+    "pageTitle": "The Best POS System For Your Business At The Best Price",
+    "hp2pageTitle": "Same Day Funding With Credit Card Processing Solutions",
+    "merchant_heading": "Competitive Rates",
+    "merchant_desc": "We're able to maintain our services at no cost to you by <span className='font-semibold text-orange-500'>applying a 3.5% charge </span> on your <span className='font-semibold text-orange-500'>customer's order total </span> during the checkout process. On top of that, your customers cover the credit card fees, relieving you of any merchant fees.",
+    "merchant_option": [
+        {
+            "id": "small",
+            "heading": "Small Restaurant",
+            "pos_number": "One Free POS",
+            "price": "($10k - $50k in sales per month)",
+            "items": [
+                "Includes a POS, KDS, Car Reader, Printer, and Cash Drawer",
+                "Analytics Dashboard, QR Code /Online Ordering, Gift Cards, Order Notifications",
+                "LTE Connectivity Available at S30/mo per line"
+            ]
+        },
+        {
+            "id": "medium",
+            "heading": "Med Restaurant",
+            "pos_number": "Up to 3 free POS",
+            "price": "($50k - $115k in sales per month)",
+            "items": [
+                "Includes a POS, KDS, 2 Handheld POS's, 3 Card Readers, 2 Printers, and Cash Drawer",
+                "Analytics Dashboard, QR Code /Online Ordering, Gift Cards, Order Notifications",
+                "Additional POS's and KDS's available at $30/mo"
+            ]
+        },
+        {
+            "id": "large",
+            "heading": "Large Restaurant",
+            "pos_number": "Up to 6 free POS",
+            "price": "(Over $115k in sales per month)",
+            "items": [
+                "Includes a POS, KDS, Card Readers, Handheld POS's, Printer, and Cash Drawer",
+                "Analytics Dashboard, QR Code /Online Ordering, Gift Cards, Order Notifications",
+                "LTE Connectivity Available at S30/mo per line"
+            ]
+        }
+    ],
+    "competitive_advantage": {
+        "heading": "Our Competitive  Advantage",
+        "sub_heading": "At BestPOS, we specialize in maximizing your business's profits by minimizing unnecessary credit card processing and POS system fees. Our unique partnerships, expertise, and approach set us apart from the rest.",
+        "items": [
+            {
+                "title": "Partnerships",
+                "desc": "Our partnership with top-tier credit card processing and point-of-sale providers in the industry gives us the flexibility to arrange the best package for your business."
+            },
+            {
+                "title": "Expertise",
+                "desc": "With a solid two decades under our belt, we know what system and features your business requires."
+            },
+            {
+                "title": "Our Approach",
+                "desc": "You can count on us to guide you through every step plus some more."
+            }
+        ]
+    },
+    "helpingsection": {
+        "helping_section_title": "<span className='text-secondary'>Helping you</span>\n Find the Best POS System and Secure the Best Deal",
+        "helping_section_desc": "BestPOS - point-of-sale experts with 20+ years. We work with the top POS system providers in the market, enabling us to secure unbeatable deals on your behalf.<br/><br/> Let us handle all the work and save you and your business up to 100% on the ideal POS solution. Discover seamless transactions all while growing your business.",
+        "business_review": "Customized Recommendations",
+        "business_review_desc": "After our chat, we will find the perfect point-of-sale solution that matches your needs and business goals",
+        "schedule_a_demo": "Schedule a Demo",
+        "schedule_a_demo_desc": "Our team will be reaching out to you soon to get a better understanding of you and your business' needs",
+        "obtain_pricing": "Exclusive Savings",
+        "obtain_pricing_desc": "Our team will negotiate exclusive deals for you, ensuring competitive pricing and terms that suit your budget and objectives",
+        "final_decision": "Sealed Deal",
+        "final_decision_desc": "When you're ready, we will connect you withy our chosen POS solution. Our role doesn't end here and we continue to provide ongoing guidance and support for your ongoing success."
+    }
+}

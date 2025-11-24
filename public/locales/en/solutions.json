@@ -1,0 +1,209 @@
+{
+    "processing_solutions": "Explore more processing solutions",
+    "faq": {
+        "items": [
+            {
+                "header": "What is a payment processor?",
+                "content": "The approval process could vary pending all information is received and confirmed. Once all information has been confirmed & reviewed, the approval process could take up to 3 business days."
+            },
+            {
+                "header": "How do I choose the right payment processor for my business?",
+                "content": "There are a number of factors to consider when choosing a payment processor, including:",
+                "list": [
+                    "The types of cards you want to accept",
+                    "The fees charged",
+                    "The level of customer service",
+                    "The security features"
+                ]
+            },
+            {
+                "header": "What are the different types of payment processing fees?",
+                "content": "There are a number of different types of payment processing fees, including:",
+                "list": [
+                    "Transaction fees: These are fees that are charged for each transaction that is processed.",
+                    "Monthly fees: These are fees that are charged for having a merchant account.",
+                    "Setup fees: These are fees that are charged when you open a merchant account.",
+                    "Interchange fees: These are fees that are charged by the card associations (Visa, Mastercard, etc.)",
+                    "Assessment fees: These are fees that are charged by the card brands (American Express, Discover, etc.)"
+                ]
+            },
+            {
+                "header": "How does payment processing work?",
+                "content": "Payment processing works by securely transmitting payment information from the customer to the payment processor, who then sends the information to the customer's bank or credit card company for verification. If the transaction is approved, the funds are transferred to the merchant's account."
+            },
+            {
+                "header": "What types of payment methods are accepted?",
+                "content": "Most payment processors accept a variety of payment methods, including credit cards, debit cards, e-wallets, and bank transfers. Some processors may also accept alternative payment methods, such as cryptocurrency."
+            }
+        ]
+    },
+    "credit": {
+        "heading": "Credit Card Terminal",
+        "title": "Making in-person payments has never been easier!",
+        "benefits": [
+            "All features and premium support",
+            "Contactless payments",
+            "Accepts chip cards and magstripe"
+        ],
+        "transactions": {
+            "heading": "Conducting transactions has never been easier.",
+            "items": [
+                {
+                    "title": "PAX A920 Smart Terminal",
+                    "description": "The PAX A920 is an advanced handheld terminal that integrates all the essential features of a comprehensive point-of-sale system. Currently running on the Payanywhere payments platform, it offers these key functionalities:",
+                    "details": [
+                        "Supports both WiFi and Wireless 4G connectivity options",
+                        "Features a 5-inch high-definition touchscreen and a large-capacity rechargeable Li-ion battery",
+                        "Comes with a built-in receipt printer, dual cameras, and a barcode/QR code scanner",
+                        "Accepts various payment types, including Apple Pay, EMV chip cards, contactless payments, and magnetic stripe cards."
+                    ]
+                },
+                {
+                    "title": "Clover Flex",
+                    "textLink": "View Details",
+                    "description": "This versatile device fits right in the palm of your hand, offering integrated features for payment acceptance, business management, and sales tracking.",
+                    "details": [
+                        "Quickly take orders and start processing payments with minimal setup and no training required",
+                        "With a 6-inch touchscreen, built-in printer, camera, and barcode scanner, the device supports tableside ordering, inventory control, and seamless payment processing",
+                        "A highly customizable handheld device that delivers the same robust functionality as larger systems",
+                        "Keep your business data at your fingertips thanks to the cloud-based platform it operates on"
+                    ]
+                }
+            ]
+        },
+        "capabilities": {
+            "heading": "Processing Capabilities",
+            "subHeading": "With our processing solutions, customers can choose their preferred way to pay, keeping transactions smooth and lines moving quickly.",
+            "items": [
+                "Supports EMV and chip card payments",
+                "Accepts swipe, tap, or dip transactions",
+                "Compatability with Apple and Google Pay"
+            ]
+        },
+        "works_section": {
+            "heading": "How a Credit Card Terminal Benefits Your Business",
+            "items": [
+                {
+                    "title": "Payment flexbility",
+                    "description": "Supporting both Apple Pay and Google Pay allows you to meet your customers' contactless payment preferences, while also providing a quick and seamless checkout experience."
+                },
+                {
+                    "title": "EMV chip reader compatibility",
+                    "description": "Offer a secure solution for processing debit and credit cards, eliminating the need for additional equipment or any worries."
+                },
+                {
+                    "title": "Wifi and Wireless models available",
+                    "description": "Process payments securely from anywhere, provided you have a stable connection."
+                }
+            ]
+        }
+    },
+    "mobile": {
+        "heading": "Mobile Card Reader",
+        "title": "Enable payment acceptance from any location, at any time",
+        "benefits": [
+            "Fully compatible with any mobile device",
+            "Deliver receipts via SMS or email",
+            "Wireless card reader that connects to the app"
+        ],
+        "smart_features": {
+            "heading": "Accelerate your payments with our advanced features.",
+            "items": [
+                {
+                    "title": "ProCharge Mobile",
+                    "description": "Running a business requires flexibility, and ProCharge® offers this with its Bluetooth reader and easy-to-use mobile app that supports all payment transactions, whether you’re roaming your store, doing fieldwork, or operating from the back office.",
+                    "details": [
+                        "Quick setup with customizable features" ,
+                        "Decrease processing costs"
+                    ]
+                },
+                {
+                    "title": "Clover Go Mobile App",
+                    "textLink": "View Details",
+                    "description": "Take your business directly to your clients with the Go app and portable credit card reader, perfect for settings like local farmers' markets or on-site at your clients' locations. These user-friendly tools offer the complete functionality of a full POS system as long as you have a Wi-Fi or cellular connection.",
+                    "details": [
+                        "Accept payments in person",
+                        "Simple to use with minimal effort",
+                        "Highly customizable portable device that delivers the same power and functionality as larger systems",
+                        "Compatible with both iOS and Android"
+                    ]
+                }
+            ]
+        },
+        "solutions": {
+            "heading": "The Benefits of Using a Mobile Card Reader for Your Business",
+            "items": [
+                {
+                    "title": "Pairs with any device",
+                    "description": "Whether processing payments at your storefront or while mobile, the MobilePay app converts your smartphone or tablet into a POS system, allowing you to accept card payments and track cash sales seamlessly."
+                },
+                {
+                    "title": "Collect payments with ease",
+                    "description": "MobilePay employs end-to-end wireless transaction technology, exceeding the industry’s security and encryption standards to deliver a safer payment platform."
+                },
+                {
+                    "title": "Affordable choices",
+                    "description": "By supporting up to 10 active devices per account, MobilePay allows you to add sub-users and extra portable card readers, enabling you to process more payments on the go and enhance your POS capabilities at a lower cost."
+                }
+            ]
+        }
+    },
+    "online_processing": {
+        "heading": "Online Processing",
+        "title": "Optimize Your Online Payment Process.",
+        "benefits": [
+            "Accept credit card payments directly through your computer",
+            "Generate invoices and manage check processing",
+            "Integrates seamlessly with your website"
+        ],
+        "solutions": {
+            "heading": "Empower your computer to process <span className ='text-orange-600'>credit card transactions</span> and convert your website into a dynamic <span className='text-orange-600'>online store</span> within seconds!",
+            "items": [
+                {
+                    "title": "Processing Capabilities",
+                    "description": "To meet the needs of consumers who shop at any time, having a reliable online payment processing service is essential. Bestpos offers this service, enabling you to accept credit and debit cards online through Authorize.Net around the clock.",
+                    "details": [
+                        "Recurring billing functionality",
+                        "Real-time credit card processing",
+                        "Intuitive merchant interface"
+                    ]
+                },
+                {
+                    "title": "Integration",
+                    "description": "With Bestpos’s online processing services powered by Authorize.Net, you can provide your customers the flexibility to shop whenever they like, enabling you to expand your business with each transaction.",
+                    "details": [
+                        "Access to 100+ shopping cart solutions",
+                        "Effortless checkout experience",
+                        "Enhance your brand identity during the checkout process"
+                    ]
+                },
+                {
+                    "title": "Online Terminal",
+                    "description": "A virtual terminal for credit card processing can turn your computer into a full-featured payment processing solution, ensuring your business operations run smoothly.",
+                    "details": [
+                        "Enables manual entry of credit and debit cards, along with processing check orders",
+                        "Supports recurring payment processing",
+                        "Allows you to send invoices effortlessly"
+                    ]
+                }
+            ]
+        },
+        "business": {
+            "heading": "How Online Payment Processing Benefits Your Business",
+            "items": [
+                {
+                    "title": "Multiple shopping cart integrations",
+                    "description": "With our online processing solutions, you can achieve full integration with over 100 shopping cart platforms, ensuring that your customers enjoy the same checkout experience they know and trust."
+                },
+                {
+                    "title": "A built-in merchant interface",
+                    "description": "The merchant interface of your online payment platform enables you to analyze transactions, generate reports, manage user permissions, and offers a host of additional features."
+                },
+                {
+                    "title": "Online terminal",
+                    "description": "A virtual terminal allows you to process payments, track orders, issue invoices, and more, helping you optimize your online business sales directly from your computer."
+                }
+            ]
+        }
+    }
+}

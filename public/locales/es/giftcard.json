@@ -1,0 +1,43 @@
+{
+    "desc": "El programa de tarjetas de regalo BestPOS de Elecpaids Inc. ofrece opciones de tarjetas de regalo físicas y digitales, completas con características esenciales para ayudar a impulsar su marca, su base de clientes y sus ventas.",
+    "banner": [
+        "Amplia gama de diseños para elegir.",
+        "Permitir a los clientes comprar y canjear a través de sus teléfonos móviles",
+        "Minimizar el riesgo de actividades fraudulentas con tarjetas tanto físicas como digitales",
+        "Aumente los ingresos y mejore el rendimiento de las ventas"
+    ],
+    "programs": [
+        {
+            "heading": "Mejore la fidelización de sus clientes con tarjetas físicas o digitales",
+            "desc": "Los comerciantes pueden elegir entre tarjetas de regalo físicas o digitales y disfrutar de los beneficios de un programa integral que ofrece opciones personalizadas, configuración rápida y una variedad de funciones para impulsar la lealtad e impulsar las ventas."
+        },
+        {
+            "heading": "Tarjetas físicas",
+            "desc": "Elija entre una amplia gama de plantillas de diseño o cargue la suya propia"
+        },
+        {
+            "heading": "Tarjetas digitales",
+            "desc": "Canjee tarjetas de regalo que funcionan en cualquier dispositivo inteligente"
+        }
+    ],
+    "features": [
+        {
+            "title": "Aumentar las ventas",
+            "description": "Con nuestras tarjetas de regalo, puede simplificar su proceso de pago y emitir crédito en la tienda sin esfuerzo, lo que genera mayores ventas y una mejor lealtad del cliente.",
+            "details": [
+                "Emite crédito de tienda directamente desde tu dispositivo",
+                "Acepte tarjetas regalo desde los teléfonos móviles de los clientes con nuestras tarjetas regalo"
+            ]
+        },
+        {
+            "title": "Prevenir actividades fraudulentas",
+            "description": "Las opciones de tarjetas digitales o físicas brindan mayor seguridad y tranquilidad en comparación con los certificados de regalo, que son propensos a perderse, ser robados o falsificados.",
+            "details": [
+                "La conveniencia de manejar fácilmente el inventario de tarjetas",
+                "Seguimiento de las ventas mediante informes de tarjetas de regalo"
+            ]
+        }
+    ],
+    "all_business_heading": "Programa de Tarjetas Regalo para todo tipo de negocio",
+    "footer_heading": "¿Listo para implementar un Programa de Tarjetas de Regalo para tu negocio?"
+}

@@ -1,0 +1,86 @@
+{
+    "desc": "Al operar un bar y un club nocturno, necesitará un sistema de punto de venta que pueda mantenerse al día con un entorno de ritmo rápido que permita transacciones eficientes y sin esfuerzo.",
+    "tags": [
+        "Bares",
+        "discotecas",
+        "y más"
+    ],
+    "features": [
+        "Fácil de usar",
+        "Soporte local en sitio",
+        "Gestión de back office",
+        "Menú de barra rápida eficiente"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Sistema de nube personalizable",
+                "items": [
+                    {
+                        "title": "Almacenamiento de datos en línea",
+                        "description": "En lugar de almacenarse en una computadora o servidor local, los sistemas de punto de venta procesan y almacenan los datos en línea, haciéndolos accesibles desde cualquier lugar con conexión a Internet."
+                    },
+                    {
+                        "title": "Procesamiento rápido",
+                        "description": "Permita transacciones más rápidas con una gama más amplia de opciones de pago con un sistema que se ha mejorado para mayor velocidad y precisión."
+                    },
+                    {
+                        "title": "Mantenga su negocio en funcionamiento",
+                        "description": "En caso de falla o mal funcionamiento, puede recuperar fácilmente sus datos gracias a un sistema de respaldo seguro y saber que toda su información comercial importante está protegida en todo momento."
+                    }
+                ]
+            },
+            {
+                "heading": "Manejo de inventario de licores",
+                "items": [
+                    {
+                        "title": "No hay escasez",
+                        "description": "Asegúrese de supervisar directamente su inventario y recibir alertas cuando los suministros estén bajos para evitar decepcionar a los clientes debido a la escasez."
+                    },
+                    {
+                        "title": "Centrarse en la interacción con el cliente",
+                        "description": "Creado para ayudarle a minimizar la cantidad de tiempo que pasa frente a la computadora y maximizar el tiempo que pasa interactuando con sus clientes."
+                    },
+                    {
+                        "title": "No desperdiciar nada",
+                        "description": "Asegúrate de que la barra tenga siempre los ingredientes necesarios a mano y que no se desperdicien ingredientes."
+                    }
+                ]
+            },
+            {
+                "heading": "Coordinación perfecta",
+                "items": [
+                    {
+                        "title": "Ordenado por invitados",
+                        "description": "Utilice una aplicación móvil que permita a los clientes explorar menús, realizar pedidos de bebidas y realizar pagos sin esperas."
+                    },
+                    {
+                        "title": "Sigue así",
+                        "description": "Con un sistema POS de bar, la preautorización de tarjetas de crédito y débito simplifica las operaciones y mejora la experiencia del huésped."
+                    },
+                    {
+                        "title": "Sin restricciones, sin requisitos, sin complicaciones.",
+                        "description": "Permita que sus invitados dividan la factura como deseen: por invitado, artículo o monto personalizado."
+                    }
+                ]
+            },
+            {
+                "heading": "Herramientas de manejo de bares y discotecas",
+                "items": [
+                    {
+                        "title": "Manejo de Pestañas",
+                        "description": "El sistema POS debería poder administrar pestañas de manera eficiente, permitiendo a los clientes abrir y cerrar pestañas según sea necesario y transferirlas entre meseros o camareros."
+                    },
+                    {
+                        "title": "Precios de bebidas y manejo de menús",
+                        "description": "El sistema POS de un bar o club debería poder manejar una amplia gama de precios de bebidas y opciones de menú, incluidas ofertas especiales, descuentos y bebidas de temporada."
+                    },
+                    {
+                        "title": "Manejo de propinas",
+                        "description": "El sistema de POS debe de permitir que los clientes agregen propinas a sus cheques facilmente con la opcion de dejar un porcentaje o monto en dolares."
+                    }
+                ]
+            }
+        ]
+    }
+}

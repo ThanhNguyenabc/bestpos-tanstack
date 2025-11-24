@@ -1,0 +1,19 @@
+{
+    "longDesc": "Optimice las operaciones de su restaurante con MICROS POS, con la confianza de más de 300,000 establecimientos en todo el mundo! Su oferta más reciente, Oracle MICROS Simphony, es una solución POS innovadora con un programa API abierto y hardware propietario diseñado específicamente para la industria de restaurantes. Disfrute de operaciones fluidas y eficientes con la interfaz de pantalla táctil intuitiva que presenta una funcionalidad codificada por colores. ¡Actualice a MICROS POS hoy y lleve su restaurante al siguiente nivel!",
+    "features": [
+        {
+            "description": "Una interfaz de usuario simple codificada por colores que facilita a los usuarios explorar el sistema"
+        },
+        {
+            "description": "Creador de menús sencillo que le permite ofrecer a los clientes una variedad de opciones para los clientes"
+        },
+        {
+            "description": "Administre múltiples pedidos de manera eficiente, tome pagos, divida facturas y realice una variedad de otras tareas básicas de POS"
+        },
+        {
+            "description": "Sistema basado en la nube que permite datos en línea y acceso desde ubicaciones externas"
+        }
+    ],
+    "monthly_pricing": 55,
+    "onetime_pricing": 7750
+}

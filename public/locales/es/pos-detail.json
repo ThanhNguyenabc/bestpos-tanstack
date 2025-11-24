@@ -1,0 +1,59 @@
+{
+    "specification": {
+        "heading": "Especificaciones",
+        "businessSize": "Tamaño de la empresa",
+        "posType": "Tipo de punto de venta",
+        "softwareType": "Software type",
+        "freeTrial": "Prueba Gratuita",
+        "merchant": "Servicios comerciales",
+        "pricingModel": "Modelo de precios",
+        "pricingRange": "Rango de precios"
+    },
+    "pos-integration": "Integraciones",
+    "software": "Software",
+    "pricing": {
+        "title": "Precios",
+        "monthly_plan": "3 estaciones o más",
+        "one_time_purchase": "Compra unica de Hardware",
+        "per_month": "Por mes",
+        "per_station": "Por estación"
+    },
+    "paymentProcessing": {
+        "title": "Procesamiento de Pagos",
+        "breadme_title": "Get zero processing fees with Breadme",
+        "btnBreadme": "Learn more"
+    },
+    "expertOpinion": {
+        "heading": "Opiniones de Expertos",
+        "average": "Promedio",
+        "easy_use": "Fácil de usar",
+        "value": "Valor",
+        "support": "Apoyo",
+        "functionality": "Funcionalidad",
+        "feedback": "Comentario"
+    },
+    "frequentlyQuestion": {
+        "title": "Preguntas frecuentes",
+        "questions": [
+            {
+                "question": "¿Puedo cambiar mi plan después?",
+                "ans": "YSiempre puede cambiar el plan de su sistema POS."
+            },
+            {
+                "question": "¿Cúal es su política de cancelación?",
+                "ans": "Dependiendo de sistema POS y el contrato, las politicas de cancelación varian."
+            },
+            {
+                "question": "¿Cómo funciona la facturación??",
+                "ans": "Gratuita, mensual, anual o dependiendo de su contrato"
+            }
+        ]
+    },
+    "get_full_price": "Obtén el precio completo de",
+    "offer": "Oferta de BestPOS",
+    "save_cost": "Ahorra a lo grande en costos de POS",
+    "up_to": "Hasta",
+    "off": "de descuento",
+    "similar_pos": "Sistemas POS similares que te pueden interesar",
+    "start_using_pos": "Comienza a usar {productName} para tu negocio hoy, con opciones de precios desde"
+}

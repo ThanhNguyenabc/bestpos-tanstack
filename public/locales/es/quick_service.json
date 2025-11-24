@@ -1,0 +1,103 @@
+{
+    "desc": "Con nuestra amplia gama de sistemas POS, su restaurante con servicio de mostrador podrá operar con eficiencia y organización. Los dispositivos están diseñados para adaptarse a cualquier espacio y ofrecen una funcionalidad rápida y sencilla.",
+    "tags": [
+        "Restaurantes informales",
+        "cafeterías",
+        "panaderías y más"
+    ],
+    "features": [
+        "pago rápido",
+        "Pedidos en línea",
+        "Soporte local en sitio",
+        "Fácil de usar"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Pagos de clientes",
+                "items": [
+                    {
+                        "title": "Pantallas adicionales para una mayor libertad",
+                        "description": "Con opciones de pantalla tanto para el comerciante como para el cliente, puede administrar la transacción por su cuenta y al mismo tiempo ofrecer a los clientes la posibilidad de pagar utilizando su método preferido."
+                    },
+                    {
+                        "title": "Pagos eficientes y sin contacto",
+                        "description": "La portabilidad permite a los clientes manejar rápidamente pagos sin ventanilla o realizar pagos sin contacto con facilidad."
+                    },
+                    {
+                        "title": "Procesamiento de pagos flexible",
+                        "description": "Procese pagos rápidamente mientras está en la fila o en cualquier lugar de la tienda con nuestros sistemas POS y brinde a sus clientes la conveniencia de opciones de pago sin contacto deslizando, sumergiendo o tocando."
+                    }
+                ]
+            },
+            {
+                "heading": "Tableside Ordering",
+                "items": [
+                    {
+                        "title": "Pedidos más rápidos",
+                        "description": "Transmita pedidos fácilmente, lo que le permite agregar modificadores detallados con Order Note, organizar pedidos en cursos específicos y enviarlos a la cocina con solo tocar un botón."
+                    },
+                    {
+                        "title": "Personalice pedidos fácilmente",
+                        "description": "Puede realizar ajustes a cualquier pedido desde cualquier lugar del restaurante, incluso agregar acompañamientos o condimentos, mientras mantiene todo organizado y sincronizado con la cocina."
+                    },
+                    {
+                        "title": "Conexión facil de la cocina",
+                        "description": "Los pedidos se pueden mostrar en una pantalla de cocina o imprimir en una impresora de cocina, lo que permite un envío rápido y sin problemas al personal administrativo, lo que garantiza una operación optimizada."
+                    }
+                ]
+            },
+            {
+                "heading": "Pedidos en línea",
+                "items": [
+                    {
+                        "title": "Acepte pedidos en línea con facilidad",
+                        "description": "Acepte pedidos directamente desde su sitio web o utilice el servicio de pedidos en línea para crear una página web personalizada a través de la aplicación si aún no tiene un sitio web. "
+                    },
+                    {
+                        "title": "Sube rápidamente tu menú",
+                        "description": "Simplemente proporcione su menú al registrarse y lo agregaremos a su plataforma de pedidos en línea sin costo alguno."
+                    },
+                    {
+                        "title": "Maneje eficientemente el procesamiento de pedidos",
+                        "description": "Envíe pedidos directamente a su cocina o POS y administre los pedidos para recoger fácilmente usando su dispositivo."
+                    }
+                ]
+            },
+            {
+                "heading": "Los pedidos a domicilio, entrega en la acera y por teléfono son más fáciles",
+                "items": [
+                    {
+                        "title": "Pedidos y entregas ultilizando aplicaciones de terceros",
+                        "description": "Con nuestra amplia gama de sistemas POS, es fácil administrar pedidos de entrega utilizando servicios populares de terceros como Uber Eats, DoorDash, Grubhub, etc. a través de App Market."
+                    },
+                    {
+                        "title": "Haga que las recogidas y entregas en la acera sean muy sencillas",
+                        "description": "Haga que las recogidas y entregas en la acera sean más cómodas con opciones de pago con chip, deslizamiento y sin contacto."
+                    },
+                    {
+                        "title": "Acepte pedidos telefónicos con facilidad",
+                        "description": "Realice pagos o procese reembolsos por teléfono o por correo electrónico, sin necesidad de un dispositivo independiente."
+                    }
+                ]
+            },
+            {
+                "heading": "Realizar pagos",
+                "items": [
+                    {
+                        "title": "Acepte pagos en cualquier lugar",
+                        "description": "Proporcione múltiples opciones de pago, como crédito, débito, dispositivos móviles, tarjetas de regalo, cheques y pagos sin contacto como Apple Pay y Google Pay, lo que le permite aceptar pagos en la mesa, en el mostrador o mientras viaja."
+                    },
+                    {
+                        "title": "Fácil división de facturas",
+                        "description": "Puede dividir la factura según las preferencias de su cliente, ya sea por invitado, artículo o monto personalizado, lo que hace que el proceso sea más simple y eficiente."
+                    },
+                    {
+                        "title": "Continuar con las operaciones comerciales incluso sin WiFi",
+                        "description": "Ciertos sistemas POS tienen WiFi incorporado, lo que le permite mantener su restaurante funcionando sin problemas incluso cuando su conexión a Internet no funciona."
+                    }
+                ]
+            }
+        ]
+    }
+}

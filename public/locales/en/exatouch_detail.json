@@ -1,0 +1,19 @@
+{
+    "longDesc": "Experience effortless business management with Exatouch! Designed to simplify your operations, enhance customer experience and drive growth, this versatile POS system is perfect for restaurants, retail stores, and service businesses of all sizes. With its quick, reliable and affordable solution, Exatouch will help you save time and money while delivering outstanding results. Make the smart choice for your business today!",
+    "features": [
+        {
+            "description": "Fast checkout with a user-friendly register"
+        },
+        {
+            "description": "Support for dual-pricing methodology"
+        },
+        {
+            "description": "EMV & contactless transactions"
+        },
+        {
+            "description": "Employee, customer, menu/inventory management"
+        }
+    ],
+    "monthly_pricing": 40,
+    "onetime_pricing": 895
+}

@@ -1,0 +1,140 @@
+{
+    "tag": "Programa de referencia",
+    "heading": "Programa de referencia",
+    "sub_heading": "La oportunidad perfecta para obtener ingresos mensuales adicionales y bonificaciones en tu tiempo libre.",
+    "referral": "REMISIÓN",
+    "iso-agent": "AGENTE ISO",
+    "in-house": "EN CASA",
+    "referral_program": "Referral Program",
+    "agent_program": "In-house Agent Program",
+    "inhouse_program": "Iso Agent Program",
+    "items": [
+        {
+            "key": "basePay",
+            "text": "Salario base"
+        },
+        {
+            "key": "bonus",
+            "text": "Bonos iniciales"
+        },
+        {
+            "key": "income",
+            "text": "Ingreso residual"
+        },
+        {
+            "key": "appointment",
+            "text": "Citas preestablecidas"
+        }
+    ],
+    "form_heading": "Gana dinero extra con ExtraBread",
+    "from_sub_heading": "¡Convierta su tiempo de inactividad en dinero extra con ExtraBread! No hay necesidad de grandes compromisos - consulte empresas y observe cómo llegan las bonificaciones y los ingresos residuales mensuales. Regístrese con nosotros hoy.",
+    "form_title": "Comience a obtener ingresos residuales mensuales hoy",
+    "form_desc": "Complete el formulario y nos comunicaremos con usted en 24-48 horas",
+    "referal_program": "Cómo funciona nuestro programa de referencias",
+    "referal_program_desc": "El programa de referencia es la oportunidad perfecta para obtener ingresos adicionales durante sus horas libres. Es sencillo: recomienda tus bares o restaurantes favoritos y, por cada recomendación exitosa, recibirás un ingreso mensual constante. Y si busca estabilidad, tenemos puestos disponibles a tiempo parcial o completo.",
+    "referal_items": [
+        {
+            "title": "Recomendar una empresa",
+            "desc": "cuéntenos sobre sus referencias y, con su presentación, le explicaremos nuestros servicios y lo que podemos ofrecerle a su empresa"
+        },
+        {
+            "title": "Registrarlos",
+            "desc": "permita que el administrador de cuentas se registre exitosamente y cierre el trato con su referencia"
+        },
+        {
+            "title": "Obtención de residuos",
+            "desc": "a medida que el cliente continúa utilizando felizmente los servicios de ExtraBread, usted continúa ganando residuos mensuales"
+        },
+        {
+            "title": "Amplíe su red",
+            "desc": "utilice sus referencias exitosas para hacer crecer su red y continúe recomendando empresas"
+        }
+    ],
+    "referal_program_desc1": "Usted tiene el control de su potencial de ingresos. Recomiende muchas empresas como pueda y no habrá límite para lo que puede ganar. Cuantas más referencias nos envíes, más podrá ganar. ¡Es así de simple!",
+    "feature_heading": "¿Tú qué sacas de esto?",
+    "feature_items": [
+        {
+            "title": "Bono de firma lucrativo",
+            "desc": "Reciba un bono de firma de hasta $10,000+ para los comerciantes que decidan cambiar y utilizar los servicios de ExtraBread"
+        },
+        {
+            "title": "Personal con experiencia",
+            "desc": "Trabaje junto con un equipo increíble y reciba orientación de él, que posee un conocimiento profundo de los entresijos de la industria"
+        },
+        {
+            "title": "Oficina Virtual",
+            "desc": "Con nuestra oficina virtual, podrá realizar un seguimiento y ver sus referencias firmadas, informes diarios y mensuales, y sus bonos y pagos residuales"
+        },
+        {
+            "title": "Ingreso residual mensual",
+            "desc": "A medida que su cliente continúa beneficiándose de los servicios de ExtraBread, usted continúa ganando un ingreso residual mensual"
+        },
+        {
+            "title": "Productos/servicios competitivos",
+            "desc": "Ofrecemos una amplia gama de productos y servicios de vanguardia que colocan a nuestros agentes en una gran ventaja en la industria"
+        },
+        {
+            "title": "Posibilidades de establecer contactos",
+            "desc": "Al recomendar negocios, tiene la oportunidad de ampliar su red y establecer nuevas conexiones en el proceso"
+        }
+    ],
+    "pick_extrabread_heading": "¿Por qué las empresas deberían elegir ExtraBread?",
+    "pick_extrabread_desc": "Desde consultas hasta instalación, Extra Bread es la ventanilla única para todo lo relacionado con los servicios comerciales para una empresa. Nuestra fortaleza única radica en nuestras asociaciones con sistemas de punto de venta y proveedores de procesamiento de tarjetas de crédito de primer nivel. Podemos ofrecerle a una empresa cero tarifas de procesamiento, ahorrarle dinero en sistemas POS e incluso ofrecer grandes bonificaciones por firma en efectivo. Además de esto, ofrecemos soporte 24 horas al día, 7 días a la semana, siempre que nos necesite, estamos allí.",
+    "picking_reason_items": [
+        {
+            "title": "Con más de dos décadas de experiencia en la industria, ¡cuente con nosotros para acompañar a sus clientes en cada paso del camino!",
+            "text_link": "Conozca más sobre lo que podemos ofrecer para su referencia",
+            "link": "extrabread-booklet.pdf"
+        }
+    ],
+    "earning_title": "Gana dinero extra con Extrabread",
+    "earning_desc": "¡Convierta su tiempo de inactividad en efectivo con extrabread! No hay necesidad de grandes compromisos: recomiende empresas y observe cómo llegan las bonificaciones y el ingreso residual mensual. Regístrese con nosotros hoy.",
+    "start_business_title": "Comience a recomendar negocios hoy",
+    "start_business_desc": "¿Tienes en mente algunos negocios a los que quieres referir a  Extrabread? Haga clic aquí para comenzar y contarnos todo al respecto.",
+    "partner_program_heading": "O únete al equipo y gana aún más",
+    "partner_program_desc": "¿Está interesado en hacer más o trabajar en un puesto de tiempo completo con dinero extra?\nObtenga más información sobre nuestros otros programas, internos y el programa de agente ISO",
+    "partner_program_items": [
+        {
+            "title": "Programa de agente interno",
+            "desc": "Este programa es una oportunidad exclusiva para profundizar en nuestras ofertas de servicios. Al inscribirte te convertirás en un miembro integral del equipo. Disfrutar de numerosos beneficios, como acceso a instalaciones de oficina exclusivas, soporte administrativo y una variedad de atractivos beneficios"
+        },
+        {
+            "title": "Programa de agente ISO",
+            "desc": "Únase a Extrabread como agente de oficina de ventas independiente y disfrute de la libertad de ser su propio jefe. Brinde a los comerciantes asesoramiento experto sobre sistemas ideales de punto de venta, establezca relaciones a largo plazo y amplíe su portafolio  junto con nosotros"
+        }
+    ],
+    "partner_faq": [
+        {
+            "header": "¿Qué tipo de negocio sería una buena recomendación?",
+            "content": "Extrabread está diseñado para ser compatible con todo tipo de negocios, como restaurantes de servicio completo y rápido, comercio minorista, pequeñas empresas, bares y discotecas, pizzerías y cualquier otro negocio que se le ocurra."
+        },
+        {
+            "header": "¿Cuál es el proceso para convertirse en un agente de referencia?",
+            "content": "Los posibles agentes de referencia pueden postularse para convertirse en socios registrándose en el formulario que se encuentra en la parte inferior de la página. Revisaremos su solicitud y le responderemos dentro de una o dos semanas."
+        },
+        {
+            "header": "¿Qué sucede después de solicitar convertirme en socio de referencia?",
+            "content": "Procederemos a concertar una reunión/llamada telefónica para conocer mejor su negocio. Compartiremos más información sobre cómo nuestros servicios pueden beneficiar a su negocio recomendado y le explicaremos el proceso con más detalle. Una vez entendido todo, un gerente de cuenta se pondrá en contacto con la empresa referida."
+        },
+        {
+            "header": "¿Cuánto tiempo lleva convertirse en agente de referencias?",
+            "content": "El tiempo que lleva convertirse en agente de referencia varía según cada solicitud. El proceso puede tardar entre una y dos semanas con los términos del acuerdo estándar."
+        },
+        {
+            "header": "¿Cuánto puedo ganar?",
+            "content": "Con cada referencia exitosa, puede ganar entre $100 y $2000. Varía dependiendo de una serie de factores, como el volumen total de las empresas, las ubicaciones, el tiempo que llevan operando, el total de terminales, etc. No hay límite en cuanto a cuántas referencias puede enviarnos. ¡Cuantas más referencias nos envíes, más podrás ganar!"
+        },
+        {
+            "header": "¿Cómo envío una referencia?",
+            "content": "Complete este formulario rápido aquí. Una vez enviado, recibirá una confirmación por correo electrónico de que se ha recibido su envío. Espere entre 3 y 5 días hábiles para que nuestro equipo revise su referencia y nos comunicaremos con usted."
+        },
+        {
+            "header": "¿Cómo sabré que mi recomendación fue exitosa?",
+            "content": "Una vez que se envíe su referencia, le enviaremos notificaciones por correo electrónico a lo largo de cada fase del proceso de referencia para compartir el estado de su(s) referencia(s)."
+        }
+    ],
+    "current_profession": "Tu profesión actual",
+    "select_date_form": "Selecciona tu fecha para asistir",
+    "select_time_form": "Selecciona tu hora",
+    "txt_desc": "Únase a uno de nuestros seminarios para obtener más información sobre el programa. Por favor seleccione un día y hora"
+}

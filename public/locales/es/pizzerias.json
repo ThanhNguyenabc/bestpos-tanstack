@@ -1,0 +1,85 @@
+{
+    "desc": "Si opera una pizzería, necesitará un sistema de punto de venta que pueda manejar una atmósfera de ritmo rápido, permitir transacciones rápidas y fluidas y acomodar fácilmente modificaciones y personalizaciones de los pedidos.",
+    "tags": [
+        "Pizzerías",
+        "+ Más"
+    ],
+    "features": [
+        "Administrar inventario",
+        "Excelente gestión administrativa",
+        "Fácil de usar",
+        "Soporte local en sitio"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Sistema de nube personalizable",
+                "items": [
+                    {
+                        "title": "Almacenamiento de datos en línea",
+                        "description": "En lugar de almacenarse en una computadora o servidor local, los sistemas de punto de venta procesan y almacenan los datos en línea, haciéndolos accesibles desde cualquier lugar con conexión a Internet."
+                    },
+                    {
+                        "title": "Procesamiento rápido",
+                        "description": "Permita transacciones más rápidas con una gama más amplia de opciones de pago con un sistema que se ha mejorado para mayor velocidad y precisión."
+                    },
+                    {
+                        "title": "Mantenga su negocio en funcionamiento",
+                        "description": "En caso de falla o mal funcionamiento, puede recuperar fácilmente sus datos gracias a un sistema de respaldo seguro y saber que toda su información comercial importante está protegida en todo momento."
+                    }
+                ]
+            },
+            {
+                "heading": "Manejo de menú",
+                "items": [
+                    {
+                        "title": "Creación de menú fácil",
+                        "description": "Cree menús de manera eficiente, transmita pedidos a la cocina y modifique rápidamente los tickets según sea necesario para garantizar que sus clientes reciban los artículos que solicitaron. Además, establezca pestañas y divida pedidos sin esfuerzo utilizando la plataforma."
+                    },
+                    {
+                        "title": "Modificadores hechos simples",
+                        "description": "Los servidores pueden atender fácilmente solicitudes especiales mediante el uso de modificadores personalizados"
+                    },
+                    {
+                        "title": "Maneje pedidos para llevar sin esfuerzo",
+                        "description": "Para simplificar las operaciones y minimizar la confusión, los pedidos para llevar y a domicilio se pueden ver por separado de los pedidos para cenar."
+                    }
+                ]
+            },
+            {
+                "heading": "El manejo del inventario",
+                "items": [
+                    {
+                        "title": "Establecer SKU y variantes",
+                        "description": "Administre eficientemente sus productos y existencias creando variantes de tamaño o estilo que se ajusten a las necesidades de su negocio."
+                    },
+                    {
+                        "title": "Reciba alertas de existencias bajas",
+                        "description": "Configure alertas de manejo de inventario basadas en su proceso de pedido para evitar perder ventas."
+                    },
+                    {
+                        "title": "Agregue o actualice productos rápidamente",
+                        "description": "Al utilizar accesorios como un escáner de código de barras, puede agregar o actualizar su inventario de manera rápida y eficiente."
+                    }
+                ]
+            },
+            {
+                "heading": "Pedidos en línea",
+                "items": [
+                    {
+                        "title": "Acepte pedidos en línea con facilidad",
+                        "description": "Acepte pedidos directamente desde su sitio web o utilice el servicio de pedidos en línea para crear una página web personalizada a través de la aplicación si aún no tiene un sitio web."
+                    },
+                    {
+                        "title": "Sube rápidamente tu menú",
+                        "description": "Simply provide your menu when signing up, and we will add it to your online ordering platform at no cost."
+                    },
+                    {
+                        "title": "Maneje eficientemente el procesamiento de pedidos",
+                        "description": "Envíe pedidos directamente a su cocina o POS y administre los pedidos para recoger fácilmente usando su dispositivo."
+                    }
+                ]
+            }
+        ]
+    }
+}

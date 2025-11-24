@@ -1,0 +1,45 @@
+{
+    "desc": "Obtenga acceso en tiempo real a la actividad de su cuenta comercial y adquiera información y pronósticos completos de la industria, tomando decisiones más informadas en todo momento",
+    "banner": [
+        "Acceda a la actividad de la cuenta las 24 horas del día, los 7 días de la semana.",
+        "Revisar y conciliar el historial de depósitos.",
+        "Genere y descargue informes con facilidad.",
+        "Analice el desempeño empresarial a través de análisis en línea."
+    ],
+    "features": [
+        {
+            "title": "Seguimiento de sus estados de cuenta",
+            "description": "Supervise fácilmente todas sus actividades comerciales con nuestro administrador de cuentas en línea, para que pueda abordar cualquier discrepancia antes de que se convierta en un problema.",
+            "details": [
+                "Encuentre rápidamente información sobre transacciones, devoluciones de cargo y más.",
+                "Acceda a su cuenta en línea 24 horas al día, 7 días a la semana."
+            ]
+        },
+        {
+            "title": "Revise su historial de depósitos",
+            "description": "Concilie y vea su historial de depósitos para saber siempre cuándo hay fondos disponibles.",
+            "details": [
+                "Utilice sin problemas su software de contabilidad y sus informes en línea juntos.",
+                "Realice un seguimiento de la información crítica de la cuenta con facilidad."
+            ]
+        },
+        {
+            "title": "Manejo de disputas",
+            "description": "Obtenga información sobre todas sus transacciones y administre disputas con facilidad utilizando nuestros informes en línea.",
+            "details": [
+                "Acceda rápidamente a la información más reciente de la cuenta en cualquier momento.",
+                "Supervise las devoluciones de cargo en tiempo real a medida que ocurren."
+            ]
+        },
+        {
+            "title": "Monitorear y rastrear el desempeño de la industria",
+            "description": "Obtenga acceso a valiosas herramientas y sistemas de gestión de datos que eliminan las conjeturas y ayudan en el desarrollo empresarial.",
+            "details": [
+                "Realice comparaciones de rendimiento con sus competidores",
+                "Reciba información valiosa sobre su industria y comunidad para informar una mejor toma de decisiones."
+            ]
+        }
+    ],
+    "all_business_heading": "Analítica online para todo tipo de negocio",
+    "footer_heading": "¿Listo para implementar una Analítica Online para tu negocio?"
+}

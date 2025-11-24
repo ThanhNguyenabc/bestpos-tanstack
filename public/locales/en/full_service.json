@@ -1,0 +1,122 @@
+{
+    "desc": "While serving at your restaurant tableside, you'll need a point-of-sale system that features integrated dining solutions, providing a smooth and enjoyable experience for you and your patrons.",
+    "tags": [
+        "Table Service Restaurants",
+        "Diners",
+        "Bars",
+        "Cafes",
+        "+ More"
+    ],
+    "features": [
+        "Online ordering",
+        "Tip pooling",
+        "Local on-site support",
+        "User-friendly"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Customizable cloud system",
+                "items": [
+                    {
+                        "title": "Online Data Storage",
+                        "description": "Unlike traditional systems that store data on a local computer or server, point-of-sale systems process and store information online, allowing you to access it from anywhere with an internet connection."
+                    },
+                    {
+                        "title": "Fast Processing",
+                        "description": "Facilitate faster transactions by offering a wider selection of payment methods with a system optimized for greater speed and precision."
+                    },
+                    {
+                        "title": "Keep Your Business Running",
+                        "description": "In case of a crash or malfunction, you can quickly recover your data thanks to a secure backup system, ensuring that all your critical business information is safeguarded at all times."
+                    }
+                ]
+            },
+            {
+                "heading": "Greeting Visitors",
+                "items": [
+                    {
+                        "title": "Handling Bookings and Waiting Lists",
+                        "description": "Enable customers to make online reservations that are directly integrated into your POS system, and manage waiting lists when they arrive."
+                    },
+                    {
+                        "title": "Organize Seating Arrangements",
+                        "description": "Welcome visitors and ensure they are seated promptly and efficiently by utilizing the dynamic floor plan and table mapping features available in the provided apps."
+                    },
+                    {
+                        "title": "Efficiently Monitor Table Status",
+                        "description": "Our POS systems offer real-time updates on seat times, course numbers, and payment status, enabling you to enhance the dining experience for your guests."
+                    }
+                ]
+            },
+            {
+                "heading": "Table-side Ordering",
+                "items": [
+                    {
+                        "title": "Speeding Up Order Processing",
+                        "description": "Rapidly place orders, include specific details, assign them to designated courses, and instantly send them to the kitchen."
+                    },
+                    {
+                        "title": "Customizing Orders with Ease",
+                        "description": "Looking to add side dishes or condiments? Personalize orders from anywhere in the restaurant while ensuring they remain organized and synchronized with the kitchen."
+                    },
+                    {
+                        "title": "Smooth Kitchen Connection",
+                        "description": "Display orders on a kitchen order screen or print them using a kitchen printer, ensuring everything is organized and easily accessible for your back-of-house staff."
+                    }
+                ]
+            },
+            {
+                "heading": "Online Ordering",
+                "items": [
+                    {
+                        "title": "Accept Online Orders with Ease",
+                        "description": "Take orders directly from your website, or use the online ordering service to set up a personalized webpage through the app if you don’t have an existing website."
+                    },
+                    {
+                        "title": "Quickly Upload Your Menu",
+                        "description": "Just submit your menu when signing up, and we'll add it to your online ordering platform at no additional cost."
+                    },
+                    {
+                        "title": "Efficiently Handle Order Processing",
+                        "description": "Directly send orders to your kitchen or POS and conveniently handle pickup orders with your device."
+                    }
+                ]
+            },
+            {
+                "heading": "Delivery, Curbside, and Phone Orders",
+                "items": [
+                    {
+                        "title": "Integrate with External Order and Delivery Apps",
+                        "description": "Seamlessly connect your Clover device to popular delivery services such as Uber Eats, DoorDash, Grubhub, and Chowly via the App Market."
+                    },
+                    {
+                        "title": "More Convenient Delivery and Pickup",
+                        "description": "Perfect for curbside pickup or delivery orders, our POS systems provide enhanced mobility and flexibility, supporting chip, swipe, and contactless payment options."
+                    },
+                    {
+                        "title": "Effortlessly Handle Telephone Orders",
+                        "description": "Process payments or issue refunds via phone or email without the need for an additional device."
+                    }
+                ]
+            },
+            {
+                "heading": "Customer Loyalty and Promotions",
+                "items": [
+                    {
+                        "title": "Develop Customer Loyalty and Promote Your Establishment",
+                        "description":"With our POS systems, you gain access to tools for managing announcements and exciting rewards, simplifying the implementation of restaurant loyalty programs. Leverage apps like Promos to generate enthusiasm through promotions via text, email, and social media."
+                    },
+                    {
+                        "title": "Increase Sales with Gift Cards",
+                        "description":"Gift cards boost sales and enhance customer loyalty with a range of options and features. You can create and order custom or pre-designed physical or digital cards, issue store credit directly from your POS system, and enable customers to buy and redeem cards right from their smartphones, among other capabilities."
+                    },
+                    {
+                        "title": "Communicate and Gather Feedback",
+                        "description": "Use your POS to enable private communication with guests. Collect valuable feedback, address complaints, and manage issues proactively before they appear on third-party sites like Yelp, allowing you to grow both your customer base and your revenue."
+                    }
+                ]
+            }
+        ]
+    }
+}

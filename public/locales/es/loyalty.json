@@ -1,0 +1,44 @@
+{
+    "desc": "Nuestro programa personalizado de fidelización y recompensas de Elecpaids puede ayudarle a atraer nuevos clientes e incentivar a su clientela actual.",
+    "banner": [
+        "Ofrecer incentivos a los clientes",
+        "Proporcionar recompensas a los clientes",
+        "Utilice herramientas analíticas para realizar un seguimiento del comportamiento de los clientes.",
+        "Centrarse en construir relaciones sólidas"
+    ],
+    "features": [
+        {
+            "title": "Comprometerse con los clientes",
+            "description": "Cree una experiencia de cliente personalizada proporcionando beneficios exclusivos que sean fáciles de establecer.",
+            "details": [
+                "Personalice su programa para adaptarlo a las necesidades de su negocio y diseñe diversas recompensas para atraer a una gama más amplia de clientes.",
+                "Los clientes reciben notificaciones cuando obtienen una recompensa y pueden canjearla durante el pago."
+            ]
+        },
+        {
+            "title": "Simplifique su proceso de ventas",
+            "description": "Transforme su programa de recompensas en una sólida herramienta de ventas con soluciones prácticas y listas para usar.",
+            "details": [
+                "Supervise los análisis y el uso de los clientes a través de un panel fácil de usar.",
+                "Acelere las transacciones con alternativas de pago sin contacto para reducir los tiempos de espera."
+            ]
+        },
+        {
+            "title": "Personaliza tus programas",
+            "description": "Con varias opciones de participación del cliente y niveles adaptables que se alinean con su marca, modelo de negocio y preferencias del cliente, personalizar su programa es sencillo y tiene un gran impacto.",
+            "details": [
+                "Diseñar materiales de marketing en tienda y carteles promocionales.",
+                "Seleccione entre un sistema basado en punzones o basado en puntos."
+            ]
+        },
+        {
+            "title": "Impulsar las ventas",
+            "description": "Atrae nuevos clientes e incentívalos a regresar con programas promocionales que generen interés y aumenten tus ganancias.",
+            "details": [
+                "Envíe ofertas digitales, cupones en la tienda y promociones en tiempo real directamente desde su punto de venta.",
+                "Algunas promociones están preinstaladas y listas para usar."
+            ]
+        }
+    ],
+    "footer_heading": "¿Listo para implementar Recompensas y Fidelización de Clientes para su negocio?"
+}

@@ -1,0 +1,28 @@
+{
+    "how_it_work_title": "How it works?",
+    "how_it_work_desc": "We understand the importance of a fast turnaround for you. To achieve this, we request your cooperation in completing the following steps.",
+    "working_process": [
+        {
+            "title": "Fill out our Get Pricing form",
+            "description": "If you need quick assistance, please give us a call. If you prefer, we also have a short online form available. Our sales team is available during regular business hours, and our customer service team is available at all times to assist you.",
+            "icon": "WritingIcon"
+        },
+        {
+            "title": "1 on 1 Consultation",
+            "description": "After receiving your information, one of our sales specialists will connect with you to confirm details, discuss pricing, review your unique business needs, and explore equipment options.",
+            "icon": "NegociationIcon"
+        },
+        {
+            "title": "Offer made & processed",
+            "description": "After finalizing the details, we will present you with a final offer that includes your cash signing bonus. An application will be sent to formalize the agreement, and your specialist will be available to assist you every step of the way.",
+            "icon": "PuzzleIcon"
+        },
+        {
+            "title": "Receive equipment, begin training.",
+            "description": "Following delivery, our account manager will be present on-site to guarantee a seamless setup and offer any needed training or support.",
+            "icon": "CashBonusIcon"
+        }
+    ],
+    "available_time": "Available anytime for support",
+    "available_support_message": "We're always here to help. Our customer service department is available 24/7. Just give us a call if you need assistance"
+}

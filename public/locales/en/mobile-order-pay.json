@@ -1,0 +1,56 @@
+{
+    "desc": "Empowering Restaurants with Digital Ordering & Payment",
+    "banner": [
+        "Boost Revenue & Increase Order Value",
+        "Reduce Labor Costs & Streamline Operations",
+        "Enhance the Customer Experience",
+        "Gather Valuable Customer Insights"
+    ],
+    "features": [
+        {
+            "title": "Tackle Labor Shortages & Optimize Operations",
+            "description": "",
+            "details": [
+                "Serve More Customers with a Leaner Team",
+                "Real-Time Digital Menu Updates",
+                "Faster, Hassle-Free Checkout"
+            ],
+            "subDetails": [
+                "Minimize wait times and eliminate long queues with a flexible service model. Both guests and servers can open and modify tabs, ensuring orders are instantly relayed to the kitchen for faster fulfillment.",
+                "Seamless POS integration allows you to make instant menu updates. Remove unavailable items or experiment with new pricing effortlessly, no need for costly and time-consuming menu reprints.",
+                "Streamline the payment process for both guests and staff. With Apple Pay integration, customers can complete their transactions in as little as 10 seconds, making checkout smoother than ever."
+            ]
+        },
+        {
+            "title": "Boost Revenue and Check Size While Minimizing Losses",
+            "description": "",
+            "details": [
+                "Increase Revenue",
+                "Grow Check Size",
+                "Cut Down on Comps and Voids"
+            ],
+            "subDetails": [
+                "Restaurants using Bestpos Mobile Order & Pay typically experience a 10% boost in revenue³, thanks to a more efficient and engaging ordering process.",
+                "Orders placed through Bestpos Mobile Order & Pay™ tend to be 9% larger than traditional dine-in orders⁴. With intuitive item descriptions, filters, and easy menu customization, guests naturally upsell themselves.",
+                "By allowing guests to place their own orders directly from their devices, restaurants can significantly reduce costly errors, unnecessary comps, and voided transactions."
+            ]
+        },
+        {
+            "title": "Leverage Guest Data to Drive Repeat Business",
+            "description": "",
+            "details": [
+                "Enhance Your Marketing Efforts",
+                "Grow Your Loyalty Program",
+                "Maximize Menu Profitability"
+            ],
+            "subDetails": [
+                "Gain valuable customer insights from every transaction and use them to fuel targeted marketing campaigns. With strategic email marketing, restaurants can generate up to $2,800 in additional sales per campaign⁵.",
+                "Encourage repeat visits by seamlessly prompting guests to join your loyalty program during checkout, increasing sign-ups and long-term engagement.",
+                "Make data-driven decisions with insights from Bestpos Performance Center. Get a weekly breakdown of top-selling items, guest favorites, and underperforming dishes to refine your menu for maximum profitability."
+            ]
+        }
+    ],
+    "all_business_desc": "Eliminate manual bookkeeping for good with QuickBooks Plugin. Find the one that’s right for your business.",
+    "all_business_heading": "Quickbooks Plugin for every business.",
+    "footer_heading": "Want Mobile Order & Pay for your business?"
+}

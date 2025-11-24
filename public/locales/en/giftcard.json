@@ -1,0 +1,43 @@
+{
+    "desc": "<span className='text-blue-500'>BestPOS's Gift Card Program by Elecpayments Inc.</span>offers physical and digital gift card options with essential features to boost your brand, customer base, and sales.",
+    "banner": [
+        "Choose from a wide array of designs",
+       "Allow customers to purchase and redeem gift cards directly from their mobile devices",
+        "Reduce the risk of fraudulent activities with both physical and digital cards",
+        "Increase revenue and enhance sales performance"
+    ],
+    "programs": [
+        {
+            "heading": "Enhance Customer Loyalty with Physical or Digital Cards.",
+            "desc": " With the choice between physical and digital gift cards, merchants can enjoy a customizable program that features quick implementation and various tools aimed at fostering loyalty and driving sales growth."
+        },
+        {
+            "heading": "Physical cards",
+            "desc": "Select from an extensive collection of design templates or upload your custom designs."
+        },
+        {
+            "heading": "Digital cards",
+            "desc": "Easily redeem gift cards on any smart device, ensuring a seamless experience for your customers."
+        }
+    ],
+    "features": [
+        {
+            "title": "Boost Sales",
+            "description": "Simplify your checkout process with our gift cards, allowing you to issue store credit easily and drive sales while fostering customer loyalty.",
+            "details": [
+                "Quickly issue store credit right from your device",
+                "Seamlessly accept gift cards from customers' mobile phones"
+            ]
+        },
+        {
+            "title": "Prevent Fraud Activities",
+            "description": "Choose our digital or physical gift cards for superior security and peace of mind, far exceeding traditional gift certificates that can be lost, stolen, or counterfeited.",
+            "details": [
+                "Easily manage your card inventory for convenience",
+                "Keep track of sales effortlessly with detailed gift card reports"
+            ]
+        }
+    ],
+    "all_business_heading": "Gift Card Program for all types of business",
+    "footer_heading": "Ready to implement a Gift Card Program for your business?"
+}

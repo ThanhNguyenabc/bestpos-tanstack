@@ -1,0 +1,28 @@
+{
+    "how_it_work_title": "¿Cómo funciona?",
+    "how_it_work_desc": "Entendemos la importancia de una respuesta rápida. Para lograr esto, solicitamos su cooperación para completar los siguientes pasos.",
+    "working_process": [
+        {
+            "title": "Complete nuestro formulario Obtenga precios",
+            "description": "Si necesita ayuda rápida, llámenos. Si lo prefiere, también tenemos disponible un breve formulario en línea. Nuestro equipo de ventas está disponible durante el horario comercial habitual y nuestro equipo de atención al cliente está disponible en todo momento para ayudarle.",
+            "icon": "WritingIcon"
+        },
+        {
+            "title": "Consulta 1 a 1",
+            "description": "Después de recibir su información, uno de nuestros especialistas en ventas se comunicará con usted para confirmar los detalles, discutir los precios, revisar sus necesidades comerciales únicas y explorar opciones de equipos.",
+            "icon": "NegociationIcon"
+        },
+        {
+            "title": "Oferta realizada y procesada",
+            "description": "Después de ultimar los detalles, le presentaremos una oferta final que incluye su bono de firma en efectivo. Se enviará una solicitud para formalizar el acuerdo y su especialista estará disponible para ayudarle en cada paso del camino.",
+            "icon": "PuzzleIcon"
+        },
+        {
+            "title": "Reciba el equipo, comience a entrenar.",
+            "description": "Después de la entrega, nuestro gerente de cuentas estará presente en el sitio para garantizar una configuración perfecta y ofrecer la capacitación o el soporte necesarios",
+            "icon": "CashBonusIcon"
+        }
+    ],
+    "available_time": "Disponible en cualquier momento para soporte",
+    "available_support_message": "Siempre estamos aquí para ayudar. Nuestro departamento de atención al cliente está disponible 24 horas al día, 7 días a la semana. Llámenos si necesita ayuda "
+}

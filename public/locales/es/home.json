@@ -1,0 +1,74 @@
+{
+    "saving_money": "Mejores precios POS",
+    "siging_bonus": "Certificado de comerciante",
+    "processing_fee": "0 % comisiones",
+    "pageTitle": "Ahorre y gane más con soluciones líderes de pago y punto de venta",
+    "hp2pageTitle": "Financiamiento el mismo día con soluciones de procesamiento de tarjetas de crédito",
+    "merchant_heading": "Tarifas competitivas",
+    "merchant_desc": "Podemos mantener nuestros servicios sin costo alguno para usted aplicando un cargo de 3,5% al ​​total del pedido de su cliente durante el proceso de pago. Además de eso, sus clientes cubren las tarifas de la tarjeta de crédito,liberándolo a usted de cualquier tarifa comercial.",
+    "merchant_option": [
+        {
+            "id": "small",
+            "heading": "Restaurante pequeño",
+            "pos_number": "Un POS gratis",
+            "price": "($10k - $50k en ventas por mes)",
+            "items": [
+                "Incluye un POS, KDS, lector de tarjetas, impresora y cajón de dinero",
+                "Panel de análisis, código QR/pedidos en línea, tarjetas de regalo, notificaciones de pedidos",
+                "Conectividad LTE disponible a S30/mes por línea"
+            ]
+        },
+        {
+            "id": "medium",
+            "heading": "Restaurante médiano",
+            "pos_number": "Hasta 3 POS's gratis",
+            "price": "($50 mil - $115 mil en ventas por mes)",
+            "items": [
+                "Incluye un POS, KDS, 2 POS portátiles, 3 lectores de tarjetas, 2 impresoras y cajón de efectivo",
+                "Panel de análisis, código QR/pedidos en línea, tarjetas de regalo, notificaciones de pedidos",
+                "POS y KDS adicionales disponibles a $30/mes"
+            ]
+        },
+        {
+            "id": "large",
+            "heading": "Restaurante grande",
+            "pos_number": "Hasta 6 TPV gratis",
+            "price": "(Más de $115 mil en ventas por mes)",
+            "items": [
+                "Incluye un POS, KDS, lectores de tarjetas, POS portátiles, impresora y cajón de dinero",
+                "Panel de análisis, código QR/pedidos en línea, tarjetas de regalo, notificaciones de pedidos",
+                "Conectividad LTE disponible a S30/mes por línea"
+            ]
+        }
+    ],
+    "competitive_advantage": {
+        "heading": "Ventaja Competitiva",
+        "sub_heading": "En BestPOS, nos dedicamos a mejorar los márgenes de tu negocio al reducir las tarifas innecesarias de procesamiento de tarjetas de crédito y sistemas POS. Nuestros socios, experiencia y enfoque son lo que nos distingue.",
+        "items": [
+            {
+                "title": "Alianzas",
+                "desc": "Nuestra alianza con proveedores de procesamiento de tarjetas de crédito y puntos de venta de primer nivel en la industria nos brinda la flexibilidad para ofrecer el mejor paquete para tu negocio."
+            },
+            {
+                "title": "Experiencia",
+                "desc": "Con dos sólidas décadas de experiencia, sabemos qué sistema y funciones necesita tu negocio."
+            },
+            {
+                "title": "Nuestro Enfoque",
+                "desc": "Puedes contar con nosotros para guiarte en cada paso... y más allá."
+            }
+        ]
+    },
+    "helpingsection": {
+        "helping_section_title": "Ayudándote a comparar",
+        "helping_section_desc": "Con el conocimiento de nuestros consultores que han estado en el negocio por más de 30 años, te ayudaremos a encontrar el mejor sistema de puntos de venta. Ya seas una empresa grande o pequeña, ¡encontraremos la combinación perfecta para ti!",
+        "business_review": "Agenda una Demostración",
+        "business_review_desc": "Nuestro equipo se pondrá en contacto contigo pronto para conocer mejor tus necesidades y las de tu negocio.",
+        "schedule_a_demo": "Recomendaciones Personalizadas",
+        "schedule_a_demo_desc": "Después de nuestra conversación, encontraremos la solución de punto de venta perfecta que se ajuste a tus metas y necesidades comerciales.",
+        "obtain_pricing": "Ahorros Exclusivos",
+        "obtain_pricing_desc": "Negociaremos ofertas exclusivas para ti, garantizando precios competitivos y condiciones que se adapten a tu presupuesto y objetivos.",
+        "final_decision": "Trato Cerrado",
+        "final_decision_desc": "Cuando estés listo, te conectaremos con la solución POS que hayas elegido. Nuestro trabajo no termina ahí — seguiremos brindándote orientación y apoyo continuo para tu éxito a largo plazo."
+    }
+}

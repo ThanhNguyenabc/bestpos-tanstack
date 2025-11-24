@@ -1,0 +1,30 @@
+{
+    "heading": "Same-Day Funding",
+    "desc": "Tired of Waiting for Deposits? Get Same-Day Funding with Bestpos!",
+    "features": [
+        {
+            "title": "Fast Application",
+            "desc": "No hassle here: Fill out our quick 5-minute form."
+        },
+        {
+            "title": "Quick Approval",
+            "desc": "Get approved quickly and easily with our streamlined application process - no paperwork required."
+        },
+        {
+            "title": "Instant Funding",
+            "desc": "Access your funds fast: Get funded within 24 hours after approval."
+        }
+    ],
+    "reliable_title": "Reliable Technology",
+    "reliable_tech": [
+        "Our team excels in ensuring you get the ideal POS system tailored to your industry or business niche. Cygma uses the latest technology and security to ensure your data is safe.",
+        "With Exatouch, Micros, Aloha, Authorize.net, NMI, ePN, USAEPay, Dejavoo P Series, Dejavoo QD, PAX, Ingenico, FreedomPay, etc.\n\nCygma is supported. We can support nearly any of the solutions out there and provide top-notch equipment for seamless transactions."
+    ],
+    "funding_title": "Same day funding\nVs. Standard funding",
+    "switch_to_funding": "Switch to Same Day Funding Today",
+    "deposit_title": "Waiting for deposits can be a major challenge for businesses but not with <span className='text-orange-500'>BestPOS</span>",
+    "deposit_desc": "With Cygma, our full-stack authorization and clearing platform, allow your business to access funds from payment processing transactions on the same day they are processed.Simply known as same-day funding, this option eliminates the typical delay of waiting for funds to clear, providing immediate access to your funds when you need it most.\n\nEmpower your business with greater financial agility and responsiveness with our rapid funding solutions. Perfect for bars, restaurants and any other type of businesses, say goodbye to transaction delays and processing fees and get started with Bestpos today!",
+    "quich_and_easy": "Quich and easy",
+    "how_work_title": "How Does It Work?",
+    "how_work_desc": "Get faster deposits, delivering funds in as little as 8 hours. Simply process your batch before the 6:00 AM EST cut-off time at your point of sale or terminal. If you meet this deadline, your batch deposit will arrive in your bank account before 5:00 PM EST on the same day.\n\nYou can choose any bank account for the deposit and same day funding is available even on weekends. Plus, on Fridays, same day funding has an edge over next day funding. Settle your batch by the Friday cut-off time to receive your deposit on the same day."
+}

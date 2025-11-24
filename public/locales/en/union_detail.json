@@ -1,0 +1,19 @@
+{
+    "longDesc": "The state-of-the-art point-of-sale system is designed for bars and restaurants to enhance customer experience and convenience. Customers can place their orders directly from their table using their mobile device or a provided tablet, saving time and improving efficiency. The system can also integrate with other restaurant technologies to streamline operations and provide real-time data and analytics for informed decision-making.",
+    "features": [
+        {
+            "description": "Developed by experienced professionals in the industry, the system is confirmed to enhance customer satisfaction and increase revenue for bars and bartenders."
+        },
+        {
+            "description": "Provides a simple-to-use mobile application that enables customers to view menus, purchase beverages, and settle payments without any delays"
+        },
+        {
+            "description": "Improves the productivity and effectiveness of employees in order to maximize their performance and output"
+        },
+        {
+            "description": "Great loyalty rewards to encourage customer loyalty and keep them coming back"
+        }
+    ],
+    "monthly_pricing": 69,
+    "onetime_pricing": 1500
+}

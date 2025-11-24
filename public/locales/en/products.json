@@ -1,0 +1,236 @@
+{
+    "items": [
+        {
+            "id": "revel",
+            "desc": "Customizable POS system for retail, full & quick-service restaurants",
+            "pros": [
+                "Customizable cloud system",
+                "Amazing local on-site support",
+                "Great back office management",
+                "Seamless offline mode"
+            ],
+            "cons": [
+                "Doesn't work with Android",
+                "Potential glitches with weak internet",
+                "No modifiers to modifiers feature",
+                "Pricey for low-volume merchants"
+            ]
+        },
+        {
+            "id": "toast",
+            "desc": "Toast is a easy-to-use software w/ a sleek station & handheld hardware",
+            "longDesc": "",
+            "pros": [
+                "Inexpensive upfront cost to hardware ",
+                "Easy to use back office ",
+                "Low rates for card processing payments in the beginning",
+                "Has modifier to modifier feature"
+            ],
+            "cons": [
+                "Poor tech support",
+                "No on-site support or training",
+                "Proprietary card processing which leads to high rates after a short period of time",
+                "Monthly service price hikes"
+            ]
+        },
+        {
+            "id": "union",
+            "desc": "A cutting-edge point-of-sale system that puts the power of ordering in the hands of customers, designed for high-volume bars and restaurants",
+            "pros": [
+                "Biometrics secure card payments (most secured way)",
+                "Contactless Payments",
+                "Fast bar system",
+                "Custom QR ordering",
+                "24/7 Tech Support"
+            ],
+            "cons": [
+                "Limited features for table and quick servcie",
+                "Glitchy with weak network"
+            ]
+        },
+        {
+            "id": "brink",
+            "desc": "Customizable point-of-sale system for full & quick-service restaurants",
+            "pros": [
+                "Stable hardware & software",
+                "Great on-site tech support",
+                "Customizable layout & features",
+                "Modifier to modifier features"
+            ],
+            "cons": [
+                "Expensive hardware if you do not use their credit card processing",
+                "Requires a strong internet connection",
+                "Need better integration w/ KDS"
+            ]
+        },
+        {
+            "id": "cloverflex",
+            "desc": "Versatile, all-in-one terminal for retail & quick service stores",
+            "pros": [
+                "Easy-to-use backoffice ",
+                "Multiple apps & add-ons",
+                "Sleek hardware",
+                "Affordable monthly prices"
+            ],
+            "cons": [
+                "Customer support complaints",
+                "Proprietary Software",
+                "Added features increases price"
+            ]
+        },
+        {
+            "id": "rpower",
+            "desc": "RPower is suitable for all types of business ensuring unmatched flexibility, reliability, and speed for your business",
+            "pros": [
+                "Contactless Payments",
+                "Wide range of integrations",
+                "Fully integrated EMV payments",
+                "Online Ordering"
+            ],
+            "cons": [
+                "Third party pricing integrations",
+                "Antiquated hardware"
+            ]
+        },
+        {
+            "id": "touchbistro",
+            "desc": "An all-in-one POS system that simplifies restaurant operations.",
+            "pros": [
+                "User-friendly",
+                "Affordable pricing",
+                "Wide range of add-ons",
+                "24/7 customer support"
+            ],
+            "cons": [
+                "Not able to do transactions offline",
+                "May take some time to schedule an install"
+            ]
+        },
+        {
+            "id": "exatouch",
+            "desc": "Fast, reliable, and affordable POS system for any sized business",
+            "pros": [
+                "Good for retail & liquor stores",
+                "Local representative ",
+                "User-friendly register",
+                "24/7 Phone Support"
+            ],
+            "cons": [
+                "Has limited features for resturants & quick-servcie",
+                "Proprietary card payments",
+                "Dull looking"
+            ]
+        },
+        {
+            "id": "simphony",
+            "desc": "POS system from Oracle built for restaurant & quick service management",
+            "pros": [
+                "Great for full & quick-service restaurants",
+                "Very customizable",
+                "Cloud base point-of-sale",
+                "Range of in-house options"
+            ],
+            "cons": [
+                "Has limited features for resturants & quick-servcie",
+                "Proprietary card payments",
+                "Dull looking"
+            ]
+        },
+        {
+            "id": "aldelo",
+            "desc": "Cloud-based POS system best for small businesses or restaurants",
+            "pros": [
+                "User-friendly system",
+                "Easy-to-use delivery features",
+                "On-site support",
+                "Customizable and personalized menus"
+            ],
+            "cons": [
+                "Poor tech support",
+                "Expensive monthly fees",
+                "Lack of updates for Windows version systems",
+                "Extra cost to online and delivery service"
+            ]
+        },
+        {
+            "id": "lightspeed",
+            "desc": "Cloud-based POS system that is great for retailers of all sizes",
+            "pros": [
+                "Has a 14-day free trial period",
+                "Easy-to-use platform",
+                "Custom built for restaurants",
+                "Various software series"
+            ],
+            "cons": [
+                "Very expensive software (monthly fees)",
+                "Reports of glitches",
+                "Poor customer service",
+                "No offline mode"
+            ]
+        },
+        {
+            "id": "clover",
+            "desc": "Easy-to-use software great for retail and any type of restaurant",
+            "pros": [
+                "Provides extensive features",
+                "Easy-to-use backoffice ",
+                "Multiple apps & add-ons",
+                "Sleek hardware"
+            ],
+            "cons": [
+                "Not geared for full service rest & pizzerias",
+                "Reports of glitches",
+                "Proprietary Software",
+                "Added features (apps) increases monthly fees"
+            ]
+        },
+        {
+            "id": "ovvi",
+            "desc": "POS used by restaurants, grocery, convenience & liquor stores",
+            "pros": [
+                "Easy to use interface",
+                "Compatible w/ 3rd party delivery",
+                "Cloud base for back office ",
+                "Good tech support, 24/7"
+            ],
+            "cons": [
+                "Messy hardware",
+                "Not seamless for restaurant business",
+                "Not compatible w/ iOS",
+                "Does not the have modifiers to modifiers feature"
+            ]
+        },
+        {
+            "id": "aloha",
+            "desc": "Cloud-enabled platform great for any type of restaurants and bars",
+            "pros": [
+                "Stable hardware & software",
+                "Great for resturants and bars",
+                "Great for large Enterpirses ",
+                "Customizable menu"
+            ],
+            "cons": [
+                "Very expensive hardware & monthly fees",
+                "No in-house system for online ordering servcie",
+                "Poor customer service",
+                "Customizable is time consuming & expensive"
+            ]
+        },
+        {
+            "id": "upserve",
+            "desc": "Great POS that provides you with full restaurant management platform",
+            "pros": [
+                "Great for small resturants",
+                "Sleek hardware",
+                "Bunch of add-ons & integrations",
+                "Interface is tailored for restaurant"
+            ],
+            "cons": [
+                "Poor for retail",
+                "Poor tech support",
+                "Expensive Hardware",
+                "Reports of glitches"
+            ]
+        }
+    ]
+}

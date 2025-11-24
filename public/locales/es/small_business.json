@@ -1,0 +1,104 @@
+{
+    "desc": "Cuando opere su restaurante en la mesa, necesitará un sistema de punto de venta que permita soluciones gastronómicas integradas para brindarle a usted y a sus clientes una experiencia sencilla.",
+    "tags": [
+        "Restaurantes informales",
+        "cafeterías",
+        "comercio minorista",
+        "panaderías y más"
+    ],
+    "features": [
+        "pago rápido",
+        "Pedidos en línea",
+        "Soporte local en sitio",
+        "Fácil de usar"
+    ],
+    "services": {
+        "items": [
+            {
+                "heading": "Sistema de nube personalizable",
+                "items": [
+                    {
+                        "title": "Almacenamiento de datos en línea",
+                        "description": "En lugar de almacenarse en una computadora o servidor local, los sistemas de punto de venta procesan y almacenan los datos en línea, haciéndolos accesibles desde cualquier lugar con conexión a Internet."
+                    },
+                    {
+                        "title": "Procesamiento rápido",
+                        "description": "Permita transacciones más rápidas con una gama más amplia de opciones de pago con un sistema que se ha mejorado para mayor velocidad y precisión."
+                    },
+                    {
+                        "title": "Mantenga su negocio en funcionamiento",
+                        "description": "En caso de falla o mal funcionamiento, puede recuperar fácilmente sus datos gracias a un sistema de respaldo seguro y saber que toda su información comercial importante está protegida en todo momento."
+                    }
+                ]
+            },
+            {
+                "heading": "Pagos de clientes",
+                "items": [
+                    {
+                        "title": "Pantallas adicionales para una mayor libertad",
+                        "description": "Con opciones de pantalla tanto para el comerciante como para el cliente, puede administrar la transacción por su cuenta y al mismo tiempo ofrecer a los clientes la posibilidad de pagar utilizando su método preferido."
+                    },
+                    {
+                        "title": "Pagos eficientes y sin contacto",
+                        "description": "La portabilidad permite a los clientes manejar rápidamente pagos sin ventanilla o realizar pagos sin contacto con facilidad."
+                    },
+                    {
+                        "title": "Procesamiento de pagos flexible",
+                        "description": "Procese pagos rápidamente mientras está en la fila o en cualquier lugar de la tienda con nuestros sistemas POS y brinde a sus clientes la conveniencia de opciones de pago sin contacto deslizando, sumergiendo o tocando."
+                    }
+                ]
+            },
+            {
+                "heading": "Administración de personal",
+                "items": [
+                    {
+                        "title": "Monitorear las ventas de los empleados",
+                        "description": "Supervise y realice un seguimiento de las ventas realizadas por su personal para incentivar a los mejores y establecer planes de comisiones para los equipos."
+                    },
+                    {
+                        "title": "Establecer controles de acceso",
+                        "description": "Mantenga el control sobre el acceso a información y registros comerciales confidenciales por parte de los miembros de su personal."
+                    },
+                    {
+                        "title": "Planificación eficiente de turnos",
+                        "description": "Planifique y programe fácilmente los turnos de los empleados de forma semanal, mensual o anual utilizando la función de gestión de turnos."
+                    }
+                ]
+            },
+            {
+                "heading": "El manejo del inventario",
+                "items": [
+                    {
+                        "title": "Establecer SKU y variantes",
+                        "description": "Administre eficientemente sus productos y existencias creando variantes de tamaño o estilo que se ajusten a las necesidades de su negocio."
+                    },
+                    {
+                        "title": "Reciba alertas de existencias bajas",
+                        "description": "Configure alertas de manejo de inventario basadas en su proceso de pedido para evitar perder ventas."
+                    },
+                    {
+                        "title": "Agregue o actualice productos rápidamente",
+                        "description": "Al utilizar accesorios como un escáner de código de barras, puede agregar o actualizar su inventario de manera rápida y eficiente."
+                    }
+                ]
+            },
+            {
+                "heading": "Programas de fidelización de clientes",
+                "items": [
+                    {
+                        "title": "Ofrecer recompensas y enviar promociones",
+                        "description": "Comuníquese con sus clientes a través de mensajes de texto, correo electrónico o recibos con ofertas, promociones y ventas especiales."
+                    },
+                    {
+                        "title": "Obtenga información sobre los clientes",
+                        "description": "Utilice nuestros diversos sistemas POS para recopilar comentarios inmediatos de sus clientes y mejorar continuamente su negocio."
+                    },
+                    {
+                        "title": "Aumente las ventas con tarjetas de regalo",
+                        "description": "Mejore sus ganancias y su marca ofreciendo tarjetas de regalo físicas o digitales personalizadas o prediseñadas que se pueden canjear mediante teléfonos inteligentes."
+                    }
+                ]
+            }
+        ]
+    }
+}

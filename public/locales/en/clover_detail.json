@@ -1,0 +1,19 @@
+{
+    "longDesc": "With Clover Duo, you can say goodbye to the hassle of multiple devices and systems. This complete POS solution offers everything you need in one easy-to-use package, saving you time and money. Whether you're creating menus, tracking sales, or managing employees, Clover Station has you covered with its advanced features and intuitive interface. Get started today and take your business to the next level!",
+    "features": [
+        {
+            "description": "Allows for contactless delivery - online ordering and payments online"
+        },
+        {
+            "description": "Reporting data and sales are easily accessible from remote location - no need to physically be in the restaurant to view sales/data"
+        },
+        {
+            "description": "Provides customers the option to build and split tabs with easy payment options"
+        },
+        {
+            "description": "Easy to build comprehensive menus and navigate platform"
+        }
+    ],
+    "monthly_pricing": 40,
+    "onetime_pricing": 995
+}

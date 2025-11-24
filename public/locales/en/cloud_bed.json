@@ -1,0 +1,57 @@
+{
+    "title": "Property Management System - Cloudbeds",
+    "desc": "BestPOS now offers Cloudbeds integration with Oracle Micros POS, giving hotels, hostels, and resorts a unified platform for reservations, guest folios, payments, and reporting.",
+    "banner": [
+        "Powerful Hotel Management Software",
+        "Real-time guest folios",
+        "Automatic POS revenue sync",
+        "Enhance Guest Experience"
+    ],
+    "features": [
+        {
+            "title": "Key Benefits for Hotels",
+            "description": "Cloudbeds + POS integration built to streamline every aspect of hotel operations.",
+            "details": [
+                "Auto-post guest charges: restaurant, spa, and minibar charges instantly appear in Cloudbeds guest folios.",
+                "Faster check-outs: eliminate manual entry, reduce errors, and shorten wait times.",
+                "Centralized reporting: unify POS and PMS data for complete revenue visibility.",
+                "Increase direct bookings: Cloudbeds booking engine + integrated payments lower OTA commissions.",
+                "Scalable solution: ideal for boutique hotels, hostels, resorts, and serviced apartments."
+            ]
+        },
+        {
+            "title": "How It Works",
+            "description": "Integration made simple in three steps:",
+            "details": [
+                "Connect Cloudbeds with your POS system through BestPOS integration.",
+                "Map POS menu items to the correct Cloudbeds revenue categories.",
+                "Sync & reconcile automatically: guest charges, payments, and tips post into the right folios and reports."
+            ]
+        },
+        {
+            "title": "Core Features",
+            "description": "All-in-one hospitality management, from front desk to F&B.",
+            "details": [
+                "Two-way folio posting: Real-time sync from POS terminals to Cloudbeds folios.",
+                "Secure payment processing: EMV, contactless, tokenized transactions.",
+                "Multi-outlet support: Manage charges from dining, bar, spa, and activity centers.",
+                "Centralized reporting: Combine occupancy, F&B sales, and payments in one dashboard.",
+                "Revenue optimization: Leverage Cloudbeds’ pricing intelligence tools with POS data.",
+                "Integration flexibility: Cloudbeds officially supports Oracle Micros POS, making it the best choice for hotels looking for a proven, fully compatible integration."
+            ]
+        },
+        {
+            "title": "Who It’s For",
+            "description": "Simplify business management with fully automated capabilities to eliminate hassles.",
+            "details": [
+                "Boutique Hotels: Connect dining outlets with front-desk folios.",
+                "Resorts: Manage multiple restaurants, bars, and spas seamlessly.",
+                "Hostels: Simplify guest folios and reporting across shared spaces.",
+                "Serviced Apartments: Streamline long-stay billing and services."
+            ]
+        }
+    ],
+    "all_business_desc": "Eliminate manual bookkeeping for good with QuickBooks Plugin. Find the one that’s right for your business.",
+    "all_business_heading": "Quickbooks Plugin for every business",
+    "footer_heading": "Ready to unify your hotel operations?\nIntegrate Cloudbeds with BestPOS today."
+}

@@ -1,0 +1,19 @@
+{
+    "longDesc": "TouchBistro is a restaurant management system and all-in-one POS designed to enhance restaurant operations regardless of the size or type of the restaurant. The system provides a comprehensive range of features to increase sales, streamline operations, and enhance customer experience. This restaurant management system is unique in its focus on the hospitality industry and provides exclusive services to restaurants and other food and beverage establishments.",
+    "features": [
+        {
+            "description": "Allows staff members to enter orders straight from the side of the clients' tables, increasing service speed and reducing costly mistakes."
+        },
+        {
+            "description": "Create menus quickly, transmit orders to the kitchen, and make modifications to tickets on the fly to guarantee your customers get exactly what they ordered."
+        },
+        {
+            "description": "Payment and administration possibilities are expanded through integration partners such as Chase, Worldpay, 7Shifts, Xero, and Quickbooks."
+        },
+        {
+            "description": "Remotely view your sales data and personnel information, which is a wonderful way to keep your finger on the pulse of your firm. It can help you improve your business approach and increase sales."
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 2800
+}

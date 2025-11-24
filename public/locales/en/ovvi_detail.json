@@ -1,0 +1,19 @@
+{
+    "longDesc": "Streamline your restaurant operations with Ovvi's all-in-one POS system. Collect orders, track inventory, and access the key information you need to make smart business decisions that positively impact your bottom line.",
+    "features": [
+        {
+            "description": "Fully customizable table layout to make it easy to navigate your floor plan"
+        },
+        {
+            "description": "Check management/split payments by item, table, guest"
+        },
+        {
+            "description": "Has a multi-store capability that allows you to connect all of your locations seamlessly"
+        },
+        {
+            "description": "Cloud-based back office makes viewing and managing reports from anywhere"
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 995
+}

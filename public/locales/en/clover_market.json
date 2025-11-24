@@ -1,0 +1,190 @@
+{
+    "heading": "Boost Your Business with These Apps",
+    "desc": " With over 200 dynamic applications available, Clover's App Market simplifies employee scheduling, inventory management, loyalty programs, and promotions, among other business operations. Easily integrate these applications with your Clover POS system to enhance your efficiency and access a variety of helpful tools.",
+    "loyalty_heading": "<span className='text-orange-600'>Unlock Exclusive Benefits:\n</span> Customer Loyalty and Promotions",
+    "banner": [
+        "Compatible with all Clover POS systems",
+        "Over 200 apps available for your convenience",
+        "Seamlessly install apps directly onto your POS system",
+        "Access business tools easily from any location"
+    ],
+    "customers": [
+        {
+            "title": "Promos",
+            "description": "Enhance sales and foster customer relationships through automated mailing list features, coupon programs, redemption tracking, and more."
+        },
+        {
+            "title": "Rewards",
+            "description": "Create a tailored loyalty program in just minutes using built-in features that allow you to manage announcements, track usage, provide enticing rewards, and more."
+        },
+        {
+            "title": "Gift Cards",
+            "description": "Design and order custom or pre-designed plastic and digital cards, sell them to customers, check balances, and easily issue store credit."
+        }
+    ],
+    "type_of_app_title": "Types of Apps",
+    "type_of_apps": [
+        {
+            "heading": "Customer Loyalty and Promotion",
+            "items": [
+                {
+                    "id": "promos",
+                    "title": "Promos",
+                    "desc": "Make the most of automated mailing lists, coupon programs, redemption tracking, and various features to strengthen customer relationships and enhance sales."
+                },
+                {
+                    "id": "rewards",
+                    "title": "Rewards",
+                    "desc": "Develop a tailored loyalty program in just minutes with integrated features that allow you to manage announcements, track usage, offer appealing rewards, and handle various related tasks."
+                },
+                {
+                    "id": "gifts",
+                    "title": "Gift Cards",
+                    "desc": "Quickly design and purchase personalized or standard plastic and digital cards, offer them for sale to customers, monitor balances, and seamlessly distribute store credit."
+                }
+            ]
+        },
+        {
+            "heading": "Employee Management",
+            "items": [
+                {
+                    "id": "shifts",
+                    "title": "Shifts",
+                    "desc": "Enable your staff to clock in and out, report cash tips, and carry out various tasks while also managing employee schedules and producing detailed reports."
+                },
+                {
+                    "id": "time",
+                    "title": "Time Clock",
+                    "desc": "Easily track employee hours, create schedules, set reminders for shifts, post job openings, and handle various related tasks with minimal effort."
+                },
+                {
+                    "id": "adp_time",
+                    "title": "ADP Time",
+                    "desc": "Enhance the precision of your payroll system with tools designed to track employee time cards, schedules, requested leave, and other pertinent details."
+                }
+            ]
+        },
+        {
+            "heading": "Playroll",
+            "items": [
+                {
+                    "id": "gusto",
+                    "title": "Gusto",
+                    "desc": "Effectively monitor employee work hours while automatically calculating taxes, simplifying the payroll process and ensuring quick, hassle-free payments for all employees."
+                },
+                {
+                    "id": "run_power",
+                    "title": "RUN Powered by ADP",
+                    "desc": "Utilize a comprehensive range of payroll features, including employee time tracking, tax management, data import capabilities, and more, to ensure seamless and efficient payroll processing."
+                },
+                {
+                    "id": "schedule",
+                    "title": "Schedule",
+                    "desc": "Streamline the process of building and managing employee schedules, monitoring hours worked, sending shift notifications, automatically promoting job vacancies, and executing other associated responsibilities."
+                }
+            ]
+        },
+        {
+            "heading": "Analytics and Back-of-House Management",
+            "items": [
+                {
+                    "id": "insights",
+                    "title": "Main Street Insights",
+                    "desc": "Leverage actionable insights and forecasts to make informed business decisions, including comparative data analysis against your competitors, to gain a competitive edge in your industry."
+                },
+                {
+                    "id": "quickbooks",
+                    "title": "Quickbooks by Commerce Sync",
+                    "desc": "Automatically sync your daily sales and analytics data with QuickBooks Online, QuickBooks Desktop, or Xero, minimizing the need for a dedicated bookkeeper."
+                },
+                {
+                    "id": "sale_tax",
+                    "title": "Davo Automated Sales Tax",
+                    "desc": "Optimize your sales process with tools that automate daily sales tax allocation, facilitate online filing and payments, and archive essential documents for easy future access."
+                }
+            ]
+        },
+        {
+            "heading": "Customer Engagement and Management",
+            "items": [
+                {
+                    "id": "feedback",
+                    "title": "Feedback",
+                    "desc": "Encourage customer feedback effortlessly by linking notes to specific orders, diligently monitoring negative reviews, and offering coupons as incentives to boost customer satisfaction."
+                },
+                {
+                    "id": "business",
+                    "title": "Yelp for Business Owners",
+                    "desc": "Gain access to vital analytics, interact with customers, address inquiries, oversee business photos, track leads, and execute a range of other essential tasks."
+                },
+                {
+                    "id": "contact",
+                    "title": "Abreeze Link for Constant Contact",
+                    "desc": "Elevate your email marketing by using tools that connect in-store purchases to email campaigns, cultivating customer loyalty and increasing the likelihood of repeat business."
+                }
+            ]
+        },
+        {
+            "heading": "Restaurant Management",
+            "items": [
+                {
+                    "id": "dining",
+                    "title": "Clover Dining",
+                    "desc": "Customize your floor plans, keep track of guest counts, pre-authorize payments, ensure seamless communication between front and back-of-house, and perform various other tasks effortlessly."
+                },
+                {
+                    "id": "order",
+                    "title": "Order Out",
+                    "desc": "Integrate third-party delivery orders effortlessly into your Clover system, allowing for rapid processing of order details and seamless data transfers between your POS and kitchen printer."
+                },
+                {
+                    "id": "kitchen",
+                    "title": "Kitchen Display",
+                    "desc": "Input orders using your Register, Tables, or Dining apps and send them to your kitchen display in seconds, reducing errors and improving order accuracy."
+                }
+            ]
+        },
+        {
+            "heading": "Inventory Management",
+            "items": [
+                {
+                    "id": "shopventory",
+                    "title": "Shopventory",
+                    "desc": "Easily oversee sales, purchasing, and vendor relationships while generating insightful reports on profitability, product categories, and other key metrics."
+                },
+                {
+                    "id": "simple_order",
+                    "title": "Simple Order",
+                    "desc": "Enhance efficiency and productivity in your restaurant by monitoring dish inventory and streamlining stock replenishment in real-time."
+                },
+                {
+                    "id": "stockIt",
+                    "title": "StockIt",
+                    "desc": "Streamline vendor orders, inventory lists, and sales reports to make the entire process more efficient and effortless than ever before."
+                }
+            ]
+        },
+        {
+            "heading": "Appointments",
+            "items": [
+                {
+                    "id": "appointments",
+                    "title": "Appointments Pro",
+                    "desc": "Effortlessly combine employee schedules, business hours, and service durations to automate appointment reminders, monitor appointment history, streamline check-ins, and perform various other functions."
+                },
+                {
+                    "id": "salon",
+                    "title": "Salon Scheduler",
+                    "desc": "Streamline your operations by automatically sending payment reminders to customers, tracking their schedules, managing commissions for employees per service, generating detailed reports, and executing various additional tasks."
+                },
+                {
+                    "id": "connector",
+                    "title": "Booker-Clover Mini Connector",
+                    "desc": "Take control of your salon operations from anywhere using tools that allow you to monitor staff schedules, incorporate online appointment booking into your website, manage customer profiles, and more."
+                }
+            ]
+        }
+    ],
+    "all_business_heading": "Clover App Market for all types of business.",
+    "footer_heading": "Ready to implement a Clover App Market for your business?"
+}

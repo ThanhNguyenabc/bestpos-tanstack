@@ -1,0 +1,36 @@
+{
+    "cash_discount_faqs": [
+        {
+            "header": "¿Qué es el programa de descuento por effectivo?",
+            "content": "Un programa de descuento por effectivo es cuando un comerciante aumenta ligeramente los precios para cubrir las tarifas de procesamiento detarjetas de crédito y ofrece un descuento a los clientes que pagan en efectivo. Esto es legal siempre que se divulgue e implemente adecuadamente, y puede ser una forma para que los comerciantes ahorren tarifas."
+        },
+        {
+            "header": "¿Es legal el descuento por effectivo?",
+            "content": "Sí, los programas de descuento por efectivo son legales en los Estados Unidos siempre que se divulguen e implementen adecuadamente. Los comerciantes pueden aumentar los precios para cubrir el costo de las tarifas de procesamiento de tarjetas de crédito y ofrecer un descuento a los clientes que paguen en efectivo. Sin embargo, es importante asegurarse de que el programa se divulgue adecuadamente a los clientes y que el descuento se aplique antes de impuestos. Además, algunos estados pueden tener regulaciones específicas sobre los programas de descuento por efectivo, por lo que es importante consultar las leyes y regulaciones locales."
+        },
+        {
+            "header": "¿Qué pasa si decido utilizar el Programa de descuento por effectivo?",
+            "content": "En BestPOS tenemos una garantía de satisfacción del 100%. Si por algún motivo desea dejar de utilizar el Programa de descuento por effectivo lo cambiaremos inmediatamente al precio tradicional."
+        },
+        {
+            "header": "¿Es esto lo mismo que un recargo?",
+            "content": "¡No, no es! Un recargo es una tarifa que se agrega a una transacción con tarjeta de crédito para cubrir los costos de procesamiento de la tarjeta de crédito. Con el descuento por effectivo, se aplica un descuento al monto total cuando un cliente paga en efectivo."
+        },
+        {
+            "header": "¿Qué necesito para inscribirme en el Programa de descuento por effectivo?",
+            "content": "Todo lo que necesita es una solicitud de comerciante y sus estados de cuenta de procesamiento."
+        },
+        {
+            "header": "¿Cómo funciona un programa de descuento por effectivo?",
+            "content": "El comerciante aumenta ligeramente sus precios para cubrir el costo de las tarifas de procesamiento de tarjetas de crédito, pero ofrece un descuento a los clientes que pagan en efectivo, para que puedan pagar el precio más bajo."
+        },
+        {
+            "header": "¿Existe alguna normativa específica sobre los programas de descuento por pronto pago?",
+            "content": "Algunos estados pueden tener regulaciones específicas sobre los programas de descuento por effectivo, por lo que es importante consultar las leyes y regulaciones locales."
+        },
+        {
+            "header": "¿Pueden los comerciantes cobrar una tarifa por las transacciones con tarjeta de crédito en lugar de ofrecer un descuento por effectivo?",
+            "content": "Los comerciantes pueden optar por cobrar una tarifa por las transacciones con tarjeta de crédito en lugar de ofrecer un descuento por effectivo, pero esto se considera un recargo y puede estar sujeto a diferentes regulaciones y leyes."
+        }
+    ]
+}

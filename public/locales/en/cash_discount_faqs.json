@@ -1,0 +1,36 @@
+{
+    "cash_discount_faqs": [
+        {
+            "header": "What is the Cash Discount Program?",
+            "content": "A cash discount program is when a merchant raises prices slightly to cover credit card processing fees and offers a discount to customers who pay with cash. This is legal as long as it's properly disclosed and implemented, and can be a way for merchants to save on fees."
+        },
+        {
+            "header": "Is Cash Discount Legal?",
+            "content": "Yes, cash discount programs are legal in the United States as long as they are properly disclosed and implemented. Merchants are allowed to raise prices to cover the cost of credit card processing fees and offer a discount to customers who pay with cash. However, it's important to ensure that the program is properly disclosed to customers and that the discount is applied before taxes. Additionally, some states may have specific regulations around cash discount programs, so it's important to check local laws and regulations."
+        },
+        {
+            "header": "What if I decide to using the Cash Discount Program?",
+            "content": "At Bestpos, we have a 100% satisfaction guarantee. If for any reason you want to stop using Cash Discount Program, we will immediately switch you back to the traditional pricing."
+        },
+        {
+            "header": "Is this the same as surcharge?",
+            "content": "No, it is not! A surcharge is a fee added to a credit card transaction to cover the credit card processing costs. With cash discount, a discount is applied to the total amount when a customer pays with cash."
+        },
+        {
+            "header": "What do I need to enroll into Cash Discount Program?",
+            "content": "All you simply need is a merchant application and your processing statements"
+        },
+        {
+            "header": "How does a cash discount program work?",
+            "content": "The merchant raises their prices slightly to cover the cost of credit card processing fees but offers a discount to customers who pay with cash, so they can pay the lower price."
+        },
+        {
+            "header": "Are there any specific regulations around cash discount programs?",
+            "content": "Some states may have specific regulations around cash discount programs, so it's important to check local laws and regulations."
+        },
+        {
+            "header": "Can merchants charge a fee for credit card transactions instead of offering a cash discount?",
+            "content": "Merchants can choose to charge a fee for credit card transactions instead of offering a cash discount, but this is considered a surcharge and may be subject to different regulations and laws."
+        }
+    ]
+}

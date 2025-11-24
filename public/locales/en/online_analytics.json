@@ -1,0 +1,47 @@
+{
+    "desc": "<span className='text-blue-500'>Access real-time updates on your business</span> account activities and unlock comprehensive industry insights and forecasts, empowering you to make informed decisions at every step.",
+    "banner": [
+        "Enjoy 24/7 access to your account activity",
+        "Easily review and reconcile your deposit history",
+        "Create and download reports with minimal effort",
+        "Utilize online analytics to assess your business performance"
+
+    ],
+    "features": [
+        {
+            "title": "Track Your Statements",
+            "description": "Keep an eye on all of your business activities effortlessly with our online account manager. Stay ahead of any discrepancies before they cause issues.",
+            "details": [
+                "Easily access information about transactions, chargebacks, and other relevant details",
+                "Access your account online 24/7"
+            ]
+        },
+        {
+            "title": "Review Your Deposit History",
+            "description": "Keep an eye on your deposit history to ensure you always know when your funds are available.",
+            "details": [
+                "Combine your accounting software and online reporting for seamless use",
+                "Track important account details with simplicity and convenience"
+            ]
+        },
+        {
+            "title": "Handling Disputes",
+            
+            "description": "Gain valuable insights into every transaction and effortlessly resolve disputes using our user-friendly online reporting system.",
+            "details": [
+                "Easily obtain up-to-date account information at any moment",
+                "Keep an eye on chargebacks in real-time as they happen"
+            ]
+        },
+        {
+            "title": "Monitor and track industry performance'",
+            "description": "Access essential tools and data management systems to eliminate guesswork and drive business development forward.",
+            "details": [
+                "Conduct performance comparisons with your competitors",
+                "Receive valuable insights about your industry and community to inform better decision making"
+            ]
+        }
+    ],
+    "all_business_heading": "Online Analytics for all types of business ",
+    "footer_heading": "Ready to implement a Online Analytics for your business?"
+}

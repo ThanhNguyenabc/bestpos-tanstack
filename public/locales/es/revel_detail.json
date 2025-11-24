@@ -1,0 +1,19 @@
+{
+    "longDesc": "El sistema Revel ofrece una variedad de características para su negocio inluyendo tarjetas de regalo programas de lealtad, cuentas separadas, accesibilidad a creación de menús, descuentos, entre otras cosas. También puede fácilmente ver y administrar reportes y documentos de inventario desde ubicaciones externas. Si manejas varias ubicaciones,Revel Systems hace que la gestión sea mucho más fácil. Su aplicación de software se ejecuta exclusivamente en iPads, lo que te da la libertad de llevar tus órdenes de compra con pantalla táctil sobre la marcha!",
+    "features": [
+        {
+            "description": "Crea menus que son simples para navegar para usted y su personal con una funcion de carga de hoja de calculo y una variedad de utiles herramientas de construccion."
+        },
+        {
+            "description": "Maneje su restaurante de lugares remotos usando nuestro software - maneje multiples restaurantes o sitios."
+        },
+        {
+            "description": "Vea información y datos de informes detallados: una manera fácil de mantenerse al tanto del rendimiento de su negocio para que no tenga que ir físicamente a su restaurante."
+        },
+        {
+            "description": "Sistema conveniente para que el personal y los clientes dividan facturas, administren cuentas, crean descuentos, ofrezcan promociones y más."
+        }
+    ],
+    "monthly_pricing": 75,
+    "onetime_pricing": 1500
+}

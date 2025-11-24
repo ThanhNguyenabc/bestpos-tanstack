@@ -1,0 +1,19 @@
+{
+    "longDesc": "El sistema de punto de venta de última generación está diseñado para bares y restaurantes para mejorar la experiencia y la comodidad del cliente. Los clientes pueden realizar sus pedidos directamente desde su mesa utilizando su dispositivo móvil o una tableta provista, ahorrando tiempo y mejorando la eficiencia. El sistema también puede integrarse con otras tecnologías de restaurantes para optimizar las operaciones y proporcionar datos y análisis en tiempo real para una toma de decisiones informada.",
+    "features": [
+        {
+            "description": "Desarrollado por profesionales con experiencia en la industria, se confirma que el sistema mejora la satisfacción del cliente y aumenta los ingresos de bares y cantineros."
+        },
+        {
+            "description": "Proporciona una aplicación móvil fácil de usar que permite a los clientes ver menús, comprar bebidas y liquidar pagos sin demoras."
+        },
+        {
+            "description": "Mejora la productividad y la eficacia de los empleados para maximizar su rendimiento y producción."
+        },
+        {
+            "description": "Excelentes recompensas de lealtad para alentar la lealtad de los clientes y hacer que regresen"
+        }
+    ],
+    "monthly_pricing": 69,
+    "onetime_pricing": 1500
+}

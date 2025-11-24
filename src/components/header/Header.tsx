@@ -12,11 +12,11 @@ import {
   X,
 } from 'lucide-react'
 import { PHONE } from '@/utils/constants'
-import Text from './ui/text'
-import { Button } from './ui/button'
-import Image from './ui/image'
-import BestPosLogo from './BestPosLogo'
-import Flex from './ui/flex'
+import Text from '../ui/text'
+import { Button } from '../ui/button'
+import Image from '../ui/image'
+import BestPosLogo from '../BestPosLogo'
+import Flex from '../ui/flex'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)

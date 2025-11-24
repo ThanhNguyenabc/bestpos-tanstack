@@ -1,0 +1,297 @@
+{
+    "trustscore": "Puntuación de confianza",
+    "trustpilot": "Piloto de confianza",
+    "get_started": "Empieze Hoy!",
+    "get_pricing": "Obtenga Precios",
+    "get_pricing_today": "Obtén una cotización gratis",
+    "get_start_today": "¡Empiece hoy!",
+    "partner_with_us": "Asóciese con nosotros",
+    "Zero Processing Fees": "Cero tarifas de procesamiento",
+    "How it works?": "¿Cómo funciona?",
+    "email": "Correo electrónico",
+    "contact_us": "Contáctenos",
+    "support": "Soporte",
+    "call_us": "o Llámanos",
+    "privacy_policy": "Política de Privacidad",
+    "term_of_service": "Términos de servicio",
+    "frequently_questions": "Preguntas frecuentes",
+    "view_detail": "Ver detalles",
+    "and": "y",
+    "pros": "Pros",
+    "cons": "Contras",
+    "read_more": "Leer más",
+    "footer": {
+        "heading": "¡Descubra hoy el sistema de punto de venta perfecto para su negocio! ¡Empiece hoy!",
+        "subTitle": "Más un bono por firmar en efectivo. ¡Descubre cuánto!",
+        "subTitle2": "Estimación del bono de firma en efectivo",
+        "subtitle3": "Ventas anuales estimadas con tarjetas de crédito",
+        "working_day": [
+            "MLunes a viernes, de 5 a. m. a 7 p. m., hora del Pacífico",
+            "Sábado - domingo, 6 am - 5 pm hora del Pacífico"
+        ],
+        "policy": "BestPOS es un servicio de consultoría de POS que brinda asistencia financiera y asesoramiento a empresas. Nos esforzamos por proporcionar información precisa y actualizada a nuestros clientes, pero no garantizamos la exactitud, integridad o actualidad de la información proporcionada. Este sitio web es propiedad y está operado por ELECPAYMENTS INC. La reproducción de este sitio web, total o parcial, está estrictamente prohibida.\n\nAl utilizar nuestro servicio, usted acepta estar sujeto a esta Política de privacidad y Términos de servicio",
+        "any_question": "Si tiene alguna pregunta o inquietud, contáctenos en info@bestPOS.com.",
+        "copy_right": "@ Copyright 2023 Pan Extra. Reservados todos los derechos."
+    },
+    "solution": "Soluciones",
+    "pos_equipments": "Equipos POS",
+    "business_type": "Tipos de Negocios",
+    "products": "Productos",
+    "company": "Compañía",
+    "home": "Hogar",
+    "unique": {
+        "heading": "Nuestra salsa secreta para tu éxito.",
+        "desc": "En BestPOS, estamos comprometidos a ayudarlos a ahorrar en costos de punto de venta y aumentar sus ganancias mediante tarifas reducidas de procesamiento de pagos. Es por eso que ofrecemos consultoría profesional y personalizada sobre el sistema ideal de punto de venta, procesamiento de pagos, servicios comerciales y más.",
+        "items": [
+            "Soporte técnico interno las 24 horas, los 7 días de la semana en EE. UU.",
+            "Programa de descuento en efectivo",
+            "Recibo de precio dual compatible",
+            "Programa gratuito de colocación en puntos de venta",
+            "Integración gratuita de EMV (lectores de chips)",
+            "Sin gastos de cancelación",
+            "Configuración e implementación rápidas y fluidas",
+            "Financiación al día siguiente",
+            "Procesamiento por lotes simplificado"
+        ]
+    },
+    "work_with_thebest": "Trabaja con lo mejor",
+    "point_of_sale": {
+        "heading": "<span className='text-orange-500'>Punto de venta para</span> todas las categorías comerciales"
+    },
+    "point_of_sale_features": {
+        "heading": "Funciones del punto de venta"
+    },
+    "find_right_solution": "Encuentre las soluciones de procesamiento adecuadas para su negocio.",
+    "hear_from_client": "Escuche de nuestros clientes satisfechos",
+    "solutions": {
+        "credit-card": {
+            "title": "Terminal de tarjeta de crédito",
+            "secondTitle": "Capital & Funding",
+            "desc": "Los pagos en persona nunca han sido tan fáciles",
+            "path": "credit-card"
+        },
+        "mobile-card": {
+            "title": "Lector de tarjetas móvil",
+            "desc": "Acepta pagos en cualquier lugar",
+            "path": "mobile-card"
+        },
+        "online-processing": {
+            "title": "Procesamiento en línea",
+            "desc": "Optimice sus pagos en línea",
+            "path": "online-processing"
+        },
+        "support": {
+            "title": "Servicio de Soporte",
+            "desc": "Reparación, Mantenimiento y Repuestos",
+            "path": "support-services"
+        }
+    },
+    "payment_processing": "Procesimiento de pago",
+    "general": "General",
+    "signing_bonus": "Bono por firmar",
+    "cash_discount": "Descuento de efectivo",
+    "sale_system": "Sistema de venta",
+    "popular": "Popular",
+    "pos_systems": "Reseñas de puntos de venta",
+    "business_categories": {
+        "full_service": "Restaurantes servicio completo",
+        "retail": "Comercio minorista",
+        "quick_service": "Restaurantes de comida rápida",
+        "small_business": "Pequeños negocios",
+        "bar_clubs": "Bares y discotecas",
+        "pizzerias": "Pizzerías"
+    },
+    "product_types": {
+        "loyalty": {
+            "title": "Lealtad y recompensas",
+            "description": "Fomenta la fidelidad de tus clientes mediante programas personalizados que premian sus compras frecuentes."
+        },
+        "gift": {
+            "title": "Programa de Descuento por Pronto Pago",
+            "description": "Incentiva la lealtad de marca ofreciendo descuentos a los clientes que pagan por adelantado para compras futuras."
+        },
+        "market": {
+            "title": "Mercado de aplicaciones Clover",
+            "description": "Fomenta la fidelidad de tus clientes mediante programas personalizados que premian sus compras frecuentes."
+        },
+        "cash_discount": {
+            "title": "Programa de Descuento por Pronto Pago",
+            "description": "Incentiva la lealtad de marca ofreciendo descuentos a los clientes que pagan por adelantado para compras futuras."
+        },
+        "quick_book": {
+            "title": "Complemento Quickbooks"
+        },
+        "check_service": {
+            "title": "Servicios de Cheques",
+            "description": "Convierte los cheques en pagos electrónicos para agilizar tu flujo de efectivo."
+        },
+        "cash_advance": {
+            "title": "Avance de efectivo"
+        },
+        "online_analytics": {
+            "title": "Análisis en línea"
+        },
+        "invoicing": {
+            "title": "Facturación"
+        },
+        "mobile_order": {
+            "title": "Pedidos y Pagos Móviles",
+            "description": "BestPOS Pedidos y Pagos Móviles se integra perfectamente con tu sistema POS, permitiendo que tu restaurante adopte la transformación digital y mejore la calidad del servicio."
+        },
+        "cloud_beds": {
+            "title": "PMS-Cloudbeds",
+            "description": "Cloudbeds + POS integration built to streamline every aspect of hotel operations"
+        }
+    },
+    "learn_more": "Más información",
+    "side_hustle": {
+        "partner_ship": "Camaradería",
+        "heading": "El mejor trabajo secundario",
+        "desc": "¡Asóciese con BestPOS hoy y comience su viaje paralelo!",
+        "desc2": "Esta es la oportunidad perfecta para obtener ingresos mensuales adicionales y bonificaciones en tu tiempo libre."
+    },
+    "explore_all": "Explorar todo",
+    "explore_pos": "Exolora los equipos POS",
+    "join_extrbread": "Únete hoy",
+    "how_it_works": "CÓMO FUNCIONA",
+    "explore_other_types": "Explora otros tipos de negocios",
+    "feature_favored": "Funciones de POS preferidas por empresas como la suya",
+    "top_recommend": "Top recomendado",
+    "pos_system_for": "Sistemas POS para",
+    "must_have": "Imprescindibles",
+    "state_regulation": "Regulaciones estatales",
+    "about_us": "Sobre nosotras",
+    "partner": "Pareja",
+    "point_of_sale_systems": "Todos los sistemas POS",
+    "get_your_hand": "Obtenga hoy mismo un sistema POS [name] gratuito",
+    "BestPOS_offer": "BestPOS Sacrificio",
+    "pos_cost": "Ahorre mucho en costos de POS",
+    "pricing_desc": "Comience a usar [name] para su negocio hoy, con opciones de precios desde",
+    "get_full_price_from": "Obtenga el precio completo desde",
+    "monthly_price": "Plan Mensual de Servicio",
+    "onetime_price": "Compra única",
+    "key_features": "Características clave",
+    "per_station": "Por estación",
+    "monthly_pricing_desc": "Por mes (promedio de 3 estaciones o más)",
+    "pricing": "Precios",
+    "or": "O",
+    "suggested_business": "Tipos de negocios sugeridos",
+    "your_name": "Su nombre",
+    "phone": "Teléfono",
+    "business_name": "Nombre del Negocio",
+    "phone_number": "Teléfono",
+    "website": "Sitio web",
+    "continue": "Continuar",
+    "please_specify": "Por favor especifica",
+    "error_invalid_area_code": "Código de área estadounidense no válido",
+    "hear_about_us": "¿Cómo te enteraste de nosotros?",
+    "yes": "Sí",
+    "no": "No",
+    "sources": [
+        "BestPOS",
+        "Referral",
+        "Other"
+    ],
+    "example": "ejemplo",
+    "schedule_call": "Programe una llamada",
+    "learn_more_infor": "Si desea obtener más información, no dude en contactarnos en",
+    "required_message": "¡Este campo es obligatorio!",
+    "station": "estación",
+    "stations": "estaciones",
+    "submit": "Entregar",
+    "learn_more_business": "Obtenga más información sobre cómo podemos ayudar a su negocio.",
+    "message": "Mensaje",
+    "contact": {
+        "leave_us_message": "Déjanos un mensaje",
+        "send_message": "Enviar mensaje",
+        "contact_message": "Si tiene alguna pregunta, no dude en contactarnos.",
+        "share_thought": "¿Qué tienes en mente? Comparte tus pensamientos",
+        "call_us": "Llámanos ahora",
+        "email_us": "Envíenos un correo electrónico",
+        "email_any_questions": "Envíe un correo electrónico con cualquier pregunta, comentario o sugerencias para nosotros",
+        "got_questions": "¿Tienes preguntas? <br /> Estamos listos para ayudarle a encontrar la respuesta.",
+        "find_answer": "Encuentra las respuestas utilizando nuestro Autoservicio",
+        "FAQs": "Preguntas frecuentes",
+        "generalFAQ": "Preguntas frecuentes generales"
+    },
+    "referal_program": {
+        "heading": "Programa de recomendación",
+        "desc": "¿quiere asegurar un ingreso mensual? Proporcione sus datos a continuación; su información es estrictamente confidencial. Protegemos sus referencias y utilizamos estos datos para calcular sus ganancias potenciales",
+        "referrer_info": "Información del referente",
+        "referal_information": "Información de referencia",
+        "business": "Empresa",
+        "add_business": "Añadir empresa",
+        "any_additional_business": "Si tiene algún negocio adicional...",
+        "note_hint": "También puede agregar aquí el enlace del perfil empresarial de Google o el sitio web"
+    },
+    "first_name": "Nombre de pila",
+    "last_name": "Apellido",
+    "notes": "Notas adicionales",
+    "city": "Ciudad",
+    "address": "Dirección",
+    "state": "Estado",
+    "contact_detail": "Contacto",
+    "funding_form": {
+        "heading": "Financiamiento el Mismo Día",
+        "sub_heading": "Tired of Waiting for Deposits? Get Same-Day Funding with Bestpos!",
+        "bannerItems": [
+            "Fast Application",
+            "Quick Approval",
+            "Instant Funding"
+        ],
+        "quickItems": [
+            {
+                "title": "Fast Application",
+                "desc": "No hassle here: Fill out our quick 5-minute form."
+            },
+            {
+                "title": "Quick Approval",
+                "desc": "Get approved quickly and easily with our streamlined application process - no paperwork required."
+            },
+            {
+                "title": "Instant Funding",
+                "desc": "Access your funds fast: Get funded within 24 hours after approval."
+            }
+        ],
+        "form_title": "Get Started with Same Day \nFunding",
+        "credit_title": "Monthly Credit Card Volume",
+        "credits": [
+            "New or Not Sure",
+            "0 - $10,000",
+            "$10,000 - $50,000",
+            "$50,000 -  $115,000",
+            "$115,000+"
+        ],
+        "business_types": "Type of Business",
+        "select_business": "Select type of business"
+    },
+    "last_updated": "última vez actualizado:",
+    "i_dont_know": "I don’t know",
+    "request_a_demo": "Solicitar una demostración",
+    "type_of_business": "Tipo de negocio",
+    "thank_you_form_title": "¡Gracias por llenar el formulario!",
+    "thank_you_form_desc": "Revisaremos su información y nos pondremos en contacto con usted en 1-2 días hábiles.",
+    "thank_you_form_message": "Si desea obtener más información, no dude en ponerse en contacto con nosotros en",
+    "term_condition": "Términos y Condiciones",
+    "all_done": "¡Todo listo!",
+    "thanks_you": {
+        "desc": "Tenemos toda la información que necesitamos para preparar una oferta para usted. Nuestro equipo se pondrá en contacto dentro de las 24 horas.",
+        "any_question": "Si tiene alguna pregunta o inquietud urgente, no dude en comunicarse con nosotros."
+    },
+    "most_recommended": "Más Recomendado",
+    "how_we_rate": "Cómo Calificamos",
+    "advertiser": "Divulgación del Anunciante",
+    "credit_calculator": "Calculadora de tarjetas de crédito",
+    "cash_bonus_calculator": "Calculadora de bono en efectivo",
+    "request_demo_form": {
+        "select_an_pos": "Selecciona un sistema POS",
+        "choose_pos_title": "¿Qué sistema POS te interesa?",
+        "choose_pos_desc": "Puedes elegir más de uno, así que ¿en qué sistema(s) POS estás interesado? (selecciona uno o varios)",
+        "desc": "Te conectaremos con el proveedor de POS para agendar una demostración y obtener la mejor oferta posible. Pasa por BestPOS para asegurarte el mejor trato.<span className='font-semibold text-blue-500'>¡Hasta un 100% de descuento!</span>",
+        "bottom_description": "*Al proporcionar tu número de teléfono y hacer clic en 'ENVIAR', aceptas recibir mensajes SMS de BestPOS.com. La frecuencia puede variar. Pueden aplicarse tarifas por mensajes y datos. Responde con STOP para darte de baja o con HELP para más información. Consulta <a>nuestros términos y política de privacidad.</a>"
+    },
+    "request_demo_title": "Solicita una Demostración de POS",
+    "faq": "Preguntas Frecuentes",
+    "header_alert_message": "Encuentra el sistema POS adecuado para tu tipo de negocio con nuestra herramienta de comparación de POS.",
+    "btn_compare": "Compara sistemas POS"
+}

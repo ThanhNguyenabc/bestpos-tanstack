@@ -1,0 +1,25 @@
+{
+    "large_title": "Calculadoras Financieras de <span className='text-blue-500'>BestPOS</span>",
+    "cashDiscount": {
+        "title": "Calculadora de Descuento por Pago en Efectivo",
+        "heading": "Tu Bono de Bienvenida en Efectivo",
+        "desc": "Recibe un bono en efectivo al firmar con BestPOS. Consulta con nuestro equipo para obtener más información y saber si tu negocio califica para recibir este bono.",
+        "input_average": "Ingresa tus ventas mensuales promedio con tarjeta de crédito:",
+        "input_bonus": "Tu Bono de Bienvenida en Efectivo:",
+        "btn_request": "Solicitar una cotización",
+        "signing_bonus_title": "Calculadora de Bono en Efectivo por Registro",
+        "signing_bonus_desc": "En BestPOS, vamos un paso más allá ofreciendo un generoso bono en efectivo dependiendo de las ventas anuales con tarjeta de crédito de tu negocio.\n\nSin condiciones, sin intereses, sin contratos ni tarifas ocultas. Desliza para ingresar las ventas anuales con tarjeta de crédito de tu negocio y descubre cuánto podrías ganar."
+    },
+    "credit_processing": {
+        "title": " Calculadora de Procesamiento de Tarjetas de Crédito",
+        "heading": "¿Cuánto puedes ahorrar en comisiones por procesamiento de tarjetas?",
+        "desc": "Evita cargos inesperados con BestPOS. Nuestra política de tarifas transparentes te asegura saber exactamente qué esperar. Explora nuestro programa de Descuento por Pago en Efectivo y dile adiós a las comisiones por procesamiento de tarjetas.",
+        "ask_1": "Monto promedio de transacciones mensuales",
+        "ask_2": "¿Qué porcentaje de tus transacciones son pagos con tarjeta?",
+        "monthly_credit": "Ventas mensuales con tarjeta de crédito",
+        "credit_fee": "Comisiones por tarjetas de crédito",
+        "amount": "Monto que ahorras anualmente",
+        "small_desc": "*Los valores mostrados son solo estimaciones basadas en los datos que proporcionas y no constituyen una oferta ni garantía de ningún tipo. El monto estimado que conservas no incluye impuestos u otras deducciones.",
+        "btn_apply": "Solicita ahora"
+    }
+}

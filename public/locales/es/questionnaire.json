@@ -1,0 +1,63 @@
+{
+    "heading": "Obtenga precios para paquetes de procesamiento POS y CC",
+    "description": "Para garantizar que proporcionamos el procesamiento de pagos, las soluciones de punto de venta y el bono de firma de efectivo más efectivos para su negocio, le solicitamos cierta información inicial.",
+    "finish": {
+        "desc": "Tenemos toda la información que necesitamos para preparar una oferta para usted. Nuestro equipo se pondrá en contacto dentro de las 24 horas.",
+        "any_question": "Si tiene alguna pregunta o inquietud urgente, no dude en comunicarse con nosotros."
+    },
+    "all_done": "¡Todo listo!",
+    "select_business_type": "Selecciona el tipo de tu negocio",
+    "pricing_form_desc": "Necesitamos un poco de información para comenzar. Para asegurarnos de ofrecerte soluciones precisas de procesamiento de pagos y punto de venta, además de una estimación del bono de firma en efectivo para tu negocio, por favor completa la siguiente información.",
+    "type_of_business": "¿Qué tipo de negocio tienes?",
+    "looking_for": "¿Qué tipo de negocio tienes?",
+    "card_payment_fee": "¿Actualmente estás transfiriendo las tarifas de pagos con tarjeta al cliente? (programa de descuento en efectivo)",
+    "cash_signing_bonus": "Bono por firmar en efectivo",
+    "follow_up_contact": "Necesitamos su contacto seguimiento",
+    "steps": {
+        "first": {
+            "tab": "Tipo de negocio",
+            "label": "¿Qué tipo de negocio tienes?"
+        },
+        "second": {
+            "tab": "¿Qué estás buscando?",
+            "label": "¿Qué estás buscando?"
+        },
+        "third": {
+            "tab": "Información del contacto",
+            "label": "Necesitamos tu contacto<br className='hide-pc' /> seguimiento"
+        },
+        "fourth": {
+            "tab": "información adicional",
+            "label": "Conjunto final de preguntas"
+        }
+    },
+    "zero_fee": "Cero tarifas de procesamiento",
+    "all_of_above": "Todo lo anterior",
+    "set_of_questions": "Conjunto final de preguntas",
+    "confirm_heading": "Genial. Hemos recibido su información inicial.",
+    "confirm_desc": "Para acelerar el proceso y recibir una cotización directa, puede completar la siguiente parte (solo 6 preguntas) o programar una llamada con nosotros según su conveniencia.",
+    "next_processing": "Continuar para continuar con la cotización",
+    "question_for_stations": "¿Cuántas estaciones estás buscando?",
+    "processing_volume": "¿Cuál es el volumen de procesamiento mensual de su tarjeta de crédito?",
+    "cash_discount": "¿Tiene actualmente descuento por efectivo?",
+    "cash_discount_desc": "También conocido como procesamiento cero o transferencia de tarifas al cliente. Un descuento por pronto pago se produce cuando publica los precios de las tarjetas de crédito y ofrece un descuento sobre ese precio a los clientes que pagan en efectivo.",
+    "cash_discount_questions": [
+        "Si, estoy en eso",
+        "No, pero estoy dispuesto a seguir adelante",
+        "No estoy seguro de qué es eso",
+        "No interesado/a"
+    ],
+    "franchise_heading": "¿Es usted una franquicia/franquiciado?",
+    "franchise_questions": [
+        "Si, soy una franquicia",
+        "Sí, soy franquiciado",
+        "Ninguno"
+    ],
+    "location_question": "¿Cuántas ubicaciones tienes?",
+    "sale_system_question": "¿Qué sistema de punto de venta utiliza actualmente?",
+    "station_question": "¿Cuántas estaciones tienes actualmente?",
+    "on_cash_discount": "Si, estoy en eso",
+    "franchise": "Si, soy una franquicia",
+    "name_of_pos": "Nombre del sistema POS",
+    "point_of_sale_systems": "Sistemas de punto de venta"
+}

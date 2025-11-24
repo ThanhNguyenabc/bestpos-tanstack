@@ -1,0 +1,39 @@
+{
+    "desc": "Acepte y convierta cheques en papel en pagos electrónicos seguros en el punto de venta, brindando mayor seguridad y tiempos de procesamiento más rápidos.",
+    "heading": "Consulte Servicios para cada negocio.",
+    "banner": [
+        "Mitigar el riesgo de fraude y minimizar pérdidas potenciales",
+        "Reduzca los costos de procesamiento",
+        "Cheques aprobados al instante",
+        "Reciba fondos más rápidamente"
+    ],
+    "features": [
+        {
+            "title": "Fondos más rápidos",
+            "description": "El proceso de solicitud sencillo y las aprobaciones rápidas en tan solo 24 a 48 horas significan que puede decir adiós a los largos tiempos de espera.",
+            "details": [
+                "Equipos dedicados para una rápida aprobación de solicitudes",
+                "Proceso de solicitud en línea simple y conveniente"
+            ]
+        },
+        {
+            "title": "Riesgo mínimo, ahorro máximo",
+            "description": "Proporciona acceso a efectivo a tasas bajas de la industria sin necesidad de garantía, ofreciendo apoyo financiero asequible con mayor tranquilidad.",
+            "details": [
+                "Disfrute de tasas desde tan solo 1.15%",
+                "Acceda a efectivo sin necesidad de proporcionar garantía personal o aval"
+            ]
+        },
+        {
+            "title": "Nunca te pierdas una venta",
+            "description": "Ofrezca a sus clientes más opciones de pago y tenga más confianza, sabiendo que puede capturar cada venta",
+            "details": [
+                "Satisfacer a los clientes al poder pagar con cualquier opción de pago.",
+                "Aumente el flujo de dinero con un procesamiento y financiación rápidos"
+            ]
+        }
+    ],
+    "all_business_heading": "Consulte Servicios para cada negocio.",
+    "all_business_desc": "Mantenga clientes satisfechos y su flujo de caja con servicios de cheques más rápidos, simples y seguros. Encuentre el que sea adecuado para su negocio.",
+    "footer_heading": "¿Listo para implementar un servicio de cheques para su negocio?"
+}

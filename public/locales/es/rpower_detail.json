@@ -1,0 +1,19 @@
+{
+    "longDesc": "RPOWER es un software de punto de venta versátil y confiable que se adapta a varios tipos de negocios. No importa si administra un restaurante de alta gama, un club, una cafetería, ofrece entrega a domicilio o tiene un servicio de recogida, RPOWER se adapta a sus requisitos específicos. Su software avanzado ofrece una adaptabilidad, confiabilidad y rapidez incomparables, lo que garantiza que su negocio funcione sin esfuerzo y de manera efectiva todo el tiempo.",
+    "features": [
+        {
+            "description": "Los restaurantes pueden beneficiarse de nuestro software de punto de venta líder, que brinda flexibilidad, confiabilidad y velocidad sin precedentes."
+        },
+        {
+            "description": "Los servicios de soporte brindan a su equipo de administración un grupo de personal de soporte dedicado y experimentado para garantizar que su establecimiento siempre funcione al máximo rendimiento."
+        },
+        {
+            "description": "Pagos EMV y NFC completamente integrados, informes empresariales, pedidos en línea, soluciones de obsequios y fidelización, y compatibilidad con varias tiendas."
+        },
+        {
+            "description": "La herramienta de análisis e informes proporciona una vista de 360 ​​grados en tiempo real de los informes de ventas y labores."
+        }
+    ],
+    "monthly_pricing": 65,
+    "onetime_pricing": 2900
+}
