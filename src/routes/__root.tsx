@@ -11,7 +11,12 @@ import { ErrorBoundary } from '../components/ErrorBoundary'
 import { Toaster } from '../components/ui/toaster'
 import appCss from '../styles.css?url'
 import I18nProvider from '@/locales/I18nProvider'
-
+import '@fontsource/inter/300.css'
+import '@fontsource/inter/400.css'
+import '@fontsource/inter/500.css'
+import '@fontsource/inter/600.css'
+import '@fontsource/inter/700.css'
+import '@fontsource/inter/800.css'
 interface RouterContext {
   queryClient: QueryClient
 }
@@ -31,17 +36,17 @@ export const Route = createRootRouteWithContext<RouterContext>()({
       },
     ],
     links: [
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-      {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossOrigin: 'anonymous',
-      },
+      // { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      // {
+      //   rel: 'preconnect',
+      //   href: 'https://fonts.gstatic.com',
+      //   crossOrigin: 'anonymous',
+      // },
       { rel: 'icon', href: '/favicon.svg' },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
-      },
+      // {
+      //   rel: 'stylesheet',
+      //   href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
+      // },
       {
         rel: 'stylesheet',
         href: appCss,
