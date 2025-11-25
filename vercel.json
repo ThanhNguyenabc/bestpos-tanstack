@@ -10,7 +10,7 @@
             ]
         },
         {
-            "source": "/json/(.*)",
+            "source": "/locales/(.*)",
             "headers": [
                 {
                     "key": "Cache-Control",
