@@ -1,58 +1,83 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { queryOptions, useSuspenseQuery } from '@tanstack/react-query'
+import { fetchProductList } from '@/lib/api/products'
 import { useTranslation } from 'react-i18next'
+import { Button } from '@/components/ui/button'
+import { Link } from '@tanstack/react-router'
+import { ArrowRight } from 'lucide-react'
+import {
+  HomeBanner,
+  HomePOSList,
+  HelpingPOSSection,
+  MerchantFeeSection,
+  CompetitiveAdvantageSection,
+  TestimonialsSection,
+} from '@/components/home'
 
-export const Route = createFileRoute('/')({ component: App })
+// Query options for home page data
+export const homeQueryOptions = () =>
+  queryOptions({
+    queryKey: ['home', 'products'],
+    queryFn: async () => {
+      try {
+        const products = await fetchProductList({ limit: 3, type: 'featured' })
+        return { products }
+      } catch (error) {
+        console.error('Error fetching home data:', error)
+        return { products: [] }
+      }
+    },
+  })
 
-function App() {
-  const { t: common } = useTranslation()
-  const { t } = useTranslation('about_us')
+// Route definition
+export const Route = createFileRoute('/')({
+  loader: ({ context }) => {
+    return context.queryClient.ensureQueryData(homeQueryOptions())
+  },
+  component: HomePage,
+})
+
+function HomePage() {
+  const { data } = useSuspenseQuery(homeQueryOptions())
+  const { t } = useTranslation('home')
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900">
-      <section className="relative py-20 px-6 text-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-blue-500/10 to-purple-500/10"></div>
-        <div className="relative max-w-5xl mx-auto">
-          <div className="flex items-center justify-center gap-6 mb-6">
-            <img
-              src="/tanstack-circle-logo.png"
-              alt="TanStack Logo"
-              className="w-24 h-24 md:w-32 md:h-32"
-            />
-            <h1 className="text-6xl md:text-7xl font-black text-white [letter-spacing:-0.08em]">
-              <span className="text-gray-300">TANSTACK</span>{' '}
-              <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                START
-              </span>
-            </h1>
-          </div>
-          <p className="text-2xl md:text-3xl text-gray-300 mb-4 font-light">
-            The framework for next generation AI applications
+    <div className="flex flex-col">
+      {/* Hero Banner */}
+      <HomeBanner />
+
+      {/* Helping POS Section */}
+      {/* <HelpingPOSSection /> */}
+
+      {/* Featured POS Systems */}
+      {/* <HomePOSList products={data.products} /> */}
+
+      {/* Merchant Fee Section */}
+      {/* <MerchantFeeSection /> */}
+
+      {/* Competitive Advantage */}
+      {/* <CompetitiveAdvantageSection /> */}
+
+      {/* Testimonials */}
+      {/* <TestimonialsSection /> */}
+
+      {/* CTA Section */}
+      <section className="py-20 bg-primary text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            {t('Ready to Find Your Perfect POS?')}
+          </h2>
+          <p className="text-xl mb-8 opacity-90">
+            {t('Get a free quote and expert recommendations in minutes')}
           </p>
-          <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-8">
-            Full-stack framework powered by TanStack Router for React and Solid.
-            Build modern applications with server functions, streaming, and type
-            safety.
-          </p>
-          <div className="flex flex-col items-center gap-4">
-            <a
-              href="https://tanstack.com/start"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-3 bg-cyan-500 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-colors shadow-lg shadow-cyan-500/50"
-            >
-              Documentation
-            </a>
-            <p className="text-gray-400 text-sm mt-2">
-              Begin your TanStack Start journey by editing{' '}
-              <code className="px-2 py-1 bg-slate-700 rounded text-cyan-400">
-                /src/routes/index.tsx
-              </code>
-            </p>
-          </div>
+          <Button asChild size="lg" variant="secondary">
+            <Link to="/get-pricing">
+              {t('Get Started Free')}
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </Button>
         </div>
       </section>
-
-      <p>{common('get_started')}</p>
-      <p>{t('pos_systems')}</p>
     </div>
   )
 }

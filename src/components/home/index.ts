@@ -1,0 +1,6 @@
+export { HomeBanner } from './HomeBanner'
+export { HomePOSList } from './HomePOSList'
+export { HelpingPOSSection } from './HelpingPOSSection'
+export { MerchantFeeSection } from './MerchantFeeSection'
+export { CompetitiveAdvantageSection } from './CompetitiveAdvantageSection'
+export { TestimonialsSection } from './TestimonialsSection'

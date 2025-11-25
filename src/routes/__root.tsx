@@ -1,12 +1,22 @@
-import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
-import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
-import { TanStackDevtools } from '@tanstack/react-devtools'
+import {
+  HeadContent,
+  Scripts,
+  createRootRouteWithContext,
+} from '@tanstack/react-router'
+import type { QueryClient } from '@tanstack/react-query'
+import { QueryClientProvider } from '@tanstack/react-query'
 import Header from '../components/header/Header'
+import Footer from '../components/footer/Footer'
+import { ErrorBoundary } from '../components/ErrorBoundary'
+import { Toaster } from '../components/ui/toaster'
 import appCss from '../styles.css?url'
 import I18nProvider from '@/locales/I18nProvider'
-// import '@/locales/index'
 
-export const Route = createRootRoute({
+interface RouterContext {
+  queryClient: QueryClient
+}
+
+export const Route = createRootRouteWithContext<RouterContext>()({
   head: () => ({
     meta: [
       {
@@ -17,7 +27,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'TanStack Start Starter',
+        title: 'BestPOS - Find the Best POS System for Your Business',
       },
     ],
     links: [
@@ -30,9 +40,7 @@ export const Route = createRootRoute({
       { rel: 'icon', href: '/favicon.svg' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap&subset=latin',
-        media: 'print',
-        onLoad: "this.media='all'",
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
       },
       {
         rel: 'stylesheet',
@@ -40,31 +48,29 @@ export const Route = createRootRoute({
       },
     ],
   }),
+  errorComponent: ErrorBoundary,
   shellComponent: RootDocument,
 })
 
 function RootDocument({ children }: { children: React.ReactNode }) {
+  const { queryClient } = Route.useRouteContext()
+
   return (
     <html lang="en">
       <head>
         <HeadContent />
       </head>
       <body>
-        <I18nProvider>
-          <Header />
-          {children}
-        </I18nProvider>
-        <TanStackDevtools
-          config={{
-            position: 'bottom-right',
-          }}
-          plugins={[
-            {
-              name: 'Tanstack Router',
-              render: <TanStackRouterDevtoolsPanel />,
-            },
-          ]}
-        />
+        <QueryClientProvider client={queryClient}>
+          <I18nProvider>
+            <div className="flex flex-col min-h-screen">
+              <Header />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </div>
+            <Toaster />
+          </I18nProvider>
+        </QueryClientProvider>
         <Scripts />
       </body>
     </html>

@@ -1,0 +1,32 @@
+import { createFileRoute, Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
+import { Button } from '@/components/ui/button'
+import { ArrowRight, Gift } from 'lucide-react'
+
+export const Route = createFileRoute('/gift-card-program')({
+  component: GiftCardProgramPage,
+})
+
+function GiftCardProgramPage() {
+  const { t } = useTranslation()
+
+  return (
+    <div className="container mx-auto px-4 py-12">
+      <div className="max-w-4xl mx-auto text-center">
+        <Gift className="h-16 w-16 text-primary mx-auto mb-4" />
+        <h1 className="text-4xl font-bold text-neutral-900 mb-4">
+          {t('Gift Card Programs')}
+        </h1>
+        <p className="text-xl text-neutral-600 mb-8">
+          {t('Boost sales with branded gift cards')}
+        </p>
+        <Button asChild size="lg">
+          <Link to="/get-pricing">
+            {t('Learn More')}
+            <ArrowRight className="ml-2 h-5 w-5" />
+          </Link>
+        </Button>
+      </div>
+    </div>
+  )
+}

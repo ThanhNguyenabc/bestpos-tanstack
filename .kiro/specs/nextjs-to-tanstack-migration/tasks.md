@@ -1,0 +1,367 @@
+# Implementation Plan
+
+- [x] 1. Analyze legacy application structure
+  - Scan and document all routes from the legacy pages directory
+  - Create a route migration checklist
+  - Identify all component dependencies
+  - Document API endpoints and data fetching patterns
+  - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5_
+
+- [ ] 2. Set up project foundation
+  - [x] 2.1 Configure Vite build system
+    - Set up Vite config with React plugin
+    - Configure build optimization settings
+    - Set up environment variable handling
+    - _Requirements: 9.1_
+  - [x] 2.2 Configure TypeScript with strict mode
+    - Set up tsconfig.json with strict type checking
+    - Configure path aliases (@/ for src/)
+    - Verify TypeScript compilation works
+    - _Requirements: 9.2, 9.5_
+  - [x] 2.3 Set up code quality tools
+    - Configure ESLint with React and TypeScript rules
+    - Set up Prettier for code formatting
+    - Add lint and format scripts to package.json
+    - _Requirements: 9.3, 9.4_
+  - [x] 2.4 Install and configure Tailwind CSS
+    - Install Tailwind CSS and dependencies
+    - Copy Tailwind config from legacy project
+    - Set up global styles
+    - _Requirements: 7.1_
+
+- [ ] 3. Set up shadcn/ui component library
+  - [x] 3.1 Initialize shadcn/ui
+    - Run shadcn/ui init command
+    - Configure components.json
+    - Set up component directory structure
+    - _Requirements: 3.1, 3.2, 3.3, 3.4_
+  - [x] 3.2 Install core shadcn/ui components
+    - Install Button, Input, Label components
+    - Install Form components (react-hook-form integration)
+    - Install Dialog, Sheet, Select components
+    - Install Card, Table components
+    - _Requirements: 3.1, 3.3, 3.4_
+
+- [ ] 4. Set up routing infrastructure
+  - [x] 4.1 Configure TanStack Router
+    - Install @tanstack/react-router
+    - Set up router configuration
+    - Configure route generation
+    - _Requirements: 2.1_
+  - [x] 4.2 Create root layout route
+    - Create \_\_root.tsx with layout structure
+    - Set up router context with QueryClient
+    - Add error boundary to root route
+    - _Requirements: 2.3_
+  - [x] 4.3 Create 404 not found route
+    - Implement catch-all route for 404 pages
+    - Design 404 error page component
+    - _Requirements: 2.4_
+  - [x] 4.4 Write property test for route completeness
+    - **Property 1: Route completeness**
+    - **Validates: Requirements 1.1, 2.1**
+
+- [x] 5. Set up data fetching infrastructure
+  - [x] 5.1 Configure TanStack Query
+    - Install @tanstack/react-query
+    - Set up QueryClient with default options
+    - Add QueryClientProvider to root
+    - _Requirements: 6.1, 6.2_
+  - [x] 5.2 Create API client
+    - Set up axios instance with base configuration
+    - Create API error handling utilities
+    - Implement request/response interceptors
+    - _Requirements: 4.3_
+  - [x] 5.3 Implement loading and error states
+    - Create loading spinner component
+    - Create error display component
+    - Set up error boundary component
+    - _Requirements: 6.3, 6.4_
+  - [x] 5.4 Write property test for data loader functionality
+    - **Property 11: Data loader functionality**
+    - **Validates: Requirements 6.1, 6.2**
+  - [x] 5.5 Write property test for loading state indication
+    - **Property 12: Loading state indication**
+    - **Validates: Requirements 6.3**
+  - [x] 5.6 Write property test for error boundary activation
+    - **Property 13: Error boundary activation**
+    - **Validates: Requirements 6.4**
+
+- [ ] 6. Set up internationalization
+  - [x] 6.1 Configure react-i18next
+    - Install i18next and react-i18next
+    - Set up i18n configuration
+    - Copy translation files from legacy project
+    - _Requirements: 5.1, 5.2_
+  - [x] 6.2 Implement language switching
+    - Create language selector component
+    - Implement language change handler
+    - Persist language preference
+    - _Requirements: 5.3_
+  - [ ] 6.3 Write property test for translation key preservation
+    - **Property 9: Translation key preservation**
+    - **Validates: Requirements 5.2**
+  - [ ] 6.4 Write property test for language switching
+    - **Property 10: Language switching**
+    - **Validates: Requirements 5.1, 5.3, 5.4**
+
+- [ ] 7. Migrate state management
+  - [x] 7.1 Copy Zustand stores
+    - Copy store definitions from legacy project
+    - Update imports and paths
+    - Test store functionality
+    - _Requirements: 8.1, 8.2_
+  - [x] 7.2 Set up state persistence
+    - Configure Zustand persist middleware
+    - Test state persistence across reloads
+    - _Requirements: 8.4_
+  - [ ] 7.3 Write property test for store action state updates
+    - **Property 14: Store action state updates**
+    - **Validates: Requirements 8.1, 8.2**
+  - [ ] 7.4 Write property test for state persistence
+    - **Property 15: State persistence**
+    - **Validates: Requirements 8.4**
+  - [ ] 7.5 Write property test for state side effects
+    - **Property 16: State side effects**
+    - **Validates: Requirements 8.5**
+
+- [ ] 8. Migrate core layout components
+  - [x] 8.1 Migrate Header component
+    - Convert Header from Ant Design to shadcn/ui
+    - Implement navigation menu
+    - Add language selector
+    - _Requirements: 2.3, 2.5_
+  - [x] 8.2 Migrate Footer component
+    - Convert Footer component
+    - Update links to use TanStack Router Link
+    - _Requirements: 2.3, 2.5_
+    - doublle check responsive layout, ensuring correct padding, color, and accordion for footer
+
+- [ ] 9. Checkpoint - Ensure all tests pass
+  - Ensure all tests pass, ask the user if questions arise.
+
+- [x] 10. Migrate home page
+  - [x] 10.1 Create home route
+    - Create src/routes/index.tsx
+    - Set up route loader for home page data
+    - _Requirements: 2.1, 6.1_
+  - [x] 10.2 Migrate HomeBanner component
+    - Convert banner component to use shadcn/ui
+    - Update styling with Tailwind
+    - _Requirements: 3.1, 3.4_
+  - [x] 10.3 Migrate HomePOSList component
+    - Convert POS list display
+    - Implement with shadcn/ui Card components
+    - _Requirements: 3.4_
+  - [x] 10.4 Migrate home page sections
+    - Convert HelpingPOS section
+    - Convert MerchantFee section
+    - Convert CompetitiveAdvantage section
+    - Convert Testimonials section
+    - _Requirements: 3.1, 3.4_
+
+- [ ] 11. Migrate POS systems pages
+  - [x] 11.1 Create POS systems listing route
+    - Create src/routes/pos-systems/index.tsx
+    - Implement data loader for POS systems list
+    - _Requirements: 2.1, 6.1_
+  - [x] 11.2 Create POS system detail route
+    - Create src/routes/pos-systems/$slug.tsx
+    - Implement dynamic route parameter handling
+    - Set up data loader for individual POS system
+    - _Requirements: 2.2, 6.1_
+  - [ ] 11.3 Migrate POS system components
+    - Convert product card components
+    - Convert comparison table components
+    - Convert feature list components
+    - _Requirements: 3.4_
+  - [ ] 11.4 Write property test for dynamic route parameter extraction
+    - **Property 2: Dynamic route parameter extraction**
+    - **Validates: Requirements 2.2**
+
+- [ ] 12. Migrate blog pages
+  - [x] 12.1 Create blog listing route
+    - Create src/routes/blogs/index.tsx
+    - Implement blog list data loader
+    - _Requirements: 2.1, 6.1_
+  - [x] 12.2 Create blog detail route
+    - Create src/routes/blogs/$blogId.tsx
+    - Implement dynamic blog loading
+    - _Requirements: 2.2, 6.1_
+  - [ ] 12.3 Migrate blog components
+    - Convert blog card component
+    - Convert blog content renderer
+    - Convert blog navigation
+    - _Requirements: 3.4_
+
+- [ ] 13. Migrate pricing calculator page
+  - [ ] 13.1 Create get-pricing route
+    - Create src/routes/get-pricing/index.tsx
+    - Set up multi-step form structure
+    - _Requirements: 2.1_
+  - [ ] 13.2 Migrate pricing form components
+    - Convert BusinessList component
+    - Convert ProcessBar component
+    - Convert AdditionalInfo form
+    - Convert FinishContent component
+    - _Requirements: 3.1_
+  - [ ] 13.3 Implement form validation
+    - Set up react-hook-form with zod schemas
+    - Implement validation rules
+    - Add error message display
+    - _Requirements: 4.2_
+  - [ ] 13.4 Write property test for form validation consistency
+    - **Property 4: Form validation consistency**
+    - **Validates: Requirements 3.1, 4.2**
+
+- [ ] 14. Migrate contact and form pages
+  - [ ] 14.1 Create contact-us route
+    - Create src/routes/contact-us/index.tsx
+    - Implement contact form
+    - _Requirements: 2.1, 3.1_
+  - [ ] 14.2 Create request-demo route
+    - Create src/routes/request-demo-pos.tsx
+    - Implement demo request form
+    - _Requirements: 2.1, 3.1_
+  - [ ] 14.3 Implement form submission
+    - Set up API endpoints for form submission
+    - Implement email sending functionality
+    - Add success/error feedback
+    - _Requirements: 4.4_
+
+- [ ] 15. Migrate business type pages
+  - [ ] 15.1 Create business type routes
+    - Create routes for restaurants, retail, bars, etc.
+    - Implement shared template structure
+    - _Requirements: 2.1_
+  - [ ] 15.2 Migrate business type components
+    - Convert business type hero sections
+    - Convert feature sections
+    - Convert CTA sections
+    - _Requirements: 3.4_
+
+- [ ] 16. Migrate solutions pages
+  - [ ] 16.1 Create solutions dynamic route
+    - Create src/routes/solutions/$slug.tsx
+    - Implement solutions data loader
+    - _Requirements: 2.1, 2.2, 6.1_
+  - [ ] 16.2 Migrate solutions components
+    - Convert solution detail components
+    - Convert feature comparison components
+    - _Requirements: 3.4_
+
+- [ ] 17. Migrate static pages
+  - [ ] 17.1 Create static page routes
+    - Create about-us, privacy-policy, terms routes
+    - Create FAQ, how-we-rate routes
+    - _Requirements: 2.1_
+  - [ ] 17.2 Migrate static page content
+    - Convert content components
+    - Update styling
+    - _Requirements: 3.4_
+
+- [ ] 18. Migrate calculator pages
+  - [ ] 18.1 Create calculator routes
+    - Create cash-signing-bonus-calculator route
+    - Create credit-card-processing-calculator route
+    - _Requirements: 2.1_
+  - [ ] 18.2 Implement calculator logic
+    - Migrate calculation functions
+    - Implement interactive calculator UI
+    - Add result visualization
+    - _Requirements: 3.1, 4.1_
+
+- [ ] 19. Implement interactive component tests
+  - [ ] 19.1 Write property test for interactive component behavior
+    - **Property 5: Interactive component behavior**
+    - **Validates: Requirements 3.3**
+  - [ ] 19.2 Write property test for data display rendering
+    - **Property 6: Data display rendering**
+    - **Validates: Requirements 3.4**
+
+- [ ] 20. Checkpoint - Ensure all tests pass
+  - Ensure all tests pass, ask the user if questions arise.
+
+- [ ] 21. Migrate API integrations
+  - [ ] 21.1 Set up API service layer
+    - Create service functions for Airtable
+    - Create service functions for MongoDB
+    - Implement error handling
+    - _Requirements: 4.3_
+  - [ ] 21.2 Migrate product data fetching
+    - Implement fetchProductList function
+    - Implement fetchProductDetail function
+    - Set up TanStack Query integration
+    - _Requirements: 4.3, 6.2_
+  - [ ] 21.3 Migrate blog data fetching
+    - Implement blog API functions
+    - Set up caching strategy
+    - _Requirements: 4.3, 6.2_
+  - [ ] 21.4 Write property test for API integration preservation
+    - **Property 7: API integration preservation**
+    - **Validates: Requirements 4.3**
+
+- [ ] 22. Implement analytics tracking
+  - [ ] 22.1 Set up analytics service
+    - Configure analytics provider
+    - Create tracking utility functions
+    - _Requirements: 4.5_
+  - [ ] 22.2 Add analytics to key user actions
+    - Track page views
+    - Track form submissions
+    - Track button clicks
+    - Track navigation events
+    - _Requirements: 4.5_
+  - [ ] 22.3 Write property test for analytics event tracking
+    - **Property 8: Analytics event tracking**
+    - **Validates: Requirements 4.5**
+
+- [ ] 23. Migrate remaining utility components
+  - [ ] 23.1 Migrate SEO components
+    - Convert SeoTag component
+    - Implement meta tag management
+    - _Requirements: 4.1_
+  - [ ] 23.2 Migrate loading components
+    - Convert Loading component
+    - Convert progress indicators
+    - _Requirements: 6.3_
+  - [ ] 23.3 Migrate common UI elements
+    - Convert toast notifications
+    - Convert modals and drawers
+    - Convert tooltips and popovers
+    - _Requirements: 3.3_
+
+- [ ] 24. Performance optimization
+  - [ ] 24.1 Implement code splitting
+    - Set up route-based code splitting
+    - Implement component lazy loading
+    - _Requirements: 6.5_
+  - [ ] 24.2 Optimize bundle size
+    - Analyze bundle with Vite build analyzer
+    - Remove unused dependencies
+    - Optimize imports
+    - _Requirements: 6.5_
+  - [ ] 24.3 Implement data prefetching
+    - Set up route prefetching
+    - Implement hover prefetching for links
+    - _Requirements: 6.5_
+
+- [ ] 25. Final testing and validation
+  - [ ] 25.1 Run all property-based tests
+    - Execute all property tests with 100+ iterations
+    - Verify all properties pass
+    - _Requirements: All_
+  - [ ] 25.2 Run unit tests
+    - Execute full unit test suite
+    - Verify code coverage
+    - _Requirements: All_
+  - [ ] 25.3 Manual testing of critical flows
+    - Test home page and navigation
+    - Test form submissions
+    - Test dynamic routes
+    - Test language switching
+    - Test responsive design
+    - _Requirements: All_
+
+- [ ] 26. Final Checkpoint - Ensure all tests pass
+  - Ensure all tests pass, ask the user if questions arise.

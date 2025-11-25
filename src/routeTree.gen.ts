@@ -9,38 +9,837 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ThanksYouRouteImport } from './routes/thanks-you'
+import { Route as TermsOfServiceRouteImport } from './routes/terms-of-service'
+import { Route as TermConditionsRouteImport } from './routes/term-conditions'
+import { Route as SuggestPosRouteImport } from './routes/suggest-pos'
+import { Route as SmallBusinessRouteImport } from './routes/small-business'
+import { Route as SameDayFundingRouteImport } from './routes/same-day-funding'
+import { Route as RetailRouteImport } from './routes/retail'
+import { Route as RequestDemoPosRouteImport } from './routes/request-demo-pos'
+import { Route as ReferralProgramRouteImport } from './routes/referral-program'
+import { Route as QuickbooksPluginRouteImport } from './routes/quickbooks-plugin'
+import { Route as QuickServiceRestaurantsRouteImport } from './routes/quick-service-restaurants'
+import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
+import { Route as PointOfSaleSystemsRouteImport } from './routes/point-of-sale-systems'
+import { Route as PizzeriasRouteImport } from './routes/pizzerias'
+import { Route as PaymentProcessingRouteImport } from './routes/payment-processing'
+import { Route as PartnerRouteImport } from './routes/partner'
+import { Route as OnlineAnalyticsRouteImport } from './routes/online-analytics'
+import { Route as MobileOrderPayRouteImport } from './routes/mobile-order-pay'
+import { Route as InvoicingRouteImport } from './routes/invoicing'
+import { Route as HowWeRateRouteImport } from './routes/how-we-rate'
+import { Route as GiftCardProgramRouteImport } from './routes/gift-card-program'
+import { Route as GetPricingRouteImport } from './routes/get-pricing'
+import { Route as FullServiceRestaurantsRouteImport } from './routes/full-service-restaurants'
+import { Route as FaqsRouteImport } from './routes/faqs'
+import { Route as CustomerLoyaltyProgramsAndRewardsRouteImport } from './routes/customer-loyalty-programs-and-rewards'
+import { Route as CreditCardProcessingCalculatorRouteImport } from './routes/credit-card-processing-calculator'
+import { Route as ContactUsRouteImport } from './routes/contact-us'
+import { Route as CloverAppMarketRouteImport } from './routes/clover-app-market'
+import { Route as CloudbedsRouteImport } from './routes/cloudbeds'
+import { Route as CheckServicesRouteImport } from './routes/check-services'
+import { Route as CashSigningBonusCalculatorRouteImport } from './routes/cash-signing-bonus-calculator'
+import { Route as CashDiscountProgramRouteImport } from './routes/cash-discount-program'
+import { Route as CashAdvanceRouteImport } from './routes/cash-advance'
+import { Route as BarsAndNightClubsRouteImport } from './routes/bars-and-night-clubs'
+import { Route as AdvertiserDisclosureRouteImport } from './routes/advertiser-disclosure'
+import { Route as AboutUsRouteImport } from './routes/about-us'
+import { Route as SplatRouteImport } from './routes/$'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as PosSystemsIndexRouteImport } from './routes/pos-systems/index'
+import { Route as BlogsIndexRouteImport } from './routes/blogs/index'
+import { Route as PosSystemsSlugRouteImport } from './routes/pos-systems/$slug'
+import { Route as BlogsBlogIdRouteImport } from './routes/blogs/$blogId'
 
+const ThanksYouRoute = ThanksYouRouteImport.update({
+  id: '/thanks-you',
+  path: '/thanks-you',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermsOfServiceRoute = TermsOfServiceRouteImport.update({
+  id: '/terms-of-service',
+  path: '/terms-of-service',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermConditionsRoute = TermConditionsRouteImport.update({
+  id: '/term-conditions',
+  path: '/term-conditions',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SuggestPosRoute = SuggestPosRouteImport.update({
+  id: '/suggest-pos',
+  path: '/suggest-pos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SmallBusinessRoute = SmallBusinessRouteImport.update({
+  id: '/small-business',
+  path: '/small-business',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SameDayFundingRoute = SameDayFundingRouteImport.update({
+  id: '/same-day-funding',
+  path: '/same-day-funding',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RetailRoute = RetailRouteImport.update({
+  id: '/retail',
+  path: '/retail',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RequestDemoPosRoute = RequestDemoPosRouteImport.update({
+  id: '/request-demo-pos',
+  path: '/request-demo-pos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReferralProgramRoute = ReferralProgramRouteImport.update({
+  id: '/referral-program',
+  path: '/referral-program',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QuickbooksPluginRoute = QuickbooksPluginRouteImport.update({
+  id: '/quickbooks-plugin',
+  path: '/quickbooks-plugin',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QuickServiceRestaurantsRoute = QuickServiceRestaurantsRouteImport.update({
+  id: '/quick-service-restaurants',
+  path: '/quick-service-restaurants',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
+  id: '/privacy-policy',
+  path: '/privacy-policy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PointOfSaleSystemsRoute = PointOfSaleSystemsRouteImport.update({
+  id: '/point-of-sale-systems',
+  path: '/point-of-sale-systems',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PizzeriasRoute = PizzeriasRouteImport.update({
+  id: '/pizzerias',
+  path: '/pizzerias',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PaymentProcessingRoute = PaymentProcessingRouteImport.update({
+  id: '/payment-processing',
+  path: '/payment-processing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PartnerRoute = PartnerRouteImport.update({
+  id: '/partner',
+  path: '/partner',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OnlineAnalyticsRoute = OnlineAnalyticsRouteImport.update({
+  id: '/online-analytics',
+  path: '/online-analytics',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MobileOrderPayRoute = MobileOrderPayRouteImport.update({
+  id: '/mobile-order-pay',
+  path: '/mobile-order-pay',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InvoicingRoute = InvoicingRouteImport.update({
+  id: '/invoicing',
+  path: '/invoicing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HowWeRateRoute = HowWeRateRouteImport.update({
+  id: '/how-we-rate',
+  path: '/how-we-rate',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GiftCardProgramRoute = GiftCardProgramRouteImport.update({
+  id: '/gift-card-program',
+  path: '/gift-card-program',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GetPricingRoute = GetPricingRouteImport.update({
+  id: '/get-pricing',
+  path: '/get-pricing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FullServiceRestaurantsRoute = FullServiceRestaurantsRouteImport.update({
+  id: '/full-service-restaurants',
+  path: '/full-service-restaurants',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FaqsRoute = FaqsRouteImport.update({
+  id: '/faqs',
+  path: '/faqs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CustomerLoyaltyProgramsAndRewardsRoute =
+  CustomerLoyaltyProgramsAndRewardsRouteImport.update({
+    id: '/customer-loyalty-programs-and-rewards',
+    path: '/customer-loyalty-programs-and-rewards',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CreditCardProcessingCalculatorRoute =
+  CreditCardProcessingCalculatorRouteImport.update({
+    id: '/credit-card-processing-calculator',
+    path: '/credit-card-processing-calculator',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ContactUsRoute = ContactUsRouteImport.update({
+  id: '/contact-us',
+  path: '/contact-us',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CloverAppMarketRoute = CloverAppMarketRouteImport.update({
+  id: '/clover-app-market',
+  path: '/clover-app-market',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CloudbedsRoute = CloudbedsRouteImport.update({
+  id: '/cloudbeds',
+  path: '/cloudbeds',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CheckServicesRoute = CheckServicesRouteImport.update({
+  id: '/check-services',
+  path: '/check-services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CashSigningBonusCalculatorRoute =
+  CashSigningBonusCalculatorRouteImport.update({
+    id: '/cash-signing-bonus-calculator',
+    path: '/cash-signing-bonus-calculator',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CashDiscountProgramRoute = CashDiscountProgramRouteImport.update({
+  id: '/cash-discount-program',
+  path: '/cash-discount-program',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CashAdvanceRoute = CashAdvanceRouteImport.update({
+  id: '/cash-advance',
+  path: '/cash-advance',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BarsAndNightClubsRoute = BarsAndNightClubsRouteImport.update({
+  id: '/bars-and-night-clubs',
+  path: '/bars-and-night-clubs',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdvertiserDisclosureRoute = AdvertiserDisclosureRouteImport.update({
+  id: '/advertiser-disclosure',
+  path: '/advertiser-disclosure',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutUsRoute = AboutUsRouteImport.update({
+  id: '/about-us',
+  path: '/about-us',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SplatRoute = SplatRouteImport.update({
+  id: '/$',
+  path: '/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PosSystemsIndexRoute = PosSystemsIndexRouteImport.update({
+  id: '/pos-systems/',
+  path: '/pos-systems/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogsIndexRoute = BlogsIndexRouteImport.update({
+  id: '/blogs/',
+  path: '/blogs/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PosSystemsSlugRoute = PosSystemsSlugRouteImport.update({
+  id: '/pos-systems/$slug',
+  path: '/pos-systems/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogsBlogIdRoute = BlogsBlogIdRouteImport.update({
+  id: '/blogs/$blogId',
+  path: '/blogs/$blogId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
+  '/about-us': typeof AboutUsRoute
+  '/advertiser-disclosure': typeof AdvertiserDisclosureRoute
+  '/bars-and-night-clubs': typeof BarsAndNightClubsRoute
+  '/cash-advance': typeof CashAdvanceRoute
+  '/cash-discount-program': typeof CashDiscountProgramRoute
+  '/cash-signing-bonus-calculator': typeof CashSigningBonusCalculatorRoute
+  '/check-services': typeof CheckServicesRoute
+  '/cloudbeds': typeof CloudbedsRoute
+  '/clover-app-market': typeof CloverAppMarketRoute
+  '/contact-us': typeof ContactUsRoute
+  '/credit-card-processing-calculator': typeof CreditCardProcessingCalculatorRoute
+  '/customer-loyalty-programs-and-rewards': typeof CustomerLoyaltyProgramsAndRewardsRoute
+  '/faqs': typeof FaqsRoute
+  '/full-service-restaurants': typeof FullServiceRestaurantsRoute
+  '/get-pricing': typeof GetPricingRoute
+  '/gift-card-program': typeof GiftCardProgramRoute
+  '/how-we-rate': typeof HowWeRateRoute
+  '/invoicing': typeof InvoicingRoute
+  '/mobile-order-pay': typeof MobileOrderPayRoute
+  '/online-analytics': typeof OnlineAnalyticsRoute
+  '/partner': typeof PartnerRoute
+  '/payment-processing': typeof PaymentProcessingRoute
+  '/pizzerias': typeof PizzeriasRoute
+  '/point-of-sale-systems': typeof PointOfSaleSystemsRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
+  '/quick-service-restaurants': typeof QuickServiceRestaurantsRoute
+  '/quickbooks-plugin': typeof QuickbooksPluginRoute
+  '/referral-program': typeof ReferralProgramRoute
+  '/request-demo-pos': typeof RequestDemoPosRoute
+  '/retail': typeof RetailRoute
+  '/same-day-funding': typeof SameDayFundingRoute
+  '/small-business': typeof SmallBusinessRoute
+  '/suggest-pos': typeof SuggestPosRoute
+  '/term-conditions': typeof TermConditionsRoute
+  '/terms-of-service': typeof TermsOfServiceRoute
+  '/thanks-you': typeof ThanksYouRoute
+  '/blogs/$blogId': typeof BlogsBlogIdRoute
+  '/pos-systems/$slug': typeof PosSystemsSlugRoute
+  '/blogs': typeof BlogsIndexRoute
+  '/pos-systems': typeof PosSystemsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
+  '/about-us': typeof AboutUsRoute
+  '/advertiser-disclosure': typeof AdvertiserDisclosureRoute
+  '/bars-and-night-clubs': typeof BarsAndNightClubsRoute
+  '/cash-advance': typeof CashAdvanceRoute
+  '/cash-discount-program': typeof CashDiscountProgramRoute
+  '/cash-signing-bonus-calculator': typeof CashSigningBonusCalculatorRoute
+  '/check-services': typeof CheckServicesRoute
+  '/cloudbeds': typeof CloudbedsRoute
+  '/clover-app-market': typeof CloverAppMarketRoute
+  '/contact-us': typeof ContactUsRoute
+  '/credit-card-processing-calculator': typeof CreditCardProcessingCalculatorRoute
+  '/customer-loyalty-programs-and-rewards': typeof CustomerLoyaltyProgramsAndRewardsRoute
+  '/faqs': typeof FaqsRoute
+  '/full-service-restaurants': typeof FullServiceRestaurantsRoute
+  '/get-pricing': typeof GetPricingRoute
+  '/gift-card-program': typeof GiftCardProgramRoute
+  '/how-we-rate': typeof HowWeRateRoute
+  '/invoicing': typeof InvoicingRoute
+  '/mobile-order-pay': typeof MobileOrderPayRoute
+  '/online-analytics': typeof OnlineAnalyticsRoute
+  '/partner': typeof PartnerRoute
+  '/payment-processing': typeof PaymentProcessingRoute
+  '/pizzerias': typeof PizzeriasRoute
+  '/point-of-sale-systems': typeof PointOfSaleSystemsRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
+  '/quick-service-restaurants': typeof QuickServiceRestaurantsRoute
+  '/quickbooks-plugin': typeof QuickbooksPluginRoute
+  '/referral-program': typeof ReferralProgramRoute
+  '/request-demo-pos': typeof RequestDemoPosRoute
+  '/retail': typeof RetailRoute
+  '/same-day-funding': typeof SameDayFundingRoute
+  '/small-business': typeof SmallBusinessRoute
+  '/suggest-pos': typeof SuggestPosRoute
+  '/term-conditions': typeof TermConditionsRoute
+  '/terms-of-service': typeof TermsOfServiceRoute
+  '/thanks-you': typeof ThanksYouRoute
+  '/blogs/$blogId': typeof BlogsBlogIdRoute
+  '/pos-systems/$slug': typeof PosSystemsSlugRoute
+  '/blogs': typeof BlogsIndexRoute
+  '/pos-systems': typeof PosSystemsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
+  '/about-us': typeof AboutUsRoute
+  '/advertiser-disclosure': typeof AdvertiserDisclosureRoute
+  '/bars-and-night-clubs': typeof BarsAndNightClubsRoute
+  '/cash-advance': typeof CashAdvanceRoute
+  '/cash-discount-program': typeof CashDiscountProgramRoute
+  '/cash-signing-bonus-calculator': typeof CashSigningBonusCalculatorRoute
+  '/check-services': typeof CheckServicesRoute
+  '/cloudbeds': typeof CloudbedsRoute
+  '/clover-app-market': typeof CloverAppMarketRoute
+  '/contact-us': typeof ContactUsRoute
+  '/credit-card-processing-calculator': typeof CreditCardProcessingCalculatorRoute
+  '/customer-loyalty-programs-and-rewards': typeof CustomerLoyaltyProgramsAndRewardsRoute
+  '/faqs': typeof FaqsRoute
+  '/full-service-restaurants': typeof FullServiceRestaurantsRoute
+  '/get-pricing': typeof GetPricingRoute
+  '/gift-card-program': typeof GiftCardProgramRoute
+  '/how-we-rate': typeof HowWeRateRoute
+  '/invoicing': typeof InvoicingRoute
+  '/mobile-order-pay': typeof MobileOrderPayRoute
+  '/online-analytics': typeof OnlineAnalyticsRoute
+  '/partner': typeof PartnerRoute
+  '/payment-processing': typeof PaymentProcessingRoute
+  '/pizzerias': typeof PizzeriasRoute
+  '/point-of-sale-systems': typeof PointOfSaleSystemsRoute
+  '/privacy-policy': typeof PrivacyPolicyRoute
+  '/quick-service-restaurants': typeof QuickServiceRestaurantsRoute
+  '/quickbooks-plugin': typeof QuickbooksPluginRoute
+  '/referral-program': typeof ReferralProgramRoute
+  '/request-demo-pos': typeof RequestDemoPosRoute
+  '/retail': typeof RetailRoute
+  '/same-day-funding': typeof SameDayFundingRoute
+  '/small-business': typeof SmallBusinessRoute
+  '/suggest-pos': typeof SuggestPosRoute
+  '/term-conditions': typeof TermConditionsRoute
+  '/terms-of-service': typeof TermsOfServiceRoute
+  '/thanks-you': typeof ThanksYouRoute
+  '/blogs/$blogId': typeof BlogsBlogIdRoute
+  '/pos-systems/$slug': typeof PosSystemsSlugRoute
+  '/blogs/': typeof BlogsIndexRoute
+  '/pos-systems/': typeof PosSystemsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/$'
+    | '/about-us'
+    | '/advertiser-disclosure'
+    | '/bars-and-night-clubs'
+    | '/cash-advance'
+    | '/cash-discount-program'
+    | '/cash-signing-bonus-calculator'
+    | '/check-services'
+    | '/cloudbeds'
+    | '/clover-app-market'
+    | '/contact-us'
+    | '/credit-card-processing-calculator'
+    | '/customer-loyalty-programs-and-rewards'
+    | '/faqs'
+    | '/full-service-restaurants'
+    | '/get-pricing'
+    | '/gift-card-program'
+    | '/how-we-rate'
+    | '/invoicing'
+    | '/mobile-order-pay'
+    | '/online-analytics'
+    | '/partner'
+    | '/payment-processing'
+    | '/pizzerias'
+    | '/point-of-sale-systems'
+    | '/privacy-policy'
+    | '/quick-service-restaurants'
+    | '/quickbooks-plugin'
+    | '/referral-program'
+    | '/request-demo-pos'
+    | '/retail'
+    | '/same-day-funding'
+    | '/small-business'
+    | '/suggest-pos'
+    | '/term-conditions'
+    | '/terms-of-service'
+    | '/thanks-you'
+    | '/blogs/$blogId'
+    | '/pos-systems/$slug'
+    | '/blogs'
+    | '/pos-systems'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/$'
+    | '/about-us'
+    | '/advertiser-disclosure'
+    | '/bars-and-night-clubs'
+    | '/cash-advance'
+    | '/cash-discount-program'
+    | '/cash-signing-bonus-calculator'
+    | '/check-services'
+    | '/cloudbeds'
+    | '/clover-app-market'
+    | '/contact-us'
+    | '/credit-card-processing-calculator'
+    | '/customer-loyalty-programs-and-rewards'
+    | '/faqs'
+    | '/full-service-restaurants'
+    | '/get-pricing'
+    | '/gift-card-program'
+    | '/how-we-rate'
+    | '/invoicing'
+    | '/mobile-order-pay'
+    | '/online-analytics'
+    | '/partner'
+    | '/payment-processing'
+    | '/pizzerias'
+    | '/point-of-sale-systems'
+    | '/privacy-policy'
+    | '/quick-service-restaurants'
+    | '/quickbooks-plugin'
+    | '/referral-program'
+    | '/request-demo-pos'
+    | '/retail'
+    | '/same-day-funding'
+    | '/small-business'
+    | '/suggest-pos'
+    | '/term-conditions'
+    | '/terms-of-service'
+    | '/thanks-you'
+    | '/blogs/$blogId'
+    | '/pos-systems/$slug'
+    | '/blogs'
+    | '/pos-systems'
+  id:
+    | '__root__'
+    | '/'
+    | '/$'
+    | '/about-us'
+    | '/advertiser-disclosure'
+    | '/bars-and-night-clubs'
+    | '/cash-advance'
+    | '/cash-discount-program'
+    | '/cash-signing-bonus-calculator'
+    | '/check-services'
+    | '/cloudbeds'
+    | '/clover-app-market'
+    | '/contact-us'
+    | '/credit-card-processing-calculator'
+    | '/customer-loyalty-programs-and-rewards'
+    | '/faqs'
+    | '/full-service-restaurants'
+    | '/get-pricing'
+    | '/gift-card-program'
+    | '/how-we-rate'
+    | '/invoicing'
+    | '/mobile-order-pay'
+    | '/online-analytics'
+    | '/partner'
+    | '/payment-processing'
+    | '/pizzerias'
+    | '/point-of-sale-systems'
+    | '/privacy-policy'
+    | '/quick-service-restaurants'
+    | '/quickbooks-plugin'
+    | '/referral-program'
+    | '/request-demo-pos'
+    | '/retail'
+    | '/same-day-funding'
+    | '/small-business'
+    | '/suggest-pos'
+    | '/term-conditions'
+    | '/terms-of-service'
+    | '/thanks-you'
+    | '/blogs/$blogId'
+    | '/pos-systems/$slug'
+    | '/blogs/'
+    | '/pos-systems/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SplatRoute: typeof SplatRoute
+  AboutUsRoute: typeof AboutUsRoute
+  AdvertiserDisclosureRoute: typeof AdvertiserDisclosureRoute
+  BarsAndNightClubsRoute: typeof BarsAndNightClubsRoute
+  CashAdvanceRoute: typeof CashAdvanceRoute
+  CashDiscountProgramRoute: typeof CashDiscountProgramRoute
+  CashSigningBonusCalculatorRoute: typeof CashSigningBonusCalculatorRoute
+  CheckServicesRoute: typeof CheckServicesRoute
+  CloudbedsRoute: typeof CloudbedsRoute
+  CloverAppMarketRoute: typeof CloverAppMarketRoute
+  ContactUsRoute: typeof ContactUsRoute
+  CreditCardProcessingCalculatorRoute: typeof CreditCardProcessingCalculatorRoute
+  CustomerLoyaltyProgramsAndRewardsRoute: typeof CustomerLoyaltyProgramsAndRewardsRoute
+  FaqsRoute: typeof FaqsRoute
+  FullServiceRestaurantsRoute: typeof FullServiceRestaurantsRoute
+  GetPricingRoute: typeof GetPricingRoute
+  GiftCardProgramRoute: typeof GiftCardProgramRoute
+  HowWeRateRoute: typeof HowWeRateRoute
+  InvoicingRoute: typeof InvoicingRoute
+  MobileOrderPayRoute: typeof MobileOrderPayRoute
+  OnlineAnalyticsRoute: typeof OnlineAnalyticsRoute
+  PartnerRoute: typeof PartnerRoute
+  PaymentProcessingRoute: typeof PaymentProcessingRoute
+  PizzeriasRoute: typeof PizzeriasRoute
+  PointOfSaleSystemsRoute: typeof PointOfSaleSystemsRoute
+  PrivacyPolicyRoute: typeof PrivacyPolicyRoute
+  QuickServiceRestaurantsRoute: typeof QuickServiceRestaurantsRoute
+  QuickbooksPluginRoute: typeof QuickbooksPluginRoute
+  ReferralProgramRoute: typeof ReferralProgramRoute
+  RequestDemoPosRoute: typeof RequestDemoPosRoute
+  RetailRoute: typeof RetailRoute
+  SameDayFundingRoute: typeof SameDayFundingRoute
+  SmallBusinessRoute: typeof SmallBusinessRoute
+  SuggestPosRoute: typeof SuggestPosRoute
+  TermConditionsRoute: typeof TermConditionsRoute
+  TermsOfServiceRoute: typeof TermsOfServiceRoute
+  ThanksYouRoute: typeof ThanksYouRoute
+  BlogsBlogIdRoute: typeof BlogsBlogIdRoute
+  PosSystemsSlugRoute: typeof PosSystemsSlugRoute
+  BlogsIndexRoute: typeof BlogsIndexRoute
+  PosSystemsIndexRoute: typeof PosSystemsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/thanks-you': {
+      id: '/thanks-you'
+      path: '/thanks-you'
+      fullPath: '/thanks-you'
+      preLoaderRoute: typeof ThanksYouRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/terms-of-service': {
+      id: '/terms-of-service'
+      path: '/terms-of-service'
+      fullPath: '/terms-of-service'
+      preLoaderRoute: typeof TermsOfServiceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/term-conditions': {
+      id: '/term-conditions'
+      path: '/term-conditions'
+      fullPath: '/term-conditions'
+      preLoaderRoute: typeof TermConditionsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/suggest-pos': {
+      id: '/suggest-pos'
+      path: '/suggest-pos'
+      fullPath: '/suggest-pos'
+      preLoaderRoute: typeof SuggestPosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/small-business': {
+      id: '/small-business'
+      path: '/small-business'
+      fullPath: '/small-business'
+      preLoaderRoute: typeof SmallBusinessRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/same-day-funding': {
+      id: '/same-day-funding'
+      path: '/same-day-funding'
+      fullPath: '/same-day-funding'
+      preLoaderRoute: typeof SameDayFundingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/retail': {
+      id: '/retail'
+      path: '/retail'
+      fullPath: '/retail'
+      preLoaderRoute: typeof RetailRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/request-demo-pos': {
+      id: '/request-demo-pos'
+      path: '/request-demo-pos'
+      fullPath: '/request-demo-pos'
+      preLoaderRoute: typeof RequestDemoPosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/referral-program': {
+      id: '/referral-program'
+      path: '/referral-program'
+      fullPath: '/referral-program'
+      preLoaderRoute: typeof ReferralProgramRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quickbooks-plugin': {
+      id: '/quickbooks-plugin'
+      path: '/quickbooks-plugin'
+      fullPath: '/quickbooks-plugin'
+      preLoaderRoute: typeof QuickbooksPluginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quick-service-restaurants': {
+      id: '/quick-service-restaurants'
+      path: '/quick-service-restaurants'
+      fullPath: '/quick-service-restaurants'
+      preLoaderRoute: typeof QuickServiceRestaurantsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy-policy': {
+      id: '/privacy-policy'
+      path: '/privacy-policy'
+      fullPath: '/privacy-policy'
+      preLoaderRoute: typeof PrivacyPolicyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/point-of-sale-systems': {
+      id: '/point-of-sale-systems'
+      path: '/point-of-sale-systems'
+      fullPath: '/point-of-sale-systems'
+      preLoaderRoute: typeof PointOfSaleSystemsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pizzerias': {
+      id: '/pizzerias'
+      path: '/pizzerias'
+      fullPath: '/pizzerias'
+      preLoaderRoute: typeof PizzeriasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/payment-processing': {
+      id: '/payment-processing'
+      path: '/payment-processing'
+      fullPath: '/payment-processing'
+      preLoaderRoute: typeof PaymentProcessingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/partner': {
+      id: '/partner'
+      path: '/partner'
+      fullPath: '/partner'
+      preLoaderRoute: typeof PartnerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/online-analytics': {
+      id: '/online-analytics'
+      path: '/online-analytics'
+      fullPath: '/online-analytics'
+      preLoaderRoute: typeof OnlineAnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mobile-order-pay': {
+      id: '/mobile-order-pay'
+      path: '/mobile-order-pay'
+      fullPath: '/mobile-order-pay'
+      preLoaderRoute: typeof MobileOrderPayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/invoicing': {
+      id: '/invoicing'
+      path: '/invoicing'
+      fullPath: '/invoicing'
+      preLoaderRoute: typeof InvoicingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/how-we-rate': {
+      id: '/how-we-rate'
+      path: '/how-we-rate'
+      fullPath: '/how-we-rate'
+      preLoaderRoute: typeof HowWeRateRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gift-card-program': {
+      id: '/gift-card-program'
+      path: '/gift-card-program'
+      fullPath: '/gift-card-program'
+      preLoaderRoute: typeof GiftCardProgramRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/get-pricing': {
+      id: '/get-pricing'
+      path: '/get-pricing'
+      fullPath: '/get-pricing'
+      preLoaderRoute: typeof GetPricingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/full-service-restaurants': {
+      id: '/full-service-restaurants'
+      path: '/full-service-restaurants'
+      fullPath: '/full-service-restaurants'
+      preLoaderRoute: typeof FullServiceRestaurantsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/faqs': {
+      id: '/faqs'
+      path: '/faqs'
+      fullPath: '/faqs'
+      preLoaderRoute: typeof FaqsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/customer-loyalty-programs-and-rewards': {
+      id: '/customer-loyalty-programs-and-rewards'
+      path: '/customer-loyalty-programs-and-rewards'
+      fullPath: '/customer-loyalty-programs-and-rewards'
+      preLoaderRoute: typeof CustomerLoyaltyProgramsAndRewardsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/credit-card-processing-calculator': {
+      id: '/credit-card-processing-calculator'
+      path: '/credit-card-processing-calculator'
+      fullPath: '/credit-card-processing-calculator'
+      preLoaderRoute: typeof CreditCardProcessingCalculatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact-us': {
+      id: '/contact-us'
+      path: '/contact-us'
+      fullPath: '/contact-us'
+      preLoaderRoute: typeof ContactUsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/clover-app-market': {
+      id: '/clover-app-market'
+      path: '/clover-app-market'
+      fullPath: '/clover-app-market'
+      preLoaderRoute: typeof CloverAppMarketRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cloudbeds': {
+      id: '/cloudbeds'
+      path: '/cloudbeds'
+      fullPath: '/cloudbeds'
+      preLoaderRoute: typeof CloudbedsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/check-services': {
+      id: '/check-services'
+      path: '/check-services'
+      fullPath: '/check-services'
+      preLoaderRoute: typeof CheckServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cash-signing-bonus-calculator': {
+      id: '/cash-signing-bonus-calculator'
+      path: '/cash-signing-bonus-calculator'
+      fullPath: '/cash-signing-bonus-calculator'
+      preLoaderRoute: typeof CashSigningBonusCalculatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cash-discount-program': {
+      id: '/cash-discount-program'
+      path: '/cash-discount-program'
+      fullPath: '/cash-discount-program'
+      preLoaderRoute: typeof CashDiscountProgramRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cash-advance': {
+      id: '/cash-advance'
+      path: '/cash-advance'
+      fullPath: '/cash-advance'
+      preLoaderRoute: typeof CashAdvanceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/bars-and-night-clubs': {
+      id: '/bars-and-night-clubs'
+      path: '/bars-and-night-clubs'
+      fullPath: '/bars-and-night-clubs'
+      preLoaderRoute: typeof BarsAndNightClubsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/advertiser-disclosure': {
+      id: '/advertiser-disclosure'
+      path: '/advertiser-disclosure'
+      fullPath: '/advertiser-disclosure'
+      preLoaderRoute: typeof AdvertiserDisclosureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about-us': {
+      id: '/about-us'
+      path: '/about-us'
+      fullPath: '/about-us'
+      preLoaderRoute: typeof AboutUsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$': {
+      id: '/$'
+      path: '/$'
+      fullPath: '/$'
+      preLoaderRoute: typeof SplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,11 +847,81 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pos-systems/': {
+      id: '/pos-systems/'
+      path: '/pos-systems'
+      fullPath: '/pos-systems'
+      preLoaderRoute: typeof PosSystemsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blogs/': {
+      id: '/blogs/'
+      path: '/blogs'
+      fullPath: '/blogs'
+      preLoaderRoute: typeof BlogsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pos-systems/$slug': {
+      id: '/pos-systems/$slug'
+      path: '/pos-systems/$slug'
+      fullPath: '/pos-systems/$slug'
+      preLoaderRoute: typeof PosSystemsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blogs/$blogId': {
+      id: '/blogs/$blogId'
+      path: '/blogs/$blogId'
+      fullPath: '/blogs/$blogId'
+      preLoaderRoute: typeof BlogsBlogIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SplatRoute: SplatRoute,
+  AboutUsRoute: AboutUsRoute,
+  AdvertiserDisclosureRoute: AdvertiserDisclosureRoute,
+  BarsAndNightClubsRoute: BarsAndNightClubsRoute,
+  CashAdvanceRoute: CashAdvanceRoute,
+  CashDiscountProgramRoute: CashDiscountProgramRoute,
+  CashSigningBonusCalculatorRoute: CashSigningBonusCalculatorRoute,
+  CheckServicesRoute: CheckServicesRoute,
+  CloudbedsRoute: CloudbedsRoute,
+  CloverAppMarketRoute: CloverAppMarketRoute,
+  ContactUsRoute: ContactUsRoute,
+  CreditCardProcessingCalculatorRoute: CreditCardProcessingCalculatorRoute,
+  CustomerLoyaltyProgramsAndRewardsRoute:
+    CustomerLoyaltyProgramsAndRewardsRoute,
+  FaqsRoute: FaqsRoute,
+  FullServiceRestaurantsRoute: FullServiceRestaurantsRoute,
+  GetPricingRoute: GetPricingRoute,
+  GiftCardProgramRoute: GiftCardProgramRoute,
+  HowWeRateRoute: HowWeRateRoute,
+  InvoicingRoute: InvoicingRoute,
+  MobileOrderPayRoute: MobileOrderPayRoute,
+  OnlineAnalyticsRoute: OnlineAnalyticsRoute,
+  PartnerRoute: PartnerRoute,
+  PaymentProcessingRoute: PaymentProcessingRoute,
+  PizzeriasRoute: PizzeriasRoute,
+  PointOfSaleSystemsRoute: PointOfSaleSystemsRoute,
+  PrivacyPolicyRoute: PrivacyPolicyRoute,
+  QuickServiceRestaurantsRoute: QuickServiceRestaurantsRoute,
+  QuickbooksPluginRoute: QuickbooksPluginRoute,
+  ReferralProgramRoute: ReferralProgramRoute,
+  RequestDemoPosRoute: RequestDemoPosRoute,
+  RetailRoute: RetailRoute,
+  SameDayFundingRoute: SameDayFundingRoute,
+  SmallBusinessRoute: SmallBusinessRoute,
+  SuggestPosRoute: SuggestPosRoute,
+  TermConditionsRoute: TermConditionsRoute,
+  TermsOfServiceRoute: TermsOfServiceRoute,
+  ThanksYouRoute: ThanksYouRoute,
+  BlogsBlogIdRoute: BlogsBlogIdRoute,
+  PosSystemsSlugRoute: PosSystemsSlugRoute,
+  BlogsIndexRoute: BlogsIndexRoute,
+  PosSystemsIndexRoute: PosSystemsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
