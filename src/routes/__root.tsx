@@ -3,7 +3,8 @@ import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
 import Header from '../components/header/Header'
 import appCss from '../styles.css?url'
-import '@/locales/index'
+import I18nProvider from '@/locales/I18nProvider'
+// import '@/locales/index'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -20,11 +21,6 @@ export const Route = createRootRoute({
       },
     ],
     links: [
-      {
-        rel: 'preconnect',
-        href: appCss,
-        crossOrigin: 'anonymous',
-      },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       {
         rel: 'preconnect',
@@ -38,7 +34,10 @@ export const Route = createRootRoute({
         media: 'print',
         onLoad: "this.media='all'",
       },
-      { rel: 'stylesheet', href: appCss },
+      {
+        rel: 'stylesheet',
+        href: appCss,
+      },
     ],
   }),
   shellComponent: RootDocument,
@@ -51,8 +50,10 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
-        <Header />
-        {children}
+        <I18nProvider>
+          <Header />
+          {children}
+        </I18nProvider>
         <TanStackDevtools
           config={{
             position: 'bottom-right',
