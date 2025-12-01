@@ -10,7 +10,7 @@ import Footer from '../components/footer/Footer'
 import { ErrorBoundary } from '../components/ErrorBoundary'
 import { Toaster } from '../components/ui/toaster'
 import appCss from '../styles.css?url'
-import I18nProvider from '@/locales/I18nProvider'
+import '../locales/index'
 // Load Inter font weights
 import '@fontsource/inter/latin-300.css' // Light
 import '@fontsource/inter/latin-400.css' // Regular - most used
@@ -101,14 +101,12 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
-          <I18nProvider>
-            <div className="flex flex-col min-h-screen">
-              <Header />
-              <main className="flex-1 min-h-screen">{children}</main>
-              <Footer />
-            </div>
-            <Toaster />
-          </I18nProvider>
+          <div className="flex flex-col min-h-screen">
+            <Header />
+            <main className="flex-1 min-h-screen">{children}</main>
+            <Footer />
+          </div>
+          <Toaster />
         </QueryClientProvider>
         <Scripts />
       </body>

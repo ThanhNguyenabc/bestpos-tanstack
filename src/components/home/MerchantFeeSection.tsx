@@ -35,7 +35,7 @@ export function MerchantFeeSection() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
-          {options.map((option) => (
+          {options?.map((option) => (
             <Card
               key={option.id}
               className="relative hover:shadow-lg transition-shadow"

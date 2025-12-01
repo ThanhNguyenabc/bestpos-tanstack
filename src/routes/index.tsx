@@ -13,7 +13,6 @@ import {
   CompetitiveAdvantageSection,
   TestimonialsSection,
 } from '@/components/home'
-import { da } from 'zod/v4/locales'
 
 // Query options for home page data
 export const homeQueryOptions = () =>
@@ -32,16 +31,16 @@ export const homeQueryOptions = () =>
 
 // Route definition
 export const Route = createFileRoute('/')({
-  loader: ({ context }) => {
-    return context.queryClient.ensureQueryData(homeQueryOptions())
-  },
+  // loader: ({ context }) => {
+  //   return context.queryClient.ensureQueryData(homeQueryOptions())
+  // },
   component: HomePage,
 })
 
 function HomePage() {
   // const { data } = useSuspenseQuery(homeQueryOptions())
   const { t } = useTranslation('home')
-
+  console.log('data::', t('saving_money'))
   // console.log('data::', data)
   return (
     <div className="flex flex-col">
@@ -55,7 +54,7 @@ function HomePage() {
       <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            {t('Ready to Find Your Perfect POS?')}
+            {t('saving_money')}
           </h2>
           <p className="text-xl mb-8 opacity-90">
             {t('Get a free quote and expert recommendations in minutes')}
