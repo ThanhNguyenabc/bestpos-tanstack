@@ -7,123 +7,65 @@ import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
 import svgr from 'vite-plugin-svgr'
 
-const config = defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
-    devtools(),
+    mode === 'development' && devtools(), // ❗ do not load in production
     svgr(),
     nitro(),
-    // this is the plugin that enables path aliases
-    viteTsConfigPaths({
-      projects: ['./tsconfig.json'],
-    }),
+    viteTsConfigPaths(),
     tailwindcss(),
     tanstackStart(),
     viteReact(),
-  ],
-  // Environment variable handling
+  ].filter(Boolean),
+
   envPrefix: 'VITE_',
 
-  // Build optimization settings
   build: {
     target: 'esnext',
     minify: 'esbuild',
-    // sourcemap: true,
-    // Disable CSS code splitting to inline critical CSS
-    cssCodeSplit: false,
-    // Reduce chunk size warning limit
-    chunkSizeWarningLimit: 500,
-    // Enable tree-shaking for optimal bundle sizes
-    // This removes unused code from translation files and dependencies
+
+    // ❗ Put CSS back into CSS files (reduces JS drastically)
+    cssCodeSplit: true,
+
+    chunkSizeWarningLimit: 700,
+
     modulePreload: {
-      // Add preload hints for language bundles and CSS files to improve loading performance
-      // This tells the browser to preload resources with high priority
-      polyfill: true,
-      resolveDependencies: (_filename, deps) => {
-        // Always include all dependencies (CSS, JS) for preloading
-        // This ensures CSS files get preload hints to reduce render-blocking
-        return deps
-      },
+      polyfill: false, // ❗ reduce preload JS
     },
+
     rollupOptions: {
-      // Enable aggressive tree-shaking to remove unused code
       treeshake: {
-        moduleSideEffects: 'no-external',
+        moduleSideEffects: false, // true tree-shaking
         propertyReadSideEffects: false,
         tryCatchDeoptimization: false,
       },
+
       output: {
-        // Optimize chunk file names for better caching
-        chunkFileNames: 'assets/[name]-[hash].js',
         entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
         assetFileNames: 'assets/[name]-[hash].[ext]',
+
         manualChunks(id) {
-          // Only apply manual chunks for client build, not SSR
           if (id.includes('node_modules')) {
-            // React core - separate chunk for better caching
-            if (id.includes('react') || id.includes('react-dom')) {
-              return 'react-vendor'
-            }
+            // Keep only essential vendor chunks
+            if (id.includes('react') || id.includes('react-dom')) return 'react'
 
-            // TanStack Router - separate chunk
-            if (id.includes('@tanstack/react-router')) {
-              return 'router-vendor'
-            }
+            if (id.includes('@tanstack')) return 'tanstack'
 
-            // TanStack Query - separate chunk
-            if (id.includes('@tanstack/react-query')) {
-              return 'query-vendor'
-            }
-
-            // i18n vendor chunk for core i18n libraries
-            if (
-              id.includes('i18next') ||
-              id.includes('react-i18next') ||
-              id.includes('i18next-browser-languagedetector')
-            ) {
-              return 'i18n-vendor'
-            }
-
-            // Form libraries - separate chunk (react-hook-form, zod)
-            // These are only needed on form pages
-            if (id.includes('react-hook-form') || id.includes('zod')) {
-              return 'form-vendor'
-            }
-
-            // UI libraries - separate chunk (sonner for toasts)
-            if (id.includes('sonner')) {
-              return 'ui-vendor'
-            }
-
-            // Seroval - separate chunk for serialization
-            if (id.includes('seroval')) {
-              return 'seroval-vendor'
-            }
-
-            // Other node_modules go into a general vendor chunk
+            // Everything else small goes into one vendor chunk
             return 'vendor'
           }
 
-          // Spanish translation files - create separate chunk for lazy loading
-          // This enables code splitting so Spanish translations are only loaded when needed
-          if (id.includes('/locales/es/')) {
-            return 'i18n-es'
-          }
+          // i18n ES only (lazy loaded)
+          if (id.includes('/locales/es/')) return 'i18n-es'
 
-          // English translations bundled with main app (no separate chunk)
-          // This ensures English loads synchronously with the main bundle
-          // Note: We explicitly don't create a chunk for /locales/en/ files
-
-          // Return undefined for all other modules to use default chunking
           return undefined
         },
       },
     },
   },
-  server: {
-    watch: {
-      usePolling: true,
-    },
-  },
-})
 
-export default config
+  server: {
+    watch: { usePolling: true },
+  },
+}))
