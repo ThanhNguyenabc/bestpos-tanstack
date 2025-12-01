@@ -98,7 +98,7 @@ function I18nLoadingFallback() {
 export default function I18nProvider({ children }: { children: ReactNode }) {
   return (
     <I18nErrorBoundary>
-      <Suspense fallback={<I18nLoadingFallback />}>
+      <Suspense fallback={null}>
         <I18nextProvider i18n={i18n}>{children}</I18nextProvider>
       </Suspense>
     </I18nErrorBoundary>
