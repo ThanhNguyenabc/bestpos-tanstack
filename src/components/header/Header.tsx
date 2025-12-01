@@ -8,6 +8,7 @@ import { PHONE } from '@/utils/constants'
 import { useTranslation } from 'react-i18next'
 import { Container } from '../ui/container'
 import DeskTopNavigation from './DesktopNavBar'
+import Image from '../ui/image'
 const MobileNavBar = lazy(() => import('./MobileNavBar'))
 
 export default function Header() {
@@ -45,7 +46,12 @@ export default function Header() {
             href={`tel:${PHONE}`}
             className="hidden lg:flex items-center gap-2 px-4 py-2 border border-[#FF5A22] rounded-md hover:bg-[#FFF5F0] transition-colors"
           >
-            <Phone className="w-4 h-4 text-[#FF5A22]" />
+            <Image
+              src="/color-icons/phone.svg"
+              alt="phone-icon"
+              width={24}
+              height={24}
+            />
             <span className="text-[14px] font-semibold text-[#1F2937]">
               {PHONE}
             </span>
