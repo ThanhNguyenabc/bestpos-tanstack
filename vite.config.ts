@@ -29,22 +29,30 @@ const config = defineConfig({
     cssCodeSplit: true,
     // rollupOptions: {
     //   output: {
-    //     manualChunks(id) {
-    //       // Only apply manual chunks for client build, not SSR
-    //       if (id.includes('node_modules')) {
-    //         if (id.includes('react') || id.includes('react-dom')) {
-    //           return 'react-vendor'
-    //         }
-    //         if (id.includes('@tanstack/react-router')) {
-    //           return 'router-vendor'
-    //         }
-    //         if (id.includes('@tanstack/react-query')) {
-    //           return 'query-vendor'
-    //         }
-    //       }
+    //     manualChunks: {
+    //       react: ['react', 'react-dom'],
+    //       vendor: ['@tanstack/react-router', 'axios', 'motion'], // example
     //     },
     //   },
     // },
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          // Only apply manual chunks for client build, not SSR
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom')) {
+              return 'react-vendor'
+            }
+            if (id.includes('@tanstack/react-router')) {
+              return 'router-vendor'
+            }
+            if (id.includes('@tanstack/react-query')) {
+              return 'query-vendor'
+            }
+          }
+        },
+      },
+    },
     // chunkSizeWarningLimit: 1000,
   },
 
