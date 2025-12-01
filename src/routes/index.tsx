@@ -45,23 +45,11 @@ function HomePage() {
   // console.log('data::', data)
   return (
     <div className="flex flex-col">
-      {/* Hero Banner */}
       <HomeBanner />
-
-      {/* Helping POS Section */}
-      {/* <HelpingPOSSection /> */}
-
-      {/* Featured POS Systems */}
-      {/* <HomePOSList products={data.products} /> */}
-
-      {/* Merchant Fee Section */}
-      {/* <MerchantFeeSection /> */}
-
-      {/* Competitive Advantage */}
-      {/* <CompetitiveAdvantageSection /> */}
-
-      {/* Testimonials */}
-      {/* <TestimonialsSection /> */}
+      <HomePOSList products={[]} />
+      <MerchantFeeSection />
+      <CompetitiveAdvantageSection />
+      <TestimonialsSection />
 
       {/* CTA Section */}
       <section className="py-20 bg-primary text-white">
