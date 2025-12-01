@@ -156,7 +156,6 @@ const createTranslationLoader = () => {
 const translationLoader = resourcesToBackend(createTranslationLoader())
 
 // Detect initial language on app initialization
-const initialLanguage = languagePersistence.detect()
 
 i18n
   .use(translationLoader)
@@ -187,7 +186,7 @@ i18n
 // Listen for language changes and persist them
 i18n.on('languageChanged', (language: string) => {
   // Persist language preference whenever it changes
-  languagePersistence.save(language)
+  // languagePersistence.save(language)
 })
 
 // Export utilities for external use if needed

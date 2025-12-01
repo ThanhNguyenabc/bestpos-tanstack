@@ -10,6 +10,8 @@ import { ErrorBoundary } from '../components/ErrorBoundary'
 import { Toaster } from '../components/ui/toaster'
 import appCss from '../styles.css?url'
 import '../locales/index'
+// Self-hosted fonts with font-display: swap to prevent render-blocking
+import '../styles/fonts.css'
 import Header from '@/components/header/Header'
 import I18nProvider from '../locales/I18nProvider'
 
@@ -33,35 +35,42 @@ export const Route = createRootRouteWithContext<RouterContext>()({
     ],
     links: [
       { rel: 'icon', href: '/favicon.svg' },
+      // Preconnect to same origin for faster resource loading
       {
         rel: 'preconnect',
         href: '/',
       },
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-
-      {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-        crossOrigin: 'anonymous',
-      },
-
+      // DNS prefetch as fallback for older browsers
       {
         rel: 'dns-prefetch',
         href: '/',
       },
+      // Preload critical CSS to reduce render-blocking
       {
         rel: 'preload',
         href: appCss,
         as: 'style',
       },
-
+      // Preload critical font weights (400 and 600) to prevent FOIT (Flash of Invisible Text)
+      // Using font-display: swap in CSS ensures text is visible immediately with fallback font
+      {
+        rel: 'preload',
+        href: '/assets/inter-latin-400-normal-C38fXH4l.woff2',
+        as: 'font',
+        type: 'font/woff2',
+        crossOrigin: 'anonymous',
+      },
+      {
+        rel: 'preload',
+        href: '/assets/inter-latin-600-normal-LgqL8muc.woff2',
+        as: 'font',
+        type: 'font/woff2',
+        crossOrigin: 'anonymous',
+      },
+      // Load stylesheet
       {
         rel: 'stylesheet',
         href: appCss,
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
       },
     ],
   }),

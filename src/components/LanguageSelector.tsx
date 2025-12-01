@@ -24,7 +24,7 @@ export function LanguageSelector() {
     i18n.changeLanguage(langCode)
     // Language preference is automatically persisted by the i18n languageChanged event listener
     // But we can also explicitly save it here for immediate feedback
-    languagePersistence.save(langCode)
+    // languagePersistence.save(langCode)
   }
 
   return (
