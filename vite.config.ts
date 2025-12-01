@@ -30,14 +30,12 @@ const config = defineConfig({
     // Enable tree-shaking for optimal bundle sizes
     // This removes unused code from translation files and dependencies
     modulePreload: {
-      // Add preload hints for language bundles to improve loading performance
-      // This tells the browser to preload Spanish translations when likely needed
+      // Add preload hints for language bundles and CSS files to improve loading performance
+      // This tells the browser to preload resources with high priority
       polyfill: true,
-      resolveDependencies: (filename, deps) => {
-        // Preload Spanish translations when the i18n system is loaded
-        if (filename.includes('i18n') || filename.includes('locales')) {
-          return deps
-        }
+      resolveDependencies: (_filename, deps) => {
+        // Always include all dependencies (CSS, JS) for preloading
+        // This ensures CSS files get preload hints to reduce render-blocking
         return deps
       },
     },

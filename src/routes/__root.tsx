@@ -41,6 +41,13 @@ export const Route = createRootRouteWithContext<RouterContext>()({
     ],
     links: [
       { rel: 'icon', href: '/favicon.svg' },
+      // Preload critical CSS to reduce render-blocking
+      // This tells the browser to fetch CSS files with high priority
+      {
+        rel: 'preload',
+        href: appCss,
+        as: 'style',
+      },
       // Preload all font weights to reduce render-blocking
       {
         rel: 'preload',
@@ -84,6 +91,7 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         type: 'font/woff2',
         crossOrigin: 'anonymous',
       },
+      // Load stylesheet after preload
       {
         rel: 'stylesheet',
         href: appCss,
