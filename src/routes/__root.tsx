@@ -37,7 +37,14 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         rel: 'preconnect',
         href: '/',
       },
-      // DNS prefetch as fallback for older browsers
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossOrigin: 'anonymous',
+      },
+
       {
         rel: 'dns-prefetch',
         href: '/',
@@ -51,6 +58,10 @@ export const Route = createRootRouteWithContext<RouterContext>()({
       {
         rel: 'stylesheet',
         href: appCss,
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
       },
     ],
   }),
