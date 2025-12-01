@@ -26,25 +26,26 @@ const config = defineConfig({
     target: 'esnext',
     minify: 'esbuild',
     sourcemap: true,
-    rollupOptions: {
-      output: {
-        manualChunks(id) {
-          // Only apply manual chunks for client build, not SSR
-          if (id.includes('node_modules')) {
-            if (id.includes('react') || id.includes('react-dom')) {
-              return 'react-vendor'
-            }
-            if (id.includes('@tanstack/react-router')) {
-              return 'router-vendor'
-            }
-            if (id.includes('@tanstack/react-query')) {
-              return 'query-vendor'
-            }
-          }
-        },
-      },
-    },
-    chunkSizeWarningLimit: 1000,
+    cssCodeSplit: true,
+    // rollupOptions: {
+    //   output: {
+    //     manualChunks(id) {
+    //       // Only apply manual chunks for client build, not SSR
+    //       if (id.includes('node_modules')) {
+    //         if (id.includes('react') || id.includes('react-dom')) {
+    //           return 'react-vendor'
+    //         }
+    //         if (id.includes('@tanstack/react-router')) {
+    //           return 'router-vendor'
+    //         }
+    //         if (id.includes('@tanstack/react-query')) {
+    //           return 'query-vendor'
+    //         }
+    //       }
+    //     },
+    //   },
+    // },
+    // chunkSizeWarningLimit: 1000,
   },
 
   // Development server settings
