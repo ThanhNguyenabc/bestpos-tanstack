@@ -5,19 +5,11 @@ import {
 } from '@tanstack/react-router'
 import type { QueryClient } from '@tanstack/react-query'
 import { QueryClientProvider } from '@tanstack/react-query'
-// import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import { ErrorBoundary } from '../components/ErrorBoundary'
 import { Toaster } from '../components/ui/toaster'
 import appCss from '../styles.css?url'
 import '../locales/index'
-// Load Inter font weights
-// import '@fontsource/inter/latin-300.css?url' // Light
-// import '@fontsource/inter/latin-400.css' // Regular - most used
-// import '@fontsource/inter/latin-500.css' // Medium
-// import '@fontsource/inter/latin-600.css' // Semibold - headings
-// import '@fontsource/inter/latin-700.css' // Bold - emphasis
-// import '@fontsource/inter/latin-800.css' // Extra Bold
 import Header from '@/components/header/Header'
 import I18nProvider from '../locales/I18nProvider'
 

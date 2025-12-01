@@ -2,7 +2,7 @@
 @import "tw-animate-css";
 
 @theme {
-  --font-inter: Inter, system-ui, sans-serif;
+  --font-inter: Inter, sans-serif;
   
   /* Custom Colors */
   --color-primary: #ff5a22;

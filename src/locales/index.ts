@@ -163,7 +163,6 @@ i18n
   .use(LanguageDetector) // detect user language
   .use(initReactI18next) // hook into React
   .init({
-    lng: initialLanguage, // Set initial language from detection
     fallbackLng: 'en',
     supportedLngs: SUPPORTED_LANGUAGES,
     debug: false, // set true for dev

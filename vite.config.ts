@@ -25,8 +25,10 @@ const config = defineConfig({
   build: {
     target: 'esnext',
     minify: 'esbuild',
-    sourcemap: true,
+    // sourcemap: true,
     cssCodeSplit: true,
+    // Reduce chunk size warning limit
+    chunkSizeWarningLimit: 500,
     // Enable tree-shaking for optimal bundle sizes
     // This removes unused code from translation files and dependencies
     modulePreload: {
@@ -39,28 +41,36 @@ const config = defineConfig({
         return deps
       },
     },
-    // rollupOptions: {
-    //   output: {
-    //     manualChunks: {
-    //       react: ['react', 'react-dom'],
-    //       vendor: ['@tanstack/react-router', 'axios', 'motion'], // example
-    //     },
-    //   },
-    // },
     rollupOptions: {
+      // Enable aggressive tree-shaking to remove unused code
+      treeshake: {
+        moduleSideEffects: 'no-external',
+        propertyReadSideEffects: false,
+        tryCatchDeoptimization: false,
+      },
       output: {
+        // Optimize chunk file names for better caching
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
         manualChunks(id) {
           // Only apply manual chunks for client build, not SSR
           if (id.includes('node_modules')) {
+            // React core - separate chunk for better caching
             if (id.includes('react') || id.includes('react-dom')) {
               return 'react-vendor'
             }
+
+            // TanStack Router - separate chunk
             if (id.includes('@tanstack/react-router')) {
               return 'router-vendor'
             }
+
+            // TanStack Query - separate chunk
             if (id.includes('@tanstack/react-query')) {
               return 'query-vendor'
             }
+
             // i18n vendor chunk for core i18n libraries
             if (
               id.includes('i18next') ||
@@ -69,6 +79,25 @@ const config = defineConfig({
             ) {
               return 'i18n-vendor'
             }
+
+            // Form libraries - separate chunk (react-hook-form, zod)
+            // These are only needed on form pages
+            if (id.includes('react-hook-form') || id.includes('zod')) {
+              return 'form-vendor'
+            }
+
+            // UI libraries - separate chunk (sonner for toasts)
+            if (id.includes('sonner')) {
+              return 'ui-vendor'
+            }
+
+            // Seroval - separate chunk for serialization
+            if (id.includes('seroval')) {
+              return 'seroval-vendor'
+            }
+
+            // Other node_modules go into a general vendor chunk
+            return 'vendor'
           }
 
           // Spanish translation files - create separate chunk for lazy loading
@@ -86,7 +115,6 @@ const config = defineConfig({
         },
       },
     },
-    // chunkSizeWarningLimit: 1000,
   },
 
   // Development server settings
