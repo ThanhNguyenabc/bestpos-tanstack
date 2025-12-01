@@ -49,23 +49,6 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         href: appCss,
         as: 'style',
       },
-      // Preload critical font weights (400 and 600) to prevent FOIT (Flash of Invisible Text)
-      // Using font-display: swap in CSS ensures text is visible immediately with fallback font
-      {
-        rel: 'preload',
-        href: '/assets/inter-latin-400-normal-C38fXH4l.woff2',
-        as: 'font',
-        type: 'font/woff2',
-        crossOrigin: 'anonymous',
-      },
-      {
-        rel: 'preload',
-        href: '/assets/inter-latin-600-normal-LgqL8muc.woff2',
-        as: 'font',
-        type: 'font/woff2',
-        crossOrigin: 'anonymous',
-      },
-      // Load stylesheet
       {
         rel: 'stylesheet',
         href: appCss,

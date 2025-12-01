@@ -4,8 +4,9 @@ import { Link } from '@tanstack/react-router'
 import { useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Container } from '../ui/container'
-import { ChevronDown } from 'lucide-react'
-// import second from ""
+// import { ChevronDown } from 'lucide-react'
+import ChevronDown from '@/icons/chevron-down.svg?react'
+import Text from '../ui/text'
 const DeskTopNavigation = () => {
   const { t } = useTranslation()
   const [activeMenu, setActiveMenu] = useState<string | null>(null)
@@ -22,29 +23,33 @@ const DeskTopNavigation = () => {
   const selectedMenu = NAVIGATION_MENU.find((item) => item.key === activeMenu)
 
   return (
-    <div ref={parentRef} onMouseLeave={hideMenu}>
-      <nav className="flex items-center h-full gap-6">
+    <div
+      ref={parentRef}
+      onMouseLeave={hideMenu}
+      className="hidden md:flex flex-1"
+    >
+      <nav className="flex md:h-[80px] px-10 gap-6">
         {NAVIGATION_MENU.map((item) => (
           <Link
             key={item.key}
             to={item.children ? '' : item.href}
             className={cn(
-              'inline-flex items-center gap-1 h-full text-[14px] font-medium text-[#374151] hover:text-[#FF5A22] transition-colors relative',
-              activeMenu === item.key && 'text-[#FF5A22]',
+              'inline-flex items-center gap-1 h-full text-[14px] font-medium text-neutral-700 hover:text-primary transition-colors relative',
+              activeMenu === item.key && 'text-primary',
             )}
             onMouseEnter={() => showMenu(item.key)}
           >
-            <span>{t(item.label)}</span>
+            <Text className="font-semibold text-base">{t(item.label)}</Text>
             {item.children && (
               <ChevronDown
                 className={cn(
-                  'w-3.5 h-3.5 transition-transform',
+                  'w-6 h-6 transition-transform',
                   activeMenu === item.key && 'rotate-180',
                 )}
               />
             )}
             {activeMenu === item.key && (
-              <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#FF5A22]" />
+              <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-primary" />
             )}
           </Link>
         ))}
@@ -52,7 +57,7 @@ const DeskTopNavigation = () => {
       {selectedMenu?.children && (
         <div
           className="fixed left-0 right-0 bg-white border-t border-[#E5E7EB] shadow-lg z-50"
-          style={{ top: '60px' }}
+          style={{ top: 80 }}
           onMouseEnter={() => setActiveMenu(activeMenu)}
           onMouseLeave={hideMenu}
         >
@@ -62,7 +67,7 @@ const DeskTopNavigation = () => {
                 <Link
                   key={child.href}
                   to={child.href}
-                  className="flex items-center gap-3 p-4 bg-[#F9FAFB] rounded-xl hover:bg-[#F3F4F6] border border-transparent hover:border-[#FF5A22] transition-all"
+                  className="flex items-center gap-3 p-4 bg-neutral-100 rounded-xl hover:bg-[#F3F4F6] border border-transparent hover:border-primary transition-all"
                   onClick={hideMenu}
                 >
                   {child.icon && (
@@ -73,7 +78,7 @@ const DeskTopNavigation = () => {
                     />
                   )}
                   <div className="flex-1">
-                    <div className="text-[14px] font-semibold text-[#1F2937]">
+                    <div className="text-[14px] font-semibold text-[#000000]">
                       {t(child.title)}
                     </div>
                     {'description' in child && child.description && (

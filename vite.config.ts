@@ -5,10 +5,12 @@ import viteReact from '@vitejs/plugin-react'
 import viteTsConfigPaths from 'vite-tsconfig-paths'
 import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
+import svgr from 'vite-plugin-svgr'
 
 const config = defineConfig({
   plugins: [
     devtools(),
+    svgr(),
     nitro(),
     // this is the plugin that enables path aliases
     viteTsConfigPaths({
@@ -117,18 +119,10 @@ const config = defineConfig({
       },
     },
   },
-
-  // Development server settings
   server: {
-    port: 3000,
-    strictPort: false,
-    open: true,
-  },
-
-  // Preview server settings
-  preview: {
-    port: 3000,
-    strictPort: false,
+    watch: {
+      usePolling: true,
+    },
   },
 })
 
