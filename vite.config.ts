@@ -26,7 +26,8 @@ const config = defineConfig({
     target: 'esnext',
     minify: 'esbuild',
     // sourcemap: true,
-    cssCodeSplit: true,
+    // Disable CSS code splitting to inline critical CSS
+    cssCodeSplit: false,
     // Reduce chunk size warning limit
     chunkSizeWarningLimit: 500,
     // Enable tree-shaking for optimal bundle sizes

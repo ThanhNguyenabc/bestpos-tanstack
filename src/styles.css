@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Self-hosted Inter fonts - Critical weights inline for faster loading */
+@import '@fontsource/inter/latin-400.css'; /* Regular - Most used */
+@import '@fontsource/inter/latin-500.css'; /* Medium */
+@import '@fontsource/inter/latin-600.css'; /* Semibold - Headings */
+@import '@fontsource/inter/latin-700.css'; /* Bold - Emphasis */
+@import '@fontsource/inter/latin-800.css'; /* Extra Bold */
+
 @theme {
   --font-inter: Inter, sans-serif;
   

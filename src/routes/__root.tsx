@@ -10,8 +10,6 @@ import { ErrorBoundary } from '../components/ErrorBoundary'
 import { Toaster } from '../components/ui/toaster'
 import appCss from '../styles.css?url'
 import '../locales/index'
-// Self-hosted fonts with font-display: swap to prevent render-blocking
-import '../styles/fonts.css'
 import Header from '@/components/header/Header'
 import I18nProvider from '../locales/I18nProvider'
 
