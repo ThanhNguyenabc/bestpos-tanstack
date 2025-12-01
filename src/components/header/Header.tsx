@@ -30,10 +30,7 @@ export default function Header() {
           </SheetContent>
         </Sheet>
 
-        {/* Logo */}
-        <div className="flex items-center">
-          <BestPosLogo />
-        </div>
+        <BestPosLogo />
 
         {/* Desktop Navigation */}
         <DeskTopNavigation />
