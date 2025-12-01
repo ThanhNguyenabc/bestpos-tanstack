@@ -51,7 +51,16 @@ export default defineConfig(({ mode }) => ({
             if (id.includes('react') || id.includes('react-dom')) return 'react'
 
             if (id.includes('@tanstack')) return 'tanstack'
-
+            if (id.includes('react-hook-form') || id.includes('zod')) {
+              return 'form-vendor'
+            }
+            if (
+              id.includes('i18next') ||
+              id.includes('react-i18next') ||
+              id.includes('i18next-browser-languagedetector')
+            ) {
+              return 'i18n-vendor'
+            }
             // Everything else small goes into one vendor chunk
             return 'vendor'
           }
