@@ -13,16 +13,15 @@ import { Container } from '../ui/container'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [activeMenu, setActiveMenu] = useState<string | null>(null)
   const { t } = useTranslation()
 
   return (
-    <header>
-      <Container className="flex p-4 gap-4 items-center">
+    <header className="bg-white border-b border-[#E5E7EB]">
+      <Container className="flex items-center justify-between h-[60px] px-4">
         {/* Mobile menu button */}
         <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
           <SheetTrigger asChild className="lg:hidden">
-            <Button variant="ghost" size="icon" className="min-w-fit pl-0">
+            <Button variant="ghost" size="icon" className="min-w-fit p-0">
               <Menu className="w-6 h-6" />
             </Button>
           </SheetTrigger>
@@ -32,29 +31,29 @@ export default function Header() {
         </Sheet>
 
         {/* Logo */}
-        <div className="flex-1 lg:flex-initial">
+        <div className="flex items-center">
           <BestPosLogo />
         </div>
 
         {/* Desktop Navigation */}
-        <DeskTopNavigation className="hidden lg:flex flex-1" />
+        <DeskTopNavigation className="hidden lg:flex flex-1 ml-12" />
 
-        {/* Phone link */}
-        <a
-          href={`tel:${PHONE}`}
-          className="flex items-center p-2 gap-2 md:p-3 md:gap-3 border-2 border-orange-500 rounded-lg hover:bg-orange-500 hover:text-white transition-colors"
-        >
-          <img
-            width={24}
-            height={24}
-            src="/color-icons/phone.svg"
-            alt="phone-icon"
-          />
-          <span className="text-sm font-semibold text-center">{PHONE}</span>
-        </a>
+        {/* Right side actions */}
+        <div className="flex items-center gap-4">
+          {/* Phone with icon */}
+          <a
+            href={`tel:${PHONE}`}
+            className="hidden lg:flex items-center gap-2 px-4 py-2 border border-[#FF5A22] rounded-md hover:bg-[#FFF5F0] transition-colors"
+          >
+            <Phone className="w-4 h-4 text-[#FF5A22]" />
+            <span className="text-[14px] font-semibold text-[#1F2937]">
+              {PHONE}
+            </span>
+          </a>
 
-        {/* Language selector */}
-        <LanguageSelector />
+          {/* Language selector */}
+          <LanguageSelector />
+        </div>
       </Container>
     </header>
   )
@@ -63,15 +62,7 @@ export default function Header() {
 function DeskTopNavigation({ className }: { className?: string }) {
   const { t } = useTranslation()
   const [activeMenu, setActiveMenu] = useState<string | null>(null)
-  const [dropdownTop, setDropdownTop] = useState(0)
   const parentRef = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    if (parentRef.current) {
-      const rect = parentRef.current.getBoundingClientRect()
-      setDropdownTop(rect.height)
-    }
-  }, [])
 
   const hideMenu = () => {
     if (activeMenu) setActiveMenu(null)
@@ -85,77 +76,75 @@ function DeskTopNavigation({ className }: { className?: string }) {
 
   return (
     <div
-      className={cn('relative', className)}
+      className={cn('relative h-full', className)}
       ref={parentRef}
       onMouseLeave={hideMenu}
     >
-      <div className="flex items-center gap-6 z-20">
+      <nav className="flex items-center h-full gap-6">
         {NAVIGATION_MENU.map((item) => (
           <Link
             key={item.key}
             to={item.children ? '' : item.href}
             className={cn(
-              'inline-flex h-full pb-1 border-b-3 items-center transition-all border-white',
-              activeMenu === item.key && 'border-b-primary',
+              'inline-flex items-center gap-1 h-full text-[14px] font-medium text-[#374151] hover:text-[#FF5A22] transition-colors relative',
+              activeMenu === item.key && 'text-[#FF5A22]',
             )}
             onMouseEnter={() => showMenu(item.key)}
           >
-            <span
-              className={cn(
-                'transition-all font-semibold',
-                activeMenu === item.key && 'text-primary',
-              )}
-            >
-              {t(item.label)}
-            </span>
+            <span>{t(item.label)}</span>
             {item.children && (
               <ChevronDown
                 className={cn(
-                  'transition-all w-6 h-6',
-                  activeMenu === item.key && 'rotate-180 text-primary',
+                  'w-3.5 h-3.5 transition-transform',
+                  activeMenu === item.key && 'rotate-180',
                 )}
               />
             )}
+            {activeMenu === item.key && (
+              <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#FF5A22]" />
+            )}
           </Link>
         ))}
-      </div>
+      </nav>
 
       {/* Dropdown Menu */}
       {selectedMenu?.children && (
         <div
-          className="w-full absolute left-0 flex flex-row z-10 bg-white gap-8 p-8 rounded-b-lg shadow-lg"
-          style={{ top: `${dropdownTop}px` }}
+          className="fixed left-0 right-0 bg-white border-t border-[#E5E7EB] shadow-lg z-50"
+          style={{ top: '60px' }}
           onMouseEnter={() => setActiveMenu(activeMenu)}
           onMouseLeave={hideMenu}
         >
-          <div className="grid grid-cols-3 gap-4 w-[80%] max-w-[1146px] self-center mx-auto">
-            {selectedMenu.children.map((child) => (
-              <Link
-                key={child.href}
-                to={child.href}
-                className="inline-flex w-full bg-neutral-100 rounded-2xl overflow-hidden gap-2 items-center border-2 border-neutral-100 hover:border-primary p-4"
-                onClick={hideMenu}
-              >
-                {child.icon && (
-                  <img
-                    src={child.icon}
-                    alt={child.title}
-                    className="w-12 h-12 shrink-0"
-                  />
-                )}
-                <div className="flex-1 gap-1">
-                  <div className="text-base font-semibold">
-                    {t(child.title)}
-                  </div>
-                  {'description' in child && child.description && (
-                    <div className="text-sm text-neutral-600">
-                      {t(child.description)}
-                    </div>
+          <Container className="py-8">
+            <div className="grid grid-cols-3 gap-4 max-w-[1146px] mx-auto">
+              {selectedMenu.children.map((child) => (
+                <Link
+                  key={child.href}
+                  to={child.href}
+                  className="flex items-center gap-3 p-4 bg-[#F9FAFB] rounded-xl hover:bg-[#F3F4F6] border border-transparent hover:border-[#FF5A22] transition-all"
+                  onClick={hideMenu}
+                >
+                  {child.icon && (
+                    <img
+                      src={child.icon}
+                      alt={child.title}
+                      className="w-12 h-12 shrink-0"
+                    />
                   )}
-                </div>
-              </Link>
-            ))}
-          </div>
+                  <div className="flex-1">
+                    <div className="text-[14px] font-semibold text-[#1F2937]">
+                      {t(child.title)}
+                    </div>
+                    {'description' in child && child.description && (
+                      <div className="text-[13px] text-[#6B7280] mt-1">
+                        {t(child.description)}
+                      </div>
+                    )}
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </Container>
         </div>
       )}
     </div>

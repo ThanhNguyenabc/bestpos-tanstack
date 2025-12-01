@@ -13,6 +13,7 @@ import {
   CompetitiveAdvantageSection,
   TestimonialsSection,
 } from '@/components/home'
+import { da } from 'zod/v4/locales'
 
 // Query options for home page data
 export const homeQueryOptions = () =>
@@ -38,9 +39,10 @@ export const Route = createFileRoute('/')({
 })
 
 function HomePage() {
-  const { data } = useSuspenseQuery(homeQueryOptions())
+  // const { data } = useSuspenseQuery(homeQueryOptions())
   const { t } = useTranslation('home')
 
+  // console.log('data::', data)
   return (
     <div className="flex flex-col">
       {/* Hero Banner */}

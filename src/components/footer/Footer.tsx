@@ -13,6 +13,7 @@ import {
 } from '@/components/ui/accordion'
 import { Container } from '@/components/ui/container'
 import { LogoFooter } from '@/assets/Images'
+import Image from '../ui/image'
 
 const SOLUTIONS_MENU = [
   { title: 'Payment Processing', href: '/payment-processing' },
@@ -123,7 +124,7 @@ export default function Footer() {
       <Container className="py-16 md:py-20">
         {/* Header section with logo and contact */}
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 mb-12 md:mb-16">
-          <img
+          <Image
             alt="logo footer"
             width={180}
             height={40}
