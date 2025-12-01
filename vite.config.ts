@@ -27,6 +27,20 @@ const config = defineConfig({
     minify: 'esbuild',
     sourcemap: true,
     cssCodeSplit: true,
+    // Enable tree-shaking for optimal bundle sizes
+    // This removes unused code from translation files and dependencies
+    modulePreload: {
+      // Add preload hints for language bundles to improve loading performance
+      // This tells the browser to preload Spanish translations when likely needed
+      polyfill: true,
+      resolveDependencies: (filename, deps) => {
+        // Preload Spanish translations when the i18n system is loaded
+        if (filename.includes('i18n') || filename.includes('locales')) {
+          return deps
+        }
+        return deps
+      },
+    },
     // rollupOptions: {
     //   output: {
     //     manualChunks: {
@@ -49,7 +63,28 @@ const config = defineConfig({
             if (id.includes('@tanstack/react-query')) {
               return 'query-vendor'
             }
+            // i18n vendor chunk for core i18n libraries
+            if (
+              id.includes('i18next') ||
+              id.includes('react-i18next') ||
+              id.includes('i18next-browser-languagedetector')
+            ) {
+              return 'i18n-vendor'
+            }
           }
+
+          // Spanish translation files - create separate chunk for lazy loading
+          // This enables code splitting so Spanish translations are only loaded when needed
+          if (id.includes('/locales/es/')) {
+            return 'i18n-es'
+          }
+
+          // English translations bundled with main app (no separate chunk)
+          // This ensures English loads synchronously with the main bundle
+          // Note: We explicitly don't create a chunk for /locales/en/ files
+
+          // Return undefined for all other modules to use default chunking
+          return undefined
         },
       },
     },

@@ -5,7 +5,7 @@ import {
 } from '@tanstack/react-router'
 import type { QueryClient } from '@tanstack/react-query'
 import { QueryClientProvider } from '@tanstack/react-query'
-import Header from '../components/header/Header'
+// import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import { ErrorBoundary } from '../components/ErrorBoundary'
 import { Toaster } from '../components/ui/toaster'
@@ -18,6 +18,9 @@ import '@fontsource/inter/latin-500.css' // Medium
 import '@fontsource/inter/latin-600.css' // Semibold - headings
 import '@fontsource/inter/latin-700.css' // Bold - emphasis
 import '@fontsource/inter/latin-800.css' // Extra Bold
+import Header from '@/components/header/Header'
+import I18nProvider from '../locales/I18nProvider'
+
 interface RouterContext {
   queryClient: QueryClient
 }
@@ -101,12 +104,14 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
-          <div className="flex flex-col min-h-screen">
-            <Header />
-            <main className="flex-1 min-h-screen">{children}</main>
-            <Footer />
-          </div>
-          <Toaster />
+          <I18nProvider>
+            <div className="flex flex-col min-h-screen">
+              <Header />
+              <main className="flex-1 min-h-screen">{children}</main>
+              <Footer />
+            </div>
+            <Toaster />
+          </I18nProvider>
         </QueryClientProvider>
         <Scripts />
       </body>
