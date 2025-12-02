@@ -5,7 +5,7 @@ import { useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 // import { ChevronDown } from 'lucide-react'
 import ChevronDown from '@/icons/chevron-down.svg?react'
-import Text from '../primitives/text'
+import Text from '../primitives/Text'
 import Container from '../primitives/Container'
 const DeskTopNavigation = () => {
   const { t } = useTranslation()
