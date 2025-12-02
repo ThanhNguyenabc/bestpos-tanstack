@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { Handshake, Award, Target } from 'lucide-react'
-import { Container } from '@/components/ui/container'
+import Container from '../primitives/Container'
 
 export function CompetitiveAdvantageSection() {
   const { t } = useTranslation('home')

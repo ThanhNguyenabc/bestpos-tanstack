@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { CheckCircle, Calendar, DollarSign, Handshake } from 'lucide-react'
-import { Container } from '@/components/ui/container'
+import Container from '../primitives/Container'
 
 export function HelpingPOSSection() {
   const { t } = useTranslation('home')

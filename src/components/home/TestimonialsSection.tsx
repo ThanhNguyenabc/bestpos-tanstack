@@ -8,7 +8,7 @@ import {
 } from '@/components/ui/card'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Star } from 'lucide-react'
-import { Container } from '@/components/ui/container'
+import Container from '../primitives/Container'
 
 interface Testimonial {
   id: string

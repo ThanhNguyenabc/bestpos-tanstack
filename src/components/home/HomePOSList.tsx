@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/card'
 import { Link } from '@tanstack/react-router'
 import { Star } from 'lucide-react'
-import { Container } from '@/components/ui/container'
+import Container from '../primitives/Container'
 
 interface Product {
   id: string

@@ -6,11 +6,11 @@ import { LanguageSelector } from '../LanguageSelector'
 import BestPosLogo from '../BestPosLogo'
 import { PHONE } from '@/utils/constants'
 import { useTranslation } from 'react-i18next'
-import { Container } from '../ui/container'
 import DeskTopNavigation from './DesktopNavBar'
 import Image from '../ui/image'
 import { Link } from '@tanstack/react-router'
 import Flex from '../ui/flex'
+import Container from '../primitives/Container'
 const MobileNavBar = lazy(() => import('./MobileNavBar'))
 
 export default function Header() {

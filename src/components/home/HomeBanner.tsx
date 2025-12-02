@@ -2,11 +2,44 @@ import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { Link } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
-import { Container } from '@/components/ui/container'
+import Section from '../primitives/Section'
+import Container from '../primitives/Container'
+import Heading from '../primitives/heading'
+import Image from '../ui/image'
 
 export function HomeBanner() {
+  const { t: common } = useTranslation()
   const { t } = useTranslation('home')
 
+  return (
+    <Container>
+      <div className="grid md:grid-cols-2 gap-8">
+        <div>
+          <Heading type="h1" variant="responsive">
+            {t('pageTitle')}
+          </Heading>
+
+          <div className="mt-6 flex gap-3">
+            <Button
+              variant={'solid'}
+              className="w-full justify-center bg-neutral-900 md:w-fit"
+            >
+              {common('get_pricing_today')}
+            </Button>
+          </div>
+        </div>
+        <div className=" hidden md:flex">
+          <Image
+            src="https://res.cloudinary.com/dgrym3yz3/image/upload/f_auto,q_auto,w_612/bestpos/banner/qwllcfsf9qhtobo6qwij.png"
+            width={612}
+            height={612}
+            className="object-contain"
+            alt="BestPOS Banner"
+          />
+        </div>
+      </div>
+    </Container>
+  )
   return (
     <section className="relative bg-linear-to-br from-primary/10 via-white to-primary/5 py-20 md:py-32">
       <Container>

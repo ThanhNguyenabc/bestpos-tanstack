@@ -3,10 +3,10 @@ import { NAVIGATION_MENU } from '@/utils/navigation'
 import { Link } from '@tanstack/react-router'
 import { useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Container } from '../ui/container'
 // import { ChevronDown } from 'lucide-react'
 import ChevronDown from '@/icons/chevron-down.svg?react'
-import Text from '../ui/text'
+import Text from '../primitives/text'
+import Container from '../primitives/Container'
 const DeskTopNavigation = () => {
   const { t } = useTranslation()
   const [activeMenu, setActiveMenu] = useState<string | null>(null)

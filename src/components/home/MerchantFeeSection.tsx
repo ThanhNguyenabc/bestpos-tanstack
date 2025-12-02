@@ -8,7 +8,7 @@ import {
 } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { CheckCircle } from 'lucide-react'
-import { Container } from '@/components/ui/container'
+import Container from '../primitives/Container'
 
 export function MerchantFeeSection() {
   const { t } = useTranslation('home')

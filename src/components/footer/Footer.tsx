@@ -11,9 +11,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
-import { Container } from '@/components/ui/container'
 import { LogoFooter } from '@/assets/Images'
 import Image from '../ui/image'
+import Container from '../primitives/Container'
 
 const SOLUTIONS_MENU = [
   { title: 'Payment Processing', href: '/payment-processing' },
