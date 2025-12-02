@@ -1,9 +1,11 @@
 import { Link } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
-import { Facebook, Instagram, Linkedin } from 'lucide-react'
 import { COMPANY_EMAIL, PHONE } from '@/utils/constants'
+import Facebook from '@/icons/facebook.svg?react'
+import Instagram from '@/icons/instagram.svg?react'
+import Linkedin from '@/icons/linkedin.svg?react'
+
 import { COMPANY_MENU } from '@/utils/navigation'
-import { cn } from '@/lib/utils'
 import { useMemo } from 'react'
 import {
   Accordion,
@@ -14,6 +16,8 @@ import {
 import { LogoFooter } from '@/assets/Images'
 import Image from '../ui/image'
 import Container from '../primitives/Container'
+import Text from '../primitives/Text'
+import Flex from '../ui/flex'
 
 const SOLUTIONS_MENU = [
   { title: 'Payment Processing', href: '/payment-processing' },
@@ -69,8 +73,8 @@ const MenuCategory = ({
   return (
     <div className="flex flex-col gap-3">
       {menus?.map((item, idx) => (
-        <Link key={`${idx}`} to={item.href} className="text-white">
-          {t(item.title)}
+        <Link key={`${idx}`} to={item.href}>
+          <Text className=" text-neutral-400"> {t(item.title)}</Text>
         </Link>
       ))}
     </div>
@@ -120,45 +124,43 @@ export default function Footer() {
       <Container className="py-16 md:py-20">
         {/* Header section with logo and contact */}
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 mb-12 md:mb-16">
-          <Image
-            alt="logo footer"
-            width={180}
-            height={40}
-            src={LogoFooter}
-            className="h-10 w-auto"
-          />
+          <Flex className="md:flex-1">
+            <Image
+              alt="logo footer"
+              width={180}
+              height={40}
+              src={LogoFooter}
+              className="h-10"
+            />
+          </Flex>
 
-          <div className="flex-1">
-            <div className="text-[17px] leading-[24px] font-bold text-primary mb-3">
-              {t('Email')}
-            </div>
-            <a
-              className="text-[15px] leading-[22px] text-[#98A2B3] hover:text-white transition-colors"
-              href={`mailto:${COMPANY_EMAIL}`}
-            >
-              {COMPANY_EMAIL}
-            </a>
-          </div>
+          <Flex className="flex-col">
+            <Text className=" text-lg font-bold text-primary mb-1">
+              {t('email')}
+            </Text>
+            <Link to={`mailto:${COMPANY_EMAIL}`}>
+              <Text className="text-lg font-bold text-white">
+                {COMPANY_EMAIL}
+              </Text>
+            </Link>
+          </Flex>
 
-          <div className="flex-1">
-            <div className="text-[17px] leading-[24px] font-bold text-primary mb-3">
+          <Flex className="flex-col">
+            <Text className="text-lg font-bold text-primary mb-1">
               {t('Call Us')}
-            </div>
-            <a
-              className="text-[15px] leading-[22px] text-[#98A2B3] hover:text-white transition-colors block mb-2"
-              href={`tel:${PHONE}`}
-            >
-              {PHONE}
+            </Text>
+            <a href={`tel:${PHONE}`}>
+              <Text className="text-lg font-bold text-white">{PHONE}</Text>
             </a>
             {WorkingDays?.map((item) => (
               <div
                 key={item}
-                className="text-[15px] leading-[22px] text-[#98A2B3]"
+                className="text-[15px] leading-[22px] text-neutral-300"
               >
                 {item}
               </div>
             ))}
-          </div>
+          </Flex>
         </div>
 
         {/* Menu grid - Desktop */}
@@ -175,11 +177,7 @@ export default function Footer() {
         <div className="md:hidden mb-12">
           <Accordion type="multiple" className="w-full">
             {FOOTER_MENU.map(({ title, items }) => (
-              <AccordionItem
-                key={title}
-                value={title}
-                className="border-b border-[#344054]"
-              >
+              <AccordionItem key={title} value={title} className=" border-b-0">
                 <AccordionTrigger className="text-[17px] leading-[24px] text-white font-bold hover:no-underline py-5">
                   {t(title)}
                 </AccordionTrigger>
@@ -192,20 +190,18 @@ export default function Footer() {
         </div>
 
         {/* Policy text */}
-        <div className="text-[15px] leading-[22px] text-[#98A2B3] mb-10">
+        <div className="text-sm leading-[24px] text-[#98A2B3] mb-10">
           {t('footer.policy')}{' '}
-          <Link
-            to="/privacy-policy"
-            className="text-[#98A2B3] underline hover:text-white transition-colors"
-          >
-            {t('Privacy Policy')}
+          <Link to="/privacy-policy">
+            <Text className="text-inherit underline">
+              {t('Privacy Policy')}
+            </Text>
           </Link>
           {` ${t('and')} `}
-          <Link
-            to="/terms-of-service"
-            className="text-[#98A2B3] underline hover:text-white transition-colors"
-          >
-            {t('Terms of Service')}
+          <Link to="/terms-of-service">
+            <Text className="text-inherit underline">
+              {t('Terms of Service')}
+            </Text>
           </Link>
           . {t('Any questions? Contact us at ')}{' '}
           <a
@@ -217,8 +213,8 @@ export default function Footer() {
         </div>
 
         {/* Copyright and social */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 border-t border-[#344054]">
-          <span className="text-[15px] leading-[22px] text-[#98A2B3]">
+        <div className="flex flex-col md:flex-row justify-between  gap-6 pt-8 border-t border-[#344054]">
+          <span className="text-sm text-neutral-400">
             © {new Date().getFullYear()} BestPOS. All rights reserved.
           </span>
           <div className="flex gap-6">
@@ -228,9 +224,8 @@ export default function Footer() {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#98A2B3] hover:text-white transition-colors"
               >
-                <Icon className="w-5 h-5" />
+                <Icon className="w-6 h-6 text-white" />
               </a>
             ))}
           </div>
