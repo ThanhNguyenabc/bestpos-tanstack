@@ -28,7 +28,7 @@ export function HomeBanner() {
             </Button>
           </div>
         </div>
-        <div className=" hidden md:flex">
+        <div className="hidden md:flex">
           <Image
             src="https://res.cloudinary.com/dgrym3yz3/image/upload/f_auto,q_auto,w_612/bestpos/banner/qwllcfsf9qhtobo6qwij.png"
             width={612}

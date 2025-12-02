@@ -67,13 +67,9 @@ const MenuCategory = ({
   const { t } = useTranslation()
 
   return (
-    <div className="flex flex-col gap-2.5">
+    <div className="flex flex-col gap-3">
       {menus?.map((item, idx) => (
-        <Link
-          key={`${idx}`}
-          to={item.href}
-          className="text-[15px] leading-[22px] text-[#98A2B3] hover:text-white transition-colors"
-        >
+        <Link key={`${idx}`} to={item.href} className="text-white">
           {t(item.title)}
         </Link>
       ))}
@@ -133,7 +129,7 @@ export default function Footer() {
           />
 
           <div className="flex-1">
-            <div className="text-[17px] leading-[24px] font-bold text-[#FF5A22] mb-3">
+            <div className="text-[17px] leading-[24px] font-bold text-primary mb-3">
               {t('Email')}
             </div>
             <a
@@ -145,7 +141,7 @@ export default function Footer() {
           </div>
 
           <div className="flex-1">
-            <div className="text-[17px] leading-[24px] font-bold text-[#FF5A22] mb-3">
+            <div className="text-[17px] leading-[24px] font-bold text-primary mb-3">
               {t('Call Us')}
             </div>
             <a
@@ -169,9 +165,7 @@ export default function Footer() {
         <div className="hidden md:grid gap-8 lg:gap-12 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-16">
           {FOOTER_MENU.map(({ title, items }) => (
             <div key={title} className="flex flex-col gap-4">
-              <div className="text-[17px] leading-[24px] text-white font-bold">
-                {t(title)}
-              </div>
+              <div className=" text-lg text-white font-bold">{t(title)}</div>
               <MenuCategory menus={items} />
             </div>
           ))}
