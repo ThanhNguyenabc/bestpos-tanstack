@@ -18,32 +18,9 @@ import Image from '../ui/image'
 import Container from '../primitives/Container'
 import Text from '../primitives/Text'
 import Flex from '../ui/flex'
-
-const SOLUTIONS_MENU = [
-  { title: 'Payment Processing', href: '/payment-processing' },
-  { title: 'Gift Card Program', href: '/gift-card-program' },
-  { title: 'Customer Loyalty', href: '/customer-loyalty-programs-and-rewards' },
-  { title: 'Cash Discount Program', href: '/cash-discount-program' },
-  { title: 'Check Services', href: '/check-services' },
-  { title: 'Online Analytics', href: '/online-analytics' },
-]
-
-const BUSINESS_MENU = [
-  { title: 'Full Service Restaurants', href: '/full-service-restaurants' },
-  { title: 'Quick Service Restaurants', href: '/quick-service-restaurants' },
-  { title: 'Bars & Night Clubs', href: '/bars-and-night-clubs' },
-  { title: 'Retail', href: '/retail' },
-  { title: 'Small Business', href: '/small-business' },
-  { title: 'Pizzerias', href: '/pizzerias' },
-]
-
-const PRODUCTS_MENU = [
-  { title: 'Clover App Market', href: '/clover-app-market' },
-  { title: 'Gift Card Program', href: '/gift-card-program' },
-  { title: 'Customer Loyalty', href: '/customer-loyalty-programs-and-rewards' },
-  { title: 'Cash Discount', href: '/cash-discount-program' },
-  { title: 'Check Services', href: '/check-services' },
-]
+import { BUSINESS_MENU } from '@/utils/business_menu'
+import { PRODUCTS_MENU } from '@/utils/product_menu'
+import { SOLUTIONS_MENU } from '@/utils/solutions_menu'
 
 const ContactData = [
   {

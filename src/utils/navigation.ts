@@ -81,15 +81,15 @@ export const NAVIGATION_MENU = [
 
 export const COMPANY_MENU = [
   {
-    title: 'About Us',
+    title: 'about_us',
     href: '/about-us',
   },
   {
-    title: 'How We Rate',
+    title: 'how_we_rate',
     href: '/how-we-rate',
   },
   {
-    title: 'Contact Us',
+    title: 'contact_us',
     href: '/contact-us',
   },
   {
