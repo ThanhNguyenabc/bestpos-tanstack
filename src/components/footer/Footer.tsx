@@ -51,7 +51,7 @@ const MenuCategory = ({
     <div className="flex flex-col gap-3">
       {menus?.map((item, idx) => (
         <Link key={`${idx}`} to={item.href}>
-          <Text className=" text-neutral-400"> {t(item.title)}</Text>
+          <Text className="text-sm text-neutral-400"> {t(item.title)}</Text>
         </Link>
       ))}
     </div>
@@ -155,7 +155,7 @@ export default function Footer() {
           <Accordion type="multiple" className="w-full">
             {FOOTER_MENU.map(({ title, items }) => (
               <AccordionItem key={title} value={title} className=" border-b-0">
-                <AccordionTrigger className="text-[17px] leading-[24px] text-white font-bold hover:no-underline py-5">
+                <AccordionTrigger className="text-base text-white font-bold hover:no-underline py-5">
                   {t(title)}
                 </AccordionTrigger>
                 <AccordionContent className="pb-5 pt-1">
