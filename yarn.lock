@@ -1491,51 +1491,6 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.53.3.tgz#38ae84f4c04226c1d56a3b17296ef1e0460ecdfe"
   integrity sha512-UhTd8u31dXadv0MopwGgNOBpUVROFKWVQgAg5N1ESyCz8AuBcMqm4AuTjrwgQKGDfoFuz02EuMRHQIw/frmYKQ==
 
-"@solid-primitives/event-listener@^2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/event-listener/-/event-listener-2.4.3.tgz#e09380222e38ed1b27f3d93bc72e85ba8507b3c0"
-  integrity sha512-h4VqkYFv6Gf+L7SQj+Y6puigL/5DIi7x5q07VZET7AWcS+9/G3WfIE9WheniHWJs51OEkRB43w6lDys5YeFceg==
-  dependencies:
-    "@solid-primitives/utils" "^6.3.2"
-
-"@solid-primitives/keyboard@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/keyboard/-/keyboard-1.3.3.tgz#d51ab3c66308c2551d47452ff3dbdbbc0f25c546"
-  integrity sha512-9dQHTTgLBqyAI7aavtO+HnpTVJgWQA1ghBSrmLtMu1SMxLPDuLfuNr+Tk5udb4AL4Ojg7h9JrKOGEEDqsJXWJA==
-  dependencies:
-    "@solid-primitives/event-listener" "^2.4.3"
-    "@solid-primitives/rootless" "^1.5.2"
-    "@solid-primitives/utils" "^6.3.2"
-
-"@solid-primitives/resize-observer@^2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/resize-observer/-/resize-observer-2.1.3.tgz#459db96f9c4a3d98a194d940c6e69f3ad4b2dad8"
-  integrity sha512-zBLje5E06TgOg93S7rGPldmhDnouNGhvfZVKOp+oG2XU8snA+GoCSSCz1M+jpNAg5Ek2EakU5UVQqL152WmdXQ==
-  dependencies:
-    "@solid-primitives/event-listener" "^2.4.3"
-    "@solid-primitives/rootless" "^1.5.2"
-    "@solid-primitives/static-store" "^0.1.2"
-    "@solid-primitives/utils" "^6.3.2"
-
-"@solid-primitives/rootless@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/rootless/-/rootless-1.5.2.tgz#0a9243a977672169cb8ed43bf4eba0c4d8eb5ac5"
-  integrity sha512-9HULb0QAzL2r47CCad0M+NKFtQ+LrGGNHZfteX/ThdGvKIg2o2GYhBooZubTCd/RTu2l2+Nw4s+dEfiDGvdrrQ==
-  dependencies:
-    "@solid-primitives/utils" "^6.3.2"
-
-"@solid-primitives/static-store@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/static-store/-/static-store-0.1.2.tgz#acdbecee75f17a5b64416859082fca67eefbaaaa"
-  integrity sha512-ReK+5O38lJ7fT+L6mUFvUr6igFwHBESZF+2Ug842s7fvlVeBdIVEdTCErygff6w7uR6+jrr7J8jQo+cYrEq4Iw==
-  dependencies:
-    "@solid-primitives/utils" "^6.3.2"
-
-"@solid-primitives/utils@^6.3.2":
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/@solid-primitives/utils/-/utils-6.3.2.tgz#13d6126fc5a498965d7c45dd41c052e42dcfd7e1"
-  integrity sha512-hZ/M/qr25QOCcwDPOHtGjxTD8w2mNyVAYvcfgwzBHq2RwNqHNdDNsMZYap20+ruRwW4A3Cdkczyoz0TSxLCAPQ==
-
 "@standard-schema/utils@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@standard-schema/utils/-/utils-0.3.0.tgz#3d5e608f16c2390c10528e98e59aef6bf73cae7b"
@@ -1743,13 +1698,6 @@
     "@tailwindcss/oxide" "4.1.17"
     tailwindcss "4.1.17"
 
-"@tanstack/devtools-client@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@tanstack/devtools-client/-/devtools-client-0.0.3.tgz#839bb799ee9e8dc87e78401959907efbf4657add"
-  integrity sha512-kl0r6N5iIL3t9gGDRAv55VRM3UIyMKVH83esRGq7xBjYsRLe/BeCIN2HqrlJkObUXQMKhy7i8ejuGOn+bDqDBw==
-  dependencies:
-    "@tanstack/devtools-event-client" "^0.3.3"
-
 "@tanstack/devtools-client@0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@tanstack/devtools-client/-/devtools-client-0.0.4.tgz#c34c8c6bc6b976b0ae8669faabe6483d6015d68d"
@@ -1764,19 +1712,10 @@
   dependencies:
     ws "^8.18.3"
 
-"@tanstack/devtools-event-client@^0.3.3", "@tanstack/devtools-event-client@^0.3.4":
+"@tanstack/devtools-event-client@^0.3.4":
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/@tanstack/devtools-event-client/-/devtools-event-client-0.3.5.tgz#0e1d0a047529d15abfd788a481677cd2593c2dd9"
   integrity sha512-RL1f5ZlfZMpghrCIdzl6mLOFLTuhqmPNblZgBaeKfdtk5rfbjykurv+VfYydOFXj0vxVIoA2d/zT7xfD7Ph8fw==
-
-"@tanstack/devtools-ui@0.4.4":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@tanstack/devtools-ui/-/devtools-ui-0.4.4.tgz#00c08ab493b849385d8474e9165c73bd955fe1b1"
-  integrity sha512-5xHXFyX3nom0UaNfiOM92o6ziaHjGo3mcSGe2HD5Xs8dWRZNpdZ0Smd0B9ddEhy0oB+gXyMzZgUJb9DmrZV0Mg==
-  dependencies:
-    clsx "^2.1.1"
-    goober "^2.1.16"
-    solid-js "^1.9.9"
 
 "@tanstack/devtools-vite@^0.3.11":
   version "0.3.11"
@@ -1793,21 +1732,6 @@
     chalk "^5.6.2"
     launch-editor "^2.11.1"
     picomatch "^4.0.3"
-
-"@tanstack/devtools@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/devtools/-/devtools-0.7.0.tgz#baa8c9c7aba44348841631f988100341307501d0"
-  integrity sha512-AlAoCqJhWLg9GBEaoV1g/j+X/WA1aJSWOsekxeuZpYeS2hdVuKAjj04KQLUMJhtLfNl2s2E+TCj7ZRtWyY3U4w==
-  dependencies:
-    "@solid-primitives/event-listener" "^2.4.3"
-    "@solid-primitives/keyboard" "^1.3.3"
-    "@solid-primitives/resize-observer" "^2.1.3"
-    "@tanstack/devtools-client" "0.0.3"
-    "@tanstack/devtools-event-bus" "0.3.3"
-    "@tanstack/devtools-ui" "0.4.4"
-    clsx "^2.1.1"
-    goober "^2.1.16"
-    solid-js "^1.9.9"
 
 "@tanstack/directive-functions-plugin@1.139.0":
   version "1.139.0"
@@ -1851,13 +1775,6 @@
   resolved "https://registry.yarnpkg.com/@tanstack/query-devtools/-/query-devtools-5.91.1.tgz#0b0e3b94861f3a584560af3047a536bf7fea06f1"
   integrity sha512-l8bxjk6BMsCaVQH6NzQEE/bEgFy1hAs5qbgXl0xhzezlaQbPk6Mgz9BqEg2vTLPOHD8N4k+w/gdgCbEzecGyNg==
 
-"@tanstack/react-devtools@^0.7.0":
-  version "0.7.11"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-devtools/-/react-devtools-0.7.11.tgz#ec752dc4161ca83e1c8459483777346146313462"
-  integrity sha512-a2Lmz8x+JoDrsU6f7uKRcyyY+k8mA/n5mb9h7XJ3Fz/y3+sPV9t7vAW1s5lyNkQyyDt6V1Oim99faLthoJSxMw==
-  dependencies:
-    "@tanstack/devtools" "0.7.0"
-
 "@tanstack/react-query-devtools@^5.91.0":
   version "5.91.1"
   resolved "https://registry.yarnpkg.com/@tanstack/react-query-devtools/-/react-query-devtools-5.91.1.tgz#48c7507ba57156fcd2060d1fdbd3dc6fd566bf16"
@@ -1871,14 +1788,6 @@
   integrity sha512-3uyzz01D1fkTLXuxF3JfoJoHQMU2fxsfJwE+6N5hHy0dVNoZOvwKP8Z2k7k1KDeD54N20apcJnG75TBAStIrBA==
   dependencies:
     "@tanstack/query-core" "5.90.11"
-
-"@tanstack/react-router-devtools@^1.132.0":
-  version "1.139.12"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-router-devtools/-/react-router-devtools-1.139.12.tgz#7b5fe94e6f909b5acc9278fa135398538a8f68dd"
-  integrity sha512-deMQGaojEJGFio95o0rDT4OhgtwfgrQIBZAGnXhfyC395n94IuE43uvvv7tkfBzWHQwYK0IvZIeyKMavbvAj7Q==
-  dependencies:
-    "@tanstack/router-devtools-core" "1.139.12"
-    vite "^7.1.7"
 
 "@tanstack/react-router-ssr-query@^1.131.7":
   version "1.139.12"
@@ -1955,16 +1864,6 @@
     seroval-plugins "^1.4.0"
     tiny-invariant "^1.3.3"
     tiny-warning "^1.0.3"
-
-"@tanstack/router-devtools-core@1.139.12":
-  version "1.139.12"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-devtools-core/-/router-devtools-core-1.139.12.tgz#29a629cc3cf1a7b30e553cfac183b3a32277ddeb"
-  integrity sha512-VARlT9alLnROnPsZtHrSZsqYksIdBBQ24yGzEper5K1+1e0fzpcKLnMYLK9cwr//uWA2xmQayznvBnwcTmnUlg==
-  dependencies:
-    clsx "^2.1.1"
-    goober "^2.1.16"
-    tiny-invariant "^1.3.3"
-    vite "^7.1.7"
 
 "@tanstack/router-generator@1.139.12":
   version "1.139.12"
@@ -2798,7 +2697,7 @@ cssstyle@^5.3.3:
     "@csstools/css-syntax-patches-for-csstree" "^1.0.14"
     css-tree "^3.1.0"
 
-csstype@^3.1.0, csstype@^3.2.2:
+csstype@^3.2.2:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
   integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
@@ -2911,9 +2810,9 @@ dunder-proto@^1.0.1:
     gopd "^1.2.0"
 
 electron-to-chromium@^1.5.249:
-  version "1.5.262"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.262.tgz#c31eed591c6628908451c9ca0f0758ed514aa003"
-  integrity sha512-NlAsMteRHek05jRUxUR0a5jpjYq9ykk6+kO0yRaMi5moe7u0fVIOeQ3Y30A8dIiWFBNUoQGi1ljb1i5VtS9WQQ==
+  version "1.5.263"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.263.tgz#bec8f2887c30001dfacf415c136eae3b4386846a"
+  integrity sha512-DrqJ11Knd+lo+dv+lltvfMDLU27g14LMdH2b0O3Pio4uk0x+z7OR+JrmyacTPN2M8w3BrZ7/RTwG3R9B7irPlg==
 
 encoding-sniffer@^0.2.1:
   version "0.2.1"
@@ -3289,11 +3188,6 @@ globrex@^0.1.2:
   resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
   integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
-goober@^2.1.16:
-  version "2.1.18"
-  resolved "https://registry.yarnpkg.com/goober/-/goober-2.1.18.tgz#b72d669bd24d552d441638eee26dfd5716ea6442"
-  integrity sha512-2vFqsaDVIT9Gz7N6kAL++pLpp41l3PfDuusHcjnGLfR6+huZkl6ziX+zgVC3ZxpqWhzH6pyDdGrCeDhMIvwaxw==
-
 gopd@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.2.0.tgz#89f56b8217bdbc8802bd299df6d7f1081d7e51a1"
@@ -3401,9 +3295,9 @@ i18next-resources-to-backend@^1.2.1:
     "@babel/runtime" "^7.23.2"
 
 i18next@^25.6.3:
-  version "25.6.3"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.6.3.tgz#984dc1cf305fe10392e4db9ba5c56406eb4f27ad"
-  integrity sha512-AEQvoPDljhp67a1+NsnG/Wb1Nh6YoSvtrmeEd24sfGn3uujCtXCF3cXpr7ulhMywKNFF7p3TX1u2j7y+caLOJg==
+  version "25.7.1"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-25.7.1.tgz#e6a666a1b618e834c8d6f158babfd5796e61c075"
+  integrity sha512-XbTnkh1yCZWSAZGnA9xcQfHcYNgZs2cNxm+c6v1Ma9UAUGCeJPplRe1ILia6xnDvXBjk0uXU+Z8FYWhA19SKFw==
   dependencies:
     "@babel/runtime" "^7.28.4"
 
@@ -4098,20 +3992,10 @@ seroval-plugins@^1.4.0:
   resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.4.0.tgz#0bd453983a0a26039ca161a341c00eca7d42b19a"
   integrity sha512-zir1aWzoiax6pbBVjoYVd0O1QQXgIL3eVGBMsBsNmM8Ukq90yGaWlfx0AB9dTS8GPqrOrbXn79vmItCUP9U3BQ==
 
-seroval-plugins@~1.3.0:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/seroval-plugins/-/seroval-plugins-1.3.3.tgz#51bcacf09e5384080d7ea4002b08fd9f6166daf5"
-  integrity sha512-16OL3NnUBw8JG1jBLUoZJsLnQq0n5Ua6aHalhJK4fMQkz1lqR7Osz1sA30trBtd9VUDc2NgkuRCn8+/pBwqZ+w==
-
 seroval@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/seroval/-/seroval-1.4.0.tgz#b62f1d0c332d2a085f1059866b9c7dac57486682"
   integrity sha512-BdrNXdzlofomLTiRnwJTSEAaGKyHHZkbMXIywOh7zlzp4uZnXErEwl9XZ+N1hJSNpeTtNxWvVwN0wUzAIQ4Hpg==
-
-seroval@~1.3.0:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/seroval/-/seroval-1.3.2.tgz#7e5be0dc1a3de020800ef013ceae3a313f20eca7"
-  integrity sha512-RbcPH1n5cfwKrru7v7+zrZvjLurgHhGyso3HTyGtRivGWgYjbOmGuivCQaORNELjNONoK35nj28EoWul9sb1zQ==
 
 shell-quote@^1.8.3:
   version "1.8.3"
@@ -4130,15 +4014,6 @@ snake-case@^3.0.4:
   dependencies:
     dot-case "^3.0.4"
     tslib "^2.0.3"
-
-solid-js@^1.9.9:
-  version "1.9.10"
-  resolved "https://registry.yarnpkg.com/solid-js/-/solid-js-1.9.10.tgz#95e57b004f3788d38f19e3b47101e90a9ab9dd0f"
-  integrity sha512-Coz956cos/EPDlhs6+jsdTxKuJDPT7B5SVIWgABwROyxjY7Xbr8wkzD68Et+NxnV7DLJ3nJdAC2r9InuV/4Jew==
-  dependencies:
-    csstype "^3.1.0"
-    seroval "~1.3.0"
-    seroval-plugins "~1.3.0"
 
 sonner@^2.0.7:
   version "2.0.7"
