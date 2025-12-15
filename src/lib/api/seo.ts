@@ -1,4 +1,5 @@
 import { AxiosClient } from './client'
+import { seoCache } from '../seo/cache'
 
 export interface SEOTags {
   title: string
@@ -29,12 +30,18 @@ export const getSEOTags = async (
   page: string,
   locale = 'en',
 ): Promise<SEOTags | null> => {
+  // Check cache first
+  const cached = seoCache.get(page, locale)
+  if (cached !== undefined) {
+    return cached
+  }
+
   try {
+    console.log('[SEO] Fetching tags for page:', page, 'locale:', locale)
+
     const response = await AxiosClient.get<StrapiResponse>(
       `/meta-tags?filters[page][$eq]=${page}&pagination[pageSize]=1`,
     )
-
-    console.log('[SEO] Fetching tags for page:', page, 'locale:', locale)
 
     if (response.status === 200 && response.data?.data?.[0]) {
       const metaTag = response.data.data[0].tags
@@ -42,6 +49,7 @@ export const getSEOTags = async (
 
       if (!translation) {
         console.warn(`[SEO] No translation found for locale: ${locale}`)
+        seoCache.set(page, locale, null)
         return null
       }
 
@@ -63,13 +71,19 @@ export const getSEOTags = async (
       }
 
       console.log('[SEO] Tags loaded successfully:', seoTags.title)
+
+      // Cache the result
+      seoCache.set(page, locale, seoTags)
+
       return seoTags
     }
 
     console.warn('[SEO] No SEO data found for page:', page)
+    seoCache.set(page, locale, null)
     return null
   } catch (error) {
     console.error('[SEO] Error fetching SEO tags for page:', page, error)
+    // Don't cache errors, return null
     return null
   }
 }

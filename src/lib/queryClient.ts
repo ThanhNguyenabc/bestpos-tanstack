@@ -1,16 +1,29 @@
 import { QueryClient } from '@tanstack/react-query'
 
-const HttpClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      staleTime: 1000 * 60 * 30, // 30 minutes
-      gcTime: 1000 * 60 * 30, // 30 minutes (formerly cacheTime)
-      retry: 2,
+/**
+ * Create a new QueryClient instance
+ * Used for both client and server-side rendering
+ */
+export function createQueryClient() {
+  return new QueryClient({
+    defaultOptions: {
+      queries: {
+        staleTime: 1000 * 60 * 60, // 1 hour - SEO data doesn't change often
+        gcTime: 1000 * 60 * 60, // 1 hour (formerly cacheTime)
+        retry: 2,
+        // Disable refetching on mount for SSR
+        refetchOnMount: false,
+        refetchOnWindowFocus: false,
+        refetchOnReconnect: false,
+      },
+      mutations: {
+        retry: 0,
+      },
     },
-    mutations: {
-      retry: 0,
-    },
-  },
-})
+  })
+}
+
+// Default client for client-side
+const HttpClient = createQueryClient()
 
 export default HttpClient

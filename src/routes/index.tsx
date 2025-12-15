@@ -1,20 +1,20 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { HomeBanner } from '@/components/home'
 import { createHead, createSEOQuery } from '@/lib/seo'
-import i18n from '@/locales'
-
-// Query options for home page SEO data
-export const homeQueryOptions = () => {
-  const currentLang = i18n.language || 'en'
-  return createSEOQuery('home', currentLang)
-}
+import { getCurrentLanguage } from '@/utils/language-routing'
 
 // Route definition
 export const Route = createFileRoute('/')({
-  loader: async ({ context }) => {
-    // Fetch SEO tags for the home page in current language
-    const seoData = await context.queryClient.fetchQuery(homeQueryOptions())
-    return { seo: seoData }
+  loader: async ({ context, location }) => {
+    // Get language from URL (defaults to 'en' if no prefix)
+    const lang = getCurrentLanguage(location.pathname)
+
+    // Fetch SEO tags for the home page in detected language
+    const seoData = await context.queryClient.fetchQuery(
+      createSEOQuery('home', lang),
+    )
+
+    return { seo: seoData, language: lang }
   },
   head: ({ loaderData }) => createHead({ seo: loaderData?.seo }),
   component: HomePage,
