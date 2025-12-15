@@ -46,13 +46,12 @@ export default defineConfig(({ mode }) => ({
 
         manualChunks(id) {
           if (id.includes('node_modules')) {
-            // Keep only essential vendor chunks
-            if (id.includes('react') || id.includes('react-dom')) return 'react'
-
-            if (id.includes('@tanstack')) return 'tanstack'
-            if (id.includes('react-hook-form') || id.includes('zod')) {
-              return 'form-vendor'
+            // TanStack Router & Query - independent, used on every page
+            if (id.includes('@tanstack')) {
+              return 'tanstack'
             }
+
+            // i18n - independent from React, can be separate
             if (
               id.includes('i18next') ||
               id.includes('react-i18next') ||
@@ -60,7 +59,19 @@ export default defineConfig(({ mode }) => ({
             ) {
               return 'i18n-vendor'
             }
-            // Everything else small goes into one vendor chunk
+
+            // Lucide icons - large but independent
+            if (id.includes('lucide-react')) {
+              return 'icons'
+            }
+
+            // HTTP client - independent, used for API calls
+            if (id.includes('axios')) {
+              return 'http'
+            }
+
+            // React + React-dependent libraries in ONE chunk to avoid circular deps
+            // This includes: react, react-dom, react-hook-form, zod, @radix-ui, etc.
             return 'vendor'
           }
 

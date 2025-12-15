@@ -11,8 +11,17 @@ const DeskTopNavigation = memo(() => {
   const { t } = useTranslation()
   const [activeMenu, setActiveMenu] = useState<string | null>(null)
 
-  const handleMouseLeave = useCallback(() => setActiveMenu(null), [])
-  const handleMouseEnter = useCallback((key: string) => setActiveMenu(key), [])
+  console.log('[DesktopNavBar] Component rendered, activeMenu:', activeMenu)
+
+  const handleMouseLeave = useCallback(() => {
+    console.log('[DesktopNavBar] handleMouseLeave called')
+    setActiveMenu(null)
+  }, [])
+
+  const handleMouseEnter = useCallback((key: string) => {
+    console.log('[DesktopNavBar] handleMouseEnter called with key:', key)
+    setActiveMenu(key)
+  }, [])
 
   const selectedMenu = MENU.find((item) => item.key === activeMenu)
 
@@ -48,7 +57,10 @@ const DeskTopNavigation = memo(() => {
         <div
           className="fixed inset-x-0 bg-white border-t border-neutral-200 shadow-lg z-50 animate-in fade-in slide-in-from-top-2 duration-200"
           style={{ top: 76 }}
-          onMouseEnter={() => handleMouseEnter(activeMenu!)}
+          onMouseEnter={() => {
+            console.log('mouse enterrrrr:::')
+            handleMouseEnter(activeMenu!)
+          }}
           onMouseLeave={handleMouseLeave}
         >
           <Container className=" grid grid-cols-3 gap-4 py-8">
