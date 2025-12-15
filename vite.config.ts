@@ -101,6 +101,16 @@ export default defineConfig(() => ({
             return 'vendor'
           }
 
+          // Split footer into separate chunk (lazy loaded)
+          if (id.includes('/components/footer/')) {
+            return 'footer'
+          }
+
+          // Split navigation cards into separate chunk (lazy loaded on hover)
+          if (id.includes('/components/header/NavigationCards')) {
+            return 'nav-cards'
+          }
+
           // i18n ES only (lazy loaded)
           if (id.includes('/locales/es/')) return 'i18n-es'
 

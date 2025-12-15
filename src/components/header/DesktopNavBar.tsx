@@ -3,7 +3,6 @@ import { Link } from '@tanstack/react-router'
 import { memo, useState, useCallback, lazy, Suspense } from 'react'
 import { useTranslation } from 'react-i18next'
 import ChevronDown from '@/icons/chevron-down.svg?react'
-import Container from '../primitives/Container'
 import Text from '../primitives/Text'
 import { MENU } from './NavigationnMenus'
 
