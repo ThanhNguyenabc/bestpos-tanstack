@@ -33,7 +33,7 @@ export const getSEOTags = async (
   // Check cache first
   const cached = seoCache.get(page, locale)
   if (cached !== undefined) {
-    return cached
+    return cached as SEOTags | null
   }
 
   try {
@@ -49,7 +49,7 @@ export const getSEOTags = async (
 
       if (!translation) {
         console.warn(`[SEO] No translation found for locale: ${locale}`)
-        seoCache.set(page, locale, null)
+        seoCache.set(null, page, locale)
         return null
       }
 
@@ -73,13 +73,13 @@ export const getSEOTags = async (
       console.log('[SEO] Tags loaded successfully:', seoTags.title)
 
       // Cache the result
-      seoCache.set(page, locale, seoTags)
+      seoCache.set(seoTags, page, locale)
 
       return seoTags
     }
 
     console.warn('[SEO] No SEO data found for page:', page)
-    seoCache.set(page, locale, null)
+    seoCache.set(null, page, locale)
     return null
   } catch (error) {
     console.error('[SEO] Error fetching SEO tags for page:', page, error)

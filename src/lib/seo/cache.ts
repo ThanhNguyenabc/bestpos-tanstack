@@ -1,39 +1,44 @@
-import type { SEOTags } from '../api/seo'
-
 /**
- * Simple in-memory cache for SEO tags
+ * Generic in-memory cache manager
  * Useful for SSR to avoid repeated API calls
+ * Can be used for any type of data (SEO tags, API responses, etc.)
  */
 
-interface CacheEntry {
-  data: SEOTags | null
+interface CacheEntry<T> {
+  data: T
   timestamp: number
 }
 
-class SEOCache {
-  private cache: Map<string, CacheEntry> = new Map()
-  private defaultTTL: number = 1000 * 60 * 60 // 1 hour
+export class CacheManager<T = any> {
+  private cache: Map<string, CacheEntry<T>> = new Map()
+  private defaultTTL: number
+
+  constructor(ttl: number = 1000 * 60 * 60) {
+    this.defaultTTL = ttl // Default: 1 hour
+  }
 
   /**
-   * Generate cache key from page and locale
+   * Generate cache key from multiple parts
    */
-  private getCacheKey(page: string, locale: string): string {
-    return `${page}:${locale}`
+  private getCacheKey(...parts: string[]): string {
+    return parts.join(':')
   }
 
   /**
    * Check if cache entry is still valid
    */
-  private isValid(entry: CacheEntry): boolean {
+  private isValid(entry: CacheEntry<T>): boolean {
     const now = Date.now()
     return now - entry.timestamp < this.defaultTTL
   }
 
   /**
-   * Get cached SEO tags
+   * Get cached data
+   * @param parts - Cache key parts (e.g., 'seo', 'home', 'en')
+   * @returns Cached data or undefined if not found/expired
    */
-  get(page: string, locale: string): SEOTags | null | undefined {
-    const key = this.getCacheKey(page, locale)
+  get(...parts: string[]): T | undefined {
+    const key = this.getCacheKey(...parts)
     const entry = this.cache.get(key)
 
     if (!entry) {
@@ -46,29 +51,32 @@ class SEOCache {
       return undefined
     }
 
-    console.log(`[SEO Cache] Hit for ${key}`)
+    console.log(`[Cache] Hit for ${key}`)
     return entry.data
   }
 
   /**
-   * Set SEO tags in cache
+   * Set data in cache
+   * @param data - Data to cache
+   * @param parts - Cache key parts (e.g., 'seo', 'home', 'en')
    */
-  set(page: string, locale: string, data: SEOTags | null): void {
-    const key = this.getCacheKey(page, locale)
+  set(data: T, ...parts: string[]): void {
+    const key = this.getCacheKey(...parts)
     this.cache.set(key, {
       data,
       timestamp: Date.now(),
     })
-    console.log(`[SEO Cache] Set for ${key}`)
+    console.log(`[Cache] Set for ${key}`)
   }
 
   /**
    * Clear specific cache entry
+   * @param parts - Cache key parts
    */
-  clear(page: string, locale: string): void {
-    const key = this.getCacheKey(page, locale)
+  clear(...parts: string[]): void {
+    const key = this.getCacheKey(...parts)
     this.cache.delete(key)
-    console.log(`[SEO Cache] Cleared ${key}`)
+    console.log(`[Cache] Cleared ${key}`)
   }
 
   /**
@@ -76,7 +84,7 @@ class SEOCache {
    */
   clearAll(): void {
     this.cache.clear()
-    console.log('[SEO Cache] Cleared all entries')
+    console.log('[Cache] Cleared all entries')
   }
 
   /**
@@ -106,21 +114,44 @@ class SEOCache {
     }
 
     if (cleaned > 0) {
-      console.log(`[SEO Cache] Cleaned up ${cleaned} expired entries`)
+      console.log(`[Cache] Cleaned up ${cleaned} expired entries`)
+    }
+  }
+
+  /**
+   * Start automatic cleanup interval
+   * @param interval - Cleanup interval in milliseconds (defaults to TTL)
+   */
+  startCleanup(interval?: number): void {
+    const cleanupInterval = interval || this.defaultTTL
+
+    if (typeof setInterval !== 'undefined') {
+      setInterval(() => {
+        this.cleanup()
+      }, cleanupInterval)
     }
   }
 }
 
-// Create singleton instance
-export const seoCache = new SEOCache()
+// Create cache instances for different use cases
 
-// Run cleanup once per hour (same as TTL)
-// This prevents memory leaks from expired entries that are never accessed again
-if (typeof setInterval !== 'undefined') {
-  setInterval(
-    () => {
-      seoCache.cleanup()
-    },
-    1000 * 60 * 60,
-  ) // 1 hour
-}
+/**
+ * SEO tags cache - 1 hour TTL
+ * Usage: seoCache.get('home', 'en') or seoCache.set(data, 'home', 'en')
+ */
+export const seoCache = new CacheManager<any>(1000 * 60 * 60)
+seoCache.startCleanup()
+
+/**
+ * API response cache - 5 minutes TTL
+ * Usage: apiCache.get('users', '123') or apiCache.set(data, 'users', '123')
+ */
+export const apiCache = new CacheManager<any>(1000 * 60 * 5)
+apiCache.startCleanup()
+
+/**
+ * Generic cache - 1 hour TTL
+ * Usage: genericCache.get('key1', 'key2') or genericCache.set(data, 'key1', 'key2')
+ */
+export const genericCache = new CacheManager<any>(1000 * 60 * 60)
+genericCache.startCleanup()
