@@ -1,6 +1,6 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import LanguageDetector from 'i18next-browser-languagedetector'
+// import LanguageDetector from 'i18next-browser-languagedetector'
 import resourcesToBackend from 'i18next-resources-to-backend'
 
 // Constants for language persistence
@@ -159,7 +159,7 @@ const translationLoader = resourcesToBackend(createTranslationLoader())
 
 i18n
   .use(translationLoader)
-  .use(LanguageDetector) // detect user language
+  // .use(LanguageDetector) // detect user language
   .use(initReactI18next) // hook into React
   .init({
     fallbackLng: 'en',
@@ -182,12 +182,6 @@ i18n
       lookupLocalStorage: LANGUAGE_STORAGE_KEY,
     },
   })
-
-// Listen for language changes and persist them
-i18n.on('languageChanged', (language: string) => {
-  // Persist language preference whenever it changes
-  // languagePersistence.save(language)
-})
 
 // Export utilities for external use if needed
 export { languagePersistence }

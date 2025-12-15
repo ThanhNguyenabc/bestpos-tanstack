@@ -1,11 +1,14 @@
 import { cn } from '@/lib/utils'
 import { Link } from '@tanstack/react-router'
-import { memo, useState, useCallback } from 'react'
+import { memo, useState, useCallback, lazy, Suspense } from 'react'
 import { useTranslation } from 'react-i18next'
 import ChevronDown from '@/icons/chevron-down.svg?react'
 import Container from '../primitives/Container'
 import Text from '../primitives/Text'
 import { MENU } from './NavigationnMenus'
+
+// Lazy load the dropdown content
+const DropdownContent = lazy(() => import('./DropdownContent'))
 
 const DeskTopNavigation = memo(() => {
   const { t } = useTranslation()
@@ -52,18 +55,14 @@ const DeskTopNavigation = memo(() => {
         ))}
       </nav>
       {selectedMenu?.child && (
-        <div
-          className="fixed inset-x-0 bg-white border-t border-neutral-200 shadow-lg z-50 animate-in fade-in slide-in-from-top-2 duration-200"
-          style={{ top: 76 }}
-          onMouseEnter={() => {
-            handleMouseEnter(activeMenu!)
-          }}
-          onMouseLeave={handleMouseLeave}
-        >
-          <Container className=" grid grid-cols-3 gap-4 py-8">
-            {selectedMenu?.child}
-          </Container>
-        </div>
+        <Suspense fallback={null}>
+          <DropdownContent
+            onMouseEnter={() => handleMouseEnter(activeMenu!)}
+            onMouseLeave={handleMouseLeave}
+          >
+            {selectedMenu.child}
+          </DropdownContent>
+        </Suspense>
       )}
     </div>
   )

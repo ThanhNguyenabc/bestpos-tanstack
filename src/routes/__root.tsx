@@ -5,14 +5,19 @@ import {
 } from '@tanstack/react-router'
 import type { QueryClient } from '@tanstack/react-query'
 import { QueryClientProvider } from '@tanstack/react-query'
-import Footer from '../components/footer/Footer'
 import { ErrorBoundary } from '../components/ErrorBoundary'
-import { Toaster } from '../components/ui/toaster'
 import appCss from '../styles.css?url'
 import '../locales/index'
 import Header from '@/components/header/Header'
 import I18nProvider from '../locales/I18nProvider'
 import { useLanguageSync } from '@/hooks/useLanguageSync'
+import { lazy, Suspense } from 'react'
+
+// Lazy load non-critical components
+const Footer = lazy(() => import('../components/footer/Footer'))
+const Toaster = lazy(() =>
+  import('../components/ui/toaster').then((m) => ({ default: m.Toaster })),
+)
 
 interface RouterContext {
   queryClient: QueryClient
@@ -91,8 +96,12 @@ function RootContent({ children }: { children: React.ReactNode }) {
       <main className="flex-1 min-h-screen w-full max-w-full overflow-x-hidden">
         {children}
       </main>
-      <Footer />
-      <Toaster />
+      <Suspense fallback={<div className="h-20" />}>
+        <Footer />
+      </Suspense>
+      <Suspense fallback={null}>
+        <Toaster />
+      </Suspense>
     </div>
   )
 }

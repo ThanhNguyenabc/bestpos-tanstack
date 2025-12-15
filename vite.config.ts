@@ -35,8 +35,8 @@ export default defineConfig(() => ({
     // Optimize for smaller bundles
     reportCompressedSize: true,
 
-    // Enable source maps for production debugging (optional)
-    sourcemap: false,
+    // Enable source maps for production debugging
+    sourcemap: true,
 
     rollupOptions: {
       treeshake: {
@@ -78,8 +78,26 @@ export default defineConfig(() => ({
               return 'http'
             }
 
-            // React + React-dependent libraries in ONE chunk to avoid circular deps
-            // This includes: react, react-dom, react-hook-form, zod, @radix-ui, etc.
+            // Form libraries - split separately (only used on form pages)
+            if (
+              id.includes('react-hook-form') ||
+              id.includes('zod') ||
+              id.includes('@hookform')
+            ) {
+              return 'forms'
+            }
+
+            // Keep React + Radix UI together to avoid context errors
+            // Radix UI components need to share React context
+            if (
+              id.includes('react/') ||
+              id.includes('react-dom/') ||
+              id.includes('@radix-ui')
+            ) {
+              return 'vendor'
+            }
+
+            // Other vendor libraries
             return 'vendor'
           }
 
