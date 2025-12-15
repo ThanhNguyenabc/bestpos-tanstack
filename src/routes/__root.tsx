@@ -12,6 +12,7 @@ import appCss from '../styles.css?url'
 import '../locales/index'
 import Header from '@/components/header/Header'
 import I18nProvider from '../locales/I18nProvider'
+import { useLanguageSync } from '@/hooks/useLanguageSync'
 
 interface RouterContext {
   queryClient: QueryClient
@@ -71,18 +72,27 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <body>
         <QueryClientProvider client={queryClient}>
           <I18nProvider>
-            <div className="flex w-full max-w-full flex-col min-h-screen overflow-x-hidden">
-              <Header />
-              <main className="flex-1 min-h-screen w-full max-w-full overflow-x-hidden">
-                {children}
-              </main>
-              <Footer />
-            </div>
-            <Toaster />
+            <RootContent>{children}</RootContent>
           </I18nProvider>
         </QueryClientProvider>
         <Scripts />
       </body>
     </html>
+  )
+}
+
+function RootContent({ children }: { children: React.ReactNode }) {
+  // Sync URL language with i18n
+  useLanguageSync()
+
+  return (
+    <div className="flex w-full max-w-full flex-col min-h-screen overflow-x-hidden">
+      <Header />
+      <main className="flex-1 min-h-screen w-full max-w-full overflow-x-hidden">
+        {children}
+      </main>
+      <Footer />
+      <Toaster />
+    </div>
   )
 }

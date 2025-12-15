@@ -45,10 +45,12 @@ import { Route as CashAdvanceRouteImport } from './routes/cash-advance'
 import { Route as BarsAndNightClubsRouteImport } from './routes/bars-and-night-clubs'
 import { Route as AdvertiserDisclosureRouteImport } from './routes/advertiser-disclosure'
 import { Route as AboutUsRouteImport } from './routes/about-us'
+import { Route as LangRouteImport } from './routes/_lang'
 import { Route as SplatRouteImport } from './routes/$'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PosSystemsIndexRouteImport } from './routes/pos-systems/index'
 import { Route as BlogsIndexRouteImport } from './routes/blogs/index'
+import { Route as LangIndexRouteImport } from './routes/$lang/index'
 import { Route as PosSystemsSlugRouteImport } from './routes/pos-systems/$slug'
 import { Route as BlogsBlogIdRouteImport } from './routes/blogs/$blogId'
 
@@ -235,6 +237,10 @@ const AboutUsRoute = AboutUsRouteImport.update({
   path: '/about-us',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LangRoute = LangRouteImport.update({
+  id: '/_lang',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SplatRoute = SplatRouteImport.update({
   id: '/$',
   path: '/$',
@@ -253,6 +259,11 @@ const PosSystemsIndexRoute = PosSystemsIndexRouteImport.update({
 const BlogsIndexRoute = BlogsIndexRouteImport.update({
   id: '/blogs/',
   path: '/blogs/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LangIndexRoute = LangIndexRouteImport.update({
+  id: '/$lang/',
+  path: '/$lang/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PosSystemsSlugRoute = PosSystemsSlugRouteImport.update({
@@ -307,6 +318,7 @@ export interface FileRoutesByFullPath {
   '/thanks-you': typeof ThanksYouRoute
   '/blogs/$blogId': typeof BlogsBlogIdRoute
   '/pos-systems/$slug': typeof PosSystemsSlugRoute
+  '/$lang': typeof LangIndexRoute
   '/blogs': typeof BlogsIndexRoute
   '/pos-systems': typeof PosSystemsIndexRoute
 }
@@ -351,6 +363,7 @@ export interface FileRoutesByTo {
   '/thanks-you': typeof ThanksYouRoute
   '/blogs/$blogId': typeof BlogsBlogIdRoute
   '/pos-systems/$slug': typeof PosSystemsSlugRoute
+  '/$lang': typeof LangIndexRoute
   '/blogs': typeof BlogsIndexRoute
   '/pos-systems': typeof PosSystemsIndexRoute
 }
@@ -358,6 +371,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/$': typeof SplatRoute
+  '/_lang': typeof LangRoute
   '/about-us': typeof AboutUsRoute
   '/advertiser-disclosure': typeof AdvertiserDisclosureRoute
   '/bars-and-night-clubs': typeof BarsAndNightClubsRoute
@@ -396,6 +410,7 @@ export interface FileRoutesById {
   '/thanks-you': typeof ThanksYouRoute
   '/blogs/$blogId': typeof BlogsBlogIdRoute
   '/pos-systems/$slug': typeof PosSystemsSlugRoute
+  '/$lang/': typeof LangIndexRoute
   '/blogs/': typeof BlogsIndexRoute
   '/pos-systems/': typeof PosSystemsIndexRoute
 }
@@ -442,6 +457,7 @@ export interface FileRouteTypes {
     | '/thanks-you'
     | '/blogs/$blogId'
     | '/pos-systems/$slug'
+    | '/$lang'
     | '/blogs'
     | '/pos-systems'
   fileRoutesByTo: FileRoutesByTo
@@ -486,12 +502,14 @@ export interface FileRouteTypes {
     | '/thanks-you'
     | '/blogs/$blogId'
     | '/pos-systems/$slug'
+    | '/$lang'
     | '/blogs'
     | '/pos-systems'
   id:
     | '__root__'
     | '/'
     | '/$'
+    | '/_lang'
     | '/about-us'
     | '/advertiser-disclosure'
     | '/bars-and-night-clubs'
@@ -530,6 +548,7 @@ export interface FileRouteTypes {
     | '/thanks-you'
     | '/blogs/$blogId'
     | '/pos-systems/$slug'
+    | '/$lang/'
     | '/blogs/'
     | '/pos-systems/'
   fileRoutesById: FileRoutesById
@@ -537,6 +556,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SplatRoute: typeof SplatRoute
+  LangRoute: typeof LangRoute
   AboutUsRoute: typeof AboutUsRoute
   AdvertiserDisclosureRoute: typeof AdvertiserDisclosureRoute
   BarsAndNightClubsRoute: typeof BarsAndNightClubsRoute
@@ -575,6 +595,7 @@ export interface RootRouteChildren {
   ThanksYouRoute: typeof ThanksYouRoute
   BlogsBlogIdRoute: typeof BlogsBlogIdRoute
   PosSystemsSlugRoute: typeof PosSystemsSlugRoute
+  LangIndexRoute: typeof LangIndexRoute
   BlogsIndexRoute: typeof BlogsIndexRoute
   PosSystemsIndexRoute: typeof PosSystemsIndexRoute
 }
@@ -833,6 +854,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutUsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_lang': {
+      id: '/_lang'
+      path: ''
+      fullPath: ''
+      preLoaderRoute: typeof LangRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/$': {
       id: '/$'
       path: '/$'
@@ -861,6 +889,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/$lang/': {
+      id: '/$lang/'
+      path: '/$lang'
+      fullPath: '/$lang'
+      preLoaderRoute: typeof LangIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/pos-systems/$slug': {
       id: '/pos-systems/$slug'
       path: '/pos-systems/$slug'
@@ -881,6 +916,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SplatRoute: SplatRoute,
+  LangRoute: LangRoute,
   AboutUsRoute: AboutUsRoute,
   AdvertiserDisclosureRoute: AdvertiserDisclosureRoute,
   BarsAndNightClubsRoute: BarsAndNightClubsRoute,
@@ -920,6 +956,7 @@ const rootRouteChildren: RootRouteChildren = {
   ThanksYouRoute: ThanksYouRoute,
   BlogsBlogIdRoute: BlogsBlogIdRoute,
   PosSystemsSlugRoute: PosSystemsSlugRoute,
+  LangIndexRoute: LangIndexRoute,
   BlogsIndexRoute: BlogsIndexRoute,
   PosSystemsIndexRoute: PosSystemsIndexRoute,
 }

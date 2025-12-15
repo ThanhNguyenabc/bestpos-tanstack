@@ -1,4 +1,4 @@
-import { apiClient } from './client'
+import { AxiosClient } from './client'
 
 export interface Product {
   id: string
@@ -25,16 +25,16 @@ export interface ProductListParams {
 export async function fetchProductList(
   params?: ProductListParams,
 ): Promise<Product[]> {
-  const response = await apiClient.get<Product[]>('/products', { params })
+  const response = await AxiosClient.get<Product[]>('/products', { params })
   return response.data
 }
 
 export async function fetchProductBySlug(slug: string): Promise<Product> {
-  const response = await apiClient.get<Product>(`/products/${slug}`)
+  const response = await AxiosClient.get<Product>(`/products/${slug}`)
   return response.data
 }
 
 export async function fetchProductById(id: string): Promise<Product> {
-  const response = await apiClient.get<Product>(`/products/${id}`)
+  const response = await AxiosClient.get<Product>(`/products/${id}`)
   return response.data
 }

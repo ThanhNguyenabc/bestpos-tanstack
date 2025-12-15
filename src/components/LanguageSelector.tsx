@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { useNavigate, useLocation } from '@tanstack/react-router'
 import { Globe } from 'lucide-react'
 import {
   DropdownMenu,
@@ -7,24 +8,36 @@ import {
   DropdownMenuTrigger,
 } from './ui/dropdown-menu'
 import { Button } from './ui/button'
-import { languagePersistence } from '../locales'
+import {
+  type SupportedLanguage,
+  switchLanguageInPath,
+  getCurrentLanguage,
+} from '@/utils/language-routing'
 
 const languages = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'en' as SupportedLanguage, name: 'English', flag: '🇺🇸' },
+  { code: 'es' as SupportedLanguage, name: 'Español', flag: '🇪🇸' },
 ]
 
 export function LanguageSelector() {
   const { i18n } = useTranslation()
+  const navigate = useNavigate()
+  const location = useLocation()
 
+  // Get current language from URL
+  const currentLangCode = getCurrentLanguage(location.pathname)
   const currentLanguage =
-    languages.find((lang) => lang.code === i18n.language) || languages[0]
+    languages.find((lang) => lang.code === currentLangCode) || languages[0]
 
-  const changeLanguage = (langCode: string) => {
-    i18n.changeLanguage(langCode)
-    // Language preference is automatically persisted by the i18n languageChanged event listener
-    // But we can also explicitly save it here for immediate feedback
-    // languagePersistence.save(langCode)
+  const changeLanguage = async (langCode: SupportedLanguage) => {
+    // Change i18n language
+    await i18n.changeLanguage(langCode)
+
+    // Navigate to the new language route
+    const newPath = switchLanguageInPath(location.pathname, langCode)
+
+    // Navigate to new path
+    navigate({ to: newPath as any })
   }
 
   return (
@@ -43,7 +56,9 @@ export function LanguageSelector() {
           <DropdownMenuItem
             key={language.code}
             onClick={() => changeLanguage(language.code)}
-            className={i18n.language === language.code ? 'bg-neutral-100' : ''}
+            className={
+              currentLangCode === language.code ? 'bg-neutral-100' : ''
+            }
           >
             <span className="mr-2">{language.flag}</span>
             {language.name}

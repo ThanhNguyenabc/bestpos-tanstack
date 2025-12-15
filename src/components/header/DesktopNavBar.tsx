@@ -11,8 +11,6 @@ const DeskTopNavigation = memo(() => {
   const { t } = useTranslation()
   const [activeMenu, setActiveMenu] = useState<string | null>(null)
 
-  console.log('[DesktopNavBar] Component rendered, activeMenu:', activeMenu)
-
   const handleMouseLeave = useCallback(() => {
     console.log('[DesktopNavBar] handleMouseLeave called')
     setActiveMenu(null)
@@ -58,7 +56,6 @@ const DeskTopNavigation = memo(() => {
           className="fixed inset-x-0 bg-white border-t border-neutral-200 shadow-lg z-50 animate-in fade-in slide-in-from-top-2 duration-200"
           style={{ top: 76 }}
           onMouseEnter={() => {
-            console.log('mouse enterrrrr:::')
             handleMouseEnter(activeMenu!)
           }}
           onMouseLeave={handleMouseLeave}

@@ -1,4 +1,4 @@
-import { apiClient } from './client'
+import { AxiosClient } from './client'
 
 export interface BlogPost {
   id: string
@@ -22,16 +22,16 @@ export interface BlogListParams {
 export async function fetchBlogList(
   params?: BlogListParams,
 ): Promise<BlogPost[]> {
-  const response = await apiClient.get<BlogPost[]>('/blogs', { params })
+  const response = await AxiosClient.get<BlogPost[]>('/blogs', { params })
   return response.data
 }
 
 export async function fetchBlogBySlug(slug: string): Promise<BlogPost> {
-  const response = await apiClient.get<BlogPost>(`/blogs/${slug}`)
+  const response = await AxiosClient.get<BlogPost>(`/blogs/${slug}`)
   return response.data
 }
 
 export async function fetchBlogById(id: string): Promise<BlogPost> {
-  const response = await apiClient.get<BlogPost>(`/blogs/${id}`)
+  const response = await AxiosClient.get<BlogPost>(`/blogs/${id}`)
   return response.data
 }

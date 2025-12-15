@@ -1,72 +1,29 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { queryOptions, useSuspenseQuery } from '@tanstack/react-query'
-import { fetchProductList } from '@/lib/api/products'
-import { useTranslation } from 'react-i18next'
-import { Button } from '@/components/ui/button'
-import { Link } from '@tanstack/react-router'
-import { ArrowRight } from 'lucide-react'
-import {
-  HomeBanner,
-  HomePOSList,
-  HelpingPOSSection,
-  MerchantFeeSection,
-  CompetitiveAdvantageSection,
-  TestimonialsSection,
-} from '@/components/home'
+import { HomeBanner } from '@/components/home'
+import { createHead, createSEOQuery } from '@/lib/seo'
+import i18n from '@/locales'
 
-// Query options for home page data
-export const homeQueryOptions = () =>
-  queryOptions({
-    queryKey: ['home', 'products'],
-    queryFn: async () => {
-      try {
-        const products = await fetchProductList({ limit: 3, type: 'featured' })
-        return { products }
-      } catch (error) {
-        console.error('Error fetching home data:', error)
-        return { products: [] }
-      }
-    },
-  })
+// Query options for home page SEO data
+export const homeQueryOptions = () => {
+  const currentLang = i18n.language || 'en'
+  return createSEOQuery('home', currentLang)
+}
 
 // Route definition
 export const Route = createFileRoute('/')({
-  // loader: ({ context }) => {
-  //   return context.queryClient.ensureQueryData(homeQueryOptions())
-  // },
+  loader: async ({ context }) => {
+    // Fetch SEO tags for the home page in current language
+    const seoData = await context.queryClient.fetchQuery(homeQueryOptions())
+    return { seo: seoData }
+  },
+  head: ({ loaderData }) => createHead({ seo: loaderData?.seo }),
   component: HomePage,
 })
 
 function HomePage() {
-  // const { data } = useSuspenseQuery(homeQueryOptions())
-  const { t } = useTranslation('home')
-  console.log('data::', t('saving_money'))
-  // console.log('data::', data)
   return (
     <div className="flex flex-col">
       <HomeBanner />
-      {/* <HomePOSList products={[]} />
-      <MerchantFeeSection />
-      <CompetitiveAdvantageSection />
-      <TestimonialsSection /> */}
-
-      {/* CTA Section */}
-      {/* <section className="py-20 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            {t('saving_money')}
-          </h2>
-          <p className="text-xl mb-8 opacity-90">
-            {t('Get a free quote and expert recommendations in minutes')}
-          </p>
-          <Button asChild size="lg" variant="secondary">
-            <Link to="/get-pricing">
-              {t('Get Started Free')}
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
-        </div>
-      </section> */}
     </div>
   )
 }
