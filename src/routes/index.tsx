@@ -45,13 +45,13 @@ function HomePage() {
   return (
     <div className="flex flex-col">
       <HomeBanner />
-      <HomePOSList products={[]} />
+      {/* <HomePOSList products={[]} />
       <MerchantFeeSection />
       <CompetitiveAdvantageSection />
-      <TestimonialsSection />
+      <TestimonialsSection /> */}
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary text-white">
+      {/* <section className="py-20 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             {t('saving_money')}
@@ -66,7 +66,7 @@ function HomePage() {
             </Link>
           </Button>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

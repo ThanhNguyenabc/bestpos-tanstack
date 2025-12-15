@@ -1,15 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
 import { Link } from '@tanstack/react-router'
-import { Star } from 'lucide-react'
 import Container from '../primitives/Container'
+import { POSCard } from './POSCard'
 
 interface Product {
   id: string
@@ -17,6 +10,12 @@ interface Product {
   slug: string
   description: string
   rating: number
+  features?: string[]
+  logo?: string
+  pricing?: {
+    setup?: string
+    monthly?: string
+  }
 }
 
 interface HomePOSListProps {
@@ -31,58 +30,45 @@ export function HomePOSList({ products }: HomePOSListProps) {
   }
 
   return (
-    <section className="py-16 bg-neutral-50">
+    <section className="py-16 md:py-20 bg-neutral-50">
       <Container>
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          {t('Top Rated POS Systems')}
-        </h2>
-        <p className="text-center text-neutral-600 mb-12 max-w-2xl mx-auto">
-          {t(
-            'Discover the most trusted and highly-rated POS systems chosen by businesses like yours',
-          )}
-        </p>
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
+            {t('pos_list.heading') || 'Top Rated POS Systems'}
+          </h2>
+          <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+            {t('pos_list.description') ||
+              'Discover the most trusted and highly-rated POS systems chosen by businesses like yours'}
+          </p>
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {products.map((product) => (
-            <Card
+            <POSCard
               key={product.id}
-              className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-            >
-              <CardHeader>
-                <CardTitle className="text-xl">{product.name}</CardTitle>
-                <div className="flex items-center gap-2">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className={`h-4 w-4 ${
-                          i < Math.floor(product.rating)
-                            ? 'fill-yellow-400 text-yellow-400'
-                            : 'text-neutral-300'
-                        }`}
-                      />
-                    ))}
-                  </div>
-                  <span className="font-semibold text-sm">
-                    {product.rating.toFixed(1)}
-                  </span>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="mb-6 line-clamp-3">
-                  {product.description}
-                </CardDescription>
-                <Button asChild className="w-full">
-                  <Link to={`/pos-systems/${product.slug}`}>
-                    {t('Learn More')}
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
+              name={product.name}
+              slug={product.slug}
+              logo={product.logo}
+              rating={product.rating}
+              features={
+                product.features || [
+                  product.description,
+                  'Cloud-based system',
+                  'Mobile POS support',
+                  '24/7 customer support',
+                ]
+              }
+              pricing={product.pricing}
+              ctaText={t('pos_list.cta') || 'Request Pricing'}
+            />
           ))}
         </div>
-        <div className="text-center mt-10">
-          <Button asChild variant="outline" size="lg">
-            <Link to="/pos-systems">{t('View All POS Systems')}</Link>
+
+        <div className="text-center mt-12">
+          <Button asChild variant="outline" size="lg" className="min-w-[200px]">
+            <Link to="/pos-systems">
+              {t('pos_list.view_all') || 'View All POS Systems'}
+            </Link>
           </Button>
         </div>
       </Container>

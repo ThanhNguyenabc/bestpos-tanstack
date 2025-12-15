@@ -63,4 +63,4 @@ export enum RouteConfig {
   CloudBeds = '/cloudbeds',
 }
 
-export type RouteConfigType = `${RouteConfig}`;
+export type RouteConfigType = `${RouteConfig}`

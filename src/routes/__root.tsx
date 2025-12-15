@@ -25,7 +25,8 @@ export const Route = createRootRouteWithContext<RouterContext>()({
       },
       {
         name: 'viewport',
-        content: 'width=device-width, initial-scale=1',
+        content:
+          'width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover',
       },
       {
         title: 'BestPOS - Find the Best POS System for Your Business',
@@ -63,16 +64,18 @@ function RootDocument({ children }: { children: React.ReactNode }) {
   const { queryClient } = Route.useRouteContext()
 
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <head>
         <HeadContent />
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
           <I18nProvider>
-            <div className="flex flex-col min-h-screen">
+            <div className="flex w-full max-w-full flex-col min-h-screen overflow-x-hidden">
               <Header />
-              <main className="flex-1 min-h-screen">{children}</main>
+              <main className="flex-1 min-h-screen w-full max-w-full overflow-x-hidden">
+                {children}
+              </main>
               <Footer />
             </div>
             <Toaster />

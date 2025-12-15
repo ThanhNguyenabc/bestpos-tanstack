@@ -34,7 +34,7 @@ export default defineConfig(({ mode }) => ({
 
     rollupOptions: {
       treeshake: {
-        moduleSideEffects: false, // true tree-shaking
+        // moduleSideEffects: false, // true tree-shaking
         propertyReadSideEffects: false,
         tryCatchDeoptimization: false,
       },

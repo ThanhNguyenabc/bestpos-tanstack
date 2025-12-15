@@ -89,7 +89,7 @@ export const COMPANY_MENU = [
     href: '/how-we-rate',
   },
   {
-    title: 'contact_us',
+    title: '',
     href: '/contact-us',
   },
   {
