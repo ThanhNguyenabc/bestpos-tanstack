@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
 import svgr from 'vite-plugin-svgr'
 
-export default defineConfig(({ mode }) => ({
+export default defineConfig(() => ({
   plugins: [
     svgr(),
     nitro(),
@@ -32,11 +32,18 @@ export default defineConfig(({ mode }) => ({
       polyfill: false, // ❗ reduce preload JS
     },
 
+    // Optimize for smaller bundles
+    reportCompressedSize: true,
+
+    // Enable source maps for production debugging (optional)
+    sourcemap: false,
+
     rollupOptions: {
       treeshake: {
-        // moduleSideEffects: false, // true tree-shaking
+        moduleSideEffects: false, // Aggressive tree-shaking
         propertyReadSideEffects: false,
         tryCatchDeoptimization: false,
+        preset: 'smallest', // Most aggressive preset
       },
 
       output: {
@@ -46,7 +53,8 @@ export default defineConfig(({ mode }) => ({
 
         manualChunks(id) {
           if (id.includes('node_modules')) {
-            // TanStack Router & Query - independent, used on every page
+            // TanStack Router & Query - keep together with vendor
+            // Splitting causes issues with header components that use router hooks
             if (id.includes('@tanstack')) {
               return 'tanstack'
             }
