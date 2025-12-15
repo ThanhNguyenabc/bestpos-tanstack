@@ -1,4 +1,3 @@
-
 import { useTranslation } from 'react-i18next'
 import { Badge } from '@/components/ui/badge'
 import Image from '../ui/image'
@@ -107,8 +106,7 @@ export function HomeBanner() {
               src="https://res.cloudinary.com/dgrym3yz3/image/upload/f_auto,q_auto,w_612/bestpos/banner/qwllcfsf9qhtobo6qwij.png"
               alt="BestPOS point of sale system illustration showing multiple connected devices"
               className="object-contain"
-              loading="eager"
-              fetchPriority="high"
+              loading="lazy"
             />
           </div>
         </div>

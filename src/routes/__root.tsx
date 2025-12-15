@@ -40,15 +40,16 @@ export const Route = createRootRouteWithContext<RouterContext>()({
     ],
     links: [
       { rel: 'icon', href: '/favicon.svg' },
-      // Preconnect to same origin for faster resource loading
+      // Preconnect to Cloudinary for faster image loading
       {
         rel: 'preconnect',
-        href: '/',
+        href: 'https://res.cloudinary.com',
+        crossOrigin: 'anonymous',
       },
       // DNS prefetch as fallback for older browsers
       {
         rel: 'dns-prefetch',
-        href: '/',
+        href: 'https://res.cloudinary.com',
       },
       // Preload critical CSS to reduce render-blocking
       {
