@@ -47,8 +47,14 @@ const Image = ({
     if (!src || src.startsWith('/') || !src.includes('res.cloudinary.com'))
       return undefined
 
+    if (!width || width < 100) return undefined
+
     const parts = src.split('/upload/')
     if (parts.length !== 2) return undefined
+
+    if (typeof window !== 'undefined' && window.devicePixelRatio <= 1) {
+      return undefined
+    }
 
     const sizes = [1, 2]
     return sizes
@@ -77,6 +83,7 @@ const Image = ({
       height={height}
       loading={priority ? 'eager' : 'lazy'}
       decoding="async"
+      fetchPriority={priority ? 'high' : 'low'}
       className={className}
     />
   )

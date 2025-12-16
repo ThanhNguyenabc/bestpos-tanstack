@@ -1,7 +1,20 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { HomeBanner, HomePOSList } from '@/components/home'
+import {
+  HomeBanner,
+  HomePOSList,
+  HelpingPOSSection,
+  MerchantFeeSection,
+  CompetitiveAdvantageSection,
+  UniqueValueSection,
+  WorkWithTheBestSection,
+  AllBusinessesSection,
+  SolutionListSection,
+  TestimonialsSection,
+  CTAInnerFooterSection,
+} from '@/components/home'
 import { createHead, createSEOQuery } from '@/lib/seo'
 import { getCurrentLanguage } from '@/utils/language-routing'
+import { useTranslation } from 'react-i18next'
 
 // Route definition
 export const Route = createFileRoute('/')({
@@ -21,12 +34,21 @@ export const Route = createFileRoute('/')({
 })
 
 function HomePage() {
-   
+  const { t } = useTranslation('common')
+
   return (
     <div className="flex flex-col">
       <HomeBanner />
       <HomePOSList />
+      <HelpingPOSSection />
+      <MerchantFeeSection />
+      <CompetitiveAdvantageSection />
+      <UniqueValueSection />
+      <WorkWithTheBestSection />
+      <AllBusinessesSection heading={t('point_of_sale.heading')} />
+      <SolutionListSection />
+      <TestimonialsSection />
+      <CTAInnerFooterSection />
     </div>
   )
 }
-
