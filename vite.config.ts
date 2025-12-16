@@ -33,7 +33,7 @@ export default defineConfig(() => ({
 
     reportCompressedSize: true,
 
-    sourcemap: false,
+    sourcemap: true,
 
     cssMinify: 'lightningcss',
 
