@@ -13,7 +13,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
-import { LogoFooter } from '@/assets/Images'
+import { LogoFooter } from '@/assets/images/logos'
 import Image from '../ui/image'
 import Container from '../primitives/Container'
 import Text from '../primitives/Text'

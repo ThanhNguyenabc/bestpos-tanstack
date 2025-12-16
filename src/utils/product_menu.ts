@@ -8,7 +8,7 @@ import {
   MobileOrderPayImg,
   OnlineReportingImg,
   QuickBooksPluginImg,
-} from '@/assets/Images'
+} from '@/assets/images/products'
 import { RouteConfig } from './routes'
 
 export const PRODUCTS_MENU = [

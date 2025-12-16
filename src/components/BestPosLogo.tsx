@@ -1,6 +1,6 @@
 import { Link } from '@tanstack/react-router'
 import Image from './ui/image'
-import { LogoFullIcon, LogoSmallIcon } from '@/assets/Images'
+import { LogoFullIcon, LogoSmallIcon } from '@/assets/images/logos'
 
 const BestPosLogo = () => {
   return (

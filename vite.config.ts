@@ -40,7 +40,7 @@ export default defineConfig(({ mode }) => ({
 
     reportCompressedSize: true,
 
-    sourcemap: false,
+    sourcemap: true,
 
     cssMinify: 'lightningcss',
 

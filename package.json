@@ -2,6 +2,14 @@
   "name": "bestpos-tanstack",
   "private": true,
   "type": "module",
+  "sideEffects": [
+    "*.css",
+    "*.scss",
+    "*.sass",
+    "*.less",
+    "src/locales/**/*",
+    "src/styles.css"
+  ],
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",

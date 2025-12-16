@@ -5,7 +5,7 @@ import {
   QuickServiceRestaurantsImg,
   RetailBusinessesImg,
   SmallBusinessImg,
-} from '@/assets/Images'
+} from '@/assets/images/business-types'
 import { CategoryType } from '@/models/category_type'
 import { RouteConfig } from './routes'
 
