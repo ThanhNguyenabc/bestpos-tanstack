@@ -23,33 +23,33 @@ export default defineConfig(() => ({
     target: 'esnext',
     minify: 'esbuild',
 
-    // ❗ Put CSS back into CSS files (reduces JS drastically)
     cssCodeSplit: true,
 
     chunkSizeWarningLimit: 700,
 
     modulePreload: {
-      polyfill: false, // ❗ reduce preload JS
+      polyfill: false,
     },
 
-    // Optimize for smaller bundles
     reportCompressedSize: true,
 
-    // Enable source maps for production debugging
-    sourcemap: true,
+    sourcemap: false,
+
+    cssMinify: 'lightningcss',
 
     rollupOptions: {
       treeshake: {
-        moduleSideEffects: false, // Aggressive tree-shaking
+        moduleSideEffects: false,
         propertyReadSideEffects: false,
         tryCatchDeoptimization: false,
-        preset: 'smallest', // Most aggressive preset
+        preset: 'smallest',
       },
 
       output: {
         entryFileNames: 'assets/[name]-[hash].js',
         chunkFileNames: 'assets/[name]-[hash].js',
         assetFileNames: 'assets/[name]-[hash].[ext]',
+        experimentalMinChunkSize: 20000,
 
         manualChunks(id) {
           if (id.includes('node_modules')) {

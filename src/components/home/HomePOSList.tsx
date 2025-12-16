@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react'
+import { memo, useMemo, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { Link } from '@tanstack/react-router'
@@ -8,6 +8,7 @@ import { POSCardSkeleton } from '../primitives/POSCardSkeleton'
 import { useQuery } from '@tanstack/react-query'
 import type { POSProduct } from '@/models/pos'
 import IcChervonRight from '@/icons/chevron-right.svg?react'
+import { requestIdleCallback } from '@/utils/performance'
 
 const fetchTopPOSSystems = async (): Promise<POSProduct[]> => {
   const response = await fetch('/pos.json')
@@ -64,6 +65,19 @@ function HomePOSListComponent() {
     () => common('explore_all') || 'View All POS Systems',
     [common],
   )
+
+  useEffect(() => {
+    if (processedProducts.length > 0) {
+      requestIdleCallback(() => {
+        processedProducts.slice(1).forEach((product) => {
+          if (product.logo) {
+            const img = new Image()
+            img.src = product.logo
+          }
+        })
+      })
+    }
+  }, [processedProducts])
 
   // Loading state
   if (isLoading) {

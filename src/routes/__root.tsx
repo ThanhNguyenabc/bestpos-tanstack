@@ -37,21 +37,22 @@ export const Route = createRootRouteWithContext<RouterContext>()({
       {
         title: 'BestPOS - Find the Best POS System for Your Business',
       },
+      {
+        httpEquiv: 'x-dns-prefetch-control',
+        content: 'on',
+      },
     ],
     links: [
       { rel: 'icon', href: '/favicon.svg' },
-      // Preconnect to Cloudinary for faster image loading
       {
         rel: 'preconnect',
         href: 'https://res.cloudinary.com',
         crossOrigin: 'anonymous',
       },
-      // DNS prefetch as fallback for older browsers
       {
         rel: 'dns-prefetch',
         href: 'https://res.cloudinary.com',
       },
-      // Preload critical CSS to reduce render-blocking
       {
         rel: 'preload',
         href: appCss,
@@ -60,6 +61,29 @@ export const Route = createRootRouteWithContext<RouterContext>()({
       {
         rel: 'stylesheet',
         href: appCss,
+      },
+      {
+        rel: 'preload',
+        href: '/pos.json',
+        as: 'fetch',
+        crossOrigin: 'anonymous',
+      },
+    ],
+    scripts: [
+      {
+        children: `
+          (function() {
+            if ('fonts' in document) {
+              Promise.all([
+                document.fonts.load('400 1em Inter'),
+                document.fonts.load('600 1em Inter'),
+                document.fonts.load('700 1em Inter')
+              ]).then(function() {
+                document.documentElement.classList.add('fonts-loaded');
+              });
+            }
+          })();
+        `,
       },
     ],
   }),
@@ -74,6 +98,18 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en" className="overflow-x-hidden">
       <head>
         <HeadContent />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('connection' in navigator) {
+                const conn = navigator.connection;
+                if (conn && (conn.saveData || conn.effectiveType === 'slow-2g' || conn.effectiveType === '2g')) {
+                  document.documentElement.classList.add('slow-connection');
+                }
+              }
+            `,
+          }}
+        />
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
@@ -88,7 +124,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 }
 
 function RootContent({ children }: { children: React.ReactNode }) {
-  // Sync URL language with i18n
   useLanguageSync()
 
   return (
