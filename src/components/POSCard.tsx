@@ -126,8 +126,10 @@ function POSCardComponent({
               <Image
                 src={logo}
                 alt={`${name} logo`}
-                width={140}
-                height={70}
+                width={160}
+                height={80}
+                quality={85}
+                priority={priority === 'first'}
                 className={cn(
                   CLASSES.logoSize,
                   'pt-1 md:pt-0 aspect-2/1 object-contain ml-3 md:ml-0',

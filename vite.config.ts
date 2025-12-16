@@ -124,6 +124,26 @@ export default defineConfig(() => ({
     watch: { usePolling: true },
   },
 
+  preview: {
+    headers: {
+      'Cache-Control': 'public, max-age=31536000, immutable',
+    },
+  },
+
+  cacheDir: 'node_modules/.vite',
+
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      '@tanstack/react-router',
+      '@tanstack/react-query',
+      'react-i18next',
+      'i18next',
+    ],
+    exclude: ['@tanstack/react-start'],
+  },
+
   test: {
     globals: true,
     environment: 'jsdom',
