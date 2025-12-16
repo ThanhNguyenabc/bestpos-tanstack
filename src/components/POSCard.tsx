@@ -129,7 +129,7 @@ function POSCardComponent({
                 width={160}
                 height={80}
                 quality={85}
-                priority={priority === 'first'}
+                // priority={priority === 'first'}
                 className={cn(
                   CLASSES.logoSize,
                   'pt-1 md:pt-0 aspect-2/1 object-contain ml-3 md:ml-0',
