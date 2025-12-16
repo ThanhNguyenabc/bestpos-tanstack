@@ -34,7 +34,7 @@ export function HomeBanner() {
         className="z-100 bg-accent lg:hidden sticky top-0 w-full px-2 py-2 flex gap-1.5 overflow-hidden"
         aria-label="Key features"
       >
-        {FEATURES.map(({ key, icon, alt }) => (
+        {FEATURES?.map(({ key, icon, alt }) => (
           <Badge
             key={key}
             className="flex-1 flex-col p-1 bg-accent gap-0.5 items-center justify-center min-w-0"

@@ -123,4 +123,10 @@ export default defineConfig(() => ({
   server: {
     watch: { usePolling: true },
   },
+
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: [],
+  },
 }))

@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { HomeBanner } from '@/components/home'
+import { HomeBanner, HomePOSList } from '@/components/home'
 import { createHead, createSEOQuery } from '@/lib/seo'
 import { getCurrentLanguage } from '@/utils/language-routing'
 
@@ -21,9 +21,12 @@ export const Route = createFileRoute('/')({
 })
 
 function HomePage() {
+   
   return (
     <div className="flex flex-col">
       <HomeBanner />
+      <HomePOSList />
     </div>
   )
 }
+

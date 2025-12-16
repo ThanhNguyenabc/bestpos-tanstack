@@ -1,6 +1,5 @@
 export { HomeBanner } from './HomeBanner'
 export { HomePOSList } from './HomePOSList'
-export { POSCard } from './POSCard'
 export { HelpingSection } from './HelpingSection'
 export { HelpingPOSSection } from './HelpingPOSSection'
 export { MerchantFeeSection } from './MerchantFeeSection'

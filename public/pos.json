@@ -1,0 +1,1530 @@
+[
+    {
+        "id": "c4304593",
+        "name": "CloverFlex",
+        "monthly_price": 10,
+        "one_time_purchase": 250,
+        "os_system": [
+            "Android"
+        ],
+        "overview": {
+            "en": "Versatile, all-in-one terminal for retail & quick service stores",
+            "es": "Versatil. terminal todo en uno pra negocios minoristas y tiendas de servicio rápido"
+        },
+        "pros": {
+            "en": [
+                "Easy-to-use backoffice",
+                "Multiple apps & add-ons",
+                "Sleek hardware",
+                "Affordable monthly prices"
+            ],
+            "es": [
+                "Fácil de usar backoffice",
+                "Múltiples aplicaciones y complementos",
+                "Hardware pulcro",
+                "Precios mensuales accesibles "
+            ]
+        },
+        "cons": {
+            "en": [
+                "Customer support complaints",
+                "Proprietary software",
+                "Added features increases price"
+            ],
+            "es": [
+                "Quejas de atención al cliente ",
+                "Software propietario",
+                "La adición de características incrementa el precio"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Clover is an easy-to-use point of sale system geared toward retail shops, restaurants & quick service with versatile hardware offering. They have an extensive app market to enhance and customize your point of sale system setup.",
+                "es": "Clover es un sistema de punto de venta fácil de usar orientado a tiendas minoristas, restaurantes y servicio rápido con una oferta de hardware versátil. Tienen un amplio mercado de aplicaciones para mejorar y personalizar la configuración de su sistema de punto de venta."
+            },
+            "value": "9.5",
+            "easy": 9,
+            "support": 8,
+            "functionality": 9,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "__v": 0,
+        "slug": "clover-flex",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793901/assets/product_icons/clover-flex/icon_h9q6o3.png"
+    },
+    {
+        "id": "3503cf9d",
+        "name": "Revel",
+        "monthly_price": 75,
+        "one_time_purchase": 1500,
+        "os_system": [
+            "iOS"
+        ],
+        "overview": {
+            "en": "Customizable POS system for retail, full & quick-service restaurants",
+            "es": "Sistema personalizado POS, para restaurantes minoristas, todo servicio & servicio rápido"
+        },
+        "pros": {
+            "en": [
+                " Customizable clouded system",
+                "Amazing local on-site support",
+                "Great back office management",
+                "Seamless offline mode",
+                "Easy to manage multi-locations",
+                "Digital ordering",
+                "CRM with remarketing features",
+                "Compliant dual-pricing receipt"
+            ],
+            "es": [
+                "Personaliza el sistema de la nube",
+                "Increíble soporte local en el sitio",
+                "Gran gestión de back office",
+                "Modo sin conexión sin problemas",
+                "Múltiples ubicaciones fáciles de administrar",
+                "Pedidos digitales",
+                "CRM con funciones de remarketing",
+                "CRM con funciones de remarketing"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Doesn't work with Android",
+                "Potential glitches w/ weak internet",
+                "No modifiers to modifiers feature",
+                "Pricey for low-volume merchants"
+            ],
+            "es": [
+                "No funciona con Android",
+                "Fallas potenciales con internet débil",
+                "Sin modificadores a la función de modificar",
+                "Caro para comerciantes de bajo volumen"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Revel Systems is a feature-rich point of sale system for mid-sized to larger retail establishments and restaurants. It has highly advanced inventory and reporting that can suit most businesses along with excellent customer support",
+                "es": "Revel Systems es un sistema de punto de venta rico en funciones para establecimientos minoristas y restaurantes medianos y grandes. Tiene un inventario e informes muy avanzados que pueden adaptarse a la mayoría de las empresas junto con una excelente atención al cliente."
+            },
+            "value": 7,
+            "easy": 8,
+            "support": 8,
+            "functionality": 8,
+            "feedback": 7,
+            "overall": 7.5
+        },
+        "slug": "revel",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793905/assets/product_icons/revel/icon_tt5dpo.png"
+    },
+    {
+        "id": "f9e0ef04",
+        "name": "Simphony",
+        "monthly_price": 55,
+        "one_time_purchase": 6500,
+        "os_system": [
+            "Window"
+        ],
+        "overview": {
+            "en": "POS system from Oracle built for restaurant & quick service management",
+            "es": "Sistema POS de Oracle creado para la gestión de restaurantes y servicios rápidos"
+        },
+        "pros": {
+            "en": [
+                "Great for full & quick-service restaurants",
+                "Very customizable",
+                "Cloud base point-of-sale",
+                "Range of in-house options",
+                "Great for large enterprises"
+            ],
+            "es": [
+                "Ideal para restaurantes completos y de servicio rápido.",
+                "Muy personalizable",
+                "Puntos de venta basados en la nube ",
+                "Gama de opciones internas",
+                "Ideal para grandes empresas."
+            ]
+        },
+        "cons": {
+            "en": [
+                "Expensive hardware & monthly fees",
+                "Customizable is time consuming & expensive",
+                "Software & back end design is very complex",
+                "Requires expensive updates",
+                "Lack of third party delivery integrations"
+            ],
+            "es": [
+                "Tarifas por Hadware mensuales costosas",
+                "La personalización toma mucho tiempo y es costosa",
+                "El software y el diseño de back-end son muy complejos",
+                "Requiere actualizaciones costosas",
+                "Falta de integraciones de entrega de terceros"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Overall the software is a decent POS software. The customization ability is a good fit for restaurants, cafes, bars, hotels, resorts, casinos manage orders, inventories, menus and more. ",
+                "es": "En general, el software es un software POS decente. La capacidad de personalización es adecuada para restaurantes, cafés, bares, hoteles, resorts, casinos, o para administrar pedidos, inventarios, menús y más."
+            },
+            "value": 7.6,
+            "easy": 8.5,
+            "support": 7.6,
+            "functionality": 9.5,
+            "feedback": 8.8,
+            "overall": 8.4
+        },
+        "slug": "simphony",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793908/assets/product_icons/simphony/icon_lr7gou.png"
+    },
+    {
+        "id": "587824fd",
+        "name": "Aldelo",
+        "monthly_price": 75,
+        "one_time_purchase": 1500,
+        "os_system": [
+            "iOS",
+            "Android",
+            "Window"
+        ],
+        "overview": {
+            "en": "Cloud-based POS system best for small businesses or restaurants",
+            "es": "El sistema POS basado en la nube es el mejor para pequeñas empresas o restaurantes"
+        },
+        "pros": {
+            "en": [
+                "User-friendly system",
+                "East-to-use delivery features",
+                "On-site support"
+            ],
+            "es": [
+                "Sistema fácil de usar",
+                "Funciones de entrega fáciles de usar",
+                "Soporte en el sitio"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Poor tech support",
+                "Expensive monthly fees",
+                "Lack of updates for Windows version systems",
+                "Extra cost to online and delivery service",
+                "Poor EMV compatibility"
+            ],
+            "es": [
+                "Mal servicio técnico",
+                "Tarifas mensuales costosas",
+                "Falta de actualizaciones para los sistemas de versión de Windows",
+                "Costo adicional al servicio en línea y de entrega.",
+                "Mala compatibilidad con EMV"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Aldelo Express POS is a full-featured cloud-based restaurant technology platform that simplifies and enhances everyday restaurant operations. With merchant-facing and customer-facing integrated ordering and digital payments, Aldelo Express supports in-store, remote, and hybrid restaurant services.",
+                "es": "Aldelo Express POS es una plataforma de tecnología de restaurantes basada en la nube con todas las funciones que simplifica y mejora las operaciones diarias de los restaurantes. Con pedidos integrados y pagos digitales orientados al comerciante y al cliente, Aldelo Express admite servicios de restaurante en la tienda, remotos e híbridos."
+            },
+            "value": 9,
+            "easy": 9.5,
+            "support": 7.5,
+            "functionality": 8,
+            "feedback": 8,
+            "overall": 8.4
+        },
+        "slug": "aldelo",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793909/assets/product_icons/aldelo/icon_x4l8a5.png"
+    },
+    {
+        "id": "f0ef18a8",
+        "name": "Lightspeed",
+        "monthly_price": 120,
+        "one_time_purchase": 2000,
+        "os_system": [
+            "iOS",
+            "Android"
+        ],
+        "overview": {
+            "en": "Cloud-based POS system that is great for retailers of all sizes",
+            "es": "Sistema POS basado en la nube que es excelente para minoristas de todos los tamaños"
+        },
+        "pros": {
+            "en": [
+                "Has a 14-day free trial period",
+                "Easy-to-use platform",
+                "Custom built for restaurants",
+                "Various software series"
+            ],
+            "es": [
+                "Tiene 14 dias de prueba gratuita",
+                "Plataforma fácil de usar",
+                "Hecho a la medida para restaurantes",
+                "Varias series de software"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Very expensive software (monthly fees)",
+                "Reports of glitches",
+                "Poor customer service",
+                "No offline mode"
+            ],
+            "es": [
+                "Software muy costoso (Tarifa mensual)",
+                "Reportes de fallas",
+                "Mal servicio al cliente",
+                "Sin modo fuera de línea"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Lightspeed is a cloud-based POS solution designed for retail stores of all sizes. Suitable for retailers in industries such as apparel, footwear, jewelry, pet, sporting goods and home decor. ",
+                "es": "Los diseñadores de Upserve POS trabajaron juntos para crear un sistema POS fácil de usar que aliviaría algunos de los principales dolores de cabeza que enfrenta la industria de restaurantes y hostelería. Fue creado por ex gerentes, cantineros y servidores. Pero con muchos informes de fallas y problemas de hardware, el sistema puede ser disruptivo a veces durante las operaciones."
+            },
+            "value": 8.5,
+            "easy": 9,
+            "support": 8,
+            "functionality": 8,
+            "feedback": 8.5,
+            "overall": 8.4
+        },
+        "slug": "lightspeed",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793903/assets/product_icons/lightspeed/icon_ctmpui.png"
+    },
+    {
+        "id": "4a659923",
+        "name": "Aloha",
+        "monthly_price": 150,
+        "one_time_purchase": 6500,
+        "os_system": [
+            "Window"
+        ],
+        "pros": {
+            "en": [
+                "Stable hardware & software",
+                "Great for resturants and bars",
+                "Great for large Enterpirses",
+                "Customizable menu",
+                "Compliant dual-pricing"
+            ],
+            "es": [
+                "Software & Hardware estable",
+                "Ideal para restaurantes y bars",
+                "Ideal para grandes empresas",
+                "Menús personalizados",
+                "Precio dual compatible"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Very expensive hardware & monthly fees",
+                "No in-house system for online ordering servcie",
+                "Poor customer service",
+                "Customizable is time consuming & expensive "
+            ],
+            "es": [
+                "Tarifas por Hadware mensuales costosas",
+                "Sin sistema interno para servicio ordenes en linea",
+                "Mal servicio al cliente",
+                "La personalización requiere mucho tiempo y es costosa"
+            ]
+        },
+        "overview": {
+            "en": "Cloud-enabled platform great for any type of restaurants and bars",
+            "es": "Plataforma habilitada para la nube ideal para cualquier tipo de restaurantes y bares"
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Aloha POS is a restaurant point-of-sale system designed with larger, multi-location businesses in mind. It is a hybrid system with locally installed hardware that boasts a rich feature set including strong inventory management.",
+                "es": "Aloha POS es un sistema de punto de venta para restaurantes diseñado pensando en negocios más grandes con varias ubicaciones. Es un sistema híbrido con hardware instalado localmente que cuenta con un amplio conjunto de funciones que incluye una sólida gestión de inventario."
+            },
+            "value": 9,
+            "easy": 8.5,
+            "support": 8.5,
+            "functionality": 9,
+            "feedback": 8.8,
+            "overall": 8.9
+        },
+        "slug": "aloha",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793901/assets/product_icons/aloha/icon_eey5gp.png"
+    },
+    {
+        "id": "20621691",
+        "name": "Upserve",
+        "monthly_price": 199,
+        "one_time_purchase": 2000,
+        "os_system": [
+            "iOS",
+            "Android"
+        ],
+        "overview": {
+            "en": "Great POS that provides you with full restaurant management platform",
+            "es": "Excelente POS que le brinda una plataforma completa de administración de restaurantes"
+        },
+        "pros": {
+            "en": [
+                "Great for small resturants",
+                "Sleek hardware",
+                "Bunch of add-ons & integrations",
+                "Interface is tailored for restaurant"
+            ],
+            "es": [
+                "Ideal para pequeños restaurantes",
+                "Hardware elegante",
+                "Montón de complementos e integraciones",
+                "La interfaz está diseñada para restaurante"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Poor for retail",
+                "Poor tech support",
+                "Expenavie Hardware",
+                "Reports of glicthes"
+            ],
+            "es": [
+                "Poco favorable para minoristas",
+                "Soporte técnico deficiente",
+                "Hardware costoso",
+                "Reporte de fallas"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Upserve POS’s designers worked together to create an easy-to-use and POS system that would alleviate some of the major headaches faced by the restaurant/hospitality industry. It was created by former managers, bartenders, and servers. But with many reports of glitches and hardware issues, the system can be disruptive at times during operations.  ",
+                "es": "Los diseñadores de Upserve POS trabajaron juntos para crear un sistema POS fácil de usar que aliviaría algunos de los principales dolores de cabeza que enfrenta la industria de restaurantes y hostelería. Fue creado por ex gerentes, cantineros y servidores. Pero con muchos informes de fallas y problemas de hardware, el sistema puede ser disruptivo a veces durante las operaciones."
+            },
+            "value": 7.5,
+            "easy": 8,
+            "support": 7.5,
+            "functionality": 8,
+            "feedback": 8,
+            "overall": 7.8
+        },
+        "slug": "upserve",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793909/assets/product_icons/upserve/icon_m4lsyr.png"
+    },
+    {
+        "id": "8fdf75eb",
+        "name": "Toast",
+        "monthly_price": 69,
+        "one_time_purchase": 700,
+        "os_system": [
+            "Android"
+        ],
+        "overview": {
+            "en": "Toast is a easy-to-use software w/ a sleek station & handheld hardware",
+            "es": "Toast es un software fácil de usar con una estación elegante y hardware portatil"
+        },
+        "pros": {
+            "en": [
+                "Inexpensive upfront cost to hardware",
+                "Easy to use back office",
+                "Low rates for card processing payments in the beginning",
+                "Has modifier to modifier feature.",
+                "Marketing to help repeat business",
+                "Digital ordering"
+            ],
+            "es": [
+                "Costo inicial económico para el hardware",
+                "Fácil de usar Back- office ",
+                "Tarifas bajas para procesamiento de pagos con tarjeta al principio",
+                "Tiene función de modificador a modificador.",
+                "Marketing para ayudar a repetir negocios",
+                "Pedidos digitales"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Poor tech support",
+                "No on-site support or training",
+                "Proprietary card processing which leads to high rates after a short period of time",
+                "Monthly servcie price hikes",
+                "Back office has poor multi location management features",
+                "Reports of glitches",
+                "Non-compliant dual pricing guest receipt."
+            ],
+            "es": [
+                "Soporte técnico deficiente",
+                "Sin soporte o capacitación en el sitio",
+                "Procesamiento de tarjeta patentado que conduce a tasas altas después de un corto período de tiempo",
+                "Aumentos mensuales en el precio del servicio",
+                "El back office tiene funciones de administración de ubicaciones múltiples deficientes",
+                "Reportes de fallas",
+                "Recibo de invitado de precio dual, no cumple con los requisitos."
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Toast is an easy-to-use POS system built specifically for the restaurant industry. It has excellent feature sets, strong tableside ordering, and backoffice management. Managers tends to gravitate towards this system due to its simplicity and owners love it due to its low upfront costs. Down the line, the system can be frustrating due to its non-existing local servicing and high price hikes due to card payment processing being propriety with Toast.",
+                "es": "Toast es un sistema POS fácil de usar creado específicamente para la industria de restaurantes. Tiene excelentes conjuntos de características, fuertes pedidos en la mesa y administración de backoffice. Los gerentes tienden a gravitar hacia este sistema debido a su simplicidad y a los propietarios les encanta debido a sus bajos costos iniciales. En el futuro, el sistema puede ser frustrante debido a la inexistencia de un servicio local y a los altos aumentos de precios debido a que el procesamiento de pagos con tarjeta es propiedad de Toast."
+            },
+            "value": 9.5,
+            "easy": 9.5,
+            "support": 8.5,
+            "functionality": 9.5,
+            "feedback": 9.5,
+            "overall": 9.1
+        },
+        "slug": "toast",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793908/assets/product_icons/toast/icon_ej78tg.png"
+    },
+    {
+        "id": "0fadfc8f",
+        "name": "Clover Station",
+        "monthly_price": 50,
+        "one_time_purchase": 1200,
+        "os_system": [
+            "Android"
+        ],
+        "overview": {
+            "en": "Easy-to-use software great for retail and any type of restaurant",
+            "es": "Software fácil de usar, ideal para minoristas y cualquier tipo de restaurante"
+        },
+        "pros": {
+            "en": [
+                "Provides extensive features",
+                "Easy-to-use backoffice",
+                "Multiple apps & add-ons",
+                "Sleek hardware",
+                "Affordable monthly prices"
+            ],
+            "es": [
+                "Proporciona amplias funciones",
+                "Oficina administrativa fácil de usar",
+                "Múltiples aplicaciones y complementos",
+                "Hardware pulcro",
+                "Precios mensuales accesibles "
+            ]
+        },
+        "cons": {
+            "en": [
+                "Not geared for full service rest & pizzerias",
+                "Reports of glitches",
+                "Proprietary Software",
+                "Added features (apps) increases monthly fees",
+                "Limited for simple menus"
+            ],
+            "es": [
+                "No está diseñado para restaurantes y pizzerías de servicio completo",
+                "Propietario del software",
+                "Las funciones agregadas (aplicaciones) aumentan las tarifas mensuales",
+                "Limitado para menús sencillos"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Clover Flex is point-of-sale hardware that can be a countertop POS device and mobile card reader. It is compatible only with Clover POS software and other Clover hardware. With Clover Flex, you can take card and mobile wallet payments on the go, print receipts, manage inventory, and more.",
+                "es": "Clover Flex es un hardware de punto de venta que puede ser un dispositivo POS de mostrador y un lector de tarjetas móvil. Solo es compatible con el software Clover POS y otro hardware Clover. Con Clover Flex, puede aceptar pagos con tarjeta y billetera móvil sobre la marcha, imprimir recibos, administrar el inventario y más."
+            },
+            "value": 9.5,
+            "easy": 9,
+            "support": 9,
+            "functionality": 8.5,
+            "feedback": 9,
+            "overall": 9
+        },
+        "slug": "clover-station",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793902/assets/product_icons/clover-station/icon_yoysh3.png"
+    },
+    {
+        "id": "8a013776",
+        "name": "Brink",
+        "monthly_price": 69.95,
+        "one_time_purchase": 1295,
+        "os_system": [
+            "Window"
+        ],
+        "overview": {
+            "en": "Customizable point-of-sale system for full & quick-service restaurants",
+            "es": "Sistema de puntos de venta personalizables para restaurantes completos y de servicio rápido"
+        },
+        "pros": {
+            "en": [
+                "Stable hardware & software",
+                "Great on-site tech support",
+                "Customizable layout & features",
+                "Modifier to modifier features",
+                "Features Offline Mode",
+                "Compliant dual-pricing",
+                "Great for franshises"
+            ],
+            "es": [
+                "Hardware & software estable",
+                "Excelente soporte técnico en el sitio",
+                "Diseño y características personalizables",
+                "Características de modificador a modificador",
+                "Características Modo sin conexión",
+                "Precio dual compatible",
+                "Ideal para franquicias."
+            ]
+        },
+        "cons": {
+            "en": [
+                "Expensive hardware if you do not use their credit card processiing",
+                "Requires a strong internet connection",
+                "Need better integration w/ KDS"
+            ],
+            "es": [
+                "Hadware costoso si no usa su procesador te tarjetas de credito",
+                "Requiere una fuerte conexión a internet",
+                "Necesita una mejor integración con KDS"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Brink POS is an easy-to-use, customizable, cloud-based restaurant management solution specifically designed for fast casual and quick service chains. The solution delivers the key functionality required by restaurant owners, managers, kitchen and staff to track sales, enter in-store and online orders, implement customer loyalty programs and manage kitchen operations. ",
+                "es": "Brink POS es una solución de administración de restaurantes fácil de usar, personalizable y basada en la nube, diseñada específicamente para cadenas de servicio rápido e informal. La solución ofrece la funcionalidad clave requerida por los propietarios de restaurantes, los gerentes, la cocina y el personal para realizar un seguimiento de las ventas, ingresar pedidos en la tienda y en línea, implementar programas de fidelización de clientes y administrar las operaciones de la cocina."
+            },
+            "value": 9,
+            "easy": 9,
+            "support": 8,
+            "functionality": 9.5,
+            "feedback": 9,
+            "overall": 8.9
+        },
+        "slug": "brink",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793901/assets/product_icons/brink/icon_ncmnbj.png"
+    },
+    {
+        "id": "f32ba2b0",
+        "name": "Exatouch",
+        "monthly_price": 29.95,
+        "one_time_purchase": 595,
+        "os_system": [
+            "Window"
+        ],
+        "overview": {
+            "en": "Fast, reliable, and affordable POS system for any sized business",
+            "es": "Rápido,confiable y  accesible un sistema POS para cualquier tamaño de negocio"
+        },
+        "pros": {
+            "en": [
+                "Good for retail & liquor stores",
+                "Local representative",
+                "User-friendly register",
+                "24/7 Phone Support",
+                "Compliant dual-pricing"
+            ],
+            "es": [
+                "Ideal para minoristas & licorerias",
+                "Representante Local",
+                "Registro fácil de usar",
+                "Soporte telefónico 24/7"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Has limited features for resturants & quick-servcie",
+                "Proprietary card payments",
+                "Dull looking"
+            ],
+            "es": [
+                "Tiene características limitadas para restaurantes y servicios rápidos",
+                "Pagos con tarjeta propia",
+                "Aspecto aburrido"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Exatouch is a point-of-sale system designed with restaurants, retail, and salons in mind. Running on a SQL database, the system supports credit card processing and POS functions for businesses of any size.",
+                "es": "Exatouch es un sistema de punto de venta diseñado pensando en restaurantes, comercios minoristas y salones. Al ejecutarse en una base de datos SQL, el sistema admite el procesamiento de tarjetas de crédito y las funciones de POS para empresas de cualquier tamaño."
+            },
+            "value": 9,
+            "easy": 8,
+            "support": 9.5,
+            "functionality": 8,
+            "feedback": 8,
+            "overall": 8.5
+        },
+        "slug": "exatouch",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793902/assets/product_icons/exatouch/icon_ubud2n.png"
+    },
+    {
+        "id": "3f1943c6",
+        "name": "Ovvi",
+        "monthly_price": 49.95,
+        "one_time_purchase": 1495,
+        "os_system": [
+            "Android",
+            "Window"
+        ],
+        "overview": {
+            "en": "POS used by restaurants, grocery, convenience & liquor stores",
+            "es": "POS utilizado por restaurantes, supermercados, tiendas de conveniencia y licoreria"
+        },
+        "pros": {
+            "en": [
+                "Easy to use interface",
+                "Compatible w/ 3rd party delivery",
+                "Cloud base for back office",
+                "Good tech support, 24/7",
+                "Simple check-out process"
+            ],
+            "es": [
+                "Hardware desordenado",
+                "No perfecto para el negocio de los restaurantes",
+                "No compatible con iOS",
+                "No tiene la característica de modificador de modificadores"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Messy hardware",
+                "Not seamless for restaurant business",
+                "Not compatible w/ iOS",
+                "Does not the have modifiers to modifiers feature"
+            ],
+            "es": [
+                "Hardware desordenado",
+                "No perfecto para el negocio de los restaurantes",
+                "No compatible con iOS",
+                "No tiene la característica de modificador de modificadores"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Ovvi is a POS solution that can be used by restaurants, retail stores, grocery stores, non-profit organizations, convenience stores, liquor stores and more. The solution helps businesses to process order, track ingredients, manage recipes and analyze ordering trends to form marketing strategies. The solution also helps managers to conduct a daily analysis of business operations, view sales data and productivity metrics. Users can pull sales reports by hour, volume, item, account type, employee, card type and day.",
+                "es": "Ovvi es una solución POS que pueden utilizar restaurantes, tiendas minoristas, supermercados, organizaciones sin fines de lucro, tiendas de conveniencia, licorerías y más. La solución ayuda a las empresas a procesar pedidos, rastrear ingredientes, administrar recetas y analizar tendencias de pedidos para formar estrategias de marketing. La solución también ayuda a los gerentes a realizar un análisis diario de las operaciones comerciales, ver datos de ventas y métricas de productividad. Los usuarios pueden obtener informes de ventas por hora, volumen, artículo, tipo de cuenta, empleado, tipo de tarjeta y día."
+            },
+            "value": 8.5,
+            "easy": 8,
+            "support": 8,
+            "functionality": 8.5,
+            "feedback": 8,
+            "overall": 8.2
+        },
+        "slug": "ovvi",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793904/assets/product_icons/ovvi/icon_x5p1qh.png"
+    },
+    {
+        "id": "b100c3ca",
+        "name": "RPower",
+        "monthly_price": 60,
+        "one_time_purchase": 3500,
+        "os_system": [
+            "Window"
+        ],
+        "overview": {
+            "en": "RPower is suitable for all types of business ensuring unmatched flexibility, reliability, and speed for your business",
+            "es": "RPower es adecuado para todo tipo de negocios, lo que garantiza una flexibilidad, confiabilidad y velocidad inigualables para su negocio"
+        },
+        "pros": {
+            "en": [
+                "Contactless Payments",
+                "Wide range of integrations",
+                "Fully integrated EMV payments",
+                "Online Ordering"
+            ],
+            "es": [
+                "Pagos sin contacto",
+                "Amplia gama de integraciones",
+                "Pagos EMV totalmente integrados",
+                "Pedidos en línea"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Third party pricing integrations",
+                "Antiquated hardware"
+            ],
+            "es": [
+                "Integraciones de precios de terceros",
+                "Hardware anticuado"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "RPOWER is the perfect choice for your business, no matter what type of establishment you run. Whether you're in the fine dining industry, run a bustling nightclub, operate a counter service cafe, offer delivery, or have a pick-up service, RPOWER is designed with you in mind. Our top-of-the-line software provides unmatched flexibility, reliability, and speed, making it easy for you to keep your business running smoothly and efficiently.",
+                "es": "RPOWER es la elección perfecta para su negocio, independientemente del tipo de establecimiento que dirija. Ya sea que esté en la industria de la alta cocina, administre un club nocturno, opere un café con servicio de mostrador, ofrezca entrega o tenga un servicio de recogida, RPOWER está diseñado pensando en usted. Nuestro software de primera línea proporciona una flexibilidad, confiabilidad y velocidad inigualables, lo que le facilita mantener su negocio funcionando sin problemas y de manera eficiente."
+            },
+            "value": 8,
+            "easy": 9,
+            "support": 9.5,
+            "functionality": 9,
+            "feedback": 8.5,
+            "overall": 8.9
+        },
+        "slug": "rpower",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793906/assets/product_icons/rpower/icon_fk3ra0.png"
+    },
+    {
+        "id": "e38fadbb",
+        "name": "Union ",
+        "monthly_price": 79,
+        "one_time_purchase": 0,
+        "os_system": [
+            "Android",
+            "iOS"
+        ],
+        "overview": {
+            "en": "A cutting-edge point-of-sale system that puts the power of ordering in the hands of customers, designed for high-volume bars and restaurants",
+            "es": "Un sistema de punto de venta de vanguardia que pone el poder de ordenar en manos de los clientes, diseñado para bares y restaurantes de alto volumen"
+        },
+        "pros": {
+            "en": [
+                "Guest-led ordering",
+                "Operational efficiency",
+                "Easy to learn & use",
+                "Real support and help"
+            ],
+            "es": [
+                "Pedidos dirigidos por el huésped",
+                "Eficiencia operacional",
+                "Fácil de aprender y usar",
+                "Ayuda y soporte real"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Lack of table service features",
+                "Lack of quick service features",
+                "Reports of glitches"
+            ],
+            "es": [
+                "Falta de funciones de servicio de mesa.",
+                "Falta de funciones de servicio rápido",
+                "Reportes de fallas"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Great system for busy bars and nightclubs only that has a cutting-edge, guest-led ordering system that provides a streamlined experience for customers. With its innovative design, it is well-suited for bars that face heavy customer traffic and demand, providing a solution that is both efficient and user-friendly.",
+                "es": "Excelente sistema solo para bares y clubes nocturnos concurridos que tiene un sistema de pedidos de vanguardia dirigido por invitados que brinda una experiencia optimizada para los clientes. Con su diseño innovador, es ideal para bares que se enfrentan a un gran tráfico y demanda de clientes, proporcionando una solución eficiente y fácil de usar."
+            },
+            "value": 9.5,
+            "easy": 9.5,
+            "support": 8.5,
+            "functionality": 9.5,
+            "feedback": 9,
+            "overall": 9.2
+        },
+        "slug": "union",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1681793908/assets/product_icons/union/icon_kowah7.png"
+    },
+    {
+        "id": "86ce0e14",
+        "name": "Touchbistro",
+        "monthly_price": 75,
+        "one_time_purchase": 2800,
+        "os_system": [
+            "iOS"
+        ],
+        "overview": {
+            "en": "An all-in-one POS system that simplifies restaurant operations.",
+            "es": "TouchBistro es un sistema de administración de restaurantes que combina todas las funciones necesarias, incluido un sistema POS, para simplificar la operación de un restaurante y hacerlo más conveniente."
+        },
+        "pros": {
+            "en": [
+                "User-friendly",
+                "Affordable pricing",
+                "Wide range of add-ons"
+            ],
+            "es": [
+                "Fácil de usar",
+                "Precios asequibles",
+                "Amplia gama de complementos"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Not able to do transactions offline",
+                "May take some time to schedule an install",
+                "Poor support",
+                "No local reseller available",
+                "Third party add-ons that become costly"
+            ],
+            "es": [
+                "No puedo hacer transacciones fuera de línea",
+                "Puede tomar algún tiempo para programar una instalación",
+                "Soporte técnico deficiente",
+                "No hay revendedor local disponible",
+                "Complementos de terceros que se vuelven costosos"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Touch Bistro is the choice for any hospitality or food and beverage establishments. It offers such a wide range of features that can help your restaurant and really cater to all the needs of a restaurant. It is the ideal choice for a modern all-in-one POS.",
+                "es": "Touch Bistro es la elección para cualquier establecimiento de hostelería o de alimentos y bebidas. Ofrece una amplia gama de características que pueden ayudar a su restaurante y realmente satisfacer todas las necesidades de un restaurante. Es la opción ideal para un punto de venta todo en uno moderno."
+            },
+            "value": 9,
+            "easy": 9.4,
+            "support": 8.5,
+            "functionality": 8.8,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "touchbistro",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1682325559/assets/product_icons/Touchbistro/icon_fchne6.png"
+    },
+    {
+        "id": "86ce0e14",
+        "name": "Touchbistro",
+        "monthly_price": 75,
+        "one_time_purchase": 2800,
+        "os_system": [
+            "iOS"
+        ],
+        "overview": {
+            "en": "An all-in-one POS system that simplifies restaurant operations.",
+            "es": "TouchBistro es un sistema de administración de restaurantes que combina todas las funciones necesarias, incluido un sistema POS, para simplificar la operación de un restaurante y hacerlo más conveniente."
+        },
+        "pros": {
+            "en": [
+                "User-friendly",
+                "Affordable pricing",
+                "Wide range of add-ons"
+            ],
+            "es": [
+                "Fácil de usar",
+                "Precios asequibles",
+                "Amplia gama de complementos"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Not able to do transactions offline",
+                "May take some time to schedule an install",
+                "Poor support",
+                "No local reseller available",
+                "Third party add-ons that become costly"
+            ],
+            "es": [
+                "No puedo hacer transacciones fuera de línea",
+                "Puede tomar algún tiempo para programar una instalación",
+                "Soporte técnico deficiente",
+                "No hay revendedor local disponible",
+                "Complementos de terceros que se vuelven costosos"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Touch Bistro is the choice for any hospitality or food and beverage establishments. It offers such a wide range of features that can help your restaurant and really cater to all the needs of a restaurant. It is the ideal choice for a modern all-in-one POS.",
+                "es": "Touch Bistro es la elección para cualquier establecimiento de hostelería o de alimentos y bebidas. Ofrece una amplia gama de características que pueden ayudar a su restaurante y realmente satisfacer todas las necesidades de un restaurante. Es la opción ideal para un punto de venta todo en uno moderno."
+            },
+            "value": 9,
+            "easy": 9.4,
+            "support": 8.5,
+            "functionality": 8.8,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "touchbistro",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1682325559/assets/product_icons/Touchbistro/icon_fchne6.png"
+    },
+    {
+        "id": "10c4e1db",
+        "name": "HungerRush",
+        "monthly_price": 99,
+        "one_time_purchase": 0,
+        "os_system": [
+            "iOS"
+        ],
+        "overview": {
+            "en": "An all-in-one POS system that simplifies restaurant operations.",
+            "es": "TouchBistro es un sistema de administración de restaurantes que combina todas las funciones necesarias, incluido un sistema POS, para simplificar la operación de un restaurante y hacerlo más conveniente."
+        },
+        "pros": {
+            "en": [
+                "Tools tailored for specific industries",
+                "Text-to-order powered by AI",
+                "Loyalty program",
+                "Ability to accept online orders"
+            ],
+            "es": [
+                "Herramientas diseñadas para industrias específicas",
+                "Pedidos por mensaje de texto impulsados por IA",
+                "Programa de lealtad",
+                "Capacidad para aceptar pedidos en línea"
+            ]
+        },
+        "cons": {
+            "en": [
+                "No pricing transparency",
+                "Hardware can seem outdated"
+            ],
+            "es": [
+                "Falta de transparencia en los precios",
+                "El hardware puede parecer anticuado"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "HungerRush provides a diverse set of industry-tailored features suitable for various restaurant and pizza shop formats. This system offers a user-friendly and comprehensive solution for restaurant management, ensuring ease of use and scalability to accommodate your expansion from a single location to multiple units.",
+                "es": "HungerRush ofrece un conjunto diverso de funciones diseñadas específicamente para la industria, adecuadas para distintos formatos de restaurantes y pizzerías. Este sistema proporciona una solución integral y fácil de usar para la gestión de restaurantes, asegurando facilidad operativa y escalabilidad, permitiendo expandirse desde una sola ubicación hasta múltiples sucursales."
+            },
+            "value": 9,
+            "easy": 8.9,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "hungerrush",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1712681029/hungerrush_logo_fzuhp5.png"
+    },
+    {
+        "id": "89eh6et4",
+        "name": "GoTab",
+        "monthly_price": 99,
+        "one_time_purchase": 0,
+        "os_system": [
+            "iOS"
+        ],
+        "overview": {
+            "en": "Enhance guest and staff experiences with this versatile POS",
+            "es": ""
+        },
+        "pros": {
+            "en": [
+                "User-friendly interface",
+                "Guest-centric technology",
+                "Loyalty program & memberships",
+                "In-depth reporting"
+            ],
+            "es": [
+                "Interfaz fácil de usar",
+                "Tecnología centrada en el cliente",
+                "Programa de fidelidad y membresías\n",
+                "Informes detallados"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Limited customization",
+                "Specific hardware compatibility",
+                "POS training required"
+            ],
+            "es": [
+                "Personalización limitada",
+                "Compatibilidad con hardware específico",
+                "Se requiere capacitación para el uso del POS"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "GoTab is an excellent solution for businesses looking to modernize their operations and offer a superior guest experience. Its unique features, focus on efficiency, and ability to cater to a wide range of service models make it a standout choice in the competitive POS market. While initial setup and training may require effort, the long-term benefits in revenue growth, labor efficiency, and customer satisfaction outweigh these challenges.",
+                "es": "GoTab es una solución excelente para negocios que desean modernizar sus operaciones y ofrecer una experiencia superior al cliente. Sus características únicas, su enfoque en la eficiencia y su capacidad para adaptarse a una amplia variedad de modelos de servicio lo convierten en una opción destacada dentro del competitivo mercado de sistemas POS. Aunque la configuración inicial y la capacitación pueden requerir cierto esfuerzo, los beneficios a largo plazo en cuanto al crecimiento de ingresos, eficiencia operativa y satisfacción del cliente superan con creces estos desafíos."
+            },
+            "value": 9,
+            "easy": 8.9,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "gotab",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1736442837/bestpos/GoTab_Logo_begbvw.png"
+    },
+    {
+        "id": "19eh7ey4",
+        "name": "Acadia",
+        "monthly_price": 50,
+        "one_time_purchase": 0,
+        "os_system": [
+            "iOS",
+            "Android",
+            "Window"
+        ],
+        "overview": {
+            "en": "Versatile POS for retail, hospitality, and services, integrating sales, inventory, and CRM.",
+            "es": "Es un sistema POS versátil para retail, hospitalidad y servicios, integrando ventas, inventario y CRM."
+        },
+        "pros": {
+            "en": [
+                "User friendly interface",
+                "Insightful sales reports and analytics",
+                "Cloud-based accessibility",
+                "Remarkable CRM system",
+                "Easy integration",
+                "Tracks stock levels, managing suppliers, and setting up alerts for low inventory"
+            ],
+            "es": [
+                "Interfaz fácil de usar",
+                "Informes de ventas y análisis detallados",
+                "Accesibilidad basada en la nube",
+                "Sistema CRM destacado"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Dependence on internet",
+                "Learning curve for advanced features",
+                "Potential overskill for small businesses"
+            ],
+            "es": [
+                "No puedo hacer transacciones fuera de línea",
+                "Puede tomar algún tiempo para programar una instalación",
+                "Soporte técnico deficiente",
+                "No hay revendedor local disponible",
+                "Complementos de terceros que se vuelven costosos"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Acadia POS is an excellent choice for businesses seeking a customizable, feedback-driven, and eCommerce-ready POS system. Its flexibility and dedication to customer success make it particularly appealing for businesses focused on value and long-term growth. With its ongoing support and adaptability, Acadia POS is well-suited to evolving business needs while maintaining a strong focus on merchant satisfaction.",
+                "es": "Acadia POS is an excellent choice for businesses seeking a customizable, feedback-driven, and eCommerce-ready POS system. Its flexibility and dedication to customer success make it particularly appealing for businesses focused on value and long-term growth. With its ongoing support and adaptability, Acadia POS is well-suited to evolving business needs while maintaining a strong focus on merchant satisfaction."
+            },
+            "value": 9,
+            "easy": 8.9,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "acadia",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1737536457/bestpos/xgvbdpppvsyfcygopys5.png"
+    },
+    {
+        "id": "b4beh7ey5",
+        "name": "Oliver",
+        "monthly_price": 99,
+        "one_time_purchase": 1295,
+        "os_system": [
+            "iOS"
+        ],
+        "overview": {
+            "en": "Simplify retail & restaurant management with Oliver WooCommerce POS.",
+            "es": "Simplifica la gestión de tiendas y restaurantes con Oliver WooCommerce POS."
+        },
+        "pros": {
+            "en": [
+                "User friendly interface",
+                "Insightful sales reports and analytics",
+                "Cloud-based accessibility",
+                "Remarkable CRM system",
+                "Easy integration",
+                "Tracks stock levels, managing suppliers, and setting up alerts for low inventory"
+            ],
+            "es": [
+                "Interfaz fácil de usar",
+                "Informes de ventas y análisis detallados",
+                "Cloud-based accessibility",
+                "Acceso en la nube",
+                "Sistema CRM sobresaliente"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Limited customization",
+                "Highly dependent on internet",
+                "Costly for small business",
+                "Frequent training",
+                "Reporting and analytics lack in depth updates"
+            ],
+            "es": [
+                "Limited customization",
+                "Highly dependent on internet",
+                "Costly for small business",
+                "Frequent training",
+                "Reporting and analytics lack in depth updates"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Oliver POS is a robust choice for WooCommerce users looking for a flexible, device-agnostic POS solution. Its ease of integration, accessibility, and user-friendly design make it especially suitable for small and medium-sized businesses seeking an efficient way to merge their online and offline sales operations. For those heavily reliant on WooCommerce, Oliver POS offers excellent value and practicality.",
+                "es": "Oliver (POS) es un sistema diseñado para optimizar las operaciones de tiendas minoristas y restaurantes, ofreciendo herramientas que ayudan a gestionar eficazmente el negocio mientras mejoran el servicio al cliente. Es un sistema todo-en-uno de WooCommerce POS que se conecta a tu terminal de venta, permitiéndote comprar y agregar productos desde tu teléfono, tablet, hardware o laptop."
+            },
+            "value": 9,
+            "easy": 8.8,
+            "support": 8.5,
+            "functionality": 8.6,
+            "feedback": 8.5,
+            "overall": 8.7
+        },
+        "slug": "oliver",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1737538523/bestpos/Oliver-Horizontal_ms2xqh.png"
+    },
+    {
+        "id": "cj14beh9e4",
+        "name": "SpotOn",
+        "monthly_price": 99,
+        "one_time_purchase": 1295,
+        "os_system": [
+            "iOS",
+            "Android",
+            "Window"
+        ],
+        "overview": {
+            "en": "Simplify retail & restaurant management with Oliver WooCommerce POS.",
+            "es": "Simplifica la gestión de tiendas y restaurantes con Oliver WooCommerce POS."
+        },
+        "pros": {
+            "en": [
+                "User-friendly interface",
+                "Great customization",
+                "Cloud-based",
+                "Compatible with various payment processors"
+            ],
+            "es": [
+                "Interfaz fácil de usar",
+                "Informes de ventas y análisis detallados",
+                "Acceso basado en la nube",
+                "Sistema CRM destacado"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Can be expensive for small businesses",
+                "Dependence on internet connectivity",
+                "Specific hardware requirements",
+                "Feature overload with the abundance of features"
+            ],
+            "es": [
+                "Limited customization",
+                "Highly dependent on internet",
+                "Costly for small business",
+                "Frequent training",
+                "Reporting and analytics lack in depth updates"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "SpotOn empowers businesses with flexible, scalable, and customer-focused POS solutions tailored to individual needs. Their mission emphasizes independence, adaptability, and personalized support, making them a top choice for businesses of all sizes.",
+                "es": "SpotOn empodera a las empresas con soluciones POS flexibles, escalables y centradas en el cliente, adaptadas a las necesidades individuales. Su misión enfatiza la independencia, la adaptabilidad y el soporte personalizado, lo que lo convierte en una de las principales opciones para negocios de todos los tamaños."
+            },
+            "value": 9,
+            "easy": 8.9,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "spoton",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1737602823/bestpos/SpotOn_rdkwp6.webp"
+    },
+    {
+        "id": "cj14beh9e5",
+        "name": "Tabit",
+        "monthly_price": 99,
+        "one_time_purchase": 1295,
+        "os_system": [
+            "iOS",
+            "Android"
+        ],
+        "overview": {
+            "en": "Designed for the hospitality industry, enhance your business with Tabit",
+            "es": "Diseñado para la industria de la hospitalidad, potencia tu negocio con Tabit"
+        },
+        "pros": {
+            "en": [
+                "Mobile-first design",
+                "Intuitive & simple interface",
+                "Cloud-based system",
+                "Offline functionality",
+                "Real-time data analytics",
+                "Increased table turnover",
+                "Customer-focused features"
+            ],
+            "es": [
+                "Interfaz fácil de usar",
+                "Informes de ventas y análisis detallados",
+                "Acceso basado en la nube",
+                "Sistema CRM destacado"
+            ]
+        },
+        "cons": {
+            "en": [
+                "High initial costs",
+                "Subscription fees",
+                "Limited industry focus",
+                "Hardware dependency",
+                "Limited customization"
+            ],
+            "es": [
+                "Limited customization",
+                "Highly dependent on internet",
+                "Costly for small business",
+                "Frequent training",
+                "Reporting and analytics lack in depth updates"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Tabit POS is a standout POS system best suited for the hospitality industry. With its amazing mobile-first and cloud-based approach, you can enhance your business tremendously. It's intuitive design enhances staff efficiency and allows for an easy streamline of operations. With it's robust features like real-time analytics, offline functionality, and seamless integration with third-party systems, Tabit is the comprehensive tool you need for your business. ",
+                "es": "Tabit POS es un sistema de punto de venta destacado, ideal para la industria de la hospitalidad. Con su increíble enfoque móvil y basado en la nube, puedes mejorar significativamente tu negocio. Su diseño intuitivo aumenta la eficiencia del personal y permite optimizar fácilmente las operaciones. Con funciones sólidas como análisis en tiempo real, funcionalidad sin conexión e integración fluida con sistemas de terceros, Tabit es la herramienta integral que tu negocio necesita."
+            },
+            "value": 9,
+            "easy": 8.9,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "tabit",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1739358654/bestpos/qr6cgqi79m61aqel0jti.webp"
+    },
+    {
+        "id": "8e5fc013",
+        "name": "Square",
+        "monthly_price": 29,
+        "one_time_purchase": 1295,
+        "os_system": [
+            "iOS",
+            "Android"
+        ],
+        "overview": {
+            "en": "Designed for the hospitality industry, enhance your business with Square",
+            "es": "Designed for the hospitality industry, enhance your business with Square"
+        },
+        "pros": {
+            "en": [
+                "Ease of Use",
+                "Affordability",
+                "Mobile POS capabilities",
+                "Omnichannel integration",
+                "Comprehensive features"
+            ],
+            "es": [
+                "Facilidad de uso",
+                "Asequibilidad",
+                "Capacidades de POS móvil",
+                "Integración omnicanal"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Transaction fees",
+                "Hardware limitations",
+                "Customer Support",
+                "Fund holds"
+            ],
+            "es": [
+                "Transaction fees",
+                "Hardware limitations",
+                "Customer Support",
+                "Fund holds"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "A top choice for small businesses looking for simplicity and affordability, but may not suit larger, more complex operations. Square POS is best for small to medium-sized businesses looking for an affordable, easy-to-use system with robust features, including payment processing, inventory management, and online sales integration. It’s ideal for businesses that want a simple, no-frills solution without complex pricing structures or long-term contracts.\n\nHowever, for high-volume businesses or those requiring advanced POS features, Square may not be the best fit due to its higher transaction fees and limitations in scalability.",
+                "es": "A top choice for small businesses looking for simplicity and affordability, but may not suit larger, more complex operations. Square POS is best for small to medium-sized businesses looking for an affordable, easy-to-use system with robust features, including payment processing, inventory management, and online sales integration. It’s ideal for businesses that want a simple, no-frills solution without complex pricing structures or long-term contracts.\n\nHowever, for high-volume businesses or those requiring advanced POS features, Square may not be the best fit due to its higher transaction fees and limitations in scalability."
+            },
+            "value": 9,
+            "easy": 8.9,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.8
+        },
+        "slug": "square",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1741599426/bestpos/vkfohpgr5jhzv6ffot8a.png"
+    },
+    {
+        "id": "77e693b1",
+        "name": "Quantic",
+        "monthly_price": 0,
+        "one_time_purchase": 0,
+        "os_system": [
+            "iOS",
+            "Android"
+        ],
+        "overview": {
+            "en": "A cost-effective and feature-rich POS system designed for various businesses",
+            "es": "Un sistema POS rentable y con muchas funciones diseñado para diversos tipos de negocios\nUn sistema POS rentable y con muchas funciones diseñado para diversos tipos de negocios"
+        },
+        "pros": {
+            "en": [
+                "User-friendly interface",
+                "Dual pricing feature",
+                "Comprehensive features across business types",
+                "Cloud-based system",
+                "Seamless integrations"
+            ],
+            "es": [
+                "Interfaz fácil de usar",
+                "Función de precios duales",
+                "Funcionalidades completas para todo tipo de negocios",
+                "Sistema basado en la nube"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Limited customization",
+                "Learning curve for advanced features",
+                "Technical issues",
+                "Customer support response"
+            ],
+            "es": [
+                "Limited customization",
+                "Learning curve for advanced features",
+                "Technical issues",
+                "Customer support response"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Best for small to mid-sized businesses in retail and hospitality. Quantic POS is a cost-effective, feature-packed solution, particularly strong for restaurants and retail businesses that want cash discounting, cloud-based management, and mobile compatibility. However, large enterprises with coplex customization needs may find limitations. ",
+                "es": "Ideal para pequeñas y medianas empresas del sector retail y hospitalidad. Quantic POS es una solución rentable y completa, especialmente eficaz para restaurantes y negocios minoristas que buscan implementar programas de cash discount, gestión en la nube y compatibilidad con dispositivos móviles. Su estructura flexible y sus funciones prácticas lo hacen ideal para empresas que necesitan eficiencia sin complicaciones técnicas. Sin embargo, las grandes empresas con requerimientos avanzados de personalización podrían encontrar ciertas limitaciones en cuanto a escalabilidad y ajustes complejos."
+            },
+            "value": 9,
+            "easy": 8.9,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.9
+        },
+        "slug": "quantic",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1741600626/bestpos/lfl6tsizgpph5yvcwkpw.webp"
+    },
+    {
+        "id": "bd5f6d33",
+        "name": "SkyTab",
+        "monthly_price": 29,
+        "one_time_purchase": 0,
+        "os_system": [
+            "Android"
+        ],
+        "overview": {
+            "en": "Cloud-based POS system designed for the restaurant and hospitality industry",
+            "es": "Sistema POS en la nube diseñado para la industria de restaurantes y hospitalidad"
+        },
+        "pros": {
+            "en": [
+                "User-friendly interface",
+                "Cost-effective",
+                "Comprehensive feature set",
+                "Mobile functionality",
+                "Integrated payment processing"
+            ],
+            "es": [
+                "Interfaz fácil de usar",
+                "Rentable",
+                "Conjunto de funciones completo",
+                "Funcionalidad móvil"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Limited hardware compatibility",
+                "Customer support variability",
+                "Language support limitations",
+                "Offline functionality issues"
+            ],
+            "es": [
+                "Limited hardware compatibility",
+                "Customer support variability",
+                "Language support limitations",
+                "Offline functionality issues"
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Best for small to mid-sized restaurants & hospitality businesses\nSkyTab POS is a solid, cost-effective solution with strong mobile ordering, online payments, and integrated marketing tools. However, its payment processor exclusivity (Shift4) and limited hardware options may be drawbacks for businesses needing more flexibility.",
+                "es": "Ideal para restaurantes y negocios de hostelería pequeños y medianos\nSkyTab POS es una solución sólida y rentable, con sólidas funciones de pedidos móviles, pagos en línea y herramientas de marketing integradas. Sin embargo, su exclusividad con el procesador de pagos (Shift4) y sus opciones limitadas de hardware pueden ser desventajas para los negocios que necesitan más flexibilidad."
+            },
+            "value": 8.5,
+            "easy": 8.6,
+            "support": 8.5,
+            "functionality": 8.9,
+            "feedback": 8.5,
+            "overall": 8.6
+        },
+        "slug": "skytab",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1741763136/bestpos/kzia2nv5t3s9h8radet4.webp"
+    },
+    {
+        "id": "cj14rTe34s9e4",
+        "name": "KORONA",
+        "monthly_price": 0,
+        "one_time_purchase": 0,
+        "os_system": [
+            "iOS",
+            "Android",
+            "Window"
+        ],
+        "overview": {
+            "en": "A complete point-of-sale system built to power liquor stores, retail, QSR, ticketing, and multi-location businesses.",
+            "es": "Un sistema de punto de venta completo diseñado para impulsar licorerías, tiendas minoristas, restaurantes de servicio rápido, boleterías y negocios con múltiples ubicaciones."
+        },
+        "pros": {
+            "en": [
+                "Advanced Inventory Management",
+                "Customizable reports and dashboards",
+                "Integrated payment options and processing tools.",
+                "24/7 Customer Support"
+            ],
+            "es": [
+                "Gestión avanzada de inventario",
+                "Informes y paneles personalizables",
+                "Opciones de pago integradas y herramientas de procesamiento",
+                "Soporte al cliente 24/7"
+            ]
+        },
+        "cons": {
+            "en": [
+                "If you need very niche or highly custom third-party integrations, you may require professional services or custom setup.",
+                "Enterprise rollouts (large multi-site merchants) will require careful onboarding."
+            ],
+            "es": [
+                "Si necesitas integraciones de terceros muy específicas o altamente personalizadas, puede que requieras servicios profesionales o una configuración a medida.",
+                "Las implementaciones a nivel empresarial (comerciantes con múltiples ubicaciones) requerirán un proceso de incorporación cuidadoso."
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "KORONA POS balances enterprise-grade functionality with sensible pricing and real support. It’s an excellent fit for retailers and operators who want a full feature set (inventory, reporting, loyalty, payments) plus the option to scale into multi-location operations without surprise fees.\n\nKORONA POS is a full-featured, cloud POS platform designed to serve:\n   • Liquor Stores: KORONA POS is particularly strong for liquor retailers, with detailed inventory tracking, vendor management, case-break functionality, and compliance support.\n   • Single-store retailers that want modern inventory control and fast checkout.\n   • Multi-location retailers and franchises that need centralized management and reporting.\n   • Quick Service Restaurants and cafes demanding mobile-ready checkout and table/queue support.\n   • Ticketing venues: museums, amusement parks, event spaces that require integrated ticket & merch sales.\n\nKORONA is best for merchants who prioritize transparency (no hidden fees), reliable in-house support, and a system that grows with their business.\n",
+                "es": "KORONA POS equilibra funciones de nivel empresarial con precios razonables y soporte real. Es una excelente opción para minoristas y operadores que buscan un conjunto completo de funciones (inventario, informes, fidelización, pagos) además de la posibilidad de escalar a operaciones con múltiples ubicaciones sin tarifas sorpresa.\n\nKORONA POS es una plataforma POS en la nube con todas las funciones, diseñada para servir a:\n   • Licorerías: KORONA POS destaca especialmente para minoristas de licores, con seguimiento detallado de inventario, gestión de proveedores, funcionalidad de descomposición por caja y soporte para el cumplimiento normativo.\n   • Minoristas de una sola tienda que buscan un control de inventario moderno y un proceso de cobro rápido.\n   • Minoristas y franquicias con múltiples ubicaciones que necesitan gestión y generación de informes centralizados.\n   • Restaurantes de servicio rápido y cafeterías que requieren puntos de venta móviles y soporte para mesas o filas.\n   • Lugares de venta de entradas: museos, parques de diversiones y espacios para eventos que necesitan integrar la venta de boletos y productos.\n\nKORONA es ideal para comerciantes que priorizan la transparencia (sin tarifas ocultas), el soporte interno confiable y un sistema que crece junto con su negocio."
+            },
+            "value": 8.8,
+            "easy": 9,
+            "support": 9.3,
+            "functionality": 9.1,
+            "feedback": 9,
+            "overall": 9
+        },
+        "slug": "korona",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1759983309/bestpos/KORONA-POS-NEW-LOGO_p3o71i.webp"
+    },
+    {
+        "id": "53cvcvew25q",
+        "name": "Limitless",
+        "monthly_price": 0,
+        "one_time_purchase": 0,
+        "os_system": [
+            "iOS",
+            "Android",
+            "Window"
+        ],
+        "overview": {
+            "en": "Limitless POS for Retail & Liquor Stores",
+            "es": "Limitless POS para Tiendas Minoristas y Licorerías"
+        },
+        "pros": {
+            "en": [
+                "Advanced inventory and pricing rules",
+                "Built-in QuickBooks and eCommerce integration",
+                "Offline capability with cloud sync",
+                "Scalable for liquor, grocery, and gas stations"
+            ],
+            "es": [
+                "Reglas avanzadas de inventario y precios",
+                "Integración incorporada con QuickBooks y comercio electrónico",
+                "Funcionalidad sin conexión con sincronización en la nube",
+                "Escalable para licorerías, tiendas de abarrotes y estaciones de servicio"
+            ]
+        },
+        "cons": {
+            "en": [
+                "Pricing and enterprise packages are provided on request. ",
+                "For highly custom workflows, implementation may require configuration or professional services."
+            ],
+            "es": [
+                "Los precios y paquetes empresariales se proporcionan a solicitud.",
+                "Para flujos de trabajo altamente personalizados, la implementación puede requerir configuración o servicios profesionales."
+            ]
+        },
+        "expert_opinion": {
+            "comment": {
+                "en": "Limitless POS is a focused retail solution built for specialty retailers, especially wine and liquor, grocery, and convenience or petro outlets. With Costco using Limitless, it demonstrates the scalability and reliability of the platform for high-volume operators. It is a strong fit for stores that need flexible pricing, enterprise-level inventory, and smooth order workflows.",
+                "es": "Limitless POS es una solución minorista especializada, diseñada para comercios específicos, especialmente tiendas de vinos y licores, supermercados y establecimientos de conveniencia o gasolineras. Con Costco utilizando Limitless, se demuestra la escalabilidad y fiabilidad de la plataforma para operadores de alto volumen. Es una excelente opción para tiendas que necesitan precios flexibles, inventario a nivel empresarial y flujos de pedidos eficientes."
+            },
+            "value": 9,
+            "easy": 8.5,
+            "support": 8.5,
+            "functionality": 9,
+            "feedback": 9,
+            "overall": 8.8
+        },
+        "slug": "limitless",
+        "logo": "https://res.cloudinary.com/dgrym3yz3/image/upload/v1759986593/bestpos/limitless-logo_xhma2l.png"
+    }
+]
