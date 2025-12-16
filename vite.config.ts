@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
-// import { devtools } from '@tanstack/devtools-vite'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import viteTsConfigPaths from 'vite-tsconfig-paths'
 import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
 import svgr from 'vite-plugin-svgr'
+import { visualizer } from 'rollup-plugin-visualizer'
 
-export default defineConfig(() => ({
+export default defineConfig(({ mode }) => ({
   plugins: [
     svgr(),
     nitro(),
@@ -15,6 +15,13 @@ export default defineConfig(() => ({
     tailwindcss(),
     tanstackStart(),
     viteReact(),
+    mode === 'analyze' &&
+      visualizer({
+        open: true,
+        filename: 'dist/stats.html',
+        gzipSize: true,
+        brotliSize: true,
+      }),
   ].filter(Boolean),
 
   envPrefix: 'VITE_',
@@ -33,9 +40,18 @@ export default defineConfig(() => ({
 
     reportCompressedSize: true,
 
-    sourcemap: true,
+    sourcemap: false,
 
     cssMinify: 'lightningcss',
+
+    esbuild: {
+      legalComments: 'none',
+      minifyIdentifiers: true,
+      minifySyntax: true,
+      minifyWhitespace: true,
+      treeShaking: true,
+      drop: ['console', 'debugger'],
+    },
 
     rollupOptions: {
       treeshake: {
@@ -49,36 +65,35 @@ export default defineConfig(() => ({
         entryFileNames: 'assets/[name]-[hash].js',
         chunkFileNames: 'assets/[name]-[hash].js',
         assetFileNames: 'assets/[name]-[hash].[ext]',
-        experimentalMinChunkSize: 20000,
+        compact: true,
+        generatedCode: {
+          constBindings: true,
+          arrowFunctions: true,
+          objectShorthand: true,
+        },
 
         manualChunks(id) {
           if (id.includes('node_modules')) {
-            // TanStack Router & Query - keep together with vendor
-            // Splitting causes issues with header components that use router hooks
             if (id.includes('@tanstack')) {
               return 'tanstack'
             }
 
-            // i18n - independent from React, can be separate
+            // if (id.includes('@tanstack/react-query')) {
+            //   return 'query'
+            // }
+
             if (
               id.includes('i18next') ||
               id.includes('react-i18next') ||
               id.includes('i18next-browser-languagedetector')
             ) {
-              return 'i18n-vendor'
+              return 'i18n'
             }
 
-            // Lucide icons - large but independent
-            if (id.includes('lucide-react')) {
-              return 'icons'
-            }
+            // if (id.includes('axios')) {
+            //   return 'http'
+            // }
 
-            // HTTP client - independent, used for API calls
-            if (id.includes('axios')) {
-              return 'http'
-            }
-
-            // Form libraries - split separately (only used on form pages)
             if (
               id.includes('react-hook-form') ||
               id.includes('zod') ||
@@ -87,8 +102,6 @@ export default defineConfig(() => ({
               return 'forms'
             }
 
-            // Keep React + Radix UI together to avoid context errors
-            // Radix UI components need to share React context
             if (
               id.includes('react/') ||
               id.includes('react-dom/') ||
@@ -97,22 +110,20 @@ export default defineConfig(() => ({
               return 'vendor'
             }
 
-            // Other vendor libraries
             return 'vendor'
           }
 
-          // Split footer into separate chunk (lazy loaded)
           if (id.includes('/components/footer/')) {
             return 'footer'
           }
 
-          // Split navigation cards into separate chunk (lazy loaded on hover)
           if (id.includes('/components/header/NavigationCards')) {
             return 'nav-cards'
           }
 
-          // i18n ES only (lazy loaded)
-          if (id.includes('/locales/es/')) return 'i18n-es'
+          if (id.includes('/locales/es/')) {
+            return 'i18n-es'
+          }
 
           return undefined
         },
