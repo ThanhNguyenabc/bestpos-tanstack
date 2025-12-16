@@ -15,9 +15,9 @@ import { lazy, Suspense } from 'react'
 
 // Lazy load non-critical components
 const Footer = lazy(() => import('../components/footer/Footer'))
-const Toaster = lazy(() =>
-  import('../components/ui/toaster').then((m) => ({ default: m.Toaster })),
-)
+// const Toaster = lazy(() =>
+//   import('../components/ui/toaster').then((m) => ({ default: m.Toaster })),
+// )
 
 interface RouterContext {
   queryClient: QueryClient
@@ -69,23 +69,6 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         crossOrigin: 'anonymous',
       },
     ],
-    scripts: [
-      {
-        children: `
-          (function() {
-            if ('fonts' in document) {
-              Promise.all([
-                document.fonts.load('400 1em Inter'),
-                document.fonts.load('600 1em Inter'),
-                document.fonts.load('700 1em Inter')
-              ]).then(function() {
-                document.documentElement.classList.add('fonts-loaded');
-              });
-            }
-          })();
-        `,
-      },
-    ],
   }),
   errorComponent: ErrorBoundary,
   shellComponent: RootDocument,
@@ -98,18 +81,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en" className="overflow-x-hidden">
       <head>
         <HeadContent />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              if ('connection' in navigator) {
-                const conn = navigator.connection;
-                if (conn && (conn.saveData || conn.effectiveType === 'slow-2g' || conn.effectiveType === '2g')) {
-                  document.documentElement.classList.add('slow-connection');
-                }
-              }
-            `,
-          }}
-        />
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
@@ -135,9 +106,9 @@ function RootContent({ children }: { children: React.ReactNode }) {
       <Suspense fallback={<div className="h-20" />}>
         <Footer />
       </Suspense>
-      <Suspense fallback={null}>
+      {/* <Suspense fallback={null}>
         <Toaster />
-      </Suspense>
+      </Suspense> */}
     </div>
   )
 }
