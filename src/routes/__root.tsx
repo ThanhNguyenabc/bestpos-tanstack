@@ -62,6 +62,13 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         rel: 'stylesheet',
         href: appCss,
       },
+      // Preload critical data for LCP
+      {
+        rel: 'preload',
+        href: '/pos.json',
+        as: 'fetch',
+        crossOrigin: 'anonymous',
+      },
     ],
   }),
   errorComponent: ErrorBoundary,

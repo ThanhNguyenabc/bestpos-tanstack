@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { lazy, Suspense } from 'react'
+import { lazy } from 'react'
 import {
   HomeBanner,
   HomePOSList,
@@ -9,8 +9,9 @@ import {
 import { createHead, createSEOQuery } from '@/lib/seo'
 import { getCurrentLanguage } from '@/utils/language-routing'
 import { useTranslation } from 'react-i18next'
+import { LazySection } from '@/components/primitives/LazySection'
 
-// Lazy load below-the-fold sections
+// Lazy load below-the-fold sections - only when scrolled into view
 const CompetitiveAdvantageSection = lazy(() =>
   import('@/components/home').then((m) => ({
     default: m.CompetitiveAdvantageSection,
@@ -45,16 +46,32 @@ const CTAInnerFooterSection = lazy(() =>
   })),
 )
 
+// Fetch function for POS systems
+const fetchTopPOSSystems = async () => {
+  const response = await fetch('/pos.json')
+  if (!response.ok) {
+    throw new Error('Failed to fetch POS systems')
+  }
+  const data = await response.json()
+  return data.slice(0, 3)
+}
+
 // Route definition
 export const Route = createFileRoute('/')({
   loader: async ({ context, location }) => {
     // Get language from URL (defaults to 'en' if no prefix)
     const lang = getCurrentLanguage(location.pathname)
 
-    // Fetch SEO tags for the home page in detected language
-    const seoData = await context.queryClient.fetchQuery(
-      createSEOQuery('home', lang),
-    )
+    // Prefetch critical data in parallel for faster LCP
+    const [seoData] = await Promise.all([
+      context.queryClient.fetchQuery(createSEOQuery('home', lang)),
+      // Prefetch POS data to avoid waterfall
+      context.queryClient.prefetchQuery({
+        queryKey: ['pos-systems', 'top-3'],
+        queryFn: fetchTopPOSSystems,
+        staleTime: 1000 * 60 * 30,
+      }),
+    ])
 
     return { seo: seoData, language: lang }
   },
@@ -73,22 +90,34 @@ function HomePage() {
       <HelpingPOSSection />
       <MerchantFeeSection />
 
-      {/* Below-the-fold content - lazy load */}
-      <Suspense
-        fallback={
-          <div className="min-h-[400px] flex items-center justify-center bg-neutral-50">
-            <div className="animate-pulse text-neutral-400">Loading...</div>
-          </div>
-        }
-      >
+      {/* Below-the-fold content - lazy load on scroll */}
+      <LazySection minHeight="300px">
         <CompetitiveAdvantageSection />
+      </LazySection>
+
+      <LazySection minHeight="300px">
         <UniqueValueSection />
+      </LazySection>
+
+      <LazySection minHeight="300px">
         <WorkWithTheBestSection />
+      </LazySection>
+
+      <LazySection minHeight="400px">
         <AllBusinessesSection heading={t('point_of_sale.heading')} />
+      </LazySection>
+
+      <LazySection minHeight="400px">
         <SolutionListSection />
+      </LazySection>
+
+      <LazySection minHeight="400px">
         <TestimonialsSection />
+      </LazySection>
+
+      <LazySection minHeight="200px">
         <CTAInnerFooterSection />
-      </Suspense>
+      </LazySection>
     </div>
   )
 }

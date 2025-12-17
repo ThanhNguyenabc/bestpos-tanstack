@@ -64,7 +64,6 @@ export function HelpingPOSSection() {
                   width={56}
                   height={56}
                   className="shrink-0 w-14 h-14 md:w-16 md:h-16 object-contain"
-                  priority
                 />
                 <div>
                   <h3 className="text-base md:text-lg font-bold text-neutral-900 mb-1 md:mb-2">

@@ -5,6 +5,7 @@ import Heading from '../primitives/heading'
 import Section from '../primitives/Section'
 import Text from '../primitives/Text'
 import GetPricingButton from '../GetPricingButton'
+import { useMediaQuery } from '@/hooks/useMediaQuery'
 
 const FEATURES = [
   {
@@ -26,6 +27,7 @@ const FEATURES = [
 
 export function HomeBanner() {
   const { t } = useTranslation('home')
+  const isDesktop = useMediaQuery('(min-width: 768px)')
 
   return (
     <>
@@ -46,7 +48,6 @@ export function HomeBanner() {
               src={icon}
               alt={alt}
               className="shrink-0"
-              loading="eager"
             />
             <Text className="text-[10px] leading-tight font-semibold text-center wrap-break-word w-full">
               {t(key)}
@@ -73,42 +74,40 @@ export function HomeBanner() {
 
             <GetPricingButton />
 
-            {/* Desktop features - hidden on mobile with CSS */}
-            <ul
-              className="hidden lg:flex gap-2 mt-4"
-              role="list"
-              aria-label="Key benefits"
-            >
-              {FEATURES.map(({ key, icon, alt }) => (
-                <Badge
-                  key={key}
-                  className="flex-row bg-white gap-2 items-center"
-                  role="listitem"
-                >
-                  <Image
-                    width={26}
-                    height={26}
-                    src={icon}
-                    alt={alt}
-                    loading="eager"
-                  />
-                  <Text className="text-xs font-semibold">{t(key)}</Text>
-                </Badge>
-              ))}
-            </ul>
+            {/* Desktop features - only render on large screens */}
+            {isDesktop && (
+              <ul
+                className="hidden lg:flex gap-2 mt-4"
+                role="list"
+                aria-label="Key benefits"
+              >
+                {FEATURES.map(({ key, icon, alt }) => (
+                  <Badge
+                    key={key}
+                    className="flex-row bg-white gap-2 items-center"
+                    role="listitem"
+                  >
+                    <Image width={26} height={26} src={icon} alt={alt} />
+                    <Text className="text-xs font-semibold">{t(key)}</Text>
+                  </Badge>
+                ))}
+              </ul>
+            )}
           </div>
 
-          {/* Image - hidden on mobile with CSS */}
-          <div className="flex-1 hidden md:flex lg:h-[700px] -translate-y-12 mx-auto">
-            <Image
-              width={612}
-              height={612}
-              src="https://res.cloudinary.com/dgrym3yz3/image/upload/f_auto,q_auto,w_612/bestpos/banner/qwllcfsf9qhtobo6qwij.png"
-              alt="BestPOS point of sale system illustration showing multiple connected devices"
-              className="object-contain"
-              loading="lazy"
-            />
-          </div>
+          {/* Image - only render on desktop to save bandwidth */}
+          {isDesktop && (
+            <div className="flex-1 flex lg:h-[700px] -translate-y-12 mx-auto">
+              <Image
+                width={612}
+                height={612}
+                src="https://res.cloudinary.com/dgrym3yz3/image/upload/f_auto,q_auto,w_612/bestpos/banner/qwllcfsf9qhtobo6qwij.png"
+                alt="BestPOS point of sale system illustration showing multiple connected devices"
+                className="object-contain"
+                loading="lazy"
+              />
+            </div>
+          )}
         </div>
       </Section>
     </>
