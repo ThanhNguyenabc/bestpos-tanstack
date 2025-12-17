@@ -53,17 +53,18 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         rel: 'dns-prefetch',
         href: 'https://res.cloudinary.com',
       },
-      // Critical CSS must load before JavaScript to prevent FOIT
-      {
-        rel: 'stylesheet',
-        href: appCss,
-      },
+      // Preload CSS to start download early but not block render
       {
         rel: 'preload',
-        href: '/pos.json',
-        as: 'fetch',
-        crossOrigin: 'anonymous',
+        href: appCss,
+        as: 'style',
       },
+      // {
+      //   rel: 'preload',
+      //   href: '/pos.json',
+      //   as: 'fetch',
+      //   crossOrigin: 'anonymous',
+      // },
     ],
   }),
   errorComponent: ErrorBoundary,
@@ -77,20 +78,46 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en" className="overflow-x-hidden">
       <head>
         <HeadContent />
-        {/* Critical inline CSS to prevent FOIT - ensures text is visible immediately */}
+        {/* Critical inline CSS - ensures content is visible immediately */}
         <style
           dangerouslySetInnerHTML={{
             __html: `
-              body {
+              * { box-sizing: border-box; }
+              html, body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                min-height: 100vh;
+                overflow-x: hidden;
                 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
                 font-size: 16px;
                 font-weight: 500;
+                line-height: 1.5;
+                color: #101828;
+                background: #fff;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
               }
             `,
           }}
         />
+        {/* Load CSS asynchronously to prevent render blocking */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = '${appCss}';
+                document.head.appendChild(link);
+              })();
+            `,
+          }}
+        />
+        {/* Fallback for no-JS */}
+        <noscript>
+          <link rel="stylesheet" href={appCss} />
+        </noscript>
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
