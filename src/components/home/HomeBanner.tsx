@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Badge } from '@/components/ui/badge'
 import Image from '../ui/image'
@@ -25,7 +26,7 @@ const FEATURES = [
   },
 ] as const
 
-export function HomeBanner() {
+function HomeBannerComponent() {
   const { t } = useTranslation('home')
   const isDesktop = useMediaQuery('(min-width: 768px)')
 
@@ -113,3 +114,5 @@ export function HomeBanner() {
     </>
   )
 }
+
+export const HomeBanner = memo(HomeBannerComponent)

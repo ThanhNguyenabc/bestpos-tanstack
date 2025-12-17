@@ -46,32 +46,16 @@ const CTAInnerFooterSection = lazy(() =>
   })),
 )
 
-// Fetch function for POS systems
-const fetchTopPOSSystems = async () => {
-  const response = await fetch('/pos.json')
-  if (!response.ok) {
-    throw new Error('Failed to fetch POS systems')
-  }
-  const data = await response.json()
-  return data.slice(0, 3)
-}
-
 // Route definition
 export const Route = createFileRoute('/')({
   loader: async ({ context, location }) => {
     // Get language from URL (defaults to 'en' if no prefix)
     const lang = getCurrentLanguage(location.pathname)
 
-    // Prefetch critical data in parallel for faster LCP
-    const [seoData] = await Promise.all([
-      context.queryClient.fetchQuery(createSEOQuery('home', lang)),
-      // Prefetch POS data to avoid waterfall
-      context.queryClient.prefetchQuery({
-        queryKey: ['pos-systems', 'top-3'],
-        queryFn: fetchTopPOSSystems,
-        staleTime: 1000 * 60 * 30,
-      }),
-    ])
+    // Fetch SEO data (required for head)
+    const seoData = await context.queryClient.fetchQuery(
+      createSEOQuery('home', lang),
+    )
 
     return { seo: seoData, language: lang }
   },
@@ -84,13 +68,19 @@ function HomePage() {
 
   return (
     <div className="flex flex-col">
-      {/* Above-the-fold content - load immediately */}
+      {/* Critical above-the-fold content - load immediately for fast LCP */}
       <HomeBanner />
       <HomePOSList />
-      <HelpingPOSSection />
-      <MerchantFeeSection />
 
-      {/* Below-the-fold content - lazy load on scroll */}
+      {/* Below-the-fold content - lazy load on scroll to reduce initial render time */}
+      <LazySection minHeight="300px">
+        <HelpingPOSSection />
+      </LazySection>
+
+      <LazySection minHeight="400px">
+        <MerchantFeeSection />
+      </LazySection>
+
       <LazySection minHeight="300px">
         <CompetitiveAdvantageSection />
       </LazySection>
