@@ -53,18 +53,15 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         rel: 'dns-prefetch',
         href: 'https://res.cloudinary.com',
       },
-      // Preload CSS to start download early but not block render
       {
         rel: 'preload',
         href: appCss,
         as: 'style',
       },
-      // {
-      //   rel: 'preload',
-      //   href: '/pos.json',
-      //   as: 'fetch',
-      //   crossOrigin: 'anonymous',
-      // },
+      {
+        rel: 'stylesheet',
+        href: appCss,
+      },
     ],
   }),
   errorComponent: ErrorBoundary,
@@ -101,23 +98,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             `,
           }}
         />
-        {/* Load CSS asynchronously to prevent render blocking */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                var link = document.createElement('link');
-                link.rel = 'stylesheet';
-                link.href = '${appCss}';
-                document.head.appendChild(link);
-              })();
-            `,
-          }}
-        />
-        {/* Fallback for no-JS */}
-        <noscript>
-          <link rel="stylesheet" href={appCss} />
-        </noscript>
       </head>
       <body>
         <QueryClientProvider client={queryClient}>
