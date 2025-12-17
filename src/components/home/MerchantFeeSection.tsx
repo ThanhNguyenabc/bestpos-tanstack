@@ -1,17 +1,27 @@
 import { useTranslation } from 'react-i18next'
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { CheckCircle } from 'lucide-react'
+import { Button } from '@/components/ui/button'
 import Container from '../primitives/Container'
+import Image from '../ui/image'
+import CheckCircle from '@/color-icons/check-cricle.svg?react'
+
+const ICONS = {
+  small: {
+    icon: '/images/1-stations.png',
+    color: '#FEEE95',
+  },
+  medium: {
+    icon: '/images/3-stations.png',
+    color: '#FECDCA',
+  },
+  large: {
+    icon: '/images/6-stations.png',
+    color: '#E9D7FE',
+  },
+}
 
 export function MerchantFeeSection() {
   const { t } = useTranslation('home')
+  const { t: common } = useTranslation('common')
 
   const options = t('merchant_option', { returnObjects: true }) as Array<{
     id: string
@@ -22,43 +32,67 @@ export function MerchantFeeSection() {
   }>
 
   return (
-    <section className="py-16 md:py-20 bg-neutral-50">
+    <section className="py-16 md:py-20 bg-neutral-100">
       <Container>
-        <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <div className="max-w-3xl mx-auto text-center mb-8 md:mb-12">
+          <h2 className="text-3xl md:text-5xl font-extrabold mb-4 md:mb-6">
             {t('merchant_heading')}
           </h2>
           <p
-            className="text-lg text-neutral-600"
+            className="text-base md:text-lg"
             dangerouslySetInnerHTML={{ __html: t('merchant_desc') }}
           />
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
-          {options?.map((option) => (
-            <Card
-              key={option.id}
-              className="relative hover:shadow-lg transition-shadow"
-            >
-              <CardHeader>
-                <Badge className="w-fit mb-2">{option.heading}</Badge>
-                <CardTitle className="text-2xl">{option.pos_number}</CardTitle>
-                <CardDescription className="text-base">
-                  {option.price}
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 md:mt-4">
+          {options?.map((option) => {
+            const { icon, color } = ICONS[option.id as keyof typeof ICONS]
+            return (
+              <div
+                key={option.id}
+                className="flex flex-col bg-white p-6 md:p-8 gap-6 w-full h-full rounded-2xl shadow-md border-t-[10px]"
+                style={{ borderColor: color }}
+              >
+                <div className="flex flex-col gap-2 md:gap-4">
+                  <h3 className="text-lg md:text-xl font-semibold">
+                    {option.heading}
+                  </h3>
+                  <p className="text-neutral-600">{option.price}</p>
+                </div>
+                <div className="flex items-center justify-items-center">
+                  <span className="flex-1 text-base font-semibold">
+                    {option.pos_number}
+                  </span>
+                  <div className="w-[120px] h-[90px]">
+                    <Image
+                      src={icon}
+                      alt={option.pos_number}
+                      width={120}
+                      height={90}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-1 flex-col gap-2 pt-4 md:pt-8 border-t border-neutral-900">
                   {option.items.map((item, index) => (
-                    <li key={index} className="flex gap-2 text-sm">
-                      <CheckCircle className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                      <span className="text-neutral-700">{item}</span>
-                    </li>
+                    <div key={index} className="flex gap-2 items-center">
+                      <CheckCircle className="size-5 text-neutral-600 shrink-0" />
+                      <p className="text-xs md:text-sm flex-1 text-neutral-900">
+                        {item}
+                      </p>
+                    </div>
                   ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
+                </div>
+                <Button
+                  variant={'solid'}
+                  size={'lg'}
+                  className="bg-neutral-900 w-full"
+                >
+                  {common('get_started')}
+                </Button>
+              </div>
+            )
+          })}
         </div>
       </Container>
     </section>
