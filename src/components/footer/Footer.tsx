@@ -21,6 +21,7 @@ import Flex from '../ui/flex'
 import { BUSINESS_MENU } from '@/utils/business_menu'
 import { PRODUCTS_MENU } from '@/utils/product_menu'
 import { SOLUTIONS_MENU } from '@/utils/solutions_menu'
+import { useMediaQuery } from '@/hooks/useMediaQuery'
 
 const ContactData = [
   {
@@ -60,6 +61,7 @@ const MenuCategory = ({
 
 export default function Footer() {
   const { t } = useTranslation()
+  const isMobile = useMediaQuery('(max-width: 768px)')
 
   const WorkingDays = useMemo(() => {
     return ['Monday - Friday: 8am - 8pm EST', 'Saturday: 9am - 5pm EST']
@@ -115,11 +117,11 @@ export default function Footer() {
             <Text className=" text-lg font-bold text-primary mb-1">
               {t('email')}
             </Text>
-            <Link to={`mailto:${COMPANY_EMAIL}`}>
+            <a href={`mailto:${COMPANY_EMAIL}`}>
               <Text className="text-lg font-bold text-white">
                 {COMPANY_EMAIL}
               </Text>
-            </Link>
+            </a>
           </Flex>
 
           <Flex className="flex-col">
@@ -140,31 +142,36 @@ export default function Footer() {
           </Flex>
         </div>
 
-        {/* Menu grid - Desktop */}
-        <div className="hidden md:grid gap-8 lg:gap-12 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-16">
-          {FOOTER_MENU.map(({ title, items }) => (
-            <div key={title} className="flex flex-col gap-4">
-              <div className=" text-lg text-white font-bold">{t(title)}</div>
-              <MenuCategory menus={items} />
-            </div>
-          ))}
-        </div>
-
-        {/* Menu accordion - Mobile */}
-        <div className="md:hidden mb-12">
-          <Accordion type="multiple" className="w-full">
+        {/* Conditionally render menu based on screen size */}
+        {isMobile ? (
+          <div className="mb-12">
+            <Accordion type="multiple" className="w-full">
+              {FOOTER_MENU.map(({ title, items }) => (
+                <AccordionItem
+                  key={title}
+                  value={title}
+                  className=" border-b-0"
+                >
+                  <AccordionTrigger className="text-base text-white font-bold hover:no-underline py-5">
+                    {t(title)}
+                  </AccordionTrigger>
+                  <AccordionContent className="pb-5 pt-1">
+                    <MenuCategory menus={items} />
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        ) : (
+          <div className="grid gap-8 lg:gap-12 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-16">
             {FOOTER_MENU.map(({ title, items }) => (
-              <AccordionItem key={title} value={title} className=" border-b-0">
-                <AccordionTrigger className="text-base text-white font-bold hover:no-underline py-5">
-                  {t(title)}
-                </AccordionTrigger>
-                <AccordionContent className="pb-5 pt-1">
-                  <MenuCategory menus={items} />
-                </AccordionContent>
-              </AccordionItem>
+              <div key={title} className="flex flex-col gap-4">
+                <div className=" text-lg text-white font-bold">{t(title)}</div>
+                <MenuCategory menus={items} />
+              </div>
             ))}
-          </Accordion>
-        </div>
+          </div>
+        )}
 
         {/* Policy text */}
         <div className="text-sm leading-[24px] text-[#98A2B3] mb-10">
@@ -190,7 +197,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright and social */}
-        <div className="flex flex-col md:flex-row justify-between  gap-6 pt-8 border-t border-[#344054]">
+        <div className="flex flex-col md:flex-row justify-between  gap-6 pt-8 border-t border-neutral-700">
           <span className="text-sm text-neutral-400">
             © {new Date().getFullYear()} BestPOS. All rights reserved.
           </span>

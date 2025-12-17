@@ -7,7 +7,6 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
-import { Star } from 'lucide-react'
 import Container from '../primitives/Container'
 
 interface Testimonial {
@@ -46,12 +45,13 @@ export function TestimonialsSection() {
             <Card key={testimonial.id} className="flex flex-col">
               <CardHeader>
                 <div className="flex items-center gap-1 mb-2">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className="h-4 w-4 fill-yellow-400 text-yellow-400"
-                    />
-                  ))}
+                  <div
+                    className="flex text-yellow-400 text-base"
+                    aria-label={`${testimonial.rating} stars`}
+                  >
+                    {'★'.repeat(testimonial.rating)}
+                    {'☆'.repeat(5 - testimonial.rating)}
+                  </div>
                 </div>
                 <CardTitle className="text-lg">{testimonial.title}</CardTitle>
               </CardHeader>
