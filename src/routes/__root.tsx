@@ -53,11 +53,7 @@ export const Route = createRootRouteWithContext<RouterContext>()({
         rel: 'dns-prefetch',
         href: 'https://res.cloudinary.com',
       },
-      {
-        rel: 'preload',
-        href: appCss,
-        as: 'style',
-      },
+      // Critical CSS must load before JavaScript to prevent FOIT
       {
         rel: 'stylesheet',
         href: appCss,
@@ -81,6 +77,20 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en" className="overflow-x-hidden">
       <head>
         <HeadContent />
+        {/* Critical inline CSS to prevent FOIT - ensures text is visible immediately */}
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+              body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                font-size: 16px;
+                font-weight: 500;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+              }
+            `,
+          }}
+        />
       </head>
       <body>
         <QueryClientProvider client={queryClient}>

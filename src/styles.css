@@ -1,15 +1,19 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* Self-hosted Inter fonts - Critical weights inline for faster loading */
-@import '@fontsource/inter/latin-400.css'; /* Regular - Most used */
-@import '@fontsource/inter/latin-500.css'; /* Medium */
-@import '@fontsource/inter/latin-600.css'; /* Semibold - Headings */
-@import '@fontsource/inter/latin-700.css'; /* Bold - Emphasis */
-@import '@fontsource/inter/latin-800.css'; /* Extra Bold */
+/* 
+ * Inter font loading with font-display: swap
+ * @fontsource packages already include font-display: swap by default
+ * This ensures text is visible immediately with fallback font
+ */
+@import '@fontsource/inter/latin-400.css';
+@import '@fontsource/inter/latin-500.css';
+@import '@fontsource/inter/latin-600.css';
+@import '@fontsource/inter/latin-700.css';
+@import '@fontsource/inter/latin-800.css';
 
 @theme {
-  --font-inter: Inter, sans-serif;
+  --font-inter: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   
   /* Custom Colors */
   --color-primary: #ff5a22;
