@@ -1,7 +1,7 @@
 {
     "headers": [
         {
-            "source": "/css/(.*)",
+            "source": "/assets/(.*)",
             "headers": [
                 {
                     "key": "Cache-Control",
@@ -37,11 +37,38 @@
             ]
         },
         {
-            "source": "/locales/(.*)",
+            "source": "/images/(.*)",
             "headers": [
                 {
                     "key": "Cache-Control",
                     "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/locales/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=86400, must-revalidate"
+                }
+            ]
+        },
+        {
+            "source": "/pos.json",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=3600, stale-while-revalidate=86400"
+                }
+            ]
+        },
+        {
+            "source": "/manifest.json",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=86400"
                 }
             ]
         }
